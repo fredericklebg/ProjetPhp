@@ -48,7 +48,6 @@ class controller_main
                             $vue = new Vue("accueil");
                             $vue->generer(array());
                             $this->ctrlUser->forgotPass();
-
                         }
 
                     }
@@ -56,7 +55,7 @@ class controller_main
                             throw new Exception("Identifiant d'action non valide");
                 }
                     else
-                        throw new Exception("Identifiant d'action non défini");
+                        throw new Exception("Identifiant de page non défini");
             }
 
             else {  // aucune page définie : affichage de l'accueil
