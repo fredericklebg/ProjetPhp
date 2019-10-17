@@ -33,10 +33,16 @@ class Vue {
     // Génère et affiche la vue
     public function generer($data) {
         // Génération de la partie spécifique de la vue
-        $content = $this->genererFichier($this->file, $data);
+        try {
+            $content = $this->genererFichier($this->file, $data);
+        } catch (Exception $e) {
+        }
         // Génération du gabarit commun utilisant la partie spécifique
-        $vue = $this->genererFichier('VIEWS/view_template.php',
-            array('title' => $this->title, 'content' => $content));
+        try {
+            $vue = $this->genererFichier('VIEWS/view_template.php',
+                array('title' => $this->title, 'content' => $content));
+        } catch (Exception $e) {
+        }
         // Renvoi de la vue au navigateur
         echo $vue;
     }
