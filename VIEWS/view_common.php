@@ -64,7 +64,7 @@
 
             ?>
 
-                <form class="registerMenu" action="ProjetPhp/CONTROLLERS/controller_main.php?page=user&action=inscription" method="post">
+                <form class="registerMenu" action="/CONTROLLERS/controller_main.php?page=user&action=inscription" method="post">
                     <input type="text" placeholder="identifiant" name="identifiant" /> <br>
                     <label> sexe </label> <br>
                     <input type="radio" value="homme" name="genre" checked/> homme <br>
