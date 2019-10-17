@@ -307,11 +307,11 @@ class user extends base
             $_SESSION['phone']=$this->getPhone($login);
             $_SESSION['country']=$this->getCountry($login);
             $_SESSION['date']=$this->getUserDate($login);
+            exit();
         }
 
 
         }
-
     catch (PDOException $e)
     {
         echo $e->getMessage();
