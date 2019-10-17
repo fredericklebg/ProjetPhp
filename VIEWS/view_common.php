@@ -15,7 +15,7 @@
 
     <header class="row">
         <div class="col-xs-2 col-lg-2 text-center"> <a href="http://tpphp.alwaysdata.net/ProjetPhp/VIEWS/view_accueil.php">
-                <img  alt="logo" src="Media/loginFreeNote.png" style="width: 70%"> </a></div>
+                <img  alt="logo" src="VIEWS/Media/loginFreeNote.png" style="width: 70%"> </a></div>
         <div class="col-xs-5 col-lg-5 text-center"> <a href="../index.php"> <h1 style="line-height: 80px">FreeNote</h1> </a></div>
         <div class="col-xs-3 col-lg-3 text-center form" >
 
@@ -59,7 +59,7 @@
             }
             else
             {
-                echo '<a href="view_profilePage.php"><input class="avatar"  type="image"  alt="avatar"  src="Media/login.png"></a>';
+                echo '<a href="view_profilePage.php"><input class="avatar"  type="image"  alt="avatar"  src="VIEWS/Media/login.png"></a>';
             }
 
             ?>
