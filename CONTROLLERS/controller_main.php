@@ -25,10 +25,9 @@ class controller_main
                         $action = $_GET['action'];
                         if($action=='inscription')
                         {
-                            $vue = new Vue("accueil");
-                            $vue->generer(array());
                             $this->ctrlUser->register();
-
+                            $vue = new Vue("inscription");
+                            $vue->generer(array());
                         }
                         if($action=='login')
                         {
