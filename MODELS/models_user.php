@@ -1,10 +1,6 @@
 <?php
 
-
-spl_autoload_register(function ($class_name) {
-    include  '../MODELS/models_' . $class_name . '.php';
-
-});
+require_once 'models_base.php';
 
 class user extends base
 
