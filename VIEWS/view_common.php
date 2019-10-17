@@ -46,7 +46,7 @@
 
                 </form>
                 </div>
-            <script src="/VIEWS/menu_login.js"></script>
+            <script src="VIEWS/menu_login.js"></script>
 
 
         <div class="col-xs-2 col-lg-2 text-center form">
