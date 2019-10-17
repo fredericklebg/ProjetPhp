@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b41057ea-1169-4d87-bd84-37173161cc78" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/CONTROLLERS/controller_user.php" beforeDir="false" afterPath="$PROJECT_DIR$/CONTROLLERS/controller_user.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/VIEWS/view_template2.php" beforeDir="false" />
-    </list>
+    <list default="true" id="b41057ea-1169-4d87-bd84-37173161cc78" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -117,20 +114,6 @@
       <workItem from="1571212452940" duration="646000" />
       <workItem from="1571213406020" duration="7044000" />
       <workItem from="1571293351337" duration="1737000" />
-    </task>
-    <task id="LOCAL-00057" summary="test menu">
-      <created>1570717830854</created>
-      <option name="number" value="00057" />
-      <option name="presentableId" value="LOCAL-00057" />
-      <option name="project" value="LOCAL" />
-      <updated>1570717830854</updated>
-    </task>
-    <task id="LOCAL-00058" summary="test menu">
-      <created>1570718039212</created>
-      <option name="number" value="00058" />
-      <option name="presentableId" value="LOCAL-00058" />
-      <option name="project" value="LOCAL" />
-      <updated>1570718039212</updated>
     </task>
     <task id="LOCAL-00059" summary="test menu">
       <created>1570718112101</created>
@@ -461,7 +444,21 @@
       <option name="project" value="LOCAL" />
       <updated>1571316684811</updated>
     </task>
-    <option name="localTasksCounter" value="106" />
+    <task id="LOCAL-00106" summary="page changement mdp">
+      <created>1571335990974</created>
+      <option name="number" value="00106" />
+      <option name="presentableId" value="LOCAL-00106" />
+      <option name="project" value="LOCAL" />
+      <updated>1571335990974</updated>
+    </task>
+    <task id="LOCAL-00107" summary="page changement mdp">
+      <created>1571336207035</created>
+      <option name="number" value="00107" />
+      <option name="presentableId" value="LOCAL-00107" />
+      <option name="project" value="LOCAL" />
+      <updated>1571336207035</updated>
+    </task>
+    <option name="localTasksCounter" value="108" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
