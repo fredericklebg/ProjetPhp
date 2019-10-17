@@ -1,7 +1,7 @@
 <?php
 
-require 'controller_user.php';
-require '../VIEWS/view_template.php';
+require_once 'controller_user.php';
+require_once '../VIEWS/view_template.php';
 
 class controller_main
 {
@@ -47,7 +47,7 @@ class controller_main
                         throw new Exception("Identifiant d'action non défini");
             }
 
-            else {  // aucune action définie : affichage de l'accueil
+            else {  // aucune page définie : affichage de l'accueil
                 $vue = new Vue("accueil");
                 $vue->generer(null);
             }
