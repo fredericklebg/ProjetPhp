@@ -52,4 +52,3 @@ if($_SESSION['error'] == "falsemdp")
 <?php
 
 
-require('view_template.php'); ?>
