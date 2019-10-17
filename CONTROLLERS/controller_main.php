@@ -25,27 +25,31 @@ class controller_main
                         $action = $_GET['action'];
                         if($action=='inscription')
                         {
-                            $this->ctrlUser->register();
                             $vue = new Vue("accueil");
                             $vue->generer(array());
+                            $this->ctrlUser->register();
+
                         }
                         if($action=='login')
                         {
-                            $this->ctrlUser->login();
                             $vue = new Vue("accueil");
                             $vue->generer(array());
+                            $this->ctrlUser->login();
+
                         }
                         if($action=='changePass')
                         {
-                            $this->ctrlUser->changePass();
                             $vue = new Vue("accueil");
                             $vue->generer(array());
+                            $this->ctrlUser->changePass();
+
                         }
                         if($action=='forgotPass')
                         {
-                            $this->ctrlUser->forgotPass();
                             $vue = new Vue("accueil");
                             $vue->generer(array());
+                            $this->ctrlUser->forgotPass();
+
                         }
 
                     }
