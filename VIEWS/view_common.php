@@ -64,7 +64,7 @@
 
             ?>
 
-                <form class="registerMenu" action="/" method="post">
+                <form class="registerMenu" action="http://tpphp.alwaysdata.net/ProjetPhp" method="post">
                     <input type="text" placeholder="identifiant" name="identifiant" /> <br>
                     <label> sexe </label> <br>
                     <input type="radio" value="homme" name="genre" checked/> homme <br>
