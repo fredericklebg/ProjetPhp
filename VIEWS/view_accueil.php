@@ -1,9 +1,9 @@
-<?php $title ='FreeNote'; ?>
 
-<?php ob_start(); ?>
+
+
+<?php $this->title ='FreeNote'; ?>
 
 <?php
-session_start();
 
 ?>
 
@@ -66,7 +66,6 @@ session_start();
 
 </div >
 
-<?php $content = ob_get_clean(); ?>
 
 <?php require('view_template.php'); ?>
 

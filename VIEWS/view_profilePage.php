@@ -1,7 +1,5 @@
-<?php $title ='Profil';
+<?php $this -> title ='Profil';
 
- ob_start();
- session_start();
 ?>
 
 <hr>
@@ -22,6 +20,5 @@
     <hr>
 
 </div >
-<?php $content = ob_get_clean(); ?>
 
 <?php require('view_template.php'); ?>

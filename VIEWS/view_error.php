@@ -1,7 +1,4 @@
-<?php $title ='Changement de mot de passe';
-
-ob_start();
-session_start();
+<?php $this -> title ='erreur';
 
 ?>
 <div class="container">
@@ -53,9 +50,6 @@ if($_SESSION['error'] == "falsemdp")
     </section>
 </div>
 <?php
-
- $content = ob_get_clean();
-
 
 
 require('view_template.php'); ?>
