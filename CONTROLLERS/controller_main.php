@@ -39,6 +39,8 @@ class controller_main
                         {
                             $this->ctrlUser->forgotPass();
                         }
+                        $vue = new Vue("accueil");
+                        $vue->generer(array());
                     }
                         else
                             throw new Exception("Identifiant d'action non valide");
