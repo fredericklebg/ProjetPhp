@@ -59,7 +59,7 @@ class controller_main
 
     // Affiche une erreur
     private function erreur($msgErreur) {
-        $vue = new Vue("Erreur");
+        $vue = new Vue("erreur");
         $vue->generer(array('msgErreur' => $msgErreur));
     }
 }
