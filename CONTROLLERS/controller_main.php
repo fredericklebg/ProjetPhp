@@ -1,6 +1,6 @@
 <?php
 
-require_once 'controller_user.php';
+require_once 'CONTROLLERS/controller_user.php';
 require_once 'VIEWS/view_template.php';
 
 class controller_main
@@ -53,7 +53,7 @@ class controller_main
             }
         }
         catch (Exception $e) {
-            $this->erreur($e->getMessage());
+            //$this->erreur($e->getMessage());
         }
     }
 

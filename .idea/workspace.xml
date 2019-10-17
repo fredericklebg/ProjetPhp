@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b41057ea-1169-4d87-bd84-37173161cc78" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CONTROLLERS/controller_main.php" beforeDir="false" afterPath="$PROJECT_DIR$/CONTROLLERS/controller_main.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -64,6 +66,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -116,13 +119,6 @@
       <workItem from="1571212452940" duration="646000" />
       <workItem from="1571213406020" duration="7044000" />
       <workItem from="1571293351337" duration="1737000" />
-    </task>
-    <task id="LOCAL-00067" summary="html accueil">
-      <created>1571213837553</created>
-      <option name="number" value="00067" />
-      <option name="presentableId" value="LOCAL-00067" />
-      <option name="project" value="LOCAL" />
-      <updated>1571213837553</updated>
     </task>
     <task id="LOCAL-00068" summary="html accueil">
       <created>1571214110064</created>
@@ -460,7 +456,14 @@
       <option name="project" value="LOCAL" />
       <updated>1571337822823</updated>
     </task>
-    <option name="localTasksCounter" value="116" />
+    <task id="LOCAL-00116" summary="page changement mdp">
+      <created>1571337904010</created>
+      <option name="number" value="00116" />
+      <option name="presentableId" value="LOCAL-00116" />
+      <option name="project" value="LOCAL" />
+      <updated>1571337904010</updated>
+    </task>
+    <option name="localTasksCounter" value="117" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
