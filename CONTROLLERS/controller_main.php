@@ -1,6 +1,6 @@
 <?php
 
-require_once 'CONTROLLERS/controller_user.php';
+require_once 'controller_user.php';
 require_once 'VIEWS/view_template.php';
 
 class controller_main
