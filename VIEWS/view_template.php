@@ -36,7 +36,7 @@ class Vue {
         $content = $this->genererFichier($this->file, $data);
         // Génération du gabarit commun utilisant la partie spécifique
         $vue = $this->genererFichier('VIEWS/view_template.php',
-            array('titre' => $this->title, 'contenu' => $content));
+            array('title' => $this->title, 'content' => $content));
         // Renvoi de la vue au navigateur
         echo $vue;
     }
