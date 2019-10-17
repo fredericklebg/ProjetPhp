@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
 <head>
     <title><?= $title ?></title>
-    <link href="/VIEWS/css/bootstrap.css" rel="stylesheet">
-    <link rel="stylesheet" href="/VIEWS/css/view_style.css">
-    <link rel="icon" type="image/png" href="/VIEWS/Media/loginFreeNote.png" />
+    <link href="../VIEWS/css/bootstrap.css" rel="stylesheet">
+    <link rel="stylesheet" href="../VIEWS/css/view_style.css">
+    <link rel="icon" type="image/png" href="../VIEWS/Media/loginFreeNote.png" />
     <style type="text/css">
         .col-lg-8 { line-height: 200px; }
         /*.col-lg-12 { line-height: 80px; }*/
@@ -41,12 +41,12 @@
                 <form class="loginmenu" action="http://tpphp.alwaysdata.net/ProjetPhp/VIEWS/view_accueil.php?page=user&action=login" method="post" >
                     <input type="text" name="login"  placeholder="Identifiant"/>
                     <input type="password" name="mdp" placeholder="Mot de passe"/>
-                    <input> <a href="../VIEWS/view_forgotpwd.php"> mot de passe oublie </a> </input>
+                    <input> <a href="http://tpphp.alwaysdata.net/ProjetPhp/VIEWS/view_accueil.php?page=user&action=login"> mot de passe oublie </a> </input>
                     <input type="submit" name="action" value="login"/>
 
                 </form>
                 </div>
-            <script src="menu_login.js"></script>
+            <script src="/VIEWS/menu_login.js"></script>
 
 
         <div class="col-xs-2 col-lg-2 text-center form">
