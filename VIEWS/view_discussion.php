@@ -1,11 +1,4 @@
-<?php $title ='Nouvelle Discussion'; ?>
-
-<?php ob_start(); ?>
-
-<?php
-session_start();
-
-?>
+<?php $this->title ='Nouvelle Discussion'; ?>
 
 
 <form class="discbloc"  action="../CONTROLLERS/controller_user.php" method="post">
@@ -14,7 +7,6 @@ session_start();
         <input type="submit" name="action" value="new_discussion"/> <br>
     </form>
 
-<?php $content = ob_get_clean(); ?>
 
 <?php require('view_template.php'); ?>
 
