@@ -1,7 +1,7 @@
 <?php
 
-require '../MODELS/models_user.php';
-require '../VIEWS/view_template.php';
+include '../MODELS/models_user.php';
+include '../VIEWS/view_template.php';
 
 class controller_user
 {
