@@ -49,7 +49,7 @@ class controller_main
 
             else {  // aucune page définie : affichage de l'accueil
                 $vue = new Vue("accueil");
-                $vue->generer(array());
+                $vue->generer(array('title' => 'Accueil'));
             }
         }
         catch (Exception $e) {
