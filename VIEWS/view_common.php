@@ -2,8 +2,8 @@
 <html lang="fr">
 <head>
     <title><?= $title ?></title>
-    <link href="../VIEWS/css/bootstrap.css" rel="stylesheet">
-    <link rel="stylesheet" href="../VIEWS/css/view_style.css">
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/view_style.css">
     <link rel="icon" type="image/png" href="../VIEWS/Media/loginFreeNote.png" />
     <style type="text/css">
         .col-lg-8 { line-height: 200px; }
