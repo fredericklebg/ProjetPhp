@@ -307,7 +307,6 @@ class user extends base
             $_SESSION['phone']=$this->getPhone($login);
             $_SESSION['country']=$this->getCountry($login);
             $_SESSION['date']=$this->getUserDate($login);
-            header('Location: ../VIEWS/view_accueil.php');
         }
 
 
