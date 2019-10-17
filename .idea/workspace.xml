@@ -134,20 +134,6 @@
       <workItem from="1571213406020" duration="7044000" />
       <workItem from="1571293351337" duration="1737000" />
     </task>
-    <task id="LOCAL-00115" summary="page changement mdp">
-      <created>1571337822823</created>
-      <option name="number" value="00115" />
-      <option name="presentableId" value="LOCAL-00115" />
-      <option name="project" value="LOCAL" />
-      <updated>1571337822823</updated>
-    </task>
-    <task id="LOCAL-00116" summary="page changement mdp">
-      <created>1571337904010</created>
-      <option name="number" value="00116" />
-      <option name="presentableId" value="LOCAL-00116" />
-      <option name="project" value="LOCAL" />
-      <updated>1571337904010</updated>
-    </task>
     <task id="LOCAL-00117" summary="page changement mdp">
       <created>1571338523984</created>
       <option name="number" value="00117" />
@@ -477,7 +463,21 @@
       <option name="project" value="LOCAL" />
       <updated>1571352768562</updated>
     </task>
-    <option name="localTasksCounter" value="164" />
+    <task id="LOCAL-00164" summary="test mvc">
+      <created>1571353070668</created>
+      <option name="number" value="00164" />
+      <option name="presentableId" value="LOCAL-00164" />
+      <option name="project" value="LOCAL" />
+      <updated>1571353070668</updated>
+    </task>
+    <task id="LOCAL-00165" summary="test mvc">
+      <created>1571353126296</created>
+      <option name="number" value="00165" />
+      <option name="presentableId" value="LOCAL-00165" />
+      <option name="project" value="LOCAL" />
+      <updated>1571353126296</updated>
+    </task>
+    <option name="localTasksCounter" value="166" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
