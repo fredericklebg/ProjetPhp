@@ -64,7 +64,7 @@
 
             ?>
 
-                <form class="registerMenu"  method="post">
+                <form class="registerMenu" action="/index.php" method="post">
                     <input type="text" placeholder="identifiant" name="identifiant" /> <br>
                     <label> sexe </label> <br>
                     <input type="radio" value="homme" name="genre" checked/> homme <br>
