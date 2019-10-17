@@ -38,10 +38,10 @@
 
 
 
-                <form class="loginmenu" action="http://tpphp.alwaysdata.net/ProjetPhp/VIEWS/view_accueil.php?page=user&action=login" method="post" >
+                <form class="loginmenu" action="http://tpphp.alwaysdata.net/ProjetPhp?page=user&action=login" method="post" >
                     <input type="text" name="login"  placeholder="Identifiant"/>
                     <input type="password" name="mdp" placeholder="Mot de passe"/>
-                    <input> <a href="http://tpphp.alwaysdata.net/ProjetPhp/VIEWS/view_accueil.php?page=user&action=login"> mot de passe oublie </a> </input>
+                    <input> <a href="http://tpphp.alwaysdata.net/ProjetPhp?page=user&action=login"> mot de passe oublie </a> </input>
                     <input type="submit" name="action" value="login"/>
 
                 </form>
@@ -64,7 +64,7 @@
 
             ?>
 
-                <form class="registerMenu" action="http://tpphp.alwaysdata.net/ProjetPhp/VIEWS/view_accueil.php?page=user&action=inscription" method="post">
+                <form class="registerMenu" action="http://tpphp.alwaysdata.net/ProjetPhp?page=user&action=inscription" method="post">
                     <input type="text" placeholder="identifiant" name="identifiant" /> <br>
                     <label> sexe </label> <br>
                     <input type="radio" value="homme" name="genre" checked/> homme <br>
