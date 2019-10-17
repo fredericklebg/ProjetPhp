@@ -32,8 +32,6 @@ class controller_main
                         }
                         if($action=='login')
                         {
-                            $vue = new Vue("accueil");
-                            $vue->generer(array());
                             $this->ctrlUser->login();
 
                         }
