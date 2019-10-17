@@ -66,5 +66,5 @@
 
 </div >
 
-
+<?php require 'view_common.php'; ?>
 

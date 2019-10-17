@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title><?php $title ?></title>
+    <title><?= $title ?></title>
     <link href="css/bootstrap.css" rel="stylesheet">
     <link rel="stylesheet" href="css/view_style.css">
     <link rel="icon" type="image/png" href="Media/loginFreeNote.png" />
@@ -102,7 +102,6 @@
         <div class="col-lg-3 text-center"> <a href="https://github.com/sergegamingb" target="_blank"> Alexandre Salles  </a> </div>
         <div class="col-lg-3 text-center"> <a href="https://github.com/Ibrahim-Boulahrouz" target="_blank">  Ibrahim Boulahrouz </a> </div>
         <div class="col-lg-3 text-center"> <a href="https://github.com/AnthonyZIANE" target="_blank">  Anthony Ziane </a> </div>
-
 
     </footer>
 

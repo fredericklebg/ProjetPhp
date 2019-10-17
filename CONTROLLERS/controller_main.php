@@ -53,7 +53,7 @@ class controller_main
             }
         }
         catch (Exception $e) {
-            //$this->erreur($e->getMessage());
+            $this->erreur($e->getMessage());
         }
     }
 
