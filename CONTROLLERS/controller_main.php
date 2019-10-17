@@ -26,21 +26,28 @@ class controller_main
                         if($action=='inscription')
                         {
                             $this->ctrlUser->register();
+                            $vue = new Vue("accueil");
+                            $vue->generer(array());
                         }
                         if($action=='login')
                         {
                             $this->ctrlUser->login();
+                            $vue = new Vue("accueil");
+                            $vue->generer(array());
                         }
                         if($action=='changePass')
                         {
                             $this->ctrlUser->changePass();
+                            $vue = new Vue("accueil");
+                            $vue->generer(array());
                         }
                         if($action=='forgotPass')
                         {
                             $this->ctrlUser->forgotPass();
+                            $vue = new Vue("accueil");
+                            $vue->generer(array());
                         }
-                        $vue = new Vue("accueil");
-                        $vue->generer(array());
+
                     }
                         else
                             throw new Exception("Identifiant d'action non valide");
