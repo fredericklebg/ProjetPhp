@@ -8,5 +8,4 @@
     </form>
 
 
-<?php require('view_template.php'); ?>
 

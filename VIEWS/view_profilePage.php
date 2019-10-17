@@ -21,4 +21,3 @@
 
 </div >
 
-<?php require('view_template.php'); ?>
