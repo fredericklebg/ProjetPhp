@@ -1,7 +1,7 @@
 
 
 
-<?php $this->title ='FreeNote'; ?>
+<?php $title ='FreeNote'; ?>
 
 <?php
 
