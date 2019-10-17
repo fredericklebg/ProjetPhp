@@ -84,7 +84,7 @@
                     <input type="submit" name="action" value="inscription"/> <br>
                 </form>
 
-            <script src="menu_login.js"></script>
+            <script src="VIEWS/menu_login.js"></script>
 
         </div>
     </header>
