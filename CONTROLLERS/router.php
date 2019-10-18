@@ -4,10 +4,12 @@ require_once 'controller_main.php';
 require_once 'requete.php';
 require_once 'VIEWS/view_template.php';
 
-class router {
+class router
+{
 
     //* Route une requête entrante : exécute l'action associée
-    public function routerRequete() {
+    public function routerRequete()
+    {
         try {
             // Fusion des paramètres GET et POST de la requête
             $requete = new requete(array_merge($_GET, $_POST));
@@ -16,20 +18,20 @@ class router {
             $action = $this->creerAction($requete);
 
             $controleur->executerAction($action);
-        }
-        catch (Exception $e) {
+        } catch (Exception $e) {
             $this->gererErreur($e);
         }
     }
 
 
     //* Crée le contrôleur approprié en fonction de la requête reçue
-    private function creerControleur(requete $requete) {
+    private function creerControleur(requete $requete)
+    {
         $controleur = "accueil";  // Contrôleur par défaut
         if ($requete->existeParametre('page')) {
-            $controleur = $requete->getParametre('page');
+            $controleur = $requete -> getParametre('page');
 
-    }
+        }
         // Création du nom du fichier du contrôleur
         $classeControleur = "controller_" . $controleur;
         $fichierControleur = "CONTROLLERS/" . $classeControleur . ".php";
@@ -39,10 +41,14 @@ class router {
             $controleur = new $classeControleur();
             $controleur->setRequete($requete);
             return $controleur;
-        }
-        else
+        } else
             throw new Exception("Fichier '$fichierControleur' introuvable");
     }
+
+    /////////////////////////////////////////
+
+/////////////////////////////////////////////////
+
 
     // Détermine l'action à exécuter en fonction de la requête reçue
     private function creerAction(requete $requete) {

@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b41057ea-1169-4d87-bd84-37173161cc78" name="Default Changelist" comment="test de la couille">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CONTROLLERS/controller_main.php" beforeDir="false" afterPath="$PROJECT_DIR$/CONTROLLERS/controller_main.php" afterDir="false" />
+    <list default="true" id="b41057ea-1169-4d87-bd84-37173161cc78" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/CONTROLLERS/controller_accueil.php" beforeDir="false" afterPath="$PROJECT_DIR$/CONTROLLERS/controller_accueil.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CONTROLLERS/controller_discussion.php" beforeDir="false" afterPath="$PROJECT_DIR$/CONTROLLERS/controller_discussion.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CONTROLLERS/controller_message.php" beforeDir="false" afterPath="$PROJECT_DIR$/CONTROLLERS/controller_message.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CONTROLLERS/requete.php" beforeDir="false" afterPath="$PROJECT_DIR$/CONTROLLERS/requete.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CONTROLLERS/router.php" beforeDir="false" afterPath="$PROJECT_DIR$/CONTROLLERS/router.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -131,41 +133,6 @@
       <workItem from="1571213406020" duration="7044000" />
       <workItem from="1571293351337" duration="1737000" />
       <workItem from="1571401539625" duration="1943000" />
-    </task>
-    <task id="LOCAL-00159" summary="test mvc">
-      <created>1571352179370</created>
-      <option name="number" value="00159" />
-      <option name="presentableId" value="LOCAL-00159" />
-      <option name="project" value="LOCAL" />
-      <updated>1571352179370</updated>
-    </task>
-    <task id="LOCAL-00160" summary="test mvc">
-      <created>1571352274015</created>
-      <option name="number" value="00160" />
-      <option name="presentableId" value="LOCAL-00160" />
-      <option name="project" value="LOCAL" />
-      <updated>1571352274015</updated>
-    </task>
-    <task id="LOCAL-00161" summary="test mvc">
-      <created>1571352671589</created>
-      <option name="number" value="00161" />
-      <option name="presentableId" value="LOCAL-00161" />
-      <option name="project" value="LOCAL" />
-      <updated>1571352671589</updated>
-    </task>
-    <task id="LOCAL-00162" summary="test mvc">
-      <created>1571352733694</created>
-      <option name="number" value="00162" />
-      <option name="presentableId" value="LOCAL-00162" />
-      <option name="project" value="LOCAL" />
-      <updated>1571352733694</updated>
-    </task>
-    <task id="LOCAL-00163" summary="test mvc">
-      <created>1571352768562</created>
-      <option name="number" value="00163" />
-      <option name="presentableId" value="LOCAL-00163" />
-      <option name="project" value="LOCAL" />
-      <updated>1571352768562</updated>
     </task>
     <task id="LOCAL-00164" summary="test mvc">
       <created>1571353070668</created>
@@ -475,7 +442,42 @@
       <option name="project" value="LOCAL" />
       <updated>1571418634975</updated>
     </task>
-    <option name="localTasksCounter" value="208" />
+    <task id="LOCAL-00208" summary="test de la couille">
+      <created>1571428687577</created>
+      <option name="number" value="00208" />
+      <option name="presentableId" value="LOCAL-00208" />
+      <option name="project" value="LOCAL" />
+      <updated>1571428687577</updated>
+    </task>
+    <task id="LOCAL-00209" summary="test de la couille">
+      <created>1571428708131</created>
+      <option name="number" value="00209" />
+      <option name="presentableId" value="LOCAL-00209" />
+      <option name="project" value="LOCAL" />
+      <updated>1571428708131</updated>
+    </task>
+    <task id="LOCAL-00210" summary="test de la couille">
+      <created>1571428786594</created>
+      <option name="number" value="00210" />
+      <option name="presentableId" value="LOCAL-00210" />
+      <option name="project" value="LOCAL" />
+      <updated>1571428786594</updated>
+    </task>
+    <task id="LOCAL-00211" summary="test de la couille">
+      <created>1571428813285</created>
+      <option name="number" value="00211" />
+      <option name="presentableId" value="LOCAL-00211" />
+      <option name="project" value="LOCAL" />
+      <updated>1571428813285</updated>
+    </task>
+    <task id="LOCAL-00212" summary="test de la couille">
+      <created>1571428862610</created>
+      <option name="number" value="00212" />
+      <option name="presentableId" value="LOCAL-00212" />
+      <option name="project" value="LOCAL" />
+      <updated>1571428862610</updated>
+    </task>
+    <option name="localTasksCounter" value="213" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

@@ -3,7 +3,7 @@
 require_once 'MODELS/models_message.php';
 require_once 'VIEWS/view_template.php';
 
-class controller_message
+class controller_message extends controller_main
 {
     private $message;
 

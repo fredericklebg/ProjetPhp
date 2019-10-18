@@ -4,7 +4,7 @@ require_once 'MODELS/models_user.php';
 require_once 'VIEWS/view_template.php';
 
 
-class controller_accueil
+class controller_accueil extends controller_main
 {
     private $user;
 

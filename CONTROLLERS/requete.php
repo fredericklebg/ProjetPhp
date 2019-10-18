@@ -16,6 +16,7 @@ class requete {
 
     // Renvoie la valeur du paramètre demandé
     // Lève une exception si le paramètre est introuvable
+
     public function getParametre($nom) {
         if ($this->existeParametre($nom)) {
             return $this->parametres[$nom];
