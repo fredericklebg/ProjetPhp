@@ -400,6 +400,7 @@ class user extends base
         echo"le mail a bien été envoyé";
         mail($mail, 'MDP OUBLIE BRO', $message);
     }
+
 }
 
 
