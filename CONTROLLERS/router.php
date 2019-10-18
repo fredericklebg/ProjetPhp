@@ -1,6 +1,6 @@
 <?php
 
-require_once 'controller_accueil.php';
+require_once 'controller_main.php';
 require_once 'requete.php';
 require_once 'VIEWS/view_template.php';
 
