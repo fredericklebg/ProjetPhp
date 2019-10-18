@@ -9,7 +9,7 @@ class controller_main
     public function __construct() {
         $this->ctrlUser = new controller_user();
     }
-    // Traite une requête entrante
+    /// Traite une requête entrante
     public function controlRequete() {
         try
         {
