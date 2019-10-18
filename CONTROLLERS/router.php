@@ -4,7 +4,7 @@ require_once 'controller_main.php';
 require_once 'requete.php';
 require_once 'VIEWS/view_template.php';
 
-class router extends controller_main {
+class router {
 
 
     //* Route une requête entrante : exécute l'action associée
@@ -24,7 +24,7 @@ class router extends controller_main {
     }
 
 
-    // Crée le contrôleur approprié en fonction de la requête reçue
+    //* Crée le contrôleur approprié en fonction de la requête reçue
     private function creerControleur(requete $requete) {
         $controleur = "accueil";  // Contrôleur par défaut
         if ($requete->existeParametre('page')) {

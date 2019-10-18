@@ -2,6 +2,7 @@
 
 require_once 'requete.php';
 require_once 'VIEWS/view_template.php';
+
 abstract class controller_main {
 
     // Action à réaliser
@@ -10,7 +11,7 @@ abstract class controller_main {
     protected $requete;
 
     // Définit la requête entrante
-    public function setRequete(Requete $requete) {
+    public function setRequete(requete $requete) {
         $this->requete = $requete;
     }
 
