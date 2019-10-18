@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f6922ca2-a9d6-4897-a0d4-afa6bfe4d088" name="Default Changelist" comment="">
+    <list default="true" id="f6922ca2-a9d6-4897-a0d4-afa6bfe4d088" name="Default Changelist" comment="test mvc">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MODELS/models_user.php" beforeDir="false" afterPath="$PROJECT_DIR$/MODELS/models_user.php" afterDir="false" />
     </list>
@@ -70,11 +70,6 @@
       </set>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="y" value="28" />
-    <option name="width" value="840" />
-    <option name="height" value="994" />
-  </component>
   <component name="ProjectId" id="1Rw0kPHN0vwT9hFLFkKQQgvSROt" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -140,20 +135,6 @@
       <workItem from="1571213406020" duration="7044000" />
       <workItem from="1571293351337" duration="1737000" />
       <workItem from="1571401539625" duration="1943000" />
-    </task>
-    <task id="LOCAL-00157" summary="test mvc">
-      <created>1571349229017</created>
-      <option name="number" value="00157" />
-      <option name="presentableId" value="LOCAL-00157" />
-      <option name="project" value="LOCAL" />
-      <updated>1571349229017</updated>
-    </task>
-    <task id="LOCAL-00158" summary="test mvc">
-      <created>1571349381113</created>
-      <option name="number" value="00158" />
-      <option name="presentableId" value="LOCAL-00158" />
-      <option name="project" value="LOCAL" />
-      <updated>1571349381113</updated>
     </task>
     <task id="LOCAL-00159" summary="test mvc">
       <created>1571352179370</created>
@@ -484,7 +465,21 @@
       <option name="project" value="LOCAL" />
       <updated>1571416546362</updated>
     </task>
-    <option name="localTasksCounter" value="206" />
+    <task id="LOCAL-00206" summary="test mvc">
+      <created>1571417082942</created>
+      <option name="number" value="00206" />
+      <option name="presentableId" value="LOCAL-00206" />
+      <option name="project" value="LOCAL" />
+      <updated>1571417082942</updated>
+    </task>
+    <task id="LOCAL-00207" summary="test mvc">
+      <created>1571417147149</created>
+      <option name="number" value="00207" />
+      <option name="presentableId" value="LOCAL-00207" />
+      <option name="project" value="LOCAL" />
+      <updated>1571417147149</updated>
+    </task>
+    <option name="localTasksCounter" value="208" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

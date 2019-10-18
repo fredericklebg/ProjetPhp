@@ -276,8 +276,8 @@ class user extends base
         $sql->bindValue(':pseudo',$login,PDO::PARAM_STR);
         $sql->bindValue(':password',$hashedPass,PDO::PARAM_STR) ;
         $sql->execute();
-        var_dump($sql->execute());
-        exit();
+        var_dump($sql);
+
         //plus rapide mais moins sécure
 
         //$sql = $this->loadDb()->prepare("SELECT * FROM USER WHERE  pseudo= ? AND password= ?");
