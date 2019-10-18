@@ -52,7 +52,10 @@ class controller_main
                         {
                             $this->ctrlUser->disconnect();
                             header('Location: http://tpphp.alwaysdata.net/ProjetPhp');
-
+                        }
+                        if ($action=='profilePage')
+                        {
+                            $this->ctrlUser->profilePage();
                         }
 
                     }

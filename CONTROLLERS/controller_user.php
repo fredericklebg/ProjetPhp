@@ -30,6 +30,11 @@ class controller_user
     {
         $this->user->disconnect();
     }
+    public function profilePage()
+    {
+        $vue = new Vue('profilePage');
+        $vue->generer(array());
+    }
 }
 
 

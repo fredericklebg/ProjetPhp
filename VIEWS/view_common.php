@@ -59,7 +59,7 @@
             }
             else
             {
-                echo '<a href="view_profilePage.php"><input class="avatar"  type="image"  alt="avatar"  src="VIEWS/Media/login.png"></a>';
+                echo '<a href="http://tpphp.alwaysdata.net/ProjetPhp/?page=user&action=profilePage"><input class="avatar"  type="image"  alt="avatar"  src="VIEWS/Media/login.png"></a>';
             }
 
             ?>
