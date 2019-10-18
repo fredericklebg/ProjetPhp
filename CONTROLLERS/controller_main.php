@@ -25,8 +25,7 @@ class controller_main
                         $action = $_GET['action'];
                         if($action=='inscription')
                         {
-                            echo $_POST['identifiant'] . 'salluutt';
-                            exit();
+
                             $this->ctrlUser->register();
                             $vue = new Vue("inscription");
                             $vue->generer(array());
