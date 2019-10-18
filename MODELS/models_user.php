@@ -278,7 +278,7 @@ class user extends base
         $sql->execute();
         echo $sql->execute();
         $result =$sql->fetch();
-        echo $result;
+        var_dump($result);
         exit();
 
         //plus rapide mais moins sécure
