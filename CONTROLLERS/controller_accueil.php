@@ -17,7 +17,7 @@ class controller_accueil extends controller_main
     public function __construct() {
         $this->user = new user();
     }
-    public function register()
+    public function inscription()
     {
         $this ->user ->register();
     }
