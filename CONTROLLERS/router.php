@@ -6,7 +6,6 @@ require_once 'VIEWS/view_template.php';
 
 class router {
 
-
     //* Route une requête entrante : exécute l'action associée
     public function routerRequete() {
         try {
