@@ -26,6 +26,10 @@ class controller_user
     {
         $this->user->forgotPwd();
     }
+    public function disconnect()
+    {
+        $this->user->disconnect();
+    }
 }
 
 

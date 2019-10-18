@@ -315,6 +315,10 @@ class user extends base
         echo $e->getMessage();
     }
     }
+    public function disconnect()
+    {
+        $_SESSION['isLogin']='no';
+    }
     public function changePassword()
     {
         if($_SESSION['isLogin']!='ok')

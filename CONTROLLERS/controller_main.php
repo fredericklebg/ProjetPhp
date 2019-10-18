@@ -50,6 +50,12 @@ class controller_main
                             $vue->generer(array());
                             $this->ctrlUser->forgotPass();
                         }
+                        if($action=='disconnect')
+                        {
+                            $this->ctrlUser->disconnect();
+                            $vue = new Vue("accueil");
+                            $vue->generer(array());
+                        }
 
                     }
                         else
