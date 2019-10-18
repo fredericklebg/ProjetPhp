@@ -4,9 +4,8 @@
     <list default="true" id="b41057ea-1169-4d87-bd84-37173161cc78" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/CONTROLLERS/controller_accueil.php" beforeDir="false" afterPath="$PROJECT_DIR$/CONTROLLERS/controller_accueil.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CONTROLLERS/controller_discussion.php" beforeDir="false" afterPath="$PROJECT_DIR$/CONTROLLERS/controller_discussion.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CONTROLLERS/controller_main.php" beforeDir="false" afterPath="$PROJECT_DIR$/CONTROLLERS/controller_main.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CONTROLLERS/controller_message.php" beforeDir="false" afterPath="$PROJECT_DIR$/CONTROLLERS/controller_message.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CONTROLLERS/requete.php" beforeDir="false" afterPath="$PROJECT_DIR$/CONTROLLERS/requete.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CONTROLLERS/router.php" beforeDir="false" afterPath="$PROJECT_DIR$/CONTROLLERS/router.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -133,34 +132,6 @@
       <workItem from="1571213406020" duration="7044000" />
       <workItem from="1571293351337" duration="1737000" />
       <workItem from="1571401539625" duration="1943000" />
-    </task>
-    <task id="LOCAL-00164" summary="test mvc">
-      <created>1571353070668</created>
-      <option name="number" value="00164" />
-      <option name="presentableId" value="LOCAL-00164" />
-      <option name="project" value="LOCAL" />
-      <updated>1571353070668</updated>
-    </task>
-    <task id="LOCAL-00165" summary="test mvc">
-      <created>1571353126296</created>
-      <option name="number" value="00165" />
-      <option name="presentableId" value="LOCAL-00165" />
-      <option name="project" value="LOCAL" />
-      <updated>1571353126296</updated>
-    </task>
-    <task id="LOCAL-00166" summary="test mvc">
-      <created>1571353287542</created>
-      <option name="number" value="00166" />
-      <option name="presentableId" value="LOCAL-00166" />
-      <option name="project" value="LOCAL" />
-      <updated>1571353287542</updated>
-    </task>
-    <task id="LOCAL-00167" summary="test mvc">
-      <created>1571353399991</created>
-      <option name="number" value="00167" />
-      <option name="presentableId" value="LOCAL-00167" />
-      <option name="project" value="LOCAL" />
-      <updated>1571353399991</updated>
     </task>
     <task id="LOCAL-00168" summary="test mvc">
       <created>1571356266311</created>
@@ -477,7 +448,35 @@
       <option name="project" value="LOCAL" />
       <updated>1571428862610</updated>
     </task>
-    <option name="localTasksCounter" value="213" />
+    <task id="LOCAL-00213" summary="test de la couille">
+      <created>1571430547315</created>
+      <option name="number" value="00213" />
+      <option name="presentableId" value="LOCAL-00213" />
+      <option name="project" value="LOCAL" />
+      <updated>1571430547315</updated>
+    </task>
+    <task id="LOCAL-00214" summary="mvc++">
+      <created>1571430620849</created>
+      <option name="number" value="00214" />
+      <option name="presentableId" value="LOCAL-00214" />
+      <option name="project" value="LOCAL" />
+      <updated>1571430620849</updated>
+    </task>
+    <task id="LOCAL-00215" summary="mvc++">
+      <created>1571430658687</created>
+      <option name="number" value="00215" />
+      <option name="presentableId" value="LOCAL-00215" />
+      <option name="project" value="LOCAL" />
+      <updated>1571430658687</updated>
+    </task>
+    <task id="LOCAL-00216" summary="mvc++">
+      <created>1571430744036</created>
+      <option name="number" value="00216" />
+      <option name="presentableId" value="LOCAL-00216" />
+      <option name="project" value="LOCAL" />
+      <updated>1571430744036</updated>
+    </task>
+    <option name="localTasksCounter" value="217" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -525,6 +524,7 @@
     <MESSAGE value="undo" />
     <MESSAGE value="salut" />
     <MESSAGE value="test de la couille" />
-    <option name="LAST_COMMIT_MESSAGE" value="test de la couille" />
+    <MESSAGE value="mvc++" />
+    <option name="LAST_COMMIT_MESSAGE" value="mvc++" />
   </component>
 </project>
