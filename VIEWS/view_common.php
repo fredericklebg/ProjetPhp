@@ -31,7 +31,7 @@
             {
                 echo '<p> </p>';
                 echo '  Bienvenue ' . $_SESSION['login'] . ' ! '   ;
-                echo '<br/> <a href="../MODELS/logout.php"> se déconnecter </a>';
+                echo '<br/> <a href="http://tpphp.alwaysdata.net/ProjetPhp/?page=user&action=disconnect"> se déconnecter </a>';
             }
 
             ?>
