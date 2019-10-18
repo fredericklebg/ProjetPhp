@@ -1,5 +1,5 @@
 <?php
-require_once 'CONTROLLERS/controller_main.php';
+require_once 'CONTROLLERS/router.php';
 
 session_start();
 $routeur = new router();
