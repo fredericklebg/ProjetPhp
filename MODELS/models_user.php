@@ -290,6 +290,7 @@ class user extends base
             exit();
         }
 
+
         try
         {
 
