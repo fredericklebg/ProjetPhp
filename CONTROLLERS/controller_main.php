@@ -16,7 +16,7 @@ abstract class controller_main {
         $this->requete = $requete;
     }
 
-    // Exécute l'action à réaliser
+    //* Exécute l'action à réaliser
     public function executerAction($action) {
         if (method_exists($this, $action)) {
             $this->action = $action;
