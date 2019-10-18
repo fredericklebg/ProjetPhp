@@ -18,7 +18,7 @@ class router
             $action = $this->creerAction($requete);
 
             $controleur->executerAction($action);
-            $vue = new Vue($_GET['action']);
+            $vue = new Vue($_GET['page']);
             $vue->generer(array());
         } catch (Exception $e) {
             $this->gererErreur($e);
