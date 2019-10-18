@@ -36,7 +36,7 @@ abstract class controller_main {
     protected function genererVue($donneesVue = array()) {
         // Détermination du nom du fichier vue à partir du nom du contrôleur actuel
         $classeControleur = get_class($this);
-        $controleur = str_replace("Controleur", "", $classeControleur);
+        $controleur = str_replace("Controller_", "", $classeControleur);
         // Instanciation et génération de la vue
         $vue = new Vue($this->action, $controleur);
         $vue->generer($donneesVue);
