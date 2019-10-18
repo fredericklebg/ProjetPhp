@@ -11,7 +11,7 @@ abstract class controller_main {
     protected $requete;
 
     // Définit la requête entrante
-    public function setRequete(Requete $requete) {
+    public function setRequete(requete $requete) {
         $this->requete = $requete;
     }
 
@@ -27,7 +27,7 @@ abstract class controller_main {
         }
     }
 
-    // Méthode abstraite correspondant à l'action par défaut
+    //* Méthode abstraite correspondant à l'action par défaut
     // Oblige les classes dérivées à implémenter cette action par défaut
     //public abstract function index();
 

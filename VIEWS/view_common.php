@@ -31,14 +31,14 @@
             {
                 echo '<p> </p>';
                 echo '  Bienvenue ' . $_SESSION['login'] . ' ! '   ;
-                echo '<br/> <a href="http://tpphp.alwaysdata.net/ProjetPhp/?page=user&action=disconnect"> se déconnecter </a>';
+                echo '<br/> <a href="http://tpphp.alwaysdata.net/ProjetPhp/?page=accueil&action=disconnect"> se déconnecter </a>';
             }
 
             ?>
 
 
 
-                <form class="loginmenu" action="http://tpphp.alwaysdata.net/ProjetPhp/?page=user&action=login" method="post" >
+                <form class="loginmenu" action="http://tpphp.alwaysdata.net/ProjetPhp/?page=accueil&action=login" method="post" >
                     <input type="text" name="login"  placeholder="Identifiant"/>
                     <input type="password" name="mdp" placeholder="Mot de passe"/>
                     <input type="submit" name="action" value="login"/>
@@ -59,12 +59,12 @@
             }
             else
             {
-                echo '<a href="http://tpphp.alwaysdata.net/ProjetPhp/?page=user&action=profilePage"><input class="avatar"  type="image"  alt="avatar"  src="VIEWS/Media/login.png"></a>';
+                echo '<a href="http://tpphp.alwaysdata.net/ProjetPhp/?page=accueil&action=profilePage"><input class="avatar"  type="image"  alt="avatar"  src="VIEWS/Media/login.png"></a>';
             }
 
             ?>
 
-                <form class="registerMenu" action="http://tpphp.alwaysdata.net/ProjetPhp/?page=user&action=inscription" method="post">
+                <form class="registerMenu" action="http://tpphp.alwaysdata.net/ProjetPhp/?page=accueil&action=inscription" method="post">
                     <input type="text" placeholder="identifiant" name="identifiant" /> <br>
                     <label> sexe </label> <br>
                     <input type="radio" value="homme" name="genre" checked/> homme <br>
