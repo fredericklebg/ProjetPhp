@@ -8,6 +8,10 @@ class controller_accueil extends controller_main
 {
     private $user;
 
+    public function index()
+    {
+
+    }
     public function __construct() {
         $this->user = new user();
     }
