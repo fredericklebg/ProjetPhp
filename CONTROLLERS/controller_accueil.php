@@ -10,6 +10,8 @@ class controller_accueil extends controller_main
 
     public function index()
     {
+        $vue = new Vue('accueil');
+        $vue->generer(array());
 
     }
     public function __construct() {
