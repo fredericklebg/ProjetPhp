@@ -130,13 +130,6 @@
       <workItem from="1571293351337" duration="1737000" />
       <workItem from="1571401539625" duration="1943000" />
     </task>
-    <task id="LOCAL-00163" summary="test mvc">
-      <created>1571352768562</created>
-      <option name="number" value="00163" />
-      <option name="presentableId" value="LOCAL-00163" />
-      <option name="project" value="LOCAL" />
-      <updated>1571352768562</updated>
-    </task>
     <task id="LOCAL-00164" summary="test mvc">
       <created>1571353070668</created>
       <option name="number" value="00164" />
@@ -473,7 +466,14 @@
       <option name="project" value="LOCAL" />
       <updated>1571423874867</updated>
     </task>
-    <option name="localTasksCounter" value="212" />
+    <task id="LOCAL-00212" summary="prenez un scooter ça va plus vite un scooter">
+      <created>1571424189410</created>
+      <option name="number" value="00212" />
+      <option name="presentableId" value="LOCAL-00212" />
+      <option name="project" value="LOCAL" />
+      <updated>1571424189410</updated>
+    </task>
+    <option name="localTasksCounter" value="213" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -521,6 +521,7 @@
     <MESSAGE value="undo" />
     <MESSAGE value="salut" />
     <MESSAGE value="test de la couille" />
-    <option name="LAST_COMMIT_MESSAGE" value="test de la couille" />
+    <MESSAGE value="prenez un scooter ça va plus vite un scooter" />
+    <option name="LAST_COMMIT_MESSAGE" value="prenez un scooter ça va plus vite un scooter" />
   </component>
 </project>
