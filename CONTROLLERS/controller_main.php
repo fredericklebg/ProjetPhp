@@ -19,7 +19,7 @@ class controller_main
             if (isset($_GET['page']))
             {
                 if ($_GET['page'] == 'user')
-                {
+                {//
                     if (isset($_GET['action']))
                     {
                         $action = $_GET['action'];
