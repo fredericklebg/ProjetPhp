@@ -293,9 +293,10 @@ class user extends base
 
         try
         {
+            $row = $this->execRequete($result);
 
         //if($row -> rowCount() == 0)
-            if($result->rowCount()==0)
+            if($row>rowCount()==0)
         {
             $_SESSION['error'] = 'falsemdp';
             header('Location: ../VIEWS/view_error.php');
