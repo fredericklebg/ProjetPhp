@@ -276,7 +276,6 @@ class user extends base
         $sql->bindValue(':pseudo',$login,PDO::PARAM_STR);
         $sql->bindValue(':password',$hashedPass,PDO::PARAM_STR) ;
         $sql->execute();
-        $result =$sql->fetch();
 
         //plus rapide mais moins sécure
         //$sql = $this->loadDb()->prepare("SELECT * FROM USER WHERE  pseudo= ? AND password= ?");
@@ -294,7 +293,7 @@ class user extends base
         {
 
         //if($row -> rowCount() == 0)
-            if($result->rowCount()==0)
+            if($sql->rowCount()==0)
         {
             $_SESSION['error'] = 'falsemdp';
             header('Location: ../VIEWS/view_error.php');
