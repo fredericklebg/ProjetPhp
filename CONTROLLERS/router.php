@@ -30,8 +30,8 @@ class router {
             $controleur = ucfirst(strtolower($controleur));
         }
         // Création du nom du fichier du contrôleur
-        $classeControleur = "Controleur" . $controleur;
-        $fichierControleur = "Controleur/" . $classeControleur . ".php";
+        $classeControleur = "controller_" . $controleur;
+        $fichierControleur = "CONTROLLERS/" . $classeControleur . ".php";
         if (file_exists($fichierControleur)) {
             // Instanciation du contrôleur adapté à la requête
             require($fichierControleur);
