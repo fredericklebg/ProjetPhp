@@ -2,7 +2,6 @@
 
 require_once 'requete.php';
 require_once 'VIEWS/view_template.php';
-
 abstract class controller_main {
 
     // Action à réaliser
