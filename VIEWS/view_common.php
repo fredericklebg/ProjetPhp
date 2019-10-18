@@ -16,7 +16,7 @@
     <header class="row">
         <div class="col-xs-2 col-lg-2 text-center"> <a href="http://tpphp.alwaysdata.net/ProjetPhp">
                 <img  alt="logo" src="VIEWS/Media/loginFreeNote.png" style="width: 70%"> </a></div>
-        <div class="col-xs-5 col-lg-5 text-center"> <a href=http://tpphp.alwaysdata.net/ProjetPhp"> <h1 style="line-height: 80px">FreeNote</h1> </a></div>
+        <div class="col-xs-5 col-lg-5 text-center"> <a href="http://tpphp.alwaysdata.net/ProjetPhp"> <h1 style="line-height: 80px">FreeNote</h1> </a></div>
         <div class="col-xs-3 col-lg-3 text-center form" >
 
             <?php
