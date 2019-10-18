@@ -246,6 +246,8 @@ class user extends base
             try {
 
                 $this->execRequete($query);
+                echo '<br/><strong>Votre inscription a bien été enregistrée.</strong><br/>';
+                echo ' <br/>  <a href=../VIEWS/view_accueil.php> Retourner a l\'accueil </a>   ';
             } catch (PDOException $e) {
                 echo $e->getMessage();
             }
@@ -270,9 +272,18 @@ class user extends base
         $hashedPass = hash('sha256',$password);
 
 
-        //plus rapide*
-        $sql = $this->loadDb()->prepare("SELECT * FROM USER WHERE  pseudo= ? AND password= ?");
-        $sql->execute(array($login, $hashedPass));
+        $sql = $this->loadDb()->prepare("SELECT * FROM USER WHERE  pseudo= :pseudo AND password= :password");
+        $sql->bindValue(':pseudo',$login,PDO::PARAM_STR);
+        $sql->bindValue(':password',$hashedPass,PDO::PARAM_STR) ;
+        $sql->execute();
+        echo $sql->execute();
+        $result =$sql->fetch();
+        var_dump($result);
+        exit();
+
+        //plus rapide mais moins sécure
+        //$sql = $this->loadDb()->prepare("SELECT * FROM USER WHERE  pseudo= ? AND password= ?");
+        //$sql->execute(array($login, $hashedPass));
 
 
         if(!preg_match('#^[a-zA-Z0-9_]*$#', $login))
@@ -303,18 +314,16 @@ class user extends base
             $_SESSION['phone']=$this->getPhone($login);
             $_SESSION['country']=$this->getCountry($login);
             $_SESSION['date']=$this->getUserDate($login);
+            header('Location: ../VIEWS/view_accueil.php');
         }
 
 
         }
+
     catch (PDOException $e)
     {
         echo $e->getMessage();
     }
-    }
-    public function disconnect()
-    {
-        $_SESSION['isLogin']='no';
     }
     public function changePassword()
     {
