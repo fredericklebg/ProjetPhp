@@ -20,6 +20,9 @@ class controller_accueil extends controller_main
     public function inscription()
     {
         $this ->user ->register();
+        $vue = new Vue('inscription');
+        $vue->generer(array('msg' => 'votre inscriprion a bien été enregistrée !' ,
+            'accueil' => 'echo \' <br/>  <a href=../VIEWS/view_accueil.php> Retourner a l\'accueil </a > \';'));
     }
     public function login()
     {
