@@ -1,6 +1,7 @@
 <?php
 require_once 'requete.php';
 require_once 'VIEWS/view_template.php';
+require_once 'controller_main.php';
 
 class router extends controller_main {
 
