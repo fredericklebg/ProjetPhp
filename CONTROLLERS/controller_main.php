@@ -1,84 +1,44 @@
 <?php
 
-require_once 'CONTROLLERS/controller_user.php';
+require_once 'requete.php';
 require_once 'VIEWS/view_template.php';
 
-class controller_main
-{
-    private $ctrlUser;
-    private $ctrlDisc;
-    private $ctrlMsg;
+abstract class controller_main {
 
-    public function __construct() {
-        $this->ctrlUser = new controller_user();
+    // Action à réaliser
+    private $action;
+
+    // Requête entrante
+    protected $requete;
+
+    // Définit la requête entrante
+    public function setRequete(Requete $requete) {
+        $this->requete = $requete;
     }
-    // Traite une requête entrante
-    public function controlRequete() {
-        try
-        {
-            if (isset($_GET['page']))
-            {
-                if ($_GET['page'] == 'user')
-                {//
-                    if (isset($_GET['action']))
-                    {
-                        $action = $_GET['action'];
-                        if($action=='inscription')
-                        {
 
-                            $this->ctrlUser->register();
-                            $vue = new Vue("inscription");
-                            $vue->generer(array());
-                        }
-                        if($action=='login')
-                        {
-                            $this->ctrlUser->login();
-                            header('Location: http://tpphp.alwaysdata.net/ProjetPhp');
-                        }
-                        if($action=='changePass')
-                        {
-                            $vue = new Vue("accueil");
-                            $vue->generer(array());
-                            $this->ctrlUser->changePass();
-
-                        }
-                        if($action=='forgotPass')
-                        {
-                            $vue = new Vue("accueil");
-                            $vue->generer(array());
-                            $this->ctrlUser->forgotPass();
-                        }
-                        if($action=='disconnect')
-                        {
-                            $this->ctrlUser->disconnect();
-                            header('Location: http://tpphp.alwaysdata.net/ProjetPhp');
-                        }
-                        if ($action=='profilePage')
-                        {
-                            $this->ctrlUser->profilePage();
-                        }
-
-                    }
-                        else
-                            throw new Exception("Identifiant d'action non valide");
-                }
-                    else
-                        throw new Exception("Identifiant de page non défini");
-            }
-
-            else {  // aucune page définie : affichage de l'accueil
-                $vue = new Vue("accueil");
-                $vue->generer(array());
-            }
+    // Exécute l'action à réaliser
+    public function executerAction($action) {
+        if (method_exists($this, $action)) {
+            $this->action = $action;
+            $this->{$this->action}();
         }
-        catch (Exception $e) {
-            $this->erreur($e->getMessage());
+        else {
+            $classeControleur = get_class($this);
+            throw new Exception("Action '$action' non définie dans la classe $classeControleur");
         }
     }
 
-    // Affiche une erreur
-    private function erreur($msgErreur) {
-        $vue = new Vue("erreur");
-        $vue->generer(array('msgErreur' => $msgErreur));
+    // Méthode abstraite correspondant à l'action par défaut
+    // Oblige les classes dérivées à implémenter cette action par défaut
+    public abstract function index();
+
+    // Génère la vue associée au contrôleur courant
+    protected function genererVue($donneesVue = array()) {
+        // Détermination du nom du fichier vue à partir du nom du contrôleur actuel
+        $classeControleur = get_class($this);
+        $controleur = str_replace("Controleur", "", $classeControleur);
+        // Instanciation et génération de la vue
+        $vue = new Vue($this->action, $controleur);
+        $vue->generer($donneesVue);
     }
 }

@@ -7,9 +7,13 @@ class Vue {
     // Titre de la vue (défini dans le fichier vue)
     private $title;
 
-    public function __construct($action) {
-        // Détermination du nom du fichier vue à partir de l'action
-        $this->file = 'VIEWS/view_' . $action . '.php';
+    public function __construct($action, $controleur = "") {
+        // Détermination du nom du fichier vue à partir de l'action et du constructeur
+        $file = "VIEWS/";
+        if ($controleur != "") {
+            $file = $file . $controleur . "/";
+        }
+        $this->file = $file . $action . ".php";
     }
 
     // Génère un fichier vue et renvoie le résultat produit
