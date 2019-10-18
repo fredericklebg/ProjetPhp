@@ -52,9 +52,11 @@ class controller_main
                         }
                         if($action=='disconnect')
                         {
-                            $this->ctrlUser->disconnect();
+
                             $vue = new Vue("accueil");
                             $vue->generer(array());
+                            $this->ctrlUser->disconnect();
+
                         }
 
                     }
