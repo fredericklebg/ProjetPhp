@@ -22,7 +22,6 @@ class controller_accueil extends controller_main
         $this ->user ->register();
         $vue = new Vue('inscription');
         $vue->generer(array());
-        exit();
     }
     public function login()
     {
