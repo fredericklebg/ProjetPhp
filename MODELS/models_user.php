@@ -296,7 +296,7 @@ class user extends base
         //if($row -> rowCount() == 0)
             if($sql->rowCount()==0)
         {
-            $_SESSION['error'] = 'falsemdp';
+            $_SESSION['error'] = 'falseMdp';
             header('Location: ../VIEWS/view_error.php');
         }
         else
@@ -399,6 +399,10 @@ class user extends base
         $this->execRequete($query);
         echo"le mail a bien été envoyé";
         mail($mail, 'MDP OUBLIE BRO', $message);
+    }
+    public function disconnect()
+    {
+        $_SESSION['isLogin']='no';
     }
 }
 
