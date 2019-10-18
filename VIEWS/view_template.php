@@ -9,7 +9,7 @@ class Vue {
 
     public function __construct($action, $controleur = "") {
         // Détermination du nom du fichier vue à partir de l'action et du constructeur
-        $file = "VIEWS/";
+        $file = "VIEWS/view_";
         if ($controleur != "") {
             $file = $file . $controleur . "/";
         }
