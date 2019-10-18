@@ -32,10 +32,8 @@ class controller_main
                         }
                         if($action=='login')
                         {
-
                             $this->ctrlUser->login();
-                            $vue = new Vue("accueil");
-                            $vue->generer(array());
+                            header('Location: http://tpphp.alwaysdata.net/ProjetPhp');
 
                         }
                         if($action=='changePass')
@@ -53,10 +51,8 @@ class controller_main
                         }
                         if($action=='disconnect')
                         {
-
-                            $vue = new Vue("accueil");
-                            $vue->generer(array());
                             $this->ctrlUser->disconnect();
+                            header('Location: http://tpphp.alwaysdata.net/ProjetPhp');
 
                         }
 
