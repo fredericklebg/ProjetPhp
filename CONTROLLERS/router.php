@@ -23,7 +23,7 @@ class router {
 
     // Crée le contrôleur approprié en fonction de la requête reçue
     private function creerControleur(Requete $requete) {
-        $controleur = "Accueil";  // Contrôleur par défaut
+        $controleur = "accueil";  // Contrôleur par défaut
         if ($requete->existeParametre('controleur')) {
             $controleur = $requete->getParametre('controleur');
             // Première lettre en majuscule
