@@ -32,11 +32,10 @@ class controller_main
                         }
                         if($action=='login')
                         {
-                            echo 'pd';
-                            exit();
                             $this->ctrlUser->login();
+                            echo 'pd2';
+                            exit();
                             header('Location: http://tpphp.alwaysdata.net/ProjetPhp');
-
                         }
                         if($action=='changePass')
                         {
