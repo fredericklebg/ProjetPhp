@@ -20,15 +20,20 @@ class controller_accueil extends controller_main
     public function inscription()
     {
         $this ->user ->register();
-
+        $vue = new Vue('inscription');
+        $vue->generer(array());
     }
     public function login()
     {
         $this ->user ->login();
+        $vue = new Vue($_GET['page']);
+        $vue->generer(array());
     }
     public function changePass()
     {
         $this->user->changePassword();
+        $vue = new Vue($_GET['page']);
+        $vue->generer(array());
     }
     public function forgotPass()
     {
@@ -37,6 +42,8 @@ class controller_accueil extends controller_main
     public function disconnect()
     {
         $this->user->disconnect();
+        $vue = new Vue($_GET['page']);
+        $vue->generer(array());
     }
     public function profilePage()
     {

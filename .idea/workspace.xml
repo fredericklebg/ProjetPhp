@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b41057ea-1169-4d87-bd84-37173161cc78" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/VIEWS/view_inscription.php" beforeDir="false" afterPath="$PROJECT_DIR$/VIEWS/view_inscription.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CONTROLLERS/controller_accueil.php" beforeDir="false" afterPath="$PROJECT_DIR$/CONTROLLERS/controller_accueil.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CONTROLLERS/router.php" beforeDir="false" afterPath="$PROJECT_DIR$/CONTROLLERS/router.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -129,27 +130,6 @@
       <workItem from="1571213406020" duration="7044000" />
       <workItem from="1571293351337" duration="1737000" />
       <workItem from="1571401539625" duration="1943000" />
-    </task>
-    <task id="LOCAL-00184" summary="test mvc">
-      <created>1571358821375</created>
-      <option name="number" value="00184" />
-      <option name="presentableId" value="LOCAL-00184" />
-      <option name="project" value="LOCAL" />
-      <updated>1571358821375</updated>
-    </task>
-    <task id="LOCAL-00185" summary="test mvc">
-      <created>1571359163003</created>
-      <option name="number" value="00185" />
-      <option name="presentableId" value="LOCAL-00185" />
-      <option name="project" value="LOCAL" />
-      <updated>1571359163003</updated>
-    </task>
-    <task id="LOCAL-00186" summary="test mvc">
-      <created>1571359235013</created>
-      <option name="number" value="00186" />
-      <option name="presentableId" value="LOCAL-00186" />
-      <option name="project" value="LOCAL" />
-      <updated>1571359235013</updated>
     </task>
     <task id="LOCAL-00187" summary="test mvc">
       <created>1571359581594</created>
@@ -473,7 +453,28 @@
       <option name="project" value="LOCAL" />
       <updated>1571433766284</updated>
     </task>
-    <option name="localTasksCounter" value="233" />
+    <task id="LOCAL-00233" summary="mvc++">
+      <created>1571433904341</created>
+      <option name="number" value="00233" />
+      <option name="presentableId" value="LOCAL-00233" />
+      <option name="project" value="LOCAL" />
+      <updated>1571433904341</updated>
+    </task>
+    <task id="LOCAL-00234" summary="mvc++">
+      <created>1571433957041</created>
+      <option name="number" value="00234" />
+      <option name="presentableId" value="LOCAL-00234" />
+      <option name="project" value="LOCAL" />
+      <updated>1571433957041</updated>
+    </task>
+    <task id="LOCAL-00235" summary="mvc++">
+      <created>1571434106184</created>
+      <option name="number" value="00235" />
+      <option name="presentableId" value="LOCAL-00235" />
+      <option name="project" value="LOCAL" />
+      <updated>1571434106184</updated>
+    </task>
+    <option name="localTasksCounter" value="236" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
