@@ -42,7 +42,7 @@
                     <input type="text" name="login"  placeholder="Identifiant"/>
                     <input type="password" name="mdp" placeholder="Mot de passe"/>
                     <input type="submit" name="action" value="login"/>
-                    <input href="http://tpphp.alwaysdata.net/ProjetPhp?page=user&action=login" type="submit" value="mot de passe oublié"/>
+                    <a  href="http://tpphp.alwaysdata.net/ProjetPhp/?page=user&action=forgotPass"> mot de passe oublié </a>
 
                 </form>
                 </div>
