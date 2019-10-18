@@ -1,4 +1,5 @@
 <?php $titre = 'inscription'; ?>
 
 <p>Votre inscription est terminée !  </p>
-<?php sleep(2);
+<a href="http://tpphp.alwaysdata.net/ProjetPhp"> retourner a la page d'accueil </a>
+<?php exit();
