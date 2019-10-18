@@ -21,12 +21,12 @@
             </div>
             <div class="row">
                 <div class="col-lg-4 col-md-4 col-sm-12 text-center">
-                    <a href="../VIEWS/view_discussion.php">
+                    <a href="http://tpphp.alwaysdata.net/ProjetPhp">
                       <input class="newbouton" type="button" value="Nouvelle Discussion"> </a>
                 </div>
 
                 <div class="offset-lg-4 col-lg-4 col-md-4 col-sm-12 text-center">
-                    <a href="../VIEWS/view_accueil.php">
+                    <a href="http://tpphp.alwaysdata.net/ProjetPhp">
                      <input class="refreshbouton" type="button" value="Actualiser"> </a>
                 </div>
             </div>
