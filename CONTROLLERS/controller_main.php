@@ -32,9 +32,10 @@ class controller_main
                         }
                         if($action=='login')
                         {
+
+                            $this->ctrlUser->login();
                             $vue = new Vue("accueil");
                             $vue->generer(array());
-                            $this->ctrlUser->login();
 
                         }
                         if($action=='changePass')
