@@ -2,9 +2,9 @@
 <html lang="fr">
 <head>
     <title><?= $title ?></title>
-    <link href="/VIEWS/css/bootstrap.css" rel="stylesheet">
-    <link rel="stylesheet" href="/VIEWS/css/view_style.css">
-    <link rel="icon" type="image/png" href="/VIEWS/Media/loginFreeNote.png" />
+    <link href="VIEWS/css/bootstrap.css" rel="stylesheet">
+    <link rel="stylesheet" href="VIEWS/css/view_style.css">
+    <link rel="icon" type="image/png" href="VIEWS/Media/loginFreeNote.png" />
     <style type="text/css">
         .col-lg-8 { line-height: 200px; }
         /*.col-lg-12 { line-height: 80px; }*/
@@ -14,9 +14,9 @@
 <div class="container">
 
     <header class="row">
-        <div class="col-xs-2 col-lg-2 text-center"> <a href="http://tpphp.alwaysdata.net/ProjetPhp/VIEWS/view_accueil.php">
-                <img  alt="logo" src="Media/loginFreeNote.png" style="width: 70%"> </a></div>
-        <div class="col-xs-5 col-lg-5 text-center"> <a href="../index.php"> <h1 style="line-height: 80px">FreeNote</h1> </a></div>
+        <div class="col-xs-2 col-lg-2 text-center"> <a href="http://tpphp.alwaysdata.net/ProjetPhp">
+                <img  alt="logo" src="VIEWS/Media/loginFreeNote.png" style="width: 70%"> </a></div>
+        <div class="col-xs-5 col-lg-5 text-center"> <a href="http://tpphp.alwaysdata.net/ProjetPhp"> <h1 style="line-height: 80px">FreeNote</h1> </a></div>
         <div class="col-xs-3 col-lg-3 text-center form" >
 
             <?php
@@ -31,22 +31,22 @@
             {
                 echo '<p> </p>';
                 echo '  Bienvenue ' . $_SESSION['login'] . ' ! '   ;
-                echo '<br/> <a href="../MODELS/logout.php"> se déconnecter </a>';
+                echo '<br/> <a href="http://tpphp.alwaysdata.net/ProjetPhp/?page=user&action=disconnect"> se déconnecter </a>';
             }
 
             ?>
 
 
 
-                <form class="loginmenu" action="http://tpphp.alwaysdata.net/ProjetPhp/VIEWS/view_accueil.php?page=user&action=login" method="post" >
+                <form class="loginmenu" action="http://tpphp.alwaysdata.net/ProjetPhp/?page=user&action=login" method="post" >
                     <input type="text" name="login"  placeholder="Identifiant"/>
                     <input type="password" name="mdp" placeholder="Mot de passe"/>
-                    <input> <a href="http://tpphp.alwaysdata.net/ProjetPhp/VIEWS/view_accueil.php?page=user&action=login"> mot de passe oublie </a> </input>
                     <input type="submit" name="action" value="login"/>
+                    <a  href="http://tpphp.alwaysdata.net/ProjetPhp/?page=user&action=forgotPass"> mot de passe oublié </a>
 
                 </form>
                 </div>
-            <script src="/VIEWS/menu_login.js"></script>
+            <script src="VIEWS/menu_login.js"></script>
 
 
         <div class="col-xs-2 col-lg-2 text-center form">
@@ -59,12 +59,12 @@
             }
             else
             {
-                echo '<a href="view_profilePage.php"><input class="avatar"  type="image"  alt="avatar"  src="Media/login.png"></a>';
+                echo '<a href="http://tpphp.alwaysdata.net/ProjetPhp/?page=user&action=profilePage"><input class="avatar"  type="image"  alt="avatar"  src="VIEWS/Media/login.png"></a>';
             }
 
             ?>
 
-                <form class="registerMenu" action="http://tpphp.alwaysdata.net/ProjetPhp/VIEWS/view_accueil.php?page=user&action=inscription" method="post">
+                <form class="registerMenu" action="http://tpphp.alwaysdata.net/ProjetPhp/?page=user&action=inscription" method="post">
                     <input type="text" placeholder="identifiant" name="identifiant" /> <br>
                     <label> sexe </label> <br>
                     <input type="radio" value="homme" name="genre" checked/> homme <br>
@@ -84,7 +84,7 @@
                     <input type="submit" name="action" value="inscription"/> <br>
                 </form>
 
-            <script src="menu_login.js"></script>
+            <script src="VIEWS/menu_login.js"></script>
 
         </div>
     </header>
