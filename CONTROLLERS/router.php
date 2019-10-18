@@ -1,10 +1,10 @@
 <?php
 
 require_once 'controller_main.php';
-require_once 'controller_requete.php';
+require_once 'requete.php';
 require_once 'VIEWS/view_template.php';
 
-class router{
+class router extends controller_main {
 
 
     //* Route une requête entrante : exécute l'action associée
