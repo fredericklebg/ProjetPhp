@@ -293,7 +293,7 @@ class user extends base
         try
         {
 
-        //if($row -> rowCount() == 0)
+        //*if($row -> rowCount() == 0)
             if($sql->rowCount()==0)
         {
             $_SESSION['error'] = 'falsemdp';
