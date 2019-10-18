@@ -277,6 +277,7 @@ class user extends base
         $sql->bindValue(':password',$hashedPass,PDO::PARAM_STR) ;
         $sql->execute();
         var_dump($sql);
+        exit();
 
         //plus rapide mais moins sécure
 
