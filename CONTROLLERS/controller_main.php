@@ -32,6 +32,8 @@ class controller_main
                         }
                         if($action=='login')
                         {
+                            echo 'pd';
+                            exit();
                             $this->ctrlUser->login();
                             header('Location: http://tpphp.alwaysdata.net/ProjetPhp');
 

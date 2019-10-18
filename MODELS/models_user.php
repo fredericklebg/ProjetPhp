@@ -270,8 +270,6 @@ class user extends base
         $hashedPass = hash('sha256',$password);
 
 
-
-
         //plus rapide*
         $sql = $this->loadDb()->prepare("SELECT * FROM USER WHERE  pseudo= ? AND password= ?");
         $sql->execute(array($login, $hashedPass));
