@@ -260,7 +260,7 @@ class user extends base
     public function isSafeLogin() {
 //        $query = 'SELECT password, pseudo FROM USER WHERE pseudo = \''.$login.'\' and password = \'' .$password.'\'';
 //        $row = $this->execRequete($query);
-//  *      if($row-> rowCount()==0) return false;
+//        if($row-> rowCount()==0) return false;
 
     }
 
@@ -276,9 +276,9 @@ class user extends base
         $sql->bindValue(':pseudo',$login,PDO::PARAM_STR);
         $sql->bindValue(':password',$hashedPass,PDO::PARAM_STR) ;
         $sql->execute();
-        $result =$sql->fetch();
 
         //plus rapide mais moins sécure
+
         //$sql = $this->loadDb()->prepare("SELECT * FROM USER WHERE  pseudo= ? AND password= ?");
         //$sql->execute(array($login, $hashedPass));
 
@@ -293,10 +293,8 @@ class user extends base
 
         try
         {
-            $row = $this->execRequete($result);
-
         //if($row -> rowCount() == 0)
-            if($row>rowCount()==0)
+            if($sql>rowCount()==0)
         {
             $_SESSION['error'] = 'falsemdp';
             header('Location: ../VIEWS/view_error.php');
