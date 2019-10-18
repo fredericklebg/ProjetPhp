@@ -3,7 +3,8 @@
 require_once 'MODELS/models_user.php';
 require_once 'VIEWS/view_template.php';
 
-class controller_accueil extends controller_main
+
+class controller_accueil
 {
     private $user;
 
