@@ -13,6 +13,8 @@ class Vue {
         if ($controleur != "") {
             $file = $file . $controleur . "/";
         }
+        if($action == "")
+            $file='VIEWS/view_accueil'; //en cas d'action vide, redigire vers l'accueil
         $this->file = $file . $action . ".php";
     }
 
