@@ -64,7 +64,7 @@
 
             ?>
 
-                <form class="registerMenu" action="http://tpphp.alwaysdata.net/ProjetPhp/CONTROLLERS/controller_main.php?page=user&action=inscription" method="post">
+                <form class="registerMenu" action="http://tpphp.alwaysdata.net/ProjetPhp/CONTROLLERS/controller_main.php" method="post">
                     <input type="text" placeholder="identifiant" name="identifiant" /> <br>
                     <label> sexe </label> <br>
                     <input type="radio" value="homme" name="genre" checked/> homme <br>
