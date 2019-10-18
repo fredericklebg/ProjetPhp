@@ -390,6 +390,11 @@ class user extends base
         return $chaineAleatoire;
     }
 
+    public function disconnect()
+    {
+        $_SESSION['isLogin']='no';
+    }
+
     public function forgotPwd()
     {
         $message = $this->genererChaineAleatoire();
