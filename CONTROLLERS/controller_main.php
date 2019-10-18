@@ -1,7 +1,7 @@
 <?php
 
-//require_once 'requete.php';
-//require_once 'VIEWS/view_template.php';
+require_once 'requete.php';
+require_once 'VIEWS/view_template.php';
 
 abstract class controller_main {
 
