@@ -159,7 +159,7 @@ table,th,td{
 
 footer {
     position: fixed;
-    background-color: white;
+    background-color: lightgrey;
     z-index: 1;
     left: 0;
     bottom: 0;
