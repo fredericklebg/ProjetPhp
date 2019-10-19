@@ -138,12 +138,6 @@ body {
     width: 100%;
 }
 
-
-
-body {
-    display : table;
-    width: 100%;
-}
 footer {
     display : table-row;
     text-align: center;
