@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b41057ea-1169-4d87-bd84-37173161cc78" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MODELS/models_user.php" beforeDir="false" afterPath="$PROJECT_DIR$/MODELS/models_user.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VIEWS/view_erreur.php" beforeDir="false" afterPath="$PROJECT_DIR$/VIEWS/view_erreur.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -130,28 +129,7 @@
       <workItem from="1571213406020" duration="7044000" />
       <workItem from="1571293351337" duration="1737000" />
       <workItem from="1571401539625" duration="1943000" />
-      <workItem from="1571508899156" duration="224000" />
-    </task>
-    <task id="LOCAL-00192" summary="test mvc">
-      <created>1571360486250</created>
-      <option name="number" value="00192" />
-      <option name="presentableId" value="LOCAL-00192" />
-      <option name="project" value="LOCAL" />
-      <updated>1571360486250</updated>
-    </task>
-    <task id="LOCAL-00193" summary="test mvc">
-      <created>1571399942183</created>
-      <option name="number" value="00193" />
-      <option name="presentableId" value="LOCAL-00193" />
-      <option name="project" value="LOCAL" />
-      <updated>1571399942184</updated>
-    </task>
-    <task id="LOCAL-00194" summary="test mvc">
-      <created>1571400324555</created>
-      <option name="number" value="00194" />
-      <option name="presentableId" value="LOCAL-00194" />
-      <option name="project" value="LOCAL" />
-      <updated>1571400324555</updated>
+      <workItem from="1571508899156" duration="471000" />
     </task>
     <task id="LOCAL-00195" summary="test mvc">
       <created>1571415137038</created>
@@ -475,7 +453,28 @@
       <option name="project" value="LOCAL" />
       <updated>1571434515973</updated>
     </task>
-    <option name="localTasksCounter" value="241" />
+    <task id="LOCAL-00241" summary="gestion erreur">
+      <created>1571509170274</created>
+      <option name="number" value="00241" />
+      <option name="presentableId" value="LOCAL-00241" />
+      <option name="project" value="LOCAL" />
+      <updated>1571509170274</updated>
+    </task>
+    <task id="LOCAL-00242" summary="gestion erreur">
+      <created>1571509191782</created>
+      <option name="number" value="00242" />
+      <option name="presentableId" value="LOCAL-00242" />
+      <option name="project" value="LOCAL" />
+      <updated>1571509191782</updated>
+    </task>
+    <task id="LOCAL-00243" summary="gestion erreur">
+      <created>1571509308095</created>
+      <option name="number" value="00243" />
+      <option name="presentableId" value="LOCAL-00243" />
+      <option name="project" value="LOCAL" />
+      <updated>1571509308095</updated>
+    </task>
+    <option name="localTasksCounter" value="244" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -524,6 +523,7 @@
     <MESSAGE value="salut" />
     <MESSAGE value="test de la couille" />
     <MESSAGE value="mvc++" />
-    <option name="LAST_COMMIT_MESSAGE" value="mvc++" />
+    <MESSAGE value="gestion erreur" />
+    <option name="LAST_COMMIT_MESSAGE" value="gestion erreur" />
   </component>
 </project>

@@ -3,9 +3,9 @@
 <div class="container">
 
     <section class="col-lg-12">
-        <div class="row bbloc">
+        <div style="margin-bottom: 10em" class="row">
 
-    <p>Une erreur est survenue : <?= $msgErreur ?></p>
+    <p >Une erreur est survenue : <?= $msgErreur ?></p>
         </div>
     </section>
 </div>
