@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="50521d7d-5bb4-4bb5-a0ce-0d036ce4d9ff" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VIEWS/css/view_style.css" beforeDir="false" afterPath="$PROJECT_DIR$/VIEWS/css/view_style.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -80,13 +80,7 @@
       <workItem from="1571242792478" duration="4255000" />
       <workItem from="1571339826055" duration="695000" />
       <workItem from="1571340808679" duration="445000" />
-    </task>
-    <task id="LOCAL-00070" summary="test menu">
-      <created>1570721811401</created>
-      <option name="number" value="00070" />
-      <option name="presentableId" value="LOCAL-00070" />
-      <option name="project" value="LOCAL" />
-      <updated>1570721811401</updated>
+      <workItem from="1571504238425" duration="269000" />
     </task>
     <task id="LOCAL-00071" summary="test menu">
       <created>1570721893631</created>
@@ -424,7 +418,14 @@
       <option name="project" value="LOCAL" />
       <updated>1571247234563</updated>
     </task>
-    <option name="localTasksCounter" value="119" />
+    <task id="LOCAL-00119" summary="style">
+      <created>1571504326126</created>
+      <option name="number" value="00119" />
+      <option name="presentableId" value="LOCAL-00119" />
+      <option name="project" value="LOCAL" />
+      <updated>1571504326126</updated>
+    </task>
+    <option name="localTasksCounter" value="120" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -466,6 +467,7 @@
     <MESSAGE value="test menu" />
     <MESSAGE value="class avancée" />
     <MESSAGE value="html/css index" />
-    <option name="LAST_COMMIT_MESSAGE" value="html/css index" />
+    <MESSAGE value="style" />
+    <option name="LAST_COMMIT_MESSAGE" value="style" />
   </component>
 </project>

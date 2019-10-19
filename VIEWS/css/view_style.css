@@ -1,3 +1,9 @@
+body
+{
+    animation-name: fadeIn;
+    animation-duration: 2s;
+}
+
 @-webkit-keyframes fadeIn
 {
     from
