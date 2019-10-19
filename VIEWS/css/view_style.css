@@ -139,6 +139,10 @@ body {
 }
 
 footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
     display : table-row;
     text-align: center;
     height: 100px;

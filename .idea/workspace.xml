@@ -129,35 +129,7 @@
       <workItem from="1571213406020" duration="7044000" />
       <workItem from="1571293351337" duration="1737000" />
       <workItem from="1571401539625" duration="1943000" />
-      <workItem from="1571508899156" duration="2536000" />
-    </task>
-    <task id="LOCAL-00202" summary="salut">
-      <created>1571417836530</created>
-      <option name="number" value="00202" />
-      <option name="presentableId" value="LOCAL-00202" />
-      <option name="project" value="LOCAL" />
-      <updated>1571417836530</updated>
-    </task>
-    <task id="LOCAL-00203" summary="salut">
-      <created>1571418258001</created>
-      <option name="number" value="00203" />
-      <option name="presentableId" value="LOCAL-00203" />
-      <option name="project" value="LOCAL" />
-      <updated>1571418258001</updated>
-    </task>
-    <task id="LOCAL-00204" summary="test de la couille">
-      <created>1571418441125</created>
-      <option name="number" value="00204" />
-      <option name="presentableId" value="LOCAL-00204" />
-      <option name="project" value="LOCAL" />
-      <updated>1571418441125</updated>
-    </task>
-    <task id="LOCAL-00205" summary="test de la couille">
-      <created>1571418559667</created>
-      <option name="number" value="00205" />
-      <option name="presentableId" value="LOCAL-00205" />
-      <option name="project" value="LOCAL" />
-      <updated>1571418559667</updated>
+      <workItem from="1571508899156" duration="2795000" />
     </task>
     <task id="LOCAL-00206" summary="test de la couille">
       <created>1571418595625</created>
@@ -474,7 +446,35 @@
       <option name="project" value="LOCAL" />
       <updated>1571510634281</updated>
     </task>
-    <option name="localTasksCounter" value="251" />
+    <task id="LOCAL-00251" summary="footer">
+      <created>1571514328846</created>
+      <option name="number" value="00251" />
+      <option name="presentableId" value="LOCAL-00251" />
+      <option name="project" value="LOCAL" />
+      <updated>1571514328846</updated>
+    </task>
+    <task id="LOCAL-00252" summary="footer">
+      <created>1571514453796</created>
+      <option name="number" value="00252" />
+      <option name="presentableId" value="LOCAL-00252" />
+      <option name="project" value="LOCAL" />
+      <updated>1571514453796</updated>
+    </task>
+    <task id="LOCAL-00253" summary="footer">
+      <created>1571514487416</created>
+      <option name="number" value="00253" />
+      <option name="presentableId" value="LOCAL-00253" />
+      <option name="project" value="LOCAL" />
+      <updated>1571514487416</updated>
+    </task>
+    <task id="LOCAL-00254" summary="footer">
+      <created>1571514539564</created>
+      <option name="number" value="00254" />
+      <option name="presentableId" value="LOCAL-00254" />
+      <option name="project" value="LOCAL" />
+      <updated>1571514539564</updated>
+    </task>
+    <option name="localTasksCounter" value="255" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
