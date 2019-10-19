@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b41057ea-1169-4d87-bd84-37173161cc78" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/VIEWS/css/view_style.css" beforeDir="false" afterPath="$PROJECT_DIR$/VIEWS/css/view_style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VIEWS/view_erreur.php" beforeDir="false" afterPath="$PROJECT_DIR$/VIEWS/view_erreur.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -129,35 +129,7 @@
       <workItem from="1571213406020" duration="7044000" />
       <workItem from="1571293351337" duration="1737000" />
       <workItem from="1571401539625" duration="1943000" />
-      <workItem from="1571508899156" duration="3259000" />
-    </task>
-    <task id="LOCAL-00209" summary="test de la couille">
-      <created>1571428708131</created>
-      <option name="number" value="00209" />
-      <option name="presentableId" value="LOCAL-00209" />
-      <option name="project" value="LOCAL" />
-      <updated>1571428708131</updated>
-    </task>
-    <task id="LOCAL-00210" summary="test de la couille">
-      <created>1571428786594</created>
-      <option name="number" value="00210" />
-      <option name="presentableId" value="LOCAL-00210" />
-      <option name="project" value="LOCAL" />
-      <updated>1571428786594</updated>
-    </task>
-    <task id="LOCAL-00211" summary="test de la couille">
-      <created>1571428813285</created>
-      <option name="number" value="00211" />
-      <option name="presentableId" value="LOCAL-00211" />
-      <option name="project" value="LOCAL" />
-      <updated>1571428813285</updated>
-    </task>
-    <task id="LOCAL-00212" summary="test de la couille">
-      <created>1571428862610</created>
-      <option name="number" value="00212" />
-      <option name="presentableId" value="LOCAL-00212" />
-      <option name="project" value="LOCAL" />
-      <updated>1571428862610</updated>
+      <workItem from="1571508899156" duration="3579000" />
     </task>
     <task id="LOCAL-00213" summary="test de la couille">
       <created>1571430547315</created>
@@ -474,7 +446,35 @@
       <option name="project" value="LOCAL" />
       <updated>1571514764958</updated>
     </task>
-    <option name="localTasksCounter" value="258" />
+    <task id="LOCAL-00258" summary="footer">
+      <created>1571515057143</created>
+      <option name="number" value="00258" />
+      <option name="presentableId" value="LOCAL-00258" />
+      <option name="project" value="LOCAL" />
+      <updated>1571515057143</updated>
+    </task>
+    <task id="LOCAL-00259" summary="footer">
+      <created>1571515131064</created>
+      <option name="number" value="00259" />
+      <option name="presentableId" value="LOCAL-00259" />
+      <option name="project" value="LOCAL" />
+      <updated>1571515131064</updated>
+    </task>
+    <task id="LOCAL-00260" summary="footer">
+      <created>1571515174148</created>
+      <option name="number" value="00260" />
+      <option name="presentableId" value="LOCAL-00260" />
+      <option name="project" value="LOCAL" />
+      <updated>1571515174148</updated>
+    </task>
+    <task id="LOCAL-00261" summary="footer">
+      <created>1571515276759</created>
+      <option name="number" value="00261" />
+      <option name="presentableId" value="LOCAL-00261" />
+      <option name="project" value="LOCAL" />
+      <updated>1571515276759</updated>
+    </task>
+    <option name="localTasksCounter" value="262" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
