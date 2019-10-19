@@ -185,18 +185,49 @@ class user extends base
     public function isSafeForm() {
         $query = 'SELECT pseudo FROM USER WHERE pseudo = \''.$this->pseudo.'\'';
         $row = $this->execRequete($query);
-        if($row -> rowCount()==1) {$_SESSION['error']='pseudoTaken'; return false;}
+        if($row -> rowCount()==1)
+        {
+            throw new Exception("le pseudo a déja été pris, veuillez choisir un autre pseudo");
+            //$_SESSION['error']='pseudoTaken'; return false;
+        }
 
         $query='SELECT mail FROM USER WHERE mail= \''.$this->mail.'\'';
         $row = $this->execRequete($query);
-        if($row -> rowCount()==1)  {$_SESSION['error']='mailTaken'; return false;}
 
-        if(strlen($this->password) <5 || strlen($this->password) >20) {$_SESSION['error']='passwordOutOfRange'; return false;}
-        if(!filter_var($this->mail,FILTER_VALIDATE_EMAIL)) {$_SESSION['error']='invalidateEmail';return false;}
-        if($this->password != $this->password2) {$_SESSION['error']='passWordNoCorresponding';return false;}
-        if(is_null($this->password)|| is_null($this->password2)) {$_SESSION['error']='passwordNull';return false;}
+        if($row -> rowCount()==1)  {
+            throw new Exception("l'adresse email est deja utilisée");
+            //$_SESSION['error']='mailTaken'; return false;
+        }
 
-        if(empty($_POST['identifiant'])) { $_SESSION['error']='pseudoNull'; return false;}
+        if(strlen($this->password) <5 || strlen($this->password) >20)
+        {
+            throw new Exception("le mot de passe doit faire entre 5 et 20 caractères");
+           // $_SESSION['error']='passwordOutOfRange'; return false;
+        }
+
+        if(!filter_var($this->mail,FILTER_VALIDATE_EMAIL))
+        {
+            //$_SESSION['error']='invalidateEmail';return false;
+            throw new Exception("l'adresse email est invalide");
+        }
+
+        if($this->password != $this->password2)
+        {
+            throw new Exception("les mots de passe ne correspondent pas");
+            //$_SESSION['error']='passWordNoCorresponding';return false;
+        }
+
+        if(is_null($this->password)|| is_null($this->password2))
+        {
+            throw new Exception("le mot de passe est vide");
+            //$_SESSION['error']='passwordNull';return false;
+        }
+
+        if(empty($_POST['identifiant']))
+        {
+            throw new Exception("l'identifiant est vide");
+            //$_SESSION['error']='pseudoNull'; return false;
+        }
 
 
      return true;
@@ -236,10 +267,11 @@ class user extends base
 
         if(!preg_match('#^[a-zA-Z0-9_]*$#', $this->pseudo))
         {
-            $_SESSION['error'] = 'badnickname';
-            header('Location: ../VIEWS/view_error.php');
-
-            exit();
+            throw new Exception("le pseudo n'est pas autorisé");
+//            $_SESSION['error'] = 'badnickname';
+//            header('Location: ../VIEWS/view_error.php');
+//
+//            exit();
         }
 
         if ($this->isSafeForm()) {
@@ -283,9 +315,10 @@ class user extends base
 
         if(!preg_match('#^[a-zA-Z0-9_]*$#', $login))
         {
-            $_SESSION['error'] = 'badnickname2';
-            header('Location: ../VIEWS/view_error.php');
-            exit();
+//            $_SESSION['error'] = 'badnickname2';
+//            header('Location: ../VIEWS/view_error.php');
+//            exit();
+            throw new Exception("le pseudo n'est pas autorisé");
         }
 
         try
@@ -319,12 +352,15 @@ class user extends base
         echo $e->getMessage();
     }
     }
+
+
     public function changePassword()
     {
         if($_SESSION['isLogin']!='ok')
         {
-            $_SESSION['error'] = 'notconnected';
-            header('Location: ../VIEWS/view_error.php');
+            throw new Exception("vous n'etes pas connectés");
+//            $_SESSION['error'] = 'notconnected';
+//            header('Location: ../VIEWS/view_error.php');
         }
 
 
@@ -338,16 +374,18 @@ class user extends base
 
         if(strlen($newMdp) <5 || strlen($newMdp) >20 )
         {
-            $_SESSION['error'] = 'tooshort';
-            header('Location: ../VIEWS/view_error.php');
-            exit();
+            throw new Exception("le mot de passe doit faire entre 5 et 20 caracteres");
+//            $_SESSION['error'] = 'tooshort';
+//            header('Location: ../VIEWS/view_error.php');
+//            exit();
         }
 
         if ($newMdp != $confirmMdp)
         {
-            $_SESSION['error'] = 'notsame';
-            header('Location: ../VIEWS/view_error.php');
-            exit();
+            throw new Exception("les  nouveaux mots de passe ne coresspondent pas");
+//            $_SESSION['error'] = 'notsame';
+//            header('Location: ../VIEWS/view_error.php');
+//            exit();
         }
         $hashedOldPass = hash('sha256',$oldMdp);
         $hashedNewPass = hash('sha256',$newMdp);
@@ -370,8 +408,9 @@ class user extends base
         }
         else
         {
-            $_SESSION['error'] = 'notcorresponding';
-            header('Location: ../VIEWS/view_error.php');
+            throw new Exception("vôtre mot de passe actuel est faux");
+//            $_SESSION['error'] = 'notcorresponding';
+//            header('Location: ../VIEWS/view_error.php');
         }
 
     }

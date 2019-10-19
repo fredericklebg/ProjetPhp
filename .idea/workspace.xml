@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b41057ea-1169-4d87-bd84-37173161cc78" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/VIEWS/view_erreur.php" beforeDir="false" afterPath="$PROJECT_DIR$/VIEWS/view_erreur.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MODELS/models_user.php" beforeDir="false" afterPath="$PROJECT_DIR$/MODELS/models_user.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -129,21 +129,7 @@
       <workItem from="1571213406020" duration="7044000" />
       <workItem from="1571293351337" duration="1737000" />
       <workItem from="1571401539625" duration="1943000" />
-      <workItem from="1571508899156" duration="471000" />
-    </task>
-    <task id="LOCAL-00195" summary="test mvc">
-      <created>1571415137038</created>
-      <option name="number" value="00195" />
-      <option name="presentableId" value="LOCAL-00195" />
-      <option name="project" value="LOCAL" />
-      <updated>1571415137038</updated>
-    </task>
-    <task id="LOCAL-00196" summary="test mvc">
-      <created>1571415187922</created>
-      <option name="number" value="00196" />
-      <option name="presentableId" value="LOCAL-00196" />
-      <option name="project" value="LOCAL" />
-      <updated>1571415187922</updated>
+      <workItem from="1571508899156" duration="1245000" />
     </task>
     <task id="LOCAL-00197" summary="undo">
       <created>1571415852142</created>
@@ -474,7 +460,21 @@
       <option name="project" value="LOCAL" />
       <updated>1571509308095</updated>
     </task>
-    <option name="localTasksCounter" value="244" />
+    <task id="LOCAL-00244" summary="gestion erreur">
+      <created>1571509377317</created>
+      <option name="number" value="00244" />
+      <option name="presentableId" value="LOCAL-00244" />
+      <option name="project" value="LOCAL" />
+      <updated>1571509377317</updated>
+    </task>
+    <task id="LOCAL-00245" summary="gestion erreur">
+      <created>1571509413347</created>
+      <option name="number" value="00245" />
+      <option name="presentableId" value="LOCAL-00245" />
+      <option name="project" value="LOCAL" />
+      <updated>1571509413347</updated>
+    </task>
+    <option name="localTasksCounter" value="246" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
