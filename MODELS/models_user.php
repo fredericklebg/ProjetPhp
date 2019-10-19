@@ -295,7 +295,7 @@ class user extends base
             if($sql->rowCount()==0)
         {
             throw new Exception("mauvais pseudo ou mot de passe");
-//            $_SESSION['error'] = 'falsemdp';
+//*            $_SESSION['error'] = 'falsemdp';
 //            header('Location: ../VIEWS/view_error.php');
         }
         else
