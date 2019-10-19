@@ -185,6 +185,14 @@ class user extends base
     public function isSafeForm() {
         $query = 'SELECT pseudo FROM USER WHERE pseudo = \''.$this->pseudo.'\'';
         $row = $this->execRequete($query);
+
+        if(empty($_POST['identifiant']))
+        {
+            throw new Exception("l'identifiant est vide");
+            //$_SESSION['error']='pseudoNull'; return false;
+        }
+
+
         if($row -> rowCount()==1)
         {
             throw new Exception("le pseudo a déja été pris, veuillez choisir un autre pseudo");
@@ -199,22 +207,10 @@ class user extends base
             //$_SESSION['error']='mailTaken'; return false;
         }
 
-        if(strlen($this->password) <5 || strlen($this->password) >20)
-        {
-            throw new Exception("le mot de passe doit faire entre 5 et 20 caractères");
-           // $_SESSION['error']='passwordOutOfRange'; return false;
-        }
-
         if(!filter_var($this->mail,FILTER_VALIDATE_EMAIL))
         {
             //$_SESSION['error']='invalidateEmail';return false;
             throw new Exception("l'adresse email est invalide");
-        }
-
-        if($this->password != $this->password2)
-        {
-            throw new Exception("les mots de passe ne correspondent pas");
-            //$_SESSION['error']='passWordNoCorresponding';return false;
         }
 
         if(is_null($this->password)|| is_null($this->password2))
@@ -223,12 +219,20 @@ class user extends base
             //$_SESSION['error']='passwordNull';return false;
         }
 
-        if(empty($_POST['identifiant']))
+
+
+        if(strlen($this->password) <5 || strlen($this->password) >20)
         {
-            throw new Exception("l'identifiant est vide");
-            //$_SESSION['error']='pseudoNull'; return false;
+            throw new Exception("le mot de passe doit faire entre 5 et 20 caractères");
+           // $_SESSION['error']='passwordOutOfRange'; return false;
         }
 
+
+        if($this->password != $this->password2)
+        {
+            throw new Exception("les mots de passe ne correspondent pas");
+            //$_SESSION['error']='passWordNoCorresponding';return false;
+        }
 
      return true;
     }
