@@ -146,7 +146,6 @@ body {
 }
 footer {
     display : table-row;
-    background-color: lightgrey;
     text-align: center;
     height: 100px;
 }
