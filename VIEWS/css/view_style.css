@@ -29,6 +29,10 @@
     z-index: 1;
 }
 
+.loginmenu a{
+    font-size: 1.1em;
+}
+
 .coin {
     width: 10%;
     top: 18%;
