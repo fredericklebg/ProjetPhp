@@ -8,7 +8,10 @@ class router
 {
 
     //* Route une requête entrante : exécute l'action associée
-    public function routerRequete()
+
+    //* Crée le contrôleur approprié en fonction de la requête reçue
+   // private function creerControleur(requete $requete)
+    {    public function routerRequete()
     {
         try {
             // Fusion des paramètres GET et POST de la requête
@@ -22,10 +25,6 @@ class router
         }
     }
 
-
-    //* Crée le contrôleur approprié en fonction de la requête reçue
-    private function creerControleur(requete $requete)
-    {
         $controleur = "accueil";  // Contrôleur par défaut
         if ($requete->existeParametre('page')) {
             $controleur = $requete -> getParametre('page');
@@ -42,7 +41,7 @@ class router
             return $controleur;
         } else
             throw new Exception("Fichier '$fichierControleur' introuvable");
-    }
+   // }
 
     /////////////////////////////////////////
 
