@@ -26,13 +26,7 @@
     justify-content: space-between;
     transition-duration: 0.4s;
     background-color: white;
-    border-style: groove;
     z-index: 1;
-}
-
-.loginmenu a
-{
-    background-color: white;
 }
 
 .coin {

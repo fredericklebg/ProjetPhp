@@ -21,7 +21,7 @@
             </div>
             <div class="row">
                 <div class="col-lg-4 col-md-4 col-sm-12 text-center">
-                    <a href="http://tpphp.alwaysdata.net/ProjetPhp">
+                    <a href="http://tpphp.alwaysdata.net/ProjetPhp/VIEWS/view_discussion.php">
                       <input class="newbouton" type="button" value="Nouvelle Discussion"> </a>
                 </div>
 
