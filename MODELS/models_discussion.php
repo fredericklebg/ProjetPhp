@@ -90,6 +90,16 @@ class discussion extends base
 //         \'' . $this->state . '\'
 //         )';
 //    }
+
+
+//    public function addMessageIntoDisc()
+//    {
+//        get($state,disc_id);
+//        if ($state = 'close')
+//            ERROR404;
+//        else
+//
+//    }
 }
 
 

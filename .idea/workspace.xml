@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="50521d7d-5bb4-4bb5-a0ce-0d036ce4d9ff" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MODELS/models_discussion.php" beforeDir="false" afterPath="$PROJECT_DIR$/MODELS/models_discussion.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -84,14 +83,7 @@
       <workItem from="1571504238425" duration="332000" />
       <workItem from="1571516171087" duration="185000" />
       <workItem from="1571562169874" duration="4810000" />
-      <workItem from="1571579998538" duration="2251000" />
-    </task>
-    <task id="LOCAL-00075" summary="test menu">
-      <created>1570722215225</created>
-      <option name="number" value="00075" />
-      <option name="presentableId" value="LOCAL-00075" />
-      <option name="project" value="LOCAL" />
-      <updated>1570722215225</updated>
+      <workItem from="1571579998538" duration="2603000" />
     </task>
     <task id="LOCAL-00076" summary="test menu">
       <created>1570726858748</created>
@@ -429,7 +421,14 @@
       <option name="project" value="LOCAL" />
       <updated>1571575441586</updated>
     </task>
-    <option name="localTasksCounter" value="124" />
+    <task id="LOCAL-00124" summary="close disc test">
+      <created>1571582400462</created>
+      <option name="number" value="00124" />
+      <option name="presentableId" value="LOCAL-00124" />
+      <option name="project" value="LOCAL" />
+      <updated>1571582400462</updated>
+    </task>
+    <option name="localTasksCounter" value="125" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -474,6 +473,7 @@
     <MESSAGE value="style" />
     <MESSAGE value="test menu déroulant" />
     <MESSAGE value="page disc" />
-    <option name="LAST_COMMIT_MESSAGE" value="page disc" />
+    <MESSAGE value="close disc test" />
+    <option name="LAST_COMMIT_MESSAGE" value="close disc test" />
   </component>
 </project>
