@@ -80,6 +80,26 @@ class discussion extends base
          \'' . $this->state . '\' ,
          )';
     }
+
+//    public function closeDiscussion()
+//    {
+//        $this ->state='close';
+//
+//        $query = 'UPDATE INTO DISCUSSION (state)
+//        VALUES (
+//         \'' . $this->state . '\'
+//         )';
+//    }
+
+
+//    public function addMessageIntoDisc()
+//    {
+//        get($state,disc_id);
+//        if ($state = 'close')
+//            ERROR404;
+//        else
+//
+//    }
 }
 
 
