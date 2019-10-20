@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b41057ea-1169-4d87-bd84-37173161cc78" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/CONTROLLERS/router.php" beforeDir="false" afterPath="$PROJECT_DIR$/CONTROLLERS/router.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VIEWS/view_accueil.php" beforeDir="false" afterPath="$PROJECT_DIR$/VIEWS/view_accueil.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -84,13 +84,6 @@
       <workItem from="1571516171087" duration="185000" />
       <workItem from="1571562169874" duration="5620000" />
       <workItem from="1571582648880" duration="670000" />
-    </task>
-    <task id="LOCAL-00080" summary="test menu">
-      <created>1570727339053</created>
-      <option name="number" value="00080" />
-      <option name="presentableId" value="LOCAL-00080" />
-      <option name="project" value="LOCAL" />
-      <updated>1570727339053</updated>
     </task>
     <task id="LOCAL-00081" summary="test menu">
       <created>1570727504734</created>
@@ -428,7 +421,14 @@
       <option name="project" value="LOCAL" />
       <updated>1571594817329</updated>
     </task>
-    <option name="localTasksCounter" value="129" />
+    <task id="LOCAL-00129" summary="c quoi ce bordel">
+      <created>1571595004318</created>
+      <option name="number" value="00129" />
+      <option name="presentableId" value="LOCAL-00129" />
+      <option name="project" value="LOCAL" />
+      <updated>1571595004318</updated>
+    </task>
+    <option name="localTasksCounter" value="130" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -473,6 +473,7 @@
     <MESSAGE value="style" />
     <MESSAGE value="test menu déroulant" />
     <MESSAGE value="page disc" />
-    <option name="LAST_COMMIT_MESSAGE" value="page disc" />
+    <MESSAGE value="c quoi ce bordel" />
+    <option name="LAST_COMMIT_MESSAGE" value="c quoi ce bordel" />
   </component>
 </project>
