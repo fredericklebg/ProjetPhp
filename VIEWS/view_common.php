@@ -41,8 +41,9 @@
                 <form class="loginmenu" action="http://tpphp.alwaysdata.net/ProjetPhp/?page=accueil&action=login" method="post" >
                     <input type="text" name="login"  placeholder="Identifiant"/>
                     <input type="password" name="mdp" placeholder="Mot de passe"/>
-                    <input type="submit" name="action" value="login"/>
                     <a  href="http://tpphp.alwaysdata.net/ProjetPhp/?page=accueil&action=forgotPass"> mot de passe oublié </a>
+                    <input type="submit" name="action" value="login"/>
+
 
                 </form>
                 </div>

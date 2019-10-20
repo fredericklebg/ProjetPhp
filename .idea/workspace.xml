@@ -3,8 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="50521d7d-5bb4-4bb5-a0ce-0d036ce4d9ff" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/VIEWS/css/view_style.css" beforeDir="false" afterPath="$PROJECT_DIR$/VIEWS/css/view_style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/VIEWS/view_accueil.php" beforeDir="false" afterPath="$PROJECT_DIR$/VIEWS/view_accueil.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VIEWS/view_common.php" beforeDir="false" afterPath="$PROJECT_DIR$/VIEWS/view_common.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -84,14 +84,7 @@
       <workItem from="1571340808679" duration="445000" />
       <workItem from="1571504238425" duration="332000" />
       <workItem from="1571516171087" duration="185000" />
-      <workItem from="1571562169874" duration="2623000" />
-    </task>
-    <task id="LOCAL-00073" summary="test menu">
-      <created>1570721994974</created>
-      <option name="number" value="00073" />
-      <option name="presentableId" value="LOCAL-00073" />
-      <option name="project" value="LOCAL" />
-      <updated>1570721994974</updated>
+      <workItem from="1571562169874" duration="4295000" />
     </task>
     <task id="LOCAL-00074" summary="test menu">
       <created>1570722142215</created>
@@ -429,7 +422,14 @@
       <option name="project" value="LOCAL" />
       <updated>1571565685061</updated>
     </task>
-    <option name="localTasksCounter" value="122" />
+    <task id="LOCAL-00122" summary="page disc">
+      <created>1571573776217</created>
+      <option name="number" value="00122" />
+      <option name="presentableId" value="LOCAL-00122" />
+      <option name="project" value="LOCAL" />
+      <updated>1571573776217</updated>
+    </task>
+    <option name="localTasksCounter" value="123" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -473,6 +473,7 @@
     <MESSAGE value="html/css index" />
     <MESSAGE value="style" />
     <MESSAGE value="test menu déroulant" />
-    <option name="LAST_COMMIT_MESSAGE" value="test menu déroulant" />
+    <MESSAGE value="page disc" />
+    <option name="LAST_COMMIT_MESSAGE" value="page disc" />
   </component>
 </project>
