@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b41057ea-1169-4d87-bd84-37173161cc78" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CONTROLLERS/controller_accueil.php" beforeDir="false" afterPath="$PROJECT_DIR$/CONTROLLERS/controller_accueil.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MODELS/models_user.php" beforeDir="false" afterPath="$PROJECT_DIR$/MODELS/models_user.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VIEWS/view_sendMdp.php" beforeDir="false" afterPath="$PROJECT_DIR$/VIEWS/view_sendMdp.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -86,27 +85,6 @@
       <workItem from="1571516171087" duration="185000" />
       <workItem from="1571562169874" duration="5620000" />
       <workItem from="1571582648880" duration="670000" />
-    </task>
-    <task id="LOCAL-00084" summary="test menu">
-      <created>1570727833448</created>
-      <option name="number" value="00084" />
-      <option name="presentableId" value="LOCAL-00084" />
-      <option name="project" value="LOCAL" />
-      <updated>1570727833448</updated>
-    </task>
-    <task id="LOCAL-00085" summary="test menu">
-      <created>1570727884468</created>
-      <option name="number" value="00085" />
-      <option name="presentableId" value="LOCAL-00085" />
-      <option name="project" value="LOCAL" />
-      <updated>1570727884468</updated>
-    </task>
-    <task id="LOCAL-00086" summary="test menu">
-      <created>1570728000988</created>
-      <option name="number" value="00086" />
-      <option name="presentableId" value="LOCAL-00086" />
-      <option name="project" value="LOCAL" />
-      <updated>1570728000988</updated>
     </task>
     <task id="LOCAL-00087" summary="test menu">
       <created>1570728065841</created>
@@ -430,7 +408,28 @@
       <option name="project" value="LOCAL" />
       <updated>1571649270850</updated>
     </task>
-    <option name="localTasksCounter" value="133" />
+    <task id="LOCAL-00133" summary="c quoi ce bordel">
+      <created>1571650619254</created>
+      <option name="number" value="00133" />
+      <option name="presentableId" value="LOCAL-00133" />
+      <option name="project" value="LOCAL" />
+      <updated>1571650619254</updated>
+    </task>
+    <task id="LOCAL-00134" summary="c quoi ce bordel">
+      <created>1571650690972</created>
+      <option name="number" value="00134" />
+      <option name="presentableId" value="LOCAL-00134" />
+      <option name="project" value="LOCAL" />
+      <updated>1571650690972</updated>
+    </task>
+    <task id="LOCAL-00135" summary="c quoi ce bordel">
+      <created>1571650761078</created>
+      <option name="number" value="00135" />
+      <option name="presentableId" value="LOCAL-00135" />
+      <option name="project" value="LOCAL" />
+      <updated>1571650761078</updated>
+    </task>
+    <option name="localTasksCounter" value="136" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

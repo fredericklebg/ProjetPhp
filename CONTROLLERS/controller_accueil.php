@@ -37,6 +37,8 @@ class controller_accueil extends controller_main
     }
     public function sendMdp()
     {
+        $vue = new Vue ($_GET['page']);
+        $vue->generer(array());
         $this->user->sendMdp();
     }
     public function disconnect()
