@@ -435,13 +435,22 @@ class user extends base
 //        mail($mail, 'MDP OUBLIE BRO', $message);
 //    }
       public function sendMdp() {
-        $mdp = $this->genererChaineAleatoire();
-        $mail = $_POST['mail'];
-        mail($mail,'Mot de passe temporaire : ',$mdp);
-        $passwordHash = hash('sha256', $mdp);
-        $query = $this->loadDb()->prepare('UPDATE USER SET password := :password WHERE mail = :mail');
-        $query->bindValue(':password',$passwordHash ,PDO::PARAM_STR);
-        $query->bindValue('mail', $mail,PDO::PARAM_STR);
+          $mail = $_POST['mail'];
+          $query = $this->loadDb()->prepare('SELECT mail FROM USER WHERE mail = :mail');
+          $query->bindValue(':mail',$mail,PDO::PARAM_STR);
+          $query->execute();
+          if ($query->rowCount()==1) {
+
+              $mdp = $this->genererChaineAleatoire();
+              mail($mail, 'Mot de passe temporaire : ', $mdp);
+              $passwordHash = hash('sha256', $mdp);
+              $query = $this->loadDb()->prepare('UPDATE USER SET password := :password WHERE mail = :mail');
+              $query->bindValue(':password', $passwordHash, PDO::PARAM_STR);
+              $query->bindValue('mail', $mail, PDO::PARAM_STR);
+          }
+          else {
+              throw new Exception("Le mail est vide ou n'existe pas");
+          }
       }
 }
 
