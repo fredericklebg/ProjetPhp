@@ -45,7 +45,7 @@ class controller_accueil extends controller_main
     }
     public function forgotMdp() {
 
-        $vue = new Vue('forgoMdp');
+        $vue = new Vue('forgotMdp');
         $vue->generer(array());
     }
 
