@@ -442,7 +442,8 @@ class user extends base
           if ($query->rowCount()==1) {
 
               $mdp = $this->genererChaineAleatoire();
-              mail($mail, 'Changement de mot de passe', 'Mot de passe temporaire: \''.$mdp.'\'<br/>Veillez à bien changer votre mot de passe par la suite');
+              mail($mail, 'Changement de mot de passe', 'Mot de passe temporaire: \''.$mdp.'\'
+              Veillez à bien changer votre mot de passe par la suite');
               $passwordHash = hash('sha256', $mdp);
               $query = $this->loadDb()->prepare('UPDATE USER SET password = :password WHERE mail = :mail');
               $query->bindValue(':password', $passwordHash, PDO::PARAM_STR);
