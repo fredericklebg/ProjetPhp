@@ -194,7 +194,7 @@ class user extends base
         }
 
 
-        if($row -> rowCount()==1)
+        if($query -> rowCount()==1)
         {
             throw new Exception("le pseudo a déja été pris, veuillez choisir un autre pseudo");
             //$_SESSION['error']='pseudoTaken'; return false;
