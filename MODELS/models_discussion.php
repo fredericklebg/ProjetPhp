@@ -81,7 +81,7 @@ class discussion extends base
         VALUES (
          \'' . $id . '\',
          \'' . $this->state . '\',
-         \'' . $discName . '\' ,
+         \'' . $discName . '\'
          )');
 
         var_dump($query);

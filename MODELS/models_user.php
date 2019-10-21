@@ -38,10 +38,7 @@ class user extends base
      */
     public function getUserId($pseudo)
     {
-       // return $this->get('user_id',$pseudo);
-        $result= $this->get('user_id',$pseudo);
-        var_dump($result);
-        return $result;
+        return $this->get('user_id',$pseudo);
     }
 
 
