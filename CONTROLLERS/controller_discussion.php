@@ -22,4 +22,10 @@ class controller_discussion extends controller_main
         //ajouter message avec addMessage
         $this->msg->addMessage($id);
     }
+
+    public function discussion()
+    {
+        $vue = new Vue('discussion');
+        $vue->generer(array());
+    }
 }
