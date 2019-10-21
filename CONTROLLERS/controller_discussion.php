@@ -25,7 +25,7 @@ class controller_discussion extends controller_main
 
     public function discussion()
     {
-        if ($_SESSION['isLogin']='ok')
+        if ($_SESSION['isLogin']=='ok')
         {
             $vue = new Vue('discussion');
             $vue->generer(array());
