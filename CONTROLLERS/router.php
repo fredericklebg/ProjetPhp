@@ -25,6 +25,7 @@ class router
         }
     }
 
+
      private function creerControleur(requete $requete)
      {
         $controleur = "accueil";  // Contrôleur par défaut
@@ -45,10 +46,6 @@ class router
             throw new Exception("Fichier '$fichierControleur' introuvable");
         }
    // }
-
-    /////////////////////////////////////////
-
-/////////////////////////////////////////////////
 
 
     // Détermine l'action à exécuter en fonction de la requête reçue
