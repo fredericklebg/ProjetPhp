@@ -97,6 +97,7 @@ class message extends base
          )';
 
         $this->execRequete($query);
+        var_dump($query);
     }
 
 
