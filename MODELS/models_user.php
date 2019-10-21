@@ -448,7 +448,6 @@ class user extends base
               $query->bindValue(':password', $passwordHash, PDO::PARAM_STR);
               $query->bindValue('mail', $mail, PDO::PARAM_STR);
               $query->execute();
-
           }
           else {
               throw new Exception("Le mail est vide ou n'existe pas");
