@@ -85,10 +85,9 @@ class discussion extends base
          )');
 
         $this->execRequete($query);
-        $query= ('SELECT LAST_INSERT_ID() FROM DISCUSSION');
+        $query= ('SELECT MAX(disc_id) FROM DISCUSSION');
         $exec=$this->execRequete($query);
         $result=$exec->fetchColumn();
-
         return $result;
     }
 
