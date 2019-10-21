@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="b41057ea-1169-4d87-bd84-37173161cc78" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MODELS/models_discussion.php" beforeDir="false" afterPath="$PROJECT_DIR$/MODELS/models_discussion.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -86,8 +85,35 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/MODELS/models_discussion.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="470">
-              <caret line="87" column="4" selection-start-line="87" selection-start-column="4" selection-end-line="87" selection-end-column="4" />
+            <state relative-caret-position="410">
+              <caret line="86" column="23" lean-forward="true" selection-start-line="86" selection-start-column="23" selection-end-line="86" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/VIEWS/view_accueil.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="435">
+              <caret line="29" column="88" lean-forward="true" selection-start-line="29" selection-start-column="88" selection-end-line="29" selection-end-column="88" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CONTROLLERS/controller_discussion.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" column="35" lean-forward="true" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/VIEWS/view_discussion.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="66" selection-start-line="6" selection-start-column="66" selection-end-line="6" selection-end-column="66" />
             </state>
           </provider>
         </entry>
@@ -121,13 +147,19 @@
         <option value="$PROJECT_DIR$/CONTROLLERS/controller_accueil.php" />
         <option value="$PROJECT_DIR$/MODELS/models_user.php" />
         <option value="$PROJECT_DIR$/CONTROLLERS/controller_main.php" />
-        <option value="$PROJECT_DIR$/VIEWS/view_discussion.php" />
         <option value="$PROJECT_DIR$/VIEWS/css/view_style.css" />
         <option value="$PROJECT_DIR$/MODELS/models_message.php" />
-        <option value="$PROJECT_DIR$/CONTROLLERS/controller_discussion.php" />
         <option value="$PROJECT_DIR$/MODELS/models_discussion.php" />
+        <option value="$PROJECT_DIR$/VIEWS/view_accueil.php" />
+        <option value="$PROJECT_DIR$/CONTROLLERS/controller_discussion.php" />
+        <option value="$PROJECT_DIR$/VIEWS/view_discussion.php" />
       </list>
     </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="y" value="28" />
+    <option name="width" value="840" />
+    <option name="height" value="994" />
   </component>
   <component name="ProjectId" id="1Rw0kPHN0vwT9hFLFkKQQgvSROt" />
   <component name="ProjectLevelVcsManager">
@@ -227,41 +259,6 @@
       <workItem from="1571516171087" duration="185000" />
       <workItem from="1571562169874" duration="5620000" />
       <workItem from="1571582648880" duration="670000" />
-    </task>
-    <task id="LOCAL-00103" summary="html/css index">
-      <created>1571244885853</created>
-      <option name="number" value="00103" />
-      <option name="presentableId" value="LOCAL-00103" />
-      <option name="project" value="LOCAL" />
-      <updated>1571244885853</updated>
-    </task>
-    <task id="LOCAL-00104" summary="html/css index">
-      <created>1571244962477</created>
-      <option name="number" value="00104" />
-      <option name="presentableId" value="LOCAL-00104" />
-      <option name="project" value="LOCAL" />
-      <updated>1571244962477</updated>
-    </task>
-    <task id="LOCAL-00105" summary="html/css index">
-      <created>1571245346647</created>
-      <option name="number" value="00105" />
-      <option name="presentableId" value="LOCAL-00105" />
-      <option name="project" value="LOCAL" />
-      <updated>1571245346647</updated>
-    </task>
-    <task id="LOCAL-00106" summary="html/css index">
-      <created>1571245474486</created>
-      <option name="number" value="00106" />
-      <option name="presentableId" value="LOCAL-00106" />
-      <option name="project" value="LOCAL" />
-      <updated>1571245474486</updated>
-    </task>
-    <task id="LOCAL-00107" summary="html/css index">
-      <created>1571245568034</created>
-      <option name="number" value="00107" />
-      <option name="presentableId" value="LOCAL-00107" />
-      <option name="project" value="LOCAL" />
-      <updated>1571245568034</updated>
     </task>
     <task id="LOCAL-00108" summary="html/css index">
       <created>1571245680501</created>
@@ -571,11 +568,46 @@
       <option name="project" value="LOCAL" />
       <updated>1571671466190</updated>
     </task>
-    <option name="localTasksCounter" value="152" />
+    <task id="LOCAL-00152" summary="gromit and push">
+      <created>1571671711168</created>
+      <option name="number" value="00152" />
+      <option name="presentableId" value="LOCAL-00152" />
+      <option name="project" value="LOCAL" />
+      <updated>1571671711168</updated>
+    </task>
+    <task id="LOCAL-00153" summary="gromit and push">
+      <created>1571671728529</created>
+      <option name="number" value="00153" />
+      <option name="presentableId" value="LOCAL-00153" />
+      <option name="project" value="LOCAL" />
+      <updated>1571671728529</updated>
+    </task>
+    <task id="LOCAL-00154" summary="gromit and push">
+      <created>1571671835010</created>
+      <option name="number" value="00154" />
+      <option name="presentableId" value="LOCAL-00154" />
+      <option name="project" value="LOCAL" />
+      <updated>1571671835010</updated>
+    </task>
+    <task id="LOCAL-00155" summary="gromit and push">
+      <created>1571671901533</created>
+      <option name="number" value="00155" />
+      <option name="presentableId" value="LOCAL-00155" />
+      <option name="project" value="LOCAL" />
+      <updated>1571671901534</updated>
+    </task>
+    <task id="LOCAL-00156" summary="gromit and push">
+      <created>1571671960188</created>
+      <option name="number" value="00156" />
+      <option name="presentableId" value="LOCAL-00156" />
+      <option name="project" value="LOCAL" />
+      <updated>1571671960188</updated>
+    </task>
+    <option name="localTasksCounter" value="157" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4692000" />
+    <option name="totallyTimeSpent" value="5466000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="28" width="1658" height="995" extended-state="6" />
@@ -672,13 +704,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/VIEWS/view_accueil.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="67" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -762,20 +787,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/VIEWS/view_discussion.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="6" lean-forward="true" selection-start-column="6" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CONTROLLERS/controller_discussion.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="42" selection-start-line="3" selection-start-column="42" selection-end-line="3" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/MODELS/models_base.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
@@ -797,10 +808,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/VIEWS/view_accueil.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="88" lean-forward="true" selection-start-line="29" selection-start-column="88" selection-end-line="29" selection-end-column="88" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CONTROLLERS/controller_discussion.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="35" lean-forward="true" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/VIEWS/view_discussion.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="66" selection-start-line="6" selection-start-column="66" selection-end-line="6" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/MODELS/models_discussion.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="470">
-          <caret line="87" column="4" selection-start-line="87" selection-start-column="4" selection-end-line="87" selection-end-column="4" />
+        <state relative-caret-position="410">
+          <caret line="86" column="23" lean-forward="true" selection-start-line="86" selection-start-column="23" selection-end-line="86" selection-end-column="23" />
         </state>
       </provider>
     </entry>
