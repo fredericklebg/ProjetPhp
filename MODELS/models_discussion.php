@@ -86,8 +86,7 @@ class discussion extends base
 
         $this->execRequete($query);
         $query= ('SELECT LAST_INSERT_ID() FROM DISCUSSION');
-        $a=$this->execRequete($query);
-        $result=$a->fetch(PDO::FETCH_ASSOC);
+        $result = $this->execRequete($query);
         return $result;
     }
 
