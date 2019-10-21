@@ -183,7 +183,8 @@ class user extends base
 
 
     public function isSafeForm() {
-        $query = 'SELECT pseudo FROM USER WHERE pseudo = \''.$this->pseudo.'\'';
+        $query = $this->loadDb()->prepare('SELECT pseudo FROM USER WHERE pseudo = :pseudo');
+        $query->bindValue(':pseudo',$this->pseudo,PDO::PARAM_STR);
         $row = $this->execRequete($query);
 
         if(empty($_POST['identifiant']))
@@ -319,21 +320,16 @@ class user extends base
 
         if(!preg_match('#^[a-zA-Z0-9_]*$#', $login))
         {
-//            $_SESSION['error'] = 'badnickname2';
-//            header('Location: ../VIEWS/view_error.php');
-//            exit();
             throw new Exception("le pseudo n'est pas autorisé");
         }
 
         try
         {
 
-        //*if($row -> rowCount() == 0)
             if($sql->rowCount()==0)
         {
             throw new Exception("mauvais pseudo ou mot de passe");
-//*            $_SESSION['error'] = 'falsemdp';
-//            header('Location: ../VIEWS/view_error.php');
+
         }
         else
         {
@@ -363,8 +359,6 @@ class user extends base
         if($_SESSION['isLogin']!='ok')
         {
             throw new Exception("vous n'etes pas connectés");
-//            $_SESSION['error'] = 'notconnected';
-//            header('Location: ../VIEWS/view_error.php');
         }
 
 
@@ -379,17 +373,11 @@ class user extends base
         if(strlen($newMdp) <5 || strlen($newMdp) >20 )
         {
             throw new Exception("le mot de passe doit faire entre 5 et 20 caracteres");
-//            $_SESSION['error'] = 'tooshort';
-//            header('Location: ../VIEWS/view_error.php');
-//            exit();
         }
 
         if ($newMdp != $confirmMdp)
         {
             throw new Exception("les  nouveaux mots de passe ne coresspondent pas");
-//            $_SESSION['error'] = 'notsame';
-//            header('Location: ../VIEWS/view_error.php');
-//            exit();
         }
         $hashedOldPass = hash('sha256',$oldMdp);
         $hashedNewPass = hash('sha256',$newMdp);
