@@ -1,6 +1,6 @@
 <?php
 
-include 'models_base.php';
+require_once 'models_base.php';
 class discussion extends base
 {
     private $disc_id;
