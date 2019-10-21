@@ -17,49 +17,7 @@ class controller_accueil extends controller_main
     public function __construct() {
         $this->user = new user();
     }
-    public function inscription()
-    {
-        $this ->user ->register();
-        $vue = new Vue('inscription');
-        $vue->generer(array());
-    }
-    public function login()
-    {
-        $this ->user ->login();
-        $vue = new Vue($_GET['page']);
-        $vue->generer(array());
-    }
-    public function changePass()
-    {
-        $this->user->changePassword();
-        $vue = new Vue($_GET['page']);
-        $vue->generer(array());
-    }
-    public function sendMdp()
-    {
-        $this->user->sendMdp();
-        $vue = new Vue('sendMdp');
-        $vue->generer(array());
 
-
-    }
-    public function forgotMdp() {
-
-        $vue = new Vue('forgotMdp');
-        $vue->generer(array());
-    }
-
-    public function disconnect()
-    {
-        $this->user->disconnect();
-        $vue = new Vue($_GET['page']);
-        $vue->generer(array());
-    }
-    public function profilePage()
-    {
-        $vue = new Vue('profilePage');
-        $vue->generer(array());
-    }
 }
 
 
