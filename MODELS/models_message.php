@@ -93,7 +93,7 @@ class message extends base
          \'' . $discId. '\' ,
          \'' . $msg. '\',
          \'' . $userId . '\' ,
-                NOW()   ,
+                NOW()   
          )';
 
         $this->execRequete($query);

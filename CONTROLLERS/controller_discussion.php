@@ -23,7 +23,7 @@ class controller_discussion extends controller_main
         $this->msg->addMessage($id);
     }
 
-    public function discussion()
+    public function newDiscussion()
     {
         if ($_SESSION['isLogin']=='ok')
         {
