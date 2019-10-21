@@ -447,6 +447,8 @@ class user extends base
               $query = $this->loadDb()->prepare('UPDATE USER SET password = :password WHERE mail = :mail');
               $query->bindValue(':password', $passwordHash, PDO::PARAM_STR);
               $query->bindValue('mail', $mail, PDO::PARAM_STR);
+              var_dump($query);
+              exit();
               $this->execRequete($query);
           }
           else {
