@@ -40,7 +40,14 @@ class controller_accueil extends controller_main
         $vue = new Vue('sendMdp');
         $vue->generer(array());
         $this->user->sendMdp();
+
     }
+    public function forgotMdp()
+    {
+        $vue = new Vue('sendMdp');
+        $vue->generer(array());
+    }
+
     public function disconnect()
     {
         $this->user->disconnect();
