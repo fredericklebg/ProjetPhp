@@ -75,11 +75,15 @@ class discussion extends base
     {
         $this ->state='open';
         $discName = $_POST['nomDisc'];
+        $id=$_SESSION['userId'];
 
-        $query = ('INSERT INTO DISCUSSION (disc_id,user_id, message_id, state)
+        $query = ('INSERT INTO DISCUSSION (user_id, state, title)
         VALUES (
-         \'' . $this->state . '\' ,
+         \'' . $id . '\',
+         \'' . $this->state . '\',
+         \'' . $discName . '\' ,
          )');
+
         $this->execRequete($query);
         $query= ('SELECT LAST_INSERT_ID() FROM DISCUSSION');
         $a=$this->execRequete($query);

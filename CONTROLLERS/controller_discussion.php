@@ -25,7 +25,11 @@ class controller_discussion extends controller_main
 
     public function discussion()
     {
-        $vue = new Vue('discussion');
-        $vue->generer(array());
+        if ($_SESSION['isLogin']='ok')
+        {
+            $vue = new Vue('discussion');
+            $vue->generer(array());
+        }
+        else throw new Exception('vous devez etre connecté pour créer une discussion');
     }
 }
