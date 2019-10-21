@@ -195,8 +195,8 @@ a
 
 a:hover
 {
-  font-size : 2em;
-    transition-delay: 300ms;
+  font-size : 1.6em;
+    transition-delay: 200ms;
 }
 /*.row*/
 /*{***/
