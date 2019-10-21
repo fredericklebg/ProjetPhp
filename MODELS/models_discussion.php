@@ -74,6 +74,7 @@ class discussion extends base
     public function createDiscussion()
     {
         $this ->state='open';
+        $discName = $_POST[''];
 
         $query = 'INSERT INTO DISCUSSION (disc_id,user_id, message_id, state)
         VALUES (
@@ -92,13 +93,13 @@ class discussion extends base
 //    }
 
 
-//    public function addMessageIntoDisc()
+////    public function addMessageIntoDisc()
 //    {
 //        get($state,disc_id);
 //        if ($state = 'close')
 //            ERROR404;
 //        else
-//
+
 //    }
 }
 

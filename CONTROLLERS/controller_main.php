@@ -2,16 +2,22 @@
 
 require_once 'requete.php';
 require_once 'VIEWS/view_template.php';
+require_once 'MODELS/models_user.php';
+
 
 abstract class controller_main {
+
 
     // Action à réaliser
     private $action;
     // Requête entrante
     protected $requete;
 
+    private $user;
+
     // Définit la requête entrante
     public function setRequete(requete $requete) {
+        $this->user = new user();
         $this->requete = $requete;
     }
 
@@ -39,5 +45,51 @@ abstract class controller_main {
         // Instanciation et génération de la vue
         $vue = new Vue($this->action, $controleur);
         $vue->generer($donneesVue);
+    }
+
+
+    public function inscription()
+    {
+        $this ->user ->register();
+        $vue = new Vue('inscription');
+        $vue->generer(array());
+    }
+    public function login()
+    {
+        $this ->user ->login();
+        $vue = new Vue($_GET['page']);
+        $vue->generer(array());
+    }
+
+    public function changePass()
+    {
+        $this->user->changePassword();
+        $vue = new Vue($_GET['page']);
+        $vue->generer(array());
+    }
+    public function sendMdp()
+    {
+        $this->user->sendMdp();
+        $vue = new Vue('sendMdp');
+        $vue->generer(array());
+
+
+    }
+    public function forgotMdp() {
+
+        $vue = new Vue('forgotMdp');
+        $vue->generer(array());
+    }
+
+    public function disconnect()
+    {
+        $this->user->disconnect();
+        $vue = new Vue($_GET['page']);
+        $vue->generer(array());
+    }
+    public function profilePage()
+    {
+        $vue = new Vue('profilePage');
+        $vue->generer(array());
     }
 }
