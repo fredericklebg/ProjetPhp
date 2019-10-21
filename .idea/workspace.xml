@@ -4,6 +4,7 @@
     <list default="true" id="b41057ea-1169-4d87-bd84-37173161cc78" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CONTROLLERS/controller_accueil.php" beforeDir="false" afterPath="$PROJECT_DIR$/CONTROLLERS/controller_accueil.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VIEWS/view_forgotMdp.php" beforeDir="false" afterPath="$PROJECT_DIR$/VIEWS/view_forgotMdp.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -85,20 +86,6 @@
       <workItem from="1571516171087" duration="185000" />
       <workItem from="1571562169874" duration="5620000" />
       <workItem from="1571582648880" duration="670000" />
-    </task>
-    <task id="LOCAL-00094" summary="class avancée">
-      <created>1570889888106</created>
-      <option name="number" value="00094" />
-      <option name="presentableId" value="LOCAL-00094" />
-      <option name="project" value="LOCAL" />
-      <updated>1570889888106</updated>
-    </task>
-    <task id="LOCAL-00095" summary="class avancée">
-      <created>1570889905842</created>
-      <option name="number" value="00095" />
-      <option name="presentableId" value="LOCAL-00095" />
-      <option name="project" value="LOCAL" />
-      <updated>1570889905842</updated>
     </task>
     <task id="LOCAL-00096" summary="class avancée">
       <created>1570890795741</created>
@@ -429,7 +416,21 @@
       <option name="project" value="LOCAL" />
       <updated>1571652196786</updated>
     </task>
-    <option name="localTasksCounter" value="143" />
+    <task id="LOCAL-00143" summary="mdp forgot">
+      <created>1571665904781</created>
+      <option name="number" value="00143" />
+      <option name="presentableId" value="LOCAL-00143" />
+      <option name="project" value="LOCAL" />
+      <updated>1571665904781</updated>
+    </task>
+    <task id="LOCAL-00144" summary="mdp forgot">
+      <created>1571666065516</created>
+      <option name="number" value="00144" />
+      <option name="presentableId" value="LOCAL-00144" />
+      <option name="project" value="LOCAL" />
+      <updated>1571666065516</updated>
+    </task>
+    <option name="localTasksCounter" value="145" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
