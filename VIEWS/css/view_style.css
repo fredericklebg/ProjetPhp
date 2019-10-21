@@ -194,11 +194,10 @@ a
     transition: 1s;
 }
 
-/*a:hover*/
-/*{*/
-/*  font-size : 1.4em;*/
-/*    transition-delay: 100ms;*/
-/*}*/
+a:hover
+{
+  color : #C0BEBC;
+}
 /*.row*/
 /*{*/
 /*    display: flex;*/
