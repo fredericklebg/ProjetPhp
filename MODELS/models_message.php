@@ -1,10 +1,6 @@
 <?php
 
-function __autoload($base)
-{
-    include ( 'models_' . $base. '.php');
-}
-
+require_once 'models_base.php';
 
 class message extends base
 {
