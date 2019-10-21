@@ -444,11 +444,10 @@ class user extends base
               $mdp = $this->genererChaineAleatoire();
               mail($mail, 'Mot de passe temporaire : ', $mdp);
               $passwordHash = hash('sha256', $mdp);
-//              $query = $this->loadDb()->prepare('UPDATE USER SET password = :password WHERE mail = :mail');
-//              $query->bindValue(':password', $passwordHash, PDO::PARAM_STR);
-//              $query->bindValue('mail', $mail, PDO::PARAM_STR);
-                $query = 'UPDATE USER SET password := \'' . $passwordHash .'\' WHERE mail = \'' . $mail . '\'';
-                $this->execRequete($query);
+              $query = $this->loadDb()->prepare('UPDATE USER SET password = :password WHERE mail = :mail');
+              $query->bindValue(':password', $passwordHash, PDO::PARAM_STR);
+              $query->bindValue('mail', $mail, PDO::PARAM_STR);
+              $this->execRequete($query);
           }
           else {
               throw new Exception("Le mail est vide ou n'existe pas");
