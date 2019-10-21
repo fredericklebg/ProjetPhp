@@ -39,7 +39,7 @@ class controller_accueil extends controller_main
     {
         $vue = new Vue('sendMdp');
         $vue->generer(array());
-        $this->user->sendMdp();
+        //$this->user->sendMdp();
 
     }
     public function forgotMdp()
