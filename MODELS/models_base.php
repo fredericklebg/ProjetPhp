@@ -21,6 +21,7 @@ class base
         {
             $result=$row[$attribut];
         }
+        var_dump($result);
         return $result;
     }
 
