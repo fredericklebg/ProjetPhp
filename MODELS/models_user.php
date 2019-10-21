@@ -424,17 +424,26 @@ class user extends base
         $_SESSION['isLogin']='no';
     }
 
-    public function forgotPwd()
-    {
-        $message = $this->genererChaineAleatoire();
-        $hashedPass = hash('sha256',$message);
+//    public function forgotPwd()
+//    {
+//        $message = $this->genererChaineAleatoire();
+//        $hashedPass = hash('sha256',$message);
+//        $mail = $_POST['mail'];
+//        $query = 'UPDATE USER SET password := \'' . $hashedPass .'\' WHERE mail = \'' . $mail . '\'';
+//        $this->execRequete($query);
+//        echo"le mail a bien été envoyé";
+//        mail($mail, 'MDP OUBLIE BRO', $message);
+//    }
+      public function sendMdp() {
+        $mdp = $this->genererChaineAleatoire();
         $mail = $_POST['mail'];
-        $query = 'UPDATE USER SET password := \'' . $hashedPass .'\' WHERE mail = \'' . $mail . '\'';
-        $this->execRequete($query);
-        echo"le mail a bien été envoyé";
-        mail($mail, 'MDP OUBLIE BRO', $message);
-    }
-
+        mail($mail,'Mot de passe temporaire : ',$mdp);
+        $passwordHash = hash('sha256', $mdp);
+        $query = $this->loadDb()->prepare('UPDATE USER SET password := :password WHERE mail = :mail');
+        $query->bindValue(':password',$passwordHash ,PDO::PARAM_STR);
+        $query->bindValue('mail', $mail,PDO::PARAM_STR);
+        var_dump($query);
+      }
 }
 
 

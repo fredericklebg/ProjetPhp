@@ -35,9 +35,9 @@ class controller_accueil extends controller_main
         $vue = new Vue($_GET['page']);
         $vue->generer(array());
     }
-    public function forgotPass()
+    public function sendMdp()
     {
-        $this->user->forgotPwd();
+        $this->user->sendMdp();
     }
     public function disconnect()
     {
