@@ -196,6 +196,7 @@ a
 a:hover
 {
   font-size : 2em;
+    transition-delay: 2s;
 }
 /*.row*/
 /*{***/
