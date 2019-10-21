@@ -95,9 +95,10 @@ class message extends base
          \'' . $userId . '\' ,
                 NOW()   
          )';
-
-        $this->execRequete($query);
         var_dump($query);
+        exit();
+        $this->execRequete($query);
+
     }
 
 

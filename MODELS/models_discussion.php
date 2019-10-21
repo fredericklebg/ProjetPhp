@@ -84,8 +84,6 @@ class discussion extends base
          \'' . $discName . '\'
          )');
 
-        var_dump($query);
-        exit();
         $this->execRequete($query);
         $query= ('SELECT LAST_INSERT_ID() FROM DISCUSSION');
         $a=$this->execRequete($query);
