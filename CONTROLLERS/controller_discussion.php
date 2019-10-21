@@ -27,7 +27,7 @@ class controller_discussion extends controller_main
     {
         if ($_SESSION['isLogin']=='ok')
         {
-            $vue = new Vue('discussion');
+            $vue = new Vue('newDiscussion');
             $vue->generer(array());
         }
         else throw new Exception('vous devez etre connecté pour créer une discussion');
