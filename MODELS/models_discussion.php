@@ -93,7 +93,7 @@ class discussion extends base
 //
 //        $query = 'UPDATE INTO DISCUSSION (state)
 //        VALUES (
-//         \'' . $this->state . '\'
+// *        \'' . $this->state . '\'
 //         )';
 //    }
 
