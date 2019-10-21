@@ -1,6 +1,7 @@
 <?php
 
 require_once 'requete.php';
+
 require_once 'VIEWS/view_template.php';
 require_once 'MODELS/models_user.php';
 

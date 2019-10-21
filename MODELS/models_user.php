@@ -337,6 +337,7 @@ class user extends base
 
             $_SESSION['isLogin'] = 'ok';
             $_SESSION['login'] = $login;
+            $_SESSION['userId']=$this->getUserId($login);
             $_SESSION['password'] = $hashedPass;
             $_SESSION['mail']=$this->getMail($login);
             $_SESSION['phone']=$this->getPhone($login);
