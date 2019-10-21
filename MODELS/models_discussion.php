@@ -1,6 +1,6 @@
 <?php
 
-include 'models_base.php';
+require_once 'models_base.php';
 class discussion extends base
 {
     private $disc_id;
@@ -74,12 +74,18 @@ class discussion extends base
     public function createDiscussion()
     {
         $this ->state='open';
-        $discName = $_POST[''];
+        $discName = $_POST['nomDisc'];
 
-        $query = 'INSERT INTO DISCUSSION (disc_id,user_id, message_id, state)
+        $query = ('INSERT INTO DISCUSSION (disc_id,user_id, message_id, state)
         VALUES (
          \'' . $this->state . '\' ,
-         )';
+         )');
+        $this->execRequete($query);
+        $query= ('SELECT LAST_INSERT_ID() FROM DISCUSSION');
+        return $this->execRequete($query);
+
+
+
     }
 
 //    public function closeDiscussion()

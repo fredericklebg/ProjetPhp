@@ -1,12 +1,8 @@
 <?php
 
-function __autoload($base)
-{
-    include ( 'models_' . $base. '.php');
-}
+require_once 'models_base.php';
 
-
-class Message
+class message extends base
 {
     private $message_id;
     private $content;
@@ -15,8 +11,8 @@ class Message
 
     public function __construct()
     {
-        $query =('SELECT * FROM MESSAGE');
-        $this->execquery($query);
+//        $query =('SELECT * FROM MESSAGE');
+//        $this->execquery($query);
     }
 
     /**
@@ -86,6 +82,23 @@ class Message
         $query = ('UPDATE MESSAGE SET MESSAGE.user_id =\''.$user_id.'\'');
         $this->execquery($query);
     }
+
+
+    public function addMessage($discId)
+    {
+        $msg=$_POST['newMsg'];
+        $userId=$_SESSION['userId'];
+        $query = 'INSERT INTO MESSAGE(disc_id,content,user_id,message_date)
+        VALUES (
+         \'' . $discId. '\' ,
+         \'' . $msg. '\',
+         \'' . $userId . '\' ,
+                NOW()   ,
+         )';
+
+        $this->execRequete($query);
+    }
+
 
 
 //    public function CloseMessage($content, $message_id)
