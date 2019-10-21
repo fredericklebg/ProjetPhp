@@ -185,7 +185,7 @@ class user extends base
     public function isSafeForm() {
         $query = $this->loadDb()->prepare('SELECT pseudo FROM USER WHERE pseudo = :pseudo');
         $query->bindValue(':pseudo',$this->pseudo,PDO::PARAM_STR);
-        $row = $this->execRequete($query);
+        $query->execute();
 
         if(empty($_POST['identifiant']))
         {
