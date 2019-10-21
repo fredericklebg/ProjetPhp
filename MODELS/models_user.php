@@ -447,7 +447,8 @@ class user extends base
 //              $query = $this->loadDb()->prepare('UPDATE USER SET password = :password WHERE mail = :mail');
 //              $query->bindValue(':password', $passwordHash, PDO::PARAM_STR);
 //              $query->bindValue('mail', $mail, PDO::PARAM_STR);
-              $query = 'UPDATE USER SET password := \'' . $passwordHash .'\' WHERE mail = \'' . $mail . '\'';
+                $query = 'UPDATE USER SET password := \'' . $passwordHash .'\' WHERE mail = \'' . $mail . '\'';
+                $this->execRequete($query);
           }
           else {
               throw new Exception("Le mail est vide ou n'existe pas");
