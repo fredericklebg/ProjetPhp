@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="50521d7d-5bb4-4bb5-a0ce-0d036ce4d9ff" name="Default Changelist" comment="" />
+    <list default="true" id="50521d7d-5bb4-4bb5-a0ce-0d036ce4d9ff" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/VIEWS/css/view_style.css" beforeDir="false" afterPath="$PROJECT_DIR$/VIEWS/css/view_style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VIEWS/view_affichdisc.php" beforeDir="false" afterPath="$PROJECT_DIR$/VIEWS/view_affichdisc.php" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,35 +87,7 @@
       <workItem from="1571582648880" duration="835000" />
       <workItem from="1571676896542" duration="1109000" />
       <workItem from="1571755488766" duration="1900000" />
-      <workItem from="1571757634995" duration="4891000" />
-    </task>
-    <task id="LOCAL-00091" summary="test menu">
-      <created>1570875407133</created>
-      <option name="number" value="00091" />
-      <option name="presentableId" value="LOCAL-00091" />
-      <option name="project" value="LOCAL" />
-      <updated>1570875407134</updated>
-    </task>
-    <task id="LOCAL-00092" summary="test menu">
-      <created>1570876929709</created>
-      <option name="number" value="00092" />
-      <option name="presentableId" value="LOCAL-00092" />
-      <option name="project" value="LOCAL" />
-      <updated>1570876929709</updated>
-    </task>
-    <task id="LOCAL-00093" summary="class avancée">
-      <created>1570889858748</created>
-      <option name="number" value="00093" />
-      <option name="presentableId" value="LOCAL-00093" />
-      <option name="project" value="LOCAL" />
-      <updated>1570889858748</updated>
-    </task>
-    <task id="LOCAL-00094" summary="class avancée">
-      <created>1570889888106</created>
-      <option name="number" value="00094" />
-      <option name="presentableId" value="LOCAL-00094" />
-      <option name="project" value="LOCAL" />
-      <updated>1570889888106</updated>
+      <workItem from="1571757634995" duration="5152000" />
     </task>
     <task id="LOCAL-00095" summary="class avancée">
       <created>1570889905842</created>
@@ -429,7 +404,35 @@
       <option name="project" value="LOCAL" />
       <updated>1571763304729</updated>
     </task>
-    <option name="localTasksCounter" value="140" />
+    <task id="LOCAL-00140" summary="discussion">
+      <created>1571763370974</created>
+      <option name="number" value="00140" />
+      <option name="presentableId" value="LOCAL-00140" />
+      <option name="project" value="LOCAL" />
+      <updated>1571763370974</updated>
+    </task>
+    <task id="LOCAL-00141" summary="discussion">
+      <created>1571763436718</created>
+      <option name="number" value="00141" />
+      <option name="presentableId" value="LOCAL-00141" />
+      <option name="project" value="LOCAL" />
+      <updated>1571763436718</updated>
+    </task>
+    <task id="LOCAL-00142" summary="discussion">
+      <created>1571763505908</created>
+      <option name="number" value="00142" />
+      <option name="presentableId" value="LOCAL-00142" />
+      <option name="project" value="LOCAL" />
+      <updated>1571763505908</updated>
+    </task>
+    <task id="LOCAL-00143" summary="discussion">
+      <created>1571763542502</created>
+      <option name="number" value="00143" />
+      <option name="presentableId" value="LOCAL-00143" />
+      <option name="project" value="LOCAL" />
+      <updated>1571763542502</updated>
+    </task>
+    <option name="localTasksCounter" value="144" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

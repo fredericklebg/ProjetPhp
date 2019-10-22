@@ -286,8 +286,13 @@ a:hover
     align-items: center;
     flex-direction: column;
     padding: 1em;
-    margin: 1em;
+
 }
+
+.doubleB B
+  {
+    padding: 1em;
+  }
 
 @media (max-width: 992px) {
     .registerMenu{
