@@ -270,6 +270,14 @@ a:hover
     flex-direction: column;
 }
 
+.blok
+{
+    width: 14em;
+    height: 14em;
+    border-style: groove;
+    border-color: black;
+}
+
 @media (max-width: 992px) {
     .registerMenu{
         left : 0;
