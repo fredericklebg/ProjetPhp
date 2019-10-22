@@ -21,6 +21,9 @@ class controller_discussion extends controller_main
         $id=$this->discussion->createDiscussion();
         //ajouter message avec addMessage
         $this->msg->addMessage($id);
+        $vue = new Vue('affichdisc');
+        $vue->generer(array());
+
     }
 
     public function newDiscussion()
@@ -33,12 +36,5 @@ class controller_discussion extends controller_main
         else throw new Exception('vous devez etre connecté pour créer une discussion');
     }
 
-    public function AffichDisc()
-    {
 
-         $vue = new Vue('affichdisc');
-            $vue->generer(array());
-
-
-    }
 }
