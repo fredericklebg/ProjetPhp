@@ -277,6 +277,7 @@ a:hover
     justify-content: space-around;
     align-items: center;
     flex-direction: column;
+    height: 16em;
 }
 
 .doubleB
