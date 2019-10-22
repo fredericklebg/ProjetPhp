@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="50521d7d-5bb4-4bb5-a0ce-0d036ce4d9ff" name="Default Changelist" comment="" />
+    <list default="true" id="50521d7d-5bb4-4bb5-a0ce-0d036ce4d9ff" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/VIEWS/view_affichdisc.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CONTROLLERS/controller_discussion.php" beforeDir="false" afterPath="$PROJECT_DIR$/CONTROLLERS/controller_discussion.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VIEWS/view_newDiscussion.php" beforeDir="false" afterPath="$PROJECT_DIR$/VIEWS/view_newDiscussion.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,36 +18,6 @@
     <execution>
       <executable />
     </execution>
-  </component>
-  <component name="DatabaseView">
-    <option name="SHOW_INTERMEDIATE" value="true" />
-    <option name="GROUP_DATA_SOURCES" value="true" />
-    <option name="GROUP_SCHEMA" value="true" />
-    <option name="GROUP_CONTENTS" value="false" />
-    <option name="SORT_POSITIONED" value="false" />
-    <option name="SHOW_EMPTY_GROUPS" value="false" />
-    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
-    <option name="HIDDEN_KINDS">
-      <set />
-    </option>
-    <expand>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="tpphp_bd@mysql-tpphp.alwaysdata.net" type="feb32156:DbDataSourceImpl" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="tpphp_bd@mysql-tpphp.alwaysdata.net" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="tpphp_bd@mysql-tpphp.alwaysdata.net" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="tpphp_bd: schema" type="ebfa3cd1:MariaImplModel$Schema" />
-      </path>
-    </expand>
-    <select />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -85,26 +61,6 @@
       </list>
     </option>
   </component>
-  <component name="ServiceViewManager">
-    <option name="allServicesViewState">
-      <serviceView>
-        <treeState>
-          <expand>
-            <path>
-              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@3a48dede" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-            </path>
-            <path>
-              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@3a48dede" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@1b46dcd6" type="9fbbdea:ServiceModel$ServiceNode" />
-            </path>
-          </expand>
-          <select />
-        </treeState>
-      </serviceView>
-    </option>
-  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -132,7 +88,100 @@
       <workItem from="1571516171087" duration="185000" />
       <workItem from="1571562169874" duration="5620000" />
       <workItem from="1571582648880" duration="835000" />
-      <workItem from="1571676896542" duration="992000" />
+      <workItem from="1571676896542" duration="1109000" />
+      <workItem from="1571755488766" duration="1900000" />
+      <workItem from="1571757634995" duration="1399000" />
+    </task>
+    <task id="LOCAL-00083" summary="test menu">
+      <created>1570727727384</created>
+      <option name="number" value="00083" />
+      <option name="presentableId" value="LOCAL-00083" />
+      <option name="project" value="LOCAL" />
+      <updated>1570727727384</updated>
+    </task>
+    <task id="LOCAL-00084" summary="test menu">
+      <created>1570727833448</created>
+      <option name="number" value="00084" />
+      <option name="presentableId" value="LOCAL-00084" />
+      <option name="project" value="LOCAL" />
+      <updated>1570727833448</updated>
+    </task>
+    <task id="LOCAL-00085" summary="test menu">
+      <created>1570727884468</created>
+      <option name="number" value="00085" />
+      <option name="presentableId" value="LOCAL-00085" />
+      <option name="project" value="LOCAL" />
+      <updated>1570727884468</updated>
+    </task>
+    <task id="LOCAL-00086" summary="test menu">
+      <created>1570728000988</created>
+      <option name="number" value="00086" />
+      <option name="presentableId" value="LOCAL-00086" />
+      <option name="project" value="LOCAL" />
+      <updated>1570728000988</updated>
+    </task>
+    <task id="LOCAL-00087" summary="test menu">
+      <created>1570728065841</created>
+      <option name="number" value="00087" />
+      <option name="presentableId" value="LOCAL-00087" />
+      <option name="project" value="LOCAL" />
+      <updated>1570728065841</updated>
+    </task>
+    <task id="LOCAL-00088" summary="test menu">
+      <created>1570728188158</created>
+      <option name="number" value="00088" />
+      <option name="presentableId" value="LOCAL-00088" />
+      <option name="project" value="LOCAL" />
+      <updated>1570728188158</updated>
+    </task>
+    <task id="LOCAL-00089" summary="test menu">
+      <created>1570728265828</created>
+      <option name="number" value="00089" />
+      <option name="presentableId" value="LOCAL-00089" />
+      <option name="project" value="LOCAL" />
+      <updated>1570728265828</updated>
+    </task>
+    <task id="LOCAL-00090" summary="test menu">
+      <created>1570728311014</created>
+      <option name="number" value="00090" />
+      <option name="presentableId" value="LOCAL-00090" />
+      <option name="project" value="LOCAL" />
+      <updated>1570728311014</updated>
+    </task>
+    <task id="LOCAL-00091" summary="test menu">
+      <created>1570875407133</created>
+      <option name="number" value="00091" />
+      <option name="presentableId" value="LOCAL-00091" />
+      <option name="project" value="LOCAL" />
+      <updated>1570875407134</updated>
+    </task>
+    <task id="LOCAL-00092" summary="test menu">
+      <created>1570876929709</created>
+      <option name="number" value="00092" />
+      <option name="presentableId" value="LOCAL-00092" />
+      <option name="project" value="LOCAL" />
+      <updated>1570876929709</updated>
+    </task>
+    <task id="LOCAL-00093" summary="class avancée">
+      <created>1570889858748</created>
+      <option name="number" value="00093" />
+      <option name="presentableId" value="LOCAL-00093" />
+      <option name="project" value="LOCAL" />
+      <updated>1570889858748</updated>
+    </task>
+    <task id="LOCAL-00094" summary="class avancée">
+      <created>1570889888106</created>
+      <option name="number" value="00094" />
+      <option name="presentableId" value="LOCAL-00094" />
+      <option name="project" value="LOCAL" />
+      <updated>1570889888106</updated>
+    </task>
+    <task id="LOCAL-00095" summary="class avancée">
+      <created>1570889905842</created>
+      <option name="number" value="00095" />
+      <option name="presentableId" value="LOCAL-00095" />
+      <option name="project" value="LOCAL" />
+      <updated>1570889905842</updated>
     </task>
     <task id="LOCAL-00096" summary="class avancée">
       <created>1570890795741</created>
@@ -379,105 +428,14 @@
       <option name="project" value="LOCAL" />
       <updated>1571677842018</updated>
     </task>
-    <task id="LOCAL-00131" summary="discussion">
-      <created>1571687479773</created>
+    <task id="LOCAL-00131" summary="hover">
+      <created>1571678084647</created>
       <option name="number" value="00131" />
       <option name="presentableId" value="LOCAL-00131" />
       <option name="project" value="LOCAL" />
-      <updated>1571687479773</updated>
+      <updated>1571678084647</updated>
     </task>
-    <task id="LOCAL-00132" summary="discussion">
-      <created>1571687578424</created>
-      <option name="number" value="00132" />
-      <option name="presentableId" value="LOCAL-00132" />
-      <option name="project" value="LOCAL" />
-      <updated>1571687578424</updated>
-    </task>
-    <task id="LOCAL-00133" summary="discussion">
-      <created>1571687671718</created>
-      <option name="number" value="00133" />
-      <option name="presentableId" value="LOCAL-00133" />
-      <option name="project" value="LOCAL" />
-      <updated>1571687671718</updated>
-    </task>
-    <task id="LOCAL-00134" summary="discussion">
-      <created>1571687954385</created>
-      <option name="number" value="00134" />
-      <option name="presentableId" value="LOCAL-00134" />
-      <option name="project" value="LOCAL" />
-      <updated>1571687954385</updated>
-    </task>
-    <task id="LOCAL-00135" summary="discussion">
-      <created>1571688071235</created>
-      <option name="number" value="00135" />
-      <option name="presentableId" value="LOCAL-00135" />
-      <option name="project" value="LOCAL" />
-      <updated>1571688071235</updated>
-    </task>
-    <task id="LOCAL-00136" summary="discussion">
-      <created>1571688271960</created>
-      <option name="number" value="00136" />
-      <option name="presentableId" value="LOCAL-00136" />
-      <option name="project" value="LOCAL" />
-      <updated>1571688271960</updated>
-    </task>
-    <task id="LOCAL-00137" summary="discussion">
-      <created>1571688352780</created>
-      <option name="number" value="00137" />
-      <option name="presentableId" value="LOCAL-00137" />
-      <option name="project" value="LOCAL" />
-      <updated>1571688352780</updated>
-    </task>
-    <task id="LOCAL-00138" summary="discussion">
-      <created>1571688450704</created>
-      <option name="number" value="00138" />
-      <option name="presentableId" value="LOCAL-00138" />
-      <option name="project" value="LOCAL" />
-      <updated>1571688450704</updated>
-    </task>
-    <task id="LOCAL-00139" summary="discussion">
-      <created>1571688557678</created>
-      <option name="number" value="00139" />
-      <option name="presentableId" value="LOCAL-00139" />
-      <option name="project" value="LOCAL" />
-      <updated>1571688557678</updated>
-    </task>
-    <task id="LOCAL-00140" summary="discussion">
-      <created>1571688662743</created>
-      <option name="number" value="00140" />
-      <option name="presentableId" value="LOCAL-00140" />
-      <option name="project" value="LOCAL" />
-      <updated>1571688662743</updated>
-    </task>
-    <task id="LOCAL-00141" summary="discussion">
-      <created>1571688962437</created>
-      <option name="number" value="00141" />
-      <option name="presentableId" value="LOCAL-00141" />
-      <option name="project" value="LOCAL" />
-      <updated>1571688962437</updated>
-    </task>
-    <task id="LOCAL-00142" summary="discussion">
-      <created>1571689151482</created>
-      <option name="number" value="00142" />
-      <option name="presentableId" value="LOCAL-00142" />
-      <option name="project" value="LOCAL" />
-      <updated>1571689151482</updated>
-    </task>
-    <task id="LOCAL-00143" summary="discussion">
-      <created>1571689651823</created>
-      <option name="number" value="00143" />
-      <option name="presentableId" value="LOCAL-00143" />
-      <option name="project" value="LOCAL" />
-      <updated>1571689651823</updated>
-    </task>
-    <task id="LOCAL-00144" summary="discussion">
-      <created>1571689686975</created>
-      <option name="number" value="00144" />
-      <option name="presentableId" value="LOCAL-00144" />
-      <option name="project" value="LOCAL" />
-      <updated>1571689686975</updated>
-    </task>
-    <option name="localTasksCounter" value="145" />
+    <option name="localTasksCounter" value="132" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -523,7 +481,6 @@
     <MESSAGE value="test menu déroulant" />
     <MESSAGE value="page disc" />
     <MESSAGE value="hover" />
-    <MESSAGE value="discussion" />
-    <option name="LAST_COMMIT_MESSAGE" value="discussion" />
+    <option name="LAST_COMMIT_MESSAGE" value="hover" />
   </component>
 </project>
