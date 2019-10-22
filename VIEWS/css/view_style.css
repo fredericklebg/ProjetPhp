@@ -272,7 +272,11 @@ a:hover
 
 .blok
 {
-
+    display: flex;
+    border-style: groove;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
 }
 
 .doubleB
