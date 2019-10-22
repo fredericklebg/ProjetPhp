@@ -11,6 +11,6 @@
 </div>
 
 <div class="doubleB">
-    <input class="1B" type="bouton" value="Nouveau Message">
-    <input class="2B" type="bouton" value="Nouveau message & Clore">
+    <input class="1B" type="button" value="Nouveau Message">
+    <input class="2B" type="button" value="Nouveau Message & Clore">
 </div>
