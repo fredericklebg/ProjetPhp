@@ -261,6 +261,15 @@ a:hover
     flex-direction: column;
 }
 
+.TitreD
+{
+    display: flex;
+    border-style: groove;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
 @media (max-width: 992px) {
     .registerMenu{
         left : 0;

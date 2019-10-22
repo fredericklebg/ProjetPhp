@@ -35,7 +35,10 @@ class controller_discussion extends controller_main
 
     public function AffichDisc()
     {
-        $vue = new Vue('affichdisc');
-        $vue->generer(array());
+
+         $vue = new Vue('affichdisc');
+            $vue->generer(array());
+
+
     }
 }
