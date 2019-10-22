@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="50521d7d-5bb4-4bb5-a0ce-0d036ce4d9ff" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/VIEWS/view_affichdisc.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CONTROLLERS/controller_discussion.php" beforeDir="false" afterPath="$PROJECT_DIR$/CONTROLLERS/controller_discussion.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/VIEWS/view_newDiscussion.php" beforeDir="false" afterPath="$PROJECT_DIR$/VIEWS/view_newDiscussion.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VIEWS/view_affichdisc.php" beforeDir="false" afterPath="$PROJECT_DIR$/VIEWS/view_affichdisc.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -90,14 +86,7 @@
       <workItem from="1571582648880" duration="835000" />
       <workItem from="1571676896542" duration="1109000" />
       <workItem from="1571755488766" duration="1900000" />
-      <workItem from="1571757634995" duration="1399000" />
-    </task>
-    <task id="LOCAL-00083" summary="test menu">
-      <created>1570727727384</created>
-      <option name="number" value="00083" />
-      <option name="presentableId" value="LOCAL-00083" />
-      <option name="project" value="LOCAL" />
-      <updated>1570727727384</updated>
+      <workItem from="1571757634995" duration="1700000" />
     </task>
     <task id="LOCAL-00084" summary="test menu">
       <created>1570727833448</created>
@@ -435,7 +424,14 @@
       <option name="project" value="LOCAL" />
       <updated>1571678084647</updated>
     </task>
-    <option name="localTasksCounter" value="132" />
+    <task id="LOCAL-00132" summary="discussion">
+      <created>1571759258809</created>
+      <option name="number" value="00132" />
+      <option name="presentableId" value="LOCAL-00132" />
+      <option name="project" value="LOCAL" />
+      <updated>1571759258810</updated>
+    </task>
+    <option name="localTasksCounter" value="133" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -481,6 +477,7 @@
     <MESSAGE value="test menu déroulant" />
     <MESSAGE value="page disc" />
     <MESSAGE value="hover" />
-    <option name="LAST_COMMIT_MESSAGE" value="hover" />
+    <MESSAGE value="discussion" />
+    <option name="LAST_COMMIT_MESSAGE" value="discussion" />
   </component>
 </project>
