@@ -91,6 +91,8 @@ class discussion extends base
         return $result;
     }
 
+ //   public function showDiscussion
+
 //    public function closeDiscussion()
 //    {
 //        $this ->state='close';
