@@ -366,7 +366,6 @@ class user extends base
         $login = $_SESSION['login'];
         $pass = $_SESSION['password'];
 
-
         $oldMdp=$_POST['oldMdp'];
         $newMdp=$_POST['newMdp'];
         $confirmMdp=$_POST['confirmMdp'];
@@ -388,8 +387,11 @@ class user extends base
         {
             try
             {
-                $query = 'UPDATE USER SET password := \'' . $hashedNewPass . '\' WHERE pseudo = \'' . $login . '\' AND password = \'' . $pass . '\' ';
-                $this->execRequete($query);
+                $query = $this->loadDb()->prepare('UPDATE USER SET password = :password WHERE pseudo = :pseudo  AND password = :pass');
+                $query->bindValue(':password',$hashedNewPass,PDO::PARAM_STR);
+                $query->bindValue(':pseudo',$login,PDO::PARAM_STR);
+                $query->bindValue(':pass',$pass,PDO::PARAM_STR);
+                $query->execute();
             }
             catch (PDOException $e)
             {
@@ -398,7 +400,7 @@ class user extends base
         }
         else
         {
-            throw new Exception("vôtre mot de passe actuel est faux");
+            throw new Exception("votre mot de passe actuel est faux");
 //            $_SESSION['error'] = 'notcorresponding';
 //            header('Location: ../VIEWS/view_error.php');
         }
