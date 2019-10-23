@@ -24,12 +24,25 @@
 
 </div>
 
-<div class="doubleB">
-    <input class="B" type="button" value="Nouveau Message">
-    <input class="BB" type="button" value="Nouveau Message & Clore">
-</div>
+<?php
 
+        if ($_SESSION['isLogin']=='ok')
+            {
+                ?><div class="doubleB">
+                <input class="B" type="button" value="Nouveau Message">
+                <input class="BB" type="button" value="Nouveau Message & Clore">
+                </div>
+                <?php
+            }
 
+        else
+            {
+                ?>
+                <p class="info">Connectez-vous ou inscrivez vous pour participer à cette discussion</p>
+                <?php
+            }
+            ?>
     </section>
 
 </div>
+

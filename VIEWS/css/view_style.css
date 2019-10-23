@@ -207,7 +207,7 @@ a:hover
 /*    margin-bottom: 4em;*/
 /*    justify-content: space-around;*/
 /*    align-items: center;*/
-/*}*/
+/*}**/
 
 /*.col-lg-4 col-md-4 col-sm-12 text-center*/
 /*{*/
@@ -296,6 +296,15 @@ a:hover
 
 .doubleBB
 {
+    padding: 1em;
+}
+
+.info
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
     padding: 1em;
 }
 
