@@ -16,8 +16,10 @@ class base
 
     public function get($attribut,$pseudo)
     {
-        $query = ('SELECT ' . $attribut . ' FROM USER WHERE pseudo= \''.$pseudo.'\' AND password=\''.$_SESSION['password'].'\'');
-        foreach ($this->execRequete($query) as $row)
+        $query = $this->loadDb()->prepare('SELECT  '. $attribut . ' FROM USER WHERE pseudo= :pseudo AND password= :password');
+        $query->bindValue(':pseudo',$pseudo,PDO::PARAM_STR);
+        $query->bindValue(':password',$_SESSION['password']);
+        foreach ($query->execute() as $row)
         {
             $result=$row[$attribut];
         }
