@@ -19,7 +19,9 @@ class router
 
             $controleur = $this->creerControleur($requete);
             $action = $this->creerAction($requete);
+            $id = $this->creerId($requete);
             $controleur->executerAction($action);
+            $id = $this->traiterId($id);
         } catch (Exception $e) {
             $this->gererErreur($e);
         }
@@ -56,6 +58,20 @@ class router
         }
         return $action;
     }
+
+
+    //determine l'id pour les discussions
+    private function creerId(requete $requete)
+    {
+        $id =0; //id de base
+        if($requete->existeParametre('id'))
+        {
+            $id = $requete->getParametre('id');
+        }
+        return $id;
+    }
+
+
 
     // Gère une erreur d'exécution (exception)
     private function gererErreur(Exception $exception) {

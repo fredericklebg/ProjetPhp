@@ -9,6 +9,9 @@ require_once 'MODELS/models_user.php';
 abstract class controller_main {
 
 
+
+    private $id;
+
     // Action à réaliser
     private $action;
     // Requête entrante
@@ -34,9 +37,12 @@ abstract class controller_main {
         }
     }
 
-    // Méthode abstraite correspondant à l'action par défaut
-    // Oblige les classes dérivées à implémenter cette action par défaut
-    //public abstract function index();
+    public function traiterId($id)
+    {
+        $this->id=$id;
+    }
+
+//    public abstract function index();
 
     // Génère la vue associée au contrôleur courant
     protected function genererVue($donneesVue = array()) {
