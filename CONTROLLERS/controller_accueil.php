@@ -18,6 +18,12 @@ class controller_accueil extends controller_main
         $this->user = new user();
     }
 
+    public function changePass()
+    {
+        $vue = new Vue('changePass');
+        $vue->generer(array());
+    }
+
 }
 
 
