@@ -390,7 +390,7 @@ class user extends base
                 $query = $this->loadDb()->prepare('UPDATE USER SET password = :password WHERE pseudo = :pseudo  AND password = :pass');
                 $query->bindValue(':password',$hashedNewPass,PDO::PARAM_STR);
                 $query->bindValue(':pseudo',$login,PDO::PARAM_STR);
-                $query->bindValue(':password',$pass,PDO::PARAM_STR);
+                $query->bindValue(':pass',$pass,PDO::PARAM_STR);
                 $query->execute();
             }
             catch (PDOException $e)
