@@ -21,7 +21,7 @@ class router
             $action = $this->creerAction($requete);
             $id = $this->creerId($requete);
             $controleur->executerAction($action);
-            $id = $this->traiterId($id);
+            $controleur->traiterId($id);
         } catch (Exception $e) {
             $this->gererErreur($e);
         }
