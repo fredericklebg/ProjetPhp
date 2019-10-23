@@ -191,12 +191,12 @@ a
 {
     text-decoration: none;
     color: black;
+    transition: 1s;
 }
 
 a:hover
 {
-  font-size : 1.4em;
-    transition-delay: 100ms;
+  color : #C0BEBC;
 }
 /*.row*/
 /*{*/
@@ -259,6 +259,44 @@ a:hover
     justify-content: space-around;
     align-items: center;
     flex-direction: column;
+}
+
+.TitreD
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+.blok
+{
+    display: flex;
+    border-style: groove;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    height: 16em;
+}
+
+.doubleB
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    padding: 1em;
+
+}
+
+.doubleB B
+  {
+   margin: 1em;
+  }
+
+.doubleBB
+{
+    padding: 1em;
 }
 
 @media (max-width: 992px) {

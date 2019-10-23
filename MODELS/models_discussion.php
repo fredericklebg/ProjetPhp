@@ -75,17 +75,23 @@ class discussion extends base
     {
         $this ->state='open';
         $discName = $_POST['nomDisc'];
+        $id=$_SESSION['userId'];
 
-        $query = ('INSERT INTO DISCUSSION (disc_id,user_id, message_id, state)
+        $query = ('INSERT INTO DISCUSSION (user_id, state, title)
         VALUES (
-         \'' . $this->state . '\' ,
+         \'' . $id . '\',
+         \'' . $this->state . '\',
+         \'' . $discName . '\'
          )');
+
         $this->execRequete($query);
-        $query= ('SELECT LAST_INSERT_ID() FROM DISCUSSION');
-        $a=$this->execRequete($query);
-        $result=$a->fetch(PDO::FETCH_ASSOC);
+        $query= ('SELECT MAX(disc_id) FROM DISCUSSION');
+        $exec=$this->execRequete($query);
+        $result=$exec->fetchColumn();
         return $result;
     }
+
+ //   public function showDiscussion
 
 //    public function closeDiscussion()
 //    {

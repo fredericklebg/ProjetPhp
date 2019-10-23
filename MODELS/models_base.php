@@ -21,6 +21,7 @@ class base
         {
             $result=$row[$attribut];
         }
+
         return $result;
     }
 
