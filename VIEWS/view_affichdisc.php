@@ -39,6 +39,7 @@
             {
                 ?>
                 <p class="info">Connectez-vous ou inscrivez vous pour participer à cette discussion</p>
+                <a href="http://tpphp.alwaysdata.net/ProjetPhp"> retourner a la page d'accueil </a>
                 <?php
             }
             ?>
