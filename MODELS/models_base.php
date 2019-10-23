@@ -17,7 +17,8 @@ class base
 
     public function get($attribut,$pseudo)
     {
-        $query = $this->loadDb()->prepare('SELECT '.$attribut.' FROM USER WHERE pseudo= :pseudo AND password= :password');
+        $query = $this->loadDb()->prepare('SELECT attribut FROM USER WHERE pseudo= :pseudo AND password= :password');
+        $query->bindValue('attribut',$attribut,PDO::PARAM_STR);
         $query->bindValue(':pseudo',$pseudo,PDO::PARAM_STR);
         $query->bindValue(':password',$_SESSION['password'],PDO::PARAM_STR);
         $query->execute();
