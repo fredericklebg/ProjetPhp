@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="50521d7d-5bb4-4bb5-a0ce-0d036ce4d9ff" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/VIEWS/css/view_style.css" beforeDir="false" afterPath="$PROJECT_DIR$/VIEWS/css/view_style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/VIEWS/view_affichdisc.php" beforeDir="false" afterPath="$PROJECT_DIR$/VIEWS/view_affichdisc.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,6 +14,36 @@
     <execution>
       <executable />
     </execution>
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="tpphp_bd@mysql-tpphp.alwaysdata.net" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="tpphp_bd@mysql-tpphp.alwaysdata.net" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="tpphp_bd@mysql-tpphp.alwaysdata.net" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="tpphp_bd: schema" type="ebfa3cd1:MariaImplModel$Schema" />
+      </path>
+    </expand>
+    <select />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -58,6 +87,26 @@
       </list>
     </option>
   </component>
+  <component name="ServiceViewManager">
+    <option name="allServicesViewState">
+      <serviceView>
+        <treeState>
+          <expand>
+            <path>
+              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@efbe3f66" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+            </path>
+            <path>
+              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@efbe3f66" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@4b4c6c4" type="9fbbdea:ServiceModel$ServiceNode" />
+            </path>
+          </expand>
+          <select />
+        </treeState>
+      </serviceView>
+    </option>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -88,13 +137,6 @@
       <workItem from="1571676896542" duration="1109000" />
       <workItem from="1571755488766" duration="1900000" />
       <workItem from="1571757634995" duration="5152000" />
-    </task>
-    <task id="LOCAL-00095" summary="class avancée">
-      <created>1570889905842</created>
-      <option name="number" value="00095" />
-      <option name="presentableId" value="LOCAL-00095" />
-      <option name="project" value="LOCAL" />
-      <updated>1570889905842</updated>
     </task>
     <task id="LOCAL-00096" summary="class avancée">
       <created>1570890795741</created>
@@ -432,7 +474,14 @@
       <option name="project" value="LOCAL" />
       <updated>1571763542502</updated>
     </task>
-    <option name="localTasksCounter" value="144" />
+    <task id="LOCAL-00144" summary="discussion">
+      <created>1571794016742</created>
+      <option name="number" value="00144" />
+      <option name="presentableId" value="LOCAL-00144" />
+      <option name="project" value="LOCAL" />
+      <updated>1571794016743</updated>
+    </task>
+    <option name="localTasksCounter" value="145" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
