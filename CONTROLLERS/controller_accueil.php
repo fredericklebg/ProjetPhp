@@ -27,6 +27,7 @@ class controller_accueil extends controller_main
     public function changePass()
     {
         $this->user->changePassword();
+        $_SESSION['isLogin'] = 'non';
         $vue = new Vue('passChanged');
         $vue->generer(array());
     }
