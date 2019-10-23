@@ -14,6 +14,7 @@ class base
         return $this->loadDb()->query($query);
     }
 
+
     public function get($attribut,$pseudo)
     {
         $query = $this->loadDb()->prepare('SELECT attribut FROM USER WHERE pseudo= :pseudo AND password= :password');
