@@ -25,5 +25,17 @@ class base
         return $result;
     }
 
+   public function getDisc($attribut,$id)
+   {
+       $query = ('SELECT ' . $attribut . ' FROM DISCUSSION WHERE disc_id =\' '.$id .'\'');
+       foreach ($this->execRequete($query) as $row)
+       {
+           $result=$row[$attribut];
+       }
+
+       return $result;
+   }
+
+
 
 }
