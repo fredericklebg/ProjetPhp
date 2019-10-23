@@ -14,61 +14,39 @@ class discussion extends base
     }
 
 
-    public function getDiscId($pseudo)
+    public function getDiscId($title)
     {
-        return $this->get('disc_id',$pseudo);
+        return $this->getDisc('disc_id',$title);
     }
 
-    public function getUserId($pseudo)
+    public function getTitle($id)
     {
-        return $this->get('user_id',$pseudo);
+        return $this->getDisc('title',$id);
     }
 
-    public function getMessageId($pseudo)
-    {
-        return $this->get('$this->message_id',$pseudo);
-    }
 
     public function getState($pseudo)
     {
         return $this->get('state',$pseudo);
     }
 
-    /**
-     * @param mixed $disc_id
-     */
+
     public function setDiscId($disc_id)
     {
         $query = ('UPDATE DISCUSSION SET DISCUSSION.disc_id :=\'' .$disc_id.'\'');
         $this->execRequete($query);
     }
 
-    /**
-     * @param mixed $state
-     */
+
     public function setState($state)
     {
         $query = ('UPDATE DISCUSSION SET DISCUSSION.state :=\''.$state.'\'');
         $this->execRequete($query);
     }
 
-    /**
-     * @param mixed $user_id
-     */
-    public function setUserId($user_id)
-    {
-        $query = ('UPDATE DISCUSSION SET DISCUSSION.user_id :=\''.$user_id.'\'');
-        $this->execRequete($query);
-    }
 
-    /**
-     * @param mixed $message_id
-     */
-    public function setMessageId($message_id)
-    {
-        $query = ('UPDATE DISCUSSION SET DISCUSSION.message_id :=\''.$message_id.'\'');
-        $this->execRequete($query);
-    }
+
+
 
 
     public function createDiscussion()
