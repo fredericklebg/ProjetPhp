@@ -21,7 +21,8 @@ class base
         $query->bindValue('attribut',$attribut,PDO::PARAM_STR);
         $query->bindValue(':pseudo',$pseudo,PDO::PARAM_STR);
         $query->bindValue(':password',$_SESSION['password'],PDO::PARAM_STR);
-        foreach ($query->execute() as $row)
+        $query->execute();
+        foreach ( $query as $row)
         {
             $result=$row[$attribut];
         }
