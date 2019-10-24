@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b41057ea-1169-4d87-bd84-37173161cc78" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MODELS/models_user.php" beforeDir="false" afterPath="$PROJECT_DIR$/MODELS/models_user.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/VIEWS/view_forgotMdp.php" beforeDir="false" afterPath="$PROJECT_DIR$/VIEWS/view_forgotMdp.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -73,11 +73,6 @@
         <option value="C:\Users\vsd\PhpstormProjects\ProjetPhp\.idea" />
       </set>
     </option>
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="y" value="28" />
-    <option name="width" value="840" />
-    <option name="height" value="994" />
   </component>
   <component name="ProjectId" id="1Rw0kPHN0vwT9hFLFkKQQgvSROt" />
   <component name="ProjectLevelVcsManager">
@@ -152,20 +147,6 @@
       <workItem from="1571401539625" duration="2405000" />
       <workItem from="1571830003405" duration="4888000" />
       <workItem from="1571925238818" duration="2568000" />
-    </task>
-    <task id="LOCAL-00178" summary="test mvc">
-      <created>1571357980286</created>
-      <option name="number" value="00178" />
-      <option name="presentableId" value="LOCAL-00178" />
-      <option name="project" value="LOCAL" />
-      <updated>1571357980286</updated>
-    </task>
-    <task id="LOCAL-00179" summary="test mvc">
-      <created>1571358033760</created>
-      <option name="number" value="00179" />
-      <option name="presentableId" value="LOCAL-00179" />
-      <option name="project" value="LOCAL" />
-      <updated>1571358033760</updated>
     </task>
     <task id="LOCAL-00180" summary="test mvc">
       <created>1571358197876</created>
@@ -496,7 +477,21 @@
       <option name="project" value="LOCAL" />
       <updated>1571940259940</updated>
     </task>
-    <option name="localTasksCounter" value="227" />
+    <task id="LOCAL-00227" summary="prenez un scooter">
+      <created>1571940668025</created>
+      <option name="number" value="00227" />
+      <option name="presentableId" value="LOCAL-00227" />
+      <option name="project" value="LOCAL" />
+      <updated>1571940668025</updated>
+    </task>
+    <task id="LOCAL-00228" summary="prenez un scooter">
+      <created>1571940823634</created>
+      <option name="number" value="00228" />
+      <option name="presentableId" value="LOCAL-00228" />
+      <option name="project" value="LOCAL" />
+      <updated>1571940823634</updated>
+    </task>
+    <option name="localTasksCounter" value="229" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

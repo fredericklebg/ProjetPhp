@@ -435,6 +435,7 @@ class user extends base
 //    }
       public function  sendToken() {
           $mailTok = $_POST['mailTok'];
+          $_SESSION['mailTok']=$mailTok;
           $query = $this->loadDb()->prepare('SELECT mail FROM USER WHERE mail = :mail');
           $query->bindValue(':mail',$mailTok,PDO::PARAM_STR);
           $query->execute();
@@ -455,7 +456,7 @@ class user extends base
             throw new Exception('vous êtes déjà connecté');
         }
 
-        $mailTok = $_POST['mailTok'];
+        $mailTok = $_SESSION['mailTok'];
         $token = $_SESSION['token'];
         $newMdp=$_POST['newMdp'];
         $confirmMdp=$_POST['confirmMdp'];
