@@ -10,10 +10,10 @@
         $disc = new discussion();
         $query = $msg->showMsg($_GET['id']);
         ?>
-        ?>
+
 
         <div class="TitreD">
-            <p> <? echo $disc->getTitle($_GET['id']); ?>> </p>
+            <p> <? echo $disc->getTitle($_GET['id']); ?> </p>
         </div>
 
         <div class="row blok">
