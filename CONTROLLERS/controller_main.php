@@ -74,12 +74,11 @@ abstract class controller_main {
         $vue = new Vue($_GET['page']);
         $vue->generer(array());
     }
-    public function sendMdp()
+    public function sendToken()
     {
-        $this->user->sendMdp();
-        $vue = new Vue('sendMdp');
+        $this->user->sendToken();
+        $vue = new Vue('sendToken');
         $vue->generer(array());
-
 
     }
     public function forgotMdp() {
