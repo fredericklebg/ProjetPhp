@@ -80,9 +80,9 @@ class discussion extends base
              ?>
              <tr>
                  <td><?php echo $row['title']  ?></td>
-                 <td>Statut</td>
-                 <td>Dernier message</td>
-                 <td>Auteur</td>
+                 <td><?php echo $row['state'] ?></td>
+                 <td> Dernier Message </td>
+                 <td> Auteur </td>
                  <td>Date</td>
              </tr>
              <?php
