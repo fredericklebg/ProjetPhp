@@ -71,7 +71,7 @@ class discussion extends base
      {
 
          $oui = $this->loadDb();
-         $query = $oui->query('SELECT title,DISCUSSION.state,content,pseudo,message_date FROM DISCUSSION,USER,MESSAGE  
+         $query = $oui->query('SELECT title,DISCUSSION.state,content,pseudo,message_date,DISCUSSION.disc_id FROM DISCUSSION,USER,MESSAGE  
                                         WHERE MESSAGE.disc_id=DISCUSSION.disc_id
                                         AND  MESSAGE.user_id = USER.user_id
                                         ORDER BY DISCUSSION.disc_id DESC;');

@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b41057ea-1169-4d87-bd84-37173161cc78" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MODELS/models_discussion.php" beforeDir="false" afterPath="$PROJECT_DIR$/MODELS/models_discussion.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/VIEWS/view_accueil.php" beforeDir="false" afterPath="$PROJECT_DIR$/VIEWS/view_accueil.php" afterDir="false" />
     </list>
@@ -147,13 +148,6 @@
       <workItem from="1571401539625" duration="2405000" />
       <workItem from="1571830003405" duration="4888000" />
       <workItem from="1571925238818" duration="2568000" />
-    </task>
-    <task id="LOCAL-00184" summary="test mvc">
-      <created>1571358821375</created>
-      <option name="number" value="00184" />
-      <option name="presentableId" value="LOCAL-00184" />
-      <option name="project" value="LOCAL" />
-      <updated>1571358821375</updated>
     </task>
     <task id="LOCAL-00185" summary="test mvc">
       <created>1571359163003</created>
@@ -491,7 +485,14 @@
       <option name="project" value="LOCAL" />
       <updated>1571942636054</updated>
     </task>
-    <option name="localTasksCounter" value="233" />
+    <task id="LOCAL-00233" summary="discussion &amp; pagination">
+      <created>1571950831415</created>
+      <option name="number" value="00233" />
+      <option name="presentableId" value="LOCAL-00233" />
+      <option name="project" value="LOCAL" />
+      <updated>1571950831415</updated>
+    </task>
+    <option name="localTasksCounter" value="234" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -541,6 +542,7 @@
     <MESSAGE value="modif disc ajout msg erreur" />
     <MESSAGE value="AUTO" />
     <MESSAGE value="prenez un scooter" />
-    <option name="LAST_COMMIT_MESSAGE" value="prenez un scooter" />
+    <MESSAGE value="discussion &amp; pagination" />
+    <option name="LAST_COMMIT_MESSAGE" value="discussion &amp; pagination" />
   </component>
 </project>

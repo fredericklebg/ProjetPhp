@@ -22,7 +22,7 @@ $disc= new discussion();
             </div>
             <div class="row">
                 <div class="col-lg-4 col-md-4 col-sm-12 text-center">
-                    <a href="http://tpphp.alwaysdata.net/ProjetPhp/?page=discussion&action=newDiscussion">
+                    <a href="?page=discussion&action=newDiscussion">
                       <input class="newbouton" type="button" value="Nouvelle Discussion"> </a>
                 </div>
 
@@ -44,17 +44,23 @@ $disc= new discussion();
 
                     <?php ///
                     $query=$disc->showDisc();
+                    $i=0;
                     while($row = $query->fetch())
                     {
+                        $limit = 2;
+                        $i++;
                         ?>
                         <tr>
-                            <td><?php echo $row['title']  ?></td>
+                            <td> <a href="http://tpphp.alwaysdata.net/ProjetPhp/?page=discussion&action=afficher&id=<?php$row['disc_id'] ?>">
+                                <?php echo $row['title']  ?> </a> </td>
                             <td><?php echo $row['state'] ?></td>
                             <td><?php echo $row['content']  ?></td>
                             <td><?php echo $row['pseudo'] ?></td>
                             <td><?php echo $row['message_date']  ?></td>
                         </tr>
                         <?php
+                        if ($i >= $limit)
+                            break;
                     }
 
                     ?>
