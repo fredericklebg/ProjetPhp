@@ -372,7 +372,6 @@ class user extends base
             if ($_SESSION['token']!=$token) {
                 throw new Exception("mauvais code");
             }
-            throw new Exception("Vous n'êtes pas connecté");
         }
 
         if(strlen($newMdp) <5 || strlen($newMdp) >20 )
