@@ -438,6 +438,7 @@ class user extends base
           $query = $this->loadDb()->prepare('SELECT mail FROM USER WHERE mail = :mail');
           $query->bindValue(':mail',$mailTok,PDO::PARAM_STR);
           $query->execute();
+          var_dump($query);
           if ($query->rowCount()==1) {
               $token=$this->genererChaineAleatoire();
               $_SESSION['token']=$token;
