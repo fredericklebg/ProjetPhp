@@ -114,7 +114,7 @@ class message extends base
                 NOW()   
          )';
         $this->execRequete($query);
-
+//
     }
 
 
