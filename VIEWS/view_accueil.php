@@ -65,8 +65,8 @@ $disc= new discussion();
                     ?>
                 </table>
             <div class="col-lg-12 text-center">
-                <input type="image" alt="previous" src="VIEWS/Media/gauche.jpg" width="30px" height="30px">
-                <input type="image" alt="next" src="VIEWS/Media/droite.jpg" width="30px" height="30px" >
+                <a><input type="image" alt="previous" src="VIEWS/Media/gauche.jpg" width="30px" height="30px"> </a>
+                <a><input type="image" alt="next" src="VIEWS/Media/droite.jpg" width="30px" height="30px" > </a>
             </div>
 
         </section>
