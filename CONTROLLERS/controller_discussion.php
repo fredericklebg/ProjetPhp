@@ -1,8 +1,8 @@
 <?php
 
-require_once 'MODELS/models_discussion.php';
-require_once  'MODELS/models_message.php';
-require_once 'VIEWS/view_template.php';
+//require_once 'MODELS/models_discussion.php';
+//require_once  'MODELS/models_message.php';
+//require_once 'VIEWS/view_template.php';
 
 class controller_discussion extends controller_main
 {

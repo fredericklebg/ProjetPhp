@@ -2,7 +2,7 @@
 
 
 spl_autoload_register(function ($class_name) {
-    include 'CONTROLLERS/'.$class_name . '.php';
+    require_once 'CONTROLLERS/'.$class_name . '.php';
 });
 
 
