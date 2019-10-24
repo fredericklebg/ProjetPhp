@@ -444,6 +444,7 @@ class user extends base
               $_SESSION['token']=$token;
               mail($mail,'Changement de mpot de passe','Utiliser ce code  :\''.$token.'\' sur la page ouverte');
           }
+
           else {
               throw new Exception('Mail vide');
           }
