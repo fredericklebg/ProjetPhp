@@ -43,7 +43,7 @@ $disc= new discussion();
                     </tr>
 
                     <?php ///
-                    $limit=2;
+                    $limit=4;
                     $query=$disc->showDisc($limit);
                     $i=0;
                     while($row = $query->fetch())
