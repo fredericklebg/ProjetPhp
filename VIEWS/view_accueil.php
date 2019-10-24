@@ -5,6 +5,8 @@
 
 <?php
 
+$disc= new discussion();
+
 ?>
 
 
@@ -34,26 +36,35 @@
 
                 <table class="col-lg-12">
                     <tr>
-                        <td>Nom de la discussion</td>
+                        <td> Nom de la discussion </td>
                         <td>Statut</td>
                         <td>Dernier message</td>
                         <td>Auteur</td>
                         <td>Date</td>
                     </tr>
-                    <tr>
-                        <td>Nom de la discussion</td>
-                        <td>Statut</td>
-                        <td>Dernier message</td>
-                        <td>Auteur</td>
-                        <td>Date</td>
-                    </tr>
-                    <tr>
-                        <td>Nom de la discussion</td>
-                        <td>Statut</td>
-                        <td>Dernier message</td>
-                        <td>Auteur</td>
-                        <td>Date</td>
-                    </tr>
+
+                    <?php
+                    require_once 'models_base.php';
+
+                    $request = execRequete('SELECT * FROM DISCUSSION ORDER_BY disc_id DESC LIMIT');
+
+                    while($row = $request->fetch())
+                    {
+                        ?>
+                            <tr>
+                                <td><?php echo $row['title']  ?></td>
+                                <td>Statut</td>
+                                <td>Dernier message</td>
+                                <td>Auteur</td>
+                                <td>Date</td>
+                            </tr>
+                        <?php
+                    }
+
+
+
+                    ?>
+
                 </table>
             <div class="col-lg-12 text-center">
                 <input type="image" alt="previous" src="VIEWS/Media/gauche.jpg" width="30px" height="30px">

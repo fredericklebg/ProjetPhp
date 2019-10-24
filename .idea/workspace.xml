@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="b41057ea-1169-4d87-bd84-37173161cc78" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MODELS/models_user.php" beforeDir="false" afterPath="$PROJECT_DIR$/MODELS/models_user.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VIEWS/view_accueil.php" beforeDir="false" afterPath="$PROJECT_DIR$/VIEWS/view_accueil.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -43,8 +43,108 @@
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="tpphp_bd: schema" type="ebfa3cd1:MariaImplModel$Schema" />
       </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="tpphp_bd@mysql-tpphp.alwaysdata.net [2]" type="feb32156:DbDataSourceImpl" />
+      </path>
     </expand>
     <select />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/VIEWS/view_profilePage.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="101" selection-start-line="9" selection-start-column="101" selection-end-line="9" selection-end-column="101" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/VIEWS/view_changePass.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="600">
+              <caret line="40" selection-start-line="40" selection-end-line="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CONTROLLERS/router.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="375">
+              <caret line="25" column="35" selection-start-line="25" selection-start-column="35" selection-end-line="25" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CONTROLLERS/controller_main.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MODELS/models_discussion.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="390">
+              <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MODELS/models_base.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="411">
+              <caret line="39" column="22" lean-forward="true" selection-start-line="39" selection-start-column="22" selection-end-line="39" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/VIEWS/view_accueil.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="765">
+              <caret line="54" column="48" lean-forward="true" selection-start-line="54" selection-start-column="48" selection-end-line="54" selection-end-column="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="das://fd38a6ba-a9e9-4e94-96f9-c13aab51eda5/schema/tpphp_bd/table/DISCUSSION">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state projectRestartId="38af470d-4c1c-4457-93da-89e91e2ffe04">
+              <filtering>
+                <filter text="" />
+              </filtering>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/VIEWS/view_template.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" selection-start-line="2" selection-end-line="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="53" lean-forward="true" selection-start-line="4" selection-start-column="53" selection-end-line="4" selection-end-column="53" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -63,6 +163,22 @@
     <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/MODELS/models_discussion.php" />
+        <option value="$PROJECT_DIR$/VIEWS/view_affichdisc.php" />
+        <option value="$PROJECT_DIR$/VIEWS/css/view_style.css" />
+        <option value="$PROJECT_DIR$/CONTROLLERS/controller_accueil.php" />
+        <option value="$PROJECT_DIR$/CONTROLLERS/controller_discussion.php" />
+        <option value="$PROJECT_DIR$/CONTROLLERS/controller_main.php" />
+        <option value="$PROJECT_DIR$/CONTROLLERS/controller_message.php" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/VIEWS/view_template.php" />
+        <option value="$PROJECT_DIR$/VIEWS/view_accueil.php" />
+      </list>
+    </option>
+  </component>
   <component name="IgnoredFileRootStore">
     <option name="generatedRoots">
       <set>
@@ -70,14 +186,60 @@
       </set>
     </option>
   </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="y" value="28" />
+    <option name="width" value="840" />
+    <option name="height" value="994" />
+  </component>
   <component name="ProjectId" id="1Rw0kPHN0vwT9hFLFkKQQgvSROt" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="ProjetPhp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ProjetPhp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ProjetPhp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ProjetPhp" type="462c0819:PsiDirectoryNode" />
+              <item name="CONTROLLERS" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ProjetPhp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ProjetPhp" type="462c0819:PsiDirectoryNode" />
+              <item name="MODELS" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ProjetPhp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ProjetPhp" type="462c0819:PsiDirectoryNode" />
+              <item name="VIEWS" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ProjetPhp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ProjetPhp" type="462c0819:PsiDirectoryNode" />
+              <item name="VIEWS" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="database.console.LAST_STATE" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -135,22 +297,8 @@
       <workItem from="1571213406020" duration="7044000" />
       <workItem from="1571293351337" duration="1737000" />
       <workItem from="1571401539625" duration="2405000" />
-      <workItem from="1571830003405" duration="2313000" />
-      <workItem from="1571928438101" duration="2398000" />
-    </task>
-    <task id="LOCAL-00157" summary="test mvc">
-      <created>1571349229017</created>
-      <option name="number" value="00157" />
-      <option name="presentableId" value="LOCAL-00157" />
-      <option name="project" value="LOCAL" />
-      <updated>1571349229017</updated>
-    </task>
-    <task id="LOCAL-00158" summary="test mvc">
-      <created>1571349381113</created>
-      <option name="number" value="00158" />
-      <option name="presentableId" value="LOCAL-00158" />
-      <option name="project" value="LOCAL" />
-      <updated>1571349381113</updated>
+      <workItem from="1571830003405" duration="4888000" />
+      <workItem from="1571925238818" duration="2568000" />
     </task>
     <task id="LOCAL-00159" summary="test mvc">
       <created>1571352179370</created>
@@ -411,78 +559,142 @@
       <option name="project" value="LOCAL" />
       <updated>1571403499268</updated>
     </task>
-    <task id="LOCAL-00196" summary="modif texte accueil">
-      <created>1571833760970</created>
+    <task id="LOCAL-00196" summary="modif disc">
+      <created>1571832338062</created>
       <option name="number" value="00196" />
       <option name="presentableId" value="LOCAL-00196" />
       <option name="project" value="LOCAL" />
-      <updated>1571833760971</updated>
+      <updated>1571832338063</updated>
     </task>
-    <task id="LOCAL-00197" summary="modif texte accueil">
-      <created>1571833786105</created>
+    <task id="LOCAL-00197" summary="modif disc">
+      <created>1571832395212</created>
       <option name="number" value="00197" />
       <option name="presentableId" value="LOCAL-00197" />
       <option name="project" value="LOCAL" />
-      <updated>1571833786105</updated>
+      <updated>1571832395213</updated>
     </task>
-    <task id="LOCAL-00198" summary="modif texte accueil">
-      <created>1571834209011</created>
+    <task id="LOCAL-00198" summary="modif disc ajout msg erreur">
+      <created>1571833857812</created>
       <option name="number" value="00198" />
       <option name="presentableId" value="LOCAL-00198" />
       <option name="project" value="LOCAL" />
-      <updated>1571834209011</updated>
+      <updated>1571833857812</updated>
     </task>
-    <task id="LOCAL-00199" summary="modif texte accueil">
-      <created>1571835955106</created>
+    <task id="LOCAL-00199" summary="AUTO">
+      <created>1571927417409</created>
       <option name="number" value="00199" />
       <option name="presentableId" value="LOCAL-00199" />
       <option name="project" value="LOCAL" />
-      <updated>1571835955106</updated>
+      <updated>1571927417410</updated>
     </task>
-    <task id="LOCAL-00200" summary="modif texte accueil">
-      <created>1571836241437</created>
+    <task id="LOCAL-00200" summary="AUTO">
+      <created>1571928309936</created>
       <option name="number" value="00200" />
       <option name="presentableId" value="LOCAL-00200" />
       <option name="project" value="LOCAL" />
-      <updated>1571836241437</updated>
+      <updated>1571928309937</updated>
     </task>
-    <task id="LOCAL-00201" summary="modif texte accueil">
-      <created>1571836269812</created>
+    <task id="LOCAL-00201" summary="AUTO">
+      <created>1571928329419</created>
       <option name="number" value="00201" />
       <option name="presentableId" value="LOCAL-00201" />
       <option name="project" value="LOCAL" />
-      <updated>1571836269812</updated>
+      <updated>1571928329419</updated>
     </task>
-    <task id="LOCAL-00202" summary="modif texte accueil">
-      <created>1571836365407</created>
+    <task id="LOCAL-00202" summary="AUTO">
+      <created>1571928357356</created>
       <option name="number" value="00202" />
       <option name="presentableId" value="LOCAL-00202" />
       <option name="project" value="LOCAL" />
-      <updated>1571836365407</updated>
+      <updated>1571928357356</updated>
     </task>
-    <task id="LOCAL-00203" summary="modif texte accueil">
-      <created>1571836556212</created>
+    <task id="LOCAL-00203" summary="AUTO">
+      <created>1571928492074</created>
       <option name="number" value="00203" />
       <option name="presentableId" value="LOCAL-00203" />
       <option name="project" value="LOCAL" />
-      <updated>1571836556212</updated>
+      <updated>1571928492074</updated>
     </task>
-    <task id="LOCAL-00204" summary="modif texte accueil">
-      <created>1571836617338</created>
+    <task id="LOCAL-00204" summary="AUTO">
+      <created>1571928528954</created>
       <option name="number" value="00204" />
       <option name="presentableId" value="LOCAL-00204" />
       <option name="project" value="LOCAL" />
-      <updated>1571836617338</updated>
+      <updated>1571928528954</updated>
     </task>
-    <task id="LOCAL-00205" summary="modif texte accueil">
-      <created>1571836667627</created>
+    <task id="LOCAL-00205" summary="prenez un scooter">
+      <created>1571928800121</created>
       <option name="number" value="00205" />
       <option name="presentableId" value="LOCAL-00205" />
       <option name="project" value="LOCAL" />
-      <updated>1571836667627</updated>
+      <updated>1571928800122</updated>
     </task>
-    <option name="localTasksCounter" value="206" />
+    <task id="LOCAL-00206" summary="prenez un scooter">
+      <created>1571928904422</created>
+      <option name="number" value="00206" />
+      <option name="presentableId" value="LOCAL-00206" />
+      <option name="project" value="LOCAL" />
+      <updated>1571928904422</updated>
+    </task>
+    <task id="LOCAL-00207" summary="prenez un scooter">
+      <created>1571929116065</created>
+      <option name="number" value="00207" />
+      <option name="presentableId" value="LOCAL-00207" />
+      <option name="project" value="LOCAL" />
+      <updated>1571929116065</updated>
+    </task>
+    <option name="localTasksCounter" value="208" />
     <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="12944000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-1" y="28" width="1658" height="995" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2590062" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Database Console" sideWeight="0.4993789" weight="0.3298731" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3298731" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39907727" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.4993789" weight="0.3298731" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50062114" side_tool="true" weight="0.3298731" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" weight="0.12298137" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.11686233" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39907727" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.3298731" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.3298731" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -493,6 +705,12 @@
         <entry key="MAIN">
           <value>
             <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
               <option name="COLUMN_ORDER" />
             </State>
           </value>
@@ -527,6 +745,179 @@
     <MESSAGE value="page changement mdp" />
     <MESSAGE value="test mvc" />
     <MESSAGE value="modif texte accueil" />
-    <option name="LAST_COMMIT_MESSAGE" value="modif texte accueil" />
+    <MESSAGE value="modif disc" />
+    <MESSAGE value="modif disc ajout msg erreur" />
+    <MESSAGE value="AUTO" />
+    <MESSAGE value="prenez un scooter" />
+    <option name="LAST_COMMIT_MESSAGE" value="prenez un scooter" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/MODELS/models_admin.php" />
+    <entry file="file://$PROJECT_DIR$/VIEWS/view_discussion.php" />
+    <entry file="file://$PROJECT_DIR$/CONTROLLERS/controller_user.php" />
+    <entry file="file://$PROJECT_DIR$/MODELS/models_message.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CONTROLLERS/router.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="35" selection-start-line="25" selection-start-column="35" selection-end-line="25" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MODELS/logout.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/VIEWS/Media/droite.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/VIEWS/view_erreur.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="91" selection-start-line="6" selection-start-column="4" selection-end-line="7" selection-end-column="91" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/VIEWS/view_error.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="750">
+          <caret line="50" column="6" selection-start-line="50" selection-start-column="6" selection-end-line="50" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/VIEWS/view_changePass.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="40" selection-start-line="40" selection-end-line="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/VIEWS/view_common.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="12" selection-start-line="26" selection-start-column="12" selection-end-line="26" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/VIEWS/css/view_style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-284">
+          <caret line="213" column="5" lean-forward="true" selection-start-line="213" selection-start-column="5" selection-end-line="213" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MODELS/models_user.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="23" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/VIEWS/view_affichdisc.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="31" column="59" selection-start-line="31" selection-start-column="59" selection-end-line="31" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CONTROLLERS/controller_accueil.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" selection-start-line="2" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CONTROLLERS/controller_discussion.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" selection-start-line="2" selection-start-column="2" selection-end-line="4" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CONTROLLERS/controller_main.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CONTROLLERS/controller_message.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" selection-start-line="2" selection-start-column="2" selection-end-line="3" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/VIEWS/view_profilePage.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="101" selection-start-line="9" selection-start-column="101" selection-end-line="9" selection-end-column="101" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MODELS/models_discussion.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/VIEWS/view_passChanged.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://fd38a6ba-a9e9-4e94-96f9-c13aab51eda5/schema/tpphp_bd/table/USER">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state projectRestartId="38af470d-4c1c-4457-93da-89e91e2ffe04">
+          <filtering>
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MODELS/models_base.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="411">
+          <caret line="39" column="22" lean-forward="true" selection-start-line="39" selection-start-column="22" selection-end-line="39" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="53" lean-forward="true" selection-start-line="4" selection-start-column="53" selection-end-line="4" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/VIEWS/view_template.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" selection-start-line="2" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://fd38a6ba-a9e9-4e94-96f9-c13aab51eda5/schema/tpphp_bd/table/DISCUSSION">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state projectRestartId="38af470d-4c1c-4457-93da-89e91e2ffe04">
+          <filtering>
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/VIEWS/view_accueil.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="765">
+          <caret line="54" column="48" lean-forward="true" selection-start-line="54" selection-start-column="48" selection-end-line="54" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>

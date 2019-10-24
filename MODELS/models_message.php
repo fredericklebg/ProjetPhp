@@ -8,6 +8,7 @@ class message extends base
     private $content;
     private $message_date;
     private $user_id;
+    private $state;
 
     public function __construct()
     {
@@ -48,6 +49,14 @@ class message extends base
     }
 
     /**
+     * @return mixed
+     */
+    public function getState()
+    {
+        return $this->state;
+    }
+
+    /**
      * @param mixed $content
      */
     public function setContent($content)
@@ -83,6 +92,14 @@ class message extends base
         $this->execquery($query);
     }
 
+    /**
+     * @param mixed $state
+     */
+    public function setState($state)
+    {
+        $query = ('UPDATE MESSAGE SET MESSAGE.state =\''.$state.'\'');
+        $this->execquery($query);;
+    }
 
     public function addMessage($discId)
     {
