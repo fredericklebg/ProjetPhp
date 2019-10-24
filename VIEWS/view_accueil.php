@@ -48,7 +48,6 @@ $disc= new discussion();
                     $debut = ($page - 1 ) * $limit;
                     $limit=2;
                     $query=$disc->showDisc($debut,$limit);
-                    $i=0;
                     while($row = $query->fetch())
                     {
                         $id = $row['disc_id'];
@@ -63,6 +62,7 @@ $disc= new discussion();
                         </tr>
                         <?php
                     }
+                    echo $page;
 
                     ?>
                 </table>
