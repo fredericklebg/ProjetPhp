@@ -51,13 +51,11 @@ class discussion extends base
 
     public function createDiscussion()
     {
-        $this ->state='open';
+        $this ->state='ouverte';
         $discName = $_POST['nomDisc'];
-        $id=$_SESSION['userId'];
 
-        $query = ('INSERT INTO DISCUSSION (user_id, state, title)
+        $query = ('INSERT INTO DISCUSSION (state, title)
         VALUES (
-         \'' . $id . '\',
          \'' . $this->state . '\',
          \'' . $discName . '\'
          )');

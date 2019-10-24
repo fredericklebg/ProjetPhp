@@ -21,8 +21,7 @@ class controller_discussion extends controller_main
         $id=$this->discussion->createDiscussion();
         //ajouter message avec addMessage
         $this->msg->addMessage($id);
-        $vue = new Vue('accueil');
-        $vue->generer(array());
+        header("Location: http://tpphp.alwaysdata.net/ProjetPhp");
 
     }
 
