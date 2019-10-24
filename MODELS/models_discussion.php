@@ -67,14 +67,14 @@ class discussion extends base
         return $result;
     }
 
-     public function showDisc()
+     public function showDisc($limit)
      {
 
          $oui = $this->loadDb();
          $query = $oui->query('SELECT title,DISCUSSION.state,content,pseudo,message_date,DISCUSSION.disc_id FROM DISCUSSION,USER,MESSAGE  
                                         WHERE MESSAGE.disc_id=DISCUSSION.disc_id
                                         AND  MESSAGE.user_id = USER.user_id
-                                        ORDER BY DISCUSSION.disc_id DESC;');
+                                        ORDER BY DISCUSSION.disc_id DESC LIMIT \'' . $limit .'\';');
          return $query;
 
      }

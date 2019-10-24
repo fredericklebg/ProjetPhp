@@ -43,16 +43,15 @@ $disc= new discussion();
                     </tr>
 
                     <?php ///
-                    $query=$disc->showDisc();
+                    $limit=2;
+                    $query=$disc->showDisc($limit);
                     $i=0;
                     while($row = $query->fetch())
                     {
                         $id = $row['disc_id'];
-                        $limit = 2;
-                        $i++;
                         ?>
                         <tr>
-                            <td> <a href="http://tpphp.alwaysdata.net/ProjetPhp/?page=discussion&action=afficher&id=<?php echo $id ?>">
+                            <td> <a href="?page=discussion&action=afficher&id=<?php echo $id ?>">
                                 <?php echo $row['title']  ?> </a> </td>
                             <td><?php echo $row['state'] ?></td>
                             <td><?php echo $row['content']  ?></td>
@@ -60,8 +59,6 @@ $disc= new discussion();
                             <td><?php echo $row['message_date']  ?></td>
                         </tr>
                         <?php
-                        if ($i >= $limit)
-                            break;
                     }
 
                     ?>
