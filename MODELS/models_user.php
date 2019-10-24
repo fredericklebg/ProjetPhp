@@ -357,10 +357,7 @@ class user extends base
 
     public function changePassword()
     {
-        if($_SESSION['isLogin']!='ok')
-        {
-            throw new Exception("vous n'etes pas connectés");
-        }
+
 
 
         $login = $_SESSION['login'];
@@ -370,6 +367,13 @@ class user extends base
         $oldMdp=$_POST['oldMdp'];
         $newMdp=$_POST['newMdp'];
         $confirmMdp=$_POST['confirmMdp'];
+        if($_SESSION['isLogin']!='ok')
+        {
+            if ($_SESSION['token']!=$token) {
+                throw new Exception("mauvais code");
+            }
+            throw new Exception("Vous n'êtes pas connecté");
+        }
 
         if(strlen($newMdp) <5 || strlen($newMdp) >20 )
         {
@@ -379,10 +383,6 @@ class user extends base
         if ($newMdp != $confirmMdp)
         {
             throw new Exception("les  nouveaux mots de passe ne coresspondent pas");
-        }
-
-        else if ($_SESSION['isLogin']!='ok' && $token != $_SESSION['token']) {
-            throw new Exception("Mauvais code");
         }
 
         $hashedOldPass = hash('sha256',$oldMdp);
