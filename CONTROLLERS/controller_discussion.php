@@ -36,5 +36,5 @@ class controller_discussion extends controller_main
         else throw new Exception('vous devez etre connecté pour créer une discussion');
     }
 
-
+//
 }
