@@ -16,6 +16,13 @@ class controller_discussion extends controller_main
 
     }
 
+    public function index()
+    {
+        $vue = new Vue('discussion');
+        $vue->generer(array());
+
+    }
+
     public function createDiscussion()
     {
         $id=$this->discussion->createDiscussion();
