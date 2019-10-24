@@ -36,7 +36,7 @@
 
                 <table class="col-lg-12">
                     <tr>
-                        <td><?php $this->getTitle(18); ?></td>
+                        <td><?php  ?></td>
                         <td>Statut</td>
                         <td>Dernier message</td>
                         <td>Auteur</td>
