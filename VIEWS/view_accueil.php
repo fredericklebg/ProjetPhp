@@ -44,9 +44,10 @@ $disc= new discussion();
 
                     <?php
 
+                    $limit=2;
                     $page = (!empty($_GET['id']) ? $_GET['id'] : 1);
                     $debut = ($page - 1 ) * $limit;
-                    $limit=2;
+
                     $query=$disc->showDisc($debut,$limit);
                     while($row = $query->fetch())
                     {
