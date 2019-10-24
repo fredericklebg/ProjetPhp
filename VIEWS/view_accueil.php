@@ -63,6 +63,7 @@ $disc= new discussion();
                         <?php
                     }
                     echo $page;
+                    echo $debut;
 
                     ?>
                 </table>
