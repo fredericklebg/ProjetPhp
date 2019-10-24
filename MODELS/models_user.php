@@ -365,6 +365,7 @@ class user extends base
 
         $login = $_SESSION['login'];
         $pass = $_SESSION['password'];
+        $token = $_SESSION['token'];
 
         $oldMdp=$_POST['oldMdp'];
         $newMdp=$_POST['newMdp'];
@@ -379,6 +380,11 @@ class user extends base
         {
             throw new Exception("les  nouveaux mots de passe ne coresspondent pas");
         }
+
+        else if ($_SESSION['isLogin']!='ok' && $token != $_SESSION['token']) {
+            throw new Exception("Mauvais code");
+        }
+
         $hashedOldPass = hash('sha256',$oldMdp);
         $hashedNewPass = hash('sha256',$newMdp);
 
@@ -398,6 +404,7 @@ class user extends base
                 echo $e->getMessage();
             }
         }
+
         else
         {
             throw new Exception("votre mot de passe actuel est faux");
