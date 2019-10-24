@@ -4,7 +4,7 @@
 
     <section class="col-lg-12 text-center">
 
-        <p >Votre message a bien été envoyé  <br> </p>
+        <p >Votre code a bien été envoyé  par mail<br> </p>
         <a href="http://tpphp.alwaysdata.net/ProjetPhp"> retourner a la page d'accueil </a>
 
     </section>
