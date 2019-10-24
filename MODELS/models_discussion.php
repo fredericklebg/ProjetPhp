@@ -71,10 +71,13 @@ class discussion extends base
      {
 
          $oui = $this->loadDb();
-         $query = $oui->query('SELECT title,DISCUSSION.state,content,pseudo,message_date,DISCUSSION.disc_id FROM DISCUSSION,USER,MESSAGE  
+         $query =('SELECT title,DISCUSSION.state,content,pseudo,message_date,DISCUSSION.disc_id FROM DISCUSSION,USER,MESSAGE  
                                         WHERE MESSAGE.disc_id=DISCUSSION.disc_id
                                         AND  MESSAGE.user_id = USER.user_id
-                                        ORDER BY DISCUSSION.disc_id DESC LIMIT 2');
+                                        ORDER BY DISCUSSION.disc_id DESC LIMIT :limit');
+         $query = $oui->prepare($query);
+         $query->bindValue('limit' , $limit , PDO::PARAM_INT);
+         $query->execute();
          return $query;
 
      }
