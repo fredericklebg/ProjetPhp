@@ -353,40 +353,7 @@ class user extends base
         echo $e->getMessage();
     }
     }
-    public function replacePassword() {
-        if($_SESSION['isLogin']=='ok'){
-            throw new Exception('vous êtes déjà connecté');
-        }
 
-        $mail = $_POST['mail'];
-        $token = $_SESSION['token'];
-        $newMdp=$_POST['newMdp'];
-        $confirmMdp=$_POST['confirmMdp'];
-        if($_SESSION['token']!=$token) {
-            throw new Exception('mauvais code');
-        }
-        if(strlen($newMdp) <5 || strlen($newMdp) >20 )
-        {
-            throw new Exception("le mot de passe doit faire entre 5 et 20 caracteres");
-        }
-
-        if ($newMdp != $confirmMdp)
-        {
-            throw new Exception("les  nouveaux mots de passe ne coresspondent pas");
-        }
-        $hashedNewPass = hash('sha256',$newMdp);
-        if($token == $_SESSION['token']) {
-            try {
-                $query = $this->loadDb()->prepare('UPDATE USER SET password = :password WHERE mail =:mail');
-                $query->bindValue(':password',$hashedNewPass,PDO::PARAM_STR);
-                $query->bindValue(':mail',$mail,PDO::PARAM_STR);
-                $query->execute();
-            }
-            catch (PDOException $e){
-                echo $e->getMessage();
-            }
-        }
-}
 
     public function changePassword()
     {
@@ -467,14 +434,14 @@ class user extends base
 //        mail($mail, 'MDP OUBLIE BRO', $message);
 //    }
       public function  sendToken() {
-          $mail = $_POST['mail'];
+          $mailTok = $_POST['mail'];
           $query = $this->loadDb()->prepare('SELECT mail FROM USER WHERE mail = :mail');
-          $query->bindValue(':mail',$mail,PDO::PARAM_STR);
+          $query->bindValue(':mail',$mailTok,PDO::PARAM_STR);
           $query->execute();
           if ($query->rowCount()==1) {
               $token=$this->genererChaineAleatoire();
               $_SESSION['token']=$token;
-              mail($mail,'Changement de mpot de passe','Utiliser ce code  :\''.$token.'\' sur la page ouverte');
+              mail($mailTok,'Changement de mot de passe','Utiliser ce code  :\''.$token.'\' sur la page ouverte de votre navigateur');
           }
 
           else {
@@ -482,6 +449,40 @@ class user extends base
           }
 
       }
+    public function replacePassword() {
+        if($_SESSION['isLogin']=='ok'){
+            throw new Exception('vous êtes déjà connecté');
+        }
+
+        $mail = $_POST['mail'];
+        $token = $_SESSION['token'];
+        $newMdp=$_POST['newMdp'];
+        $confirmMdp=$_POST['confirmMdp'];
+        if($_SESSION['token']!=$token) {
+            throw new Exception('mauvais code');
+        }
+        if(strlen($newMdp) <5 || strlen($newMdp) >20 )
+        {
+            throw new Exception("le mot de passe doit faire entre 5 et 20 caracteres");
+        }
+
+        if ($newMdp != $confirmMdp)
+        {
+            throw new Exception("les  nouveaux mots de passe ne correspondent pas");
+        }
+        $hashedNewPass = hash('sha256',$newMdp);
+        if($token == $_SESSION['token']) {
+            try {
+                $query = $this->loadDb()->prepare('UPDATE USER SET password = :password WHERE mail =:mail');
+                $query->bindValue(':password',$hashedNewPass,PDO::PARAM_STR);
+                $query->bindValue(':mail',$mail,PDO::PARAM_STR);
+                $query->execute();
+            }
+            catch (PDOException $e){
+                echo $e->getMessage();
+            }
+        }
+    }
       public function sendMdp() {
           $mail = $_POST['mail'];
           $query = $this->loadDb()->prepare('SELECT mail FROM USER WHERE mail = :mail');
