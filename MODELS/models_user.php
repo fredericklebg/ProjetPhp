@@ -434,7 +434,7 @@ class user extends base
 //        mail($mail, 'MDP OUBLIE BRO', $message);
 //    }
       public function  sendToken() {
-          $mailTok = $_POST['mail'];
+          $mailTok = $_POST['mailTok'];
           $query = $this->loadDb()->prepare('SELECT mail FROM USER WHERE mail = :mail');
           $query->bindValue(':mail',$mailTok,PDO::PARAM_STR);
           $query->execute();
@@ -455,7 +455,7 @@ class user extends base
             throw new Exception('vous êtes déjà connecté');
         }
 
-        $mail = $_POST['mail'];
+        $mailTok = $_SESSION['mailTok'];
         $token = $_SESSION['token'];
         $newMdp=$_POST['newMdp'];
         $confirmMdp=$_POST['confirmMdp'];
@@ -476,7 +476,7 @@ class user extends base
             try {
                 $query = $this->loadDb()->prepare('UPDATE USER SET password = :password WHERE mail =:mail');
                 $query->bindValue(':password',$hashedNewPass,PDO::PARAM_STR);
-                $query->bindValue(':mail',$mail,PDO::PARAM_STR);
+                $query->bindValue(':mail',$mailTok,PDO::PARAM_STR);
                 $query->execute();
             }
             catch (PDOException $e){
