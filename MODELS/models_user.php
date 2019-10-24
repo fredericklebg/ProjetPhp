@@ -431,7 +431,7 @@ class user extends base
 //        $query = 'UPDATE USER SET password := \'' . $hashedPass .'\' WHERE mail = \'' . $mail . '\'';
 //        $this->execRequete($query);
 //        echo"le mail a bien été envoyé";
-//        mail($mail, 'MDP OUBLIE BRO', $message);
+// *       mail($mail, 'MDP OUBLIE BRO', $message);
 //    }
       public function  sendToken() {
           $mailTok = $_POST['mailTok'];
@@ -439,7 +439,6 @@ class user extends base
           $query = $this->loadDb()->prepare('SELECT mail FROM USER WHERE mail = :mail');
           $query->bindValue(':mail',$mailTok,PDO::PARAM_STR);
           $query->execute();
-          var_dump($query);
           if ($query->rowCount()==1) {
               $token=$this->genererChaineAleatoire();
               $_SESSION['token']=$token;
@@ -455,7 +454,8 @@ class user extends base
         if($_SESSION['isLogin']=='ok'){
             throw new Exception('vous êtes déjà connecté');
         }
-        $mailTok = $_SESSION['mailTok'];
+
+        $mail = $_SESSION['mailTok'];
         $token = $_SESSION['token'];
         $newMdp=$_POST['newMdp'];
         $confirmMdp=$_POST['confirmMdp'];
@@ -476,7 +476,7 @@ class user extends base
             try {
                 $query = $this->loadDb()->prepare('UPDATE USER SET password = :password WHERE mail =:mail');
                 $query->bindValue(':password',$hashedNewPass,PDO::PARAM_STR);
-                $query->bindValue(':mail',$mailTok,PDO::PARAM_STR);
+                $query->bindValue(':mail',$mail,PDO::PARAM_STR);
                 $query->execute();
             }
             catch (PDOException $e){
