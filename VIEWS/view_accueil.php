@@ -41,31 +41,7 @@ $disc= new discussion();
                         <td>Dernier message</td>
                         <td>Auteur</td>
                         <td>Date</td>
-                    </tr>
 
-                    <?php
-                    require_once 'MODELS/models_base.php';
-
-                    $query = 'SELECT * FROM DISCUSSION ORDER BY disc_id DESC';
-
-                    $request = $this->execRequete($query);
-
-                    while($row = $request->fetch())
-                    {
-                        ?>
-                            <tr>
-                                <td><?php echo $row['title']  ?></td>
-                                <td>Statut</td>
-                                <td>Dernier message</td>
-                                <td>Auteur</td>
-                                <td>Date</td>
-                            </tr>
-                        <?php
-                    }
-
-
-
-                    ?>
 
                 </table>
             <div class="col-lg-12 text-center">
