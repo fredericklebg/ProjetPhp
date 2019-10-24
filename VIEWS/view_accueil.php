@@ -34,7 +34,7 @@
 
                 <table class="col-lg-12">
                     <tr>
-                        <td><?php getTitle(18); ?></td>
+                        <td><?php getTitle(18); //?></td>
                         <td>Statut</td>
                         <td>Dernier message</td>
                         <td>Auteur</td>
