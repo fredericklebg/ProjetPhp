@@ -1,8 +1,8 @@
 <?php
 
 
-spl_autoload_register(function ($class_name) {
-    require_once 'CONTROLLERS/'.$class_name . '.php';
+spl_autoload_register(function ($class) {
+    require_once 'CONTROLLERS/'.$class . '.php';
 });
 
 
