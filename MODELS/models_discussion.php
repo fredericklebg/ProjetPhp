@@ -71,7 +71,7 @@ class discussion extends base
      {
 
          $oui = $this->loadDb();
-         $query =('SELECT title,DISCUSSION.state,content,pseudo,message_date,DISCUSSION.disc_id FROM DISCUSSION,USER,MESSAGE  
+         $query =('SELECT SQL_CALC_FOUND_ROWS title,DISCUSSION.state,content,pseudo,message_date,DISCUSSION.disc_id FROM DISCUSSION,USER,MESSAGE  
                                         WHERE MESSAGE.disc_id=DISCUSSION.disc_id
                                         AND  MESSAGE.user_id = USER.user_id
                                         ORDER BY DISCUSSION.disc_id DESC LIMIT :limit OFFSET :debut');
@@ -79,7 +79,9 @@ class discussion extends base
          $query->bindValue('limit' , $limit , PDO::PARAM_INT);
          $query->bindValue('debut' , $debut , PDO::PARAM_INT );
          $query->execute();
-         return $query;
+         $total = $oui -> query('SELECT found_rows()')->fetchColumn();
+         return array($query, $total);
+
 
      }
 
