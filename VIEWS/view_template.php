@@ -1,5 +1,7 @@
 <?php
 
+require_once 'MODELS/models_discussion.php';
+
 class Vue {
 
     // Nom du fichier associé à la vue
