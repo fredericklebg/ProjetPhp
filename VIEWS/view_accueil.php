@@ -44,7 +44,7 @@ $disc= new discussion();
                     </tr>
 
                     <?php
-                    require_once '../MODELS/models_base.php';
+                    require_once 'MODELS/models_base.php';
 
                     $request = execRequete('SELECT * FROM DISCUSSION ORDER_BY disc_id DESC LIMIT');
 
