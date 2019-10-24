@@ -52,7 +52,7 @@ $disc= new discussion();
                     while($row = $query->fetch())
                     {
                         if ($row['title']==NULL)
-                            header('Location: http://tpphp.alwaysdata.net/ProjetPhp/?id='.$page);
+                            header('Location: http://tpphp.alwaysdata.net/ProjetPhp/?id='.$page-1);
                         $id = $row['disc_id'];
                         ?>
                         <tr>
