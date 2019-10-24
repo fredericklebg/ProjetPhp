@@ -353,26 +353,55 @@ class user extends base
         echo $e->getMessage();
     }
     }
+    public function changePassTok() {
+        if($_SESSION['isLogin']=='ok'){
+            throw new Exception('vous êtes déjà connecté');
+        }
 
+        $mail = $_POST['mail'];
+        $token = $_SESSION['token'];
+        $newMdp=$_POST['newMdp'];
+        $confirmMdp=$_POST['confirmMdp'];
+        if($_SESSION['token']!=$token) {
+            throw new Exception('mauvais code');
+        }
+        if(strlen($newMdp) <5 || strlen($newMdp) >20 )
+        {
+            throw new Exception("le mot de passe doit faire entre 5 et 20 caracteres");
+        }
+
+        if ($newMdp != $confirmMdp)
+        {
+            throw new Exception("les  nouveaux mots de passe ne coresspondent pas");
+        }
+        $hashedNewPass = hash('sha256',$newMdp);
+        if($token == $_SESSION['token']) {
+            try {
+                $query = $this->loadDb()->prepare('UPDATE USER SET password = :password WHERE mail =:mail');
+                $query->bindValue(':password',$hashedNewPass,PDO::PARAM_STR);
+                $query->bindValue(':mail',$mail,PDO::PARAM_STR);
+                $query->execute();
+            }
+            catch (PDOException $e){
+                echo $e->getMessage();
+            }
+        }
+
+}
 
     public function changePassword()
     {
-
+        if($_SESSION['isLogin']!='ok')
+        {
+            throw new Exception("vous n'etes pas connectés");
+        }
 
 
         $login = $_SESSION['login'];
         $pass = $_SESSION['password'];
-        $token = $_SESSION['token'];
-
         $oldMdp=$_POST['oldMdp'];
         $newMdp=$_POST['newMdp'];
         $confirmMdp=$_POST['confirmMdp'];
-        if($_SESSION['isLogin']!='ok')
-        {
-            if ($_SESSION['token']!=$token) {
-                throw new Exception("mauvais code");
-            }
-        }
 
         if(strlen($newMdp) <5 || strlen($newMdp) >20 )
         {
@@ -383,7 +412,6 @@ class user extends base
         {
             throw new Exception("les  nouveaux mots de passe ne coresspondent pas");
         }
-
         $hashedOldPass = hash('sha256',$oldMdp);
         $hashedNewPass = hash('sha256',$newMdp);
 
@@ -403,7 +431,6 @@ class user extends base
                 echo $e->getMessage();
             }
         }
-
         else
         {
             throw new Exception("votre mot de passe actuel est faux");
