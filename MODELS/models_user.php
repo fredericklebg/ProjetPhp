@@ -374,6 +374,7 @@ class user extends base
             }
             throw new Exception("Vous n'êtes pas connecté");
         }
+
         if(strlen($newMdp) <5 || strlen($newMdp) >20 )
         {
             throw new Exception("le mot de passe doit faire entre 5 et 20 caracteres");
