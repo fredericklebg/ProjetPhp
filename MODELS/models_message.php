@@ -105,11 +105,12 @@ class message extends base
     {
         $msg=$_POST['newMsg'];
         $userId=$_SESSION['userId'];
-        $query = 'INSERT INTO MESSAGE(disc_id,content,user_id,message_date)
+        $query = 'INSERT INTO MESSAGE(disc_id,content,user_id,state,message_date)
         VALUES (
          \'' . $discId. '\' ,
          \'' . $msg. '\',
          \'' . $userId . '\' ,
+          \'' . 'ouvert' . '\' ,
                 NOW()   
          )';
         $this->execRequete($query);
