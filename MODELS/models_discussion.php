@@ -75,18 +75,7 @@ class discussion extends base
                                         WHERE MESSAGE.disc_id=DISCUSSION.disc_id
                                         AND  MESSAGE.user_id = USER.user_id
                                         ORDER BY DISCUSSION.disc_id DESC;');
-         while($row = $query->fetch())
-         {
-             ?>
-             <tr>
-                 <td><?php echo $row['title']  ?></td>
-                 <td><?php echo $row['state'] ?></td>
-                 <td><?php echo $row['content']  ?></td>
-                 <td><?php echo $row['pseudo'] ?></td>
-                 <td><?php echo $row['message_date']  ?></td>
-             </tr>
-             <?php
-         }
+         return $query;
 
      }
 
