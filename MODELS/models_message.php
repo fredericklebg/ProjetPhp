@@ -123,16 +123,16 @@ class message extends base
                                         WHERE MESSAGE.user_id=USER.user_id ORDER BY message_id DESC');
 
 
-        while($row = $query->fetch())
-        {
+        while ($row = $query->fetch()) {
             ?>
-                <td><?php echo $row['content']  ?></td>
-                <td><?php echo $row['pseudo'] ?></td>
-                <td> <?php echo $row['message_date'] ?> </td>
+            <td><?php echo $row['content'] ?></td>
+            <td><?php echo $row['pseudo'] ?></td>
+            <td> <?php echo $row['message_date'] ?> </td>
             </tr>
             <?php
 
         }
+    }
 
 
 //    public function CloseMessage($content, $message_id)
@@ -143,15 +143,3 @@ class message extends base
 //    }
 //    }ù
 }
-
-
-
-
-
-
-
-
-
-
-
-?>
