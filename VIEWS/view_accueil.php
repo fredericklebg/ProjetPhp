@@ -48,7 +48,7 @@ $disc= new discussion();
 
                     $query = 'SELECT * FROM DISCUSSION ORDER BY disc_id DESC';
 
-                    $request = $this->base->execRequete($query);
+                    $request = $this->execRequete($query);
 
                     while($row = $request->fetch())
                     {
