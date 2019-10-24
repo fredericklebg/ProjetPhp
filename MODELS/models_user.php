@@ -431,7 +431,7 @@ class user extends base
 //        $query = 'UPDATE USER SET password := \'' . $hashedPass .'\' WHERE mail = \'' . $mail . '\'';
 //        $this->execRequete($query);
 //        echo"le mail a bien été envoyé";
-//        mail($mail, 'MDP OUBLIE BRO', $message);
+// *       mail($mail, 'MDP OUBLIE BRO', $message);
 //    }
       public function  sendToken() {
           $mailTok = $_POST['mail'];
