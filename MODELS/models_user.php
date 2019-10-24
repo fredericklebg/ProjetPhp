@@ -455,7 +455,6 @@ class user extends base
         if($_SESSION['isLogin']=='ok'){
             throw new Exception('vous êtes déjà connecté');
         }
-
         $mailTok = $_SESSION['mailTok'];
         $token = $_SESSION['token'];
         $newMdp=$_POST['newMdp'];
