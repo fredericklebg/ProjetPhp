@@ -43,7 +43,7 @@ $disc= new discussion();
                         <td>Date</td>
                     </tr>
                     <tr>
-                        <td><?php $disc->getTitle(18);  ?></td>
+                        <td><?php echo $disc->getTitle(18);  ?></td>
                         <td>Statut</td>
                         <td>Dernier message</td>
                         <td>Auteur</td>
