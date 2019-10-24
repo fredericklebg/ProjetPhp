@@ -86,7 +86,9 @@ abstract class controller_main {
         $vue->generer(array());
     }
     public function replacePass () {
-
+        $this->user->replacePassword();
+        $vue = new Vue($_GET['page']);
+        $vue->generer(array());
     }
 
     public function disconnect()

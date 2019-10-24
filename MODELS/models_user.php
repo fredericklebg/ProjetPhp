@@ -353,7 +353,7 @@ class user extends base
         echo $e->getMessage();
     }
     }
-    public function replacePass() {
+    public function replacePassword() {
         if($_SESSION['isLogin']=='ok'){
             throw new Exception('vous êtes déjà connecté');
         }
