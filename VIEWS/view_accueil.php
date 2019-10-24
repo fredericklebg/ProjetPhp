@@ -27,7 +27,7 @@ $disc= new discussion();
                 </div>
 
                 <div class="offset-lg-4 col-lg-4 col-md-4 col-sm-12 text-center">
-                    <a href="http://tpphp.alwaysdata.net/ProjetPhp">
+                    <a href="">
                      <input class="refreshbouton" type="button" value="Actualiser"> </a>
                 </div>
             </div>
