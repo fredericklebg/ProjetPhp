@@ -48,7 +48,7 @@ $disc= new discussion();
 
                     $query = 'SELECT * FROM DISCUSSION ORDER_BY disc_id DESC LIMIT';
 
-                    $request = execRequete($query);
+                    $request = $this->base->execRequete($query);
 
                     while($row = $request->fetch())
                     {
