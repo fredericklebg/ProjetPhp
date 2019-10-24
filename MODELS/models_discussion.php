@@ -55,9 +55,8 @@ class discussion extends base
         $discName = $_POST['nomDisc'];
         $id=$_SESSION['userId'];
 
-        $query = ('INSERT INTO DISCUSSION (user_id, state, title)
+        $query = ('INSERT INTO DISCUSSION (state, title)
         VALUES (
-         \'' . $id . '\',
          \'' . $this->state . '\',
          \'' . $discName . '\'
          )');
