@@ -67,16 +67,17 @@ class discussion extends base
         return $result;
     }
 
-     public function showDisc($limit)
+     public function showDisc($debut,$limit)
      {
 
          $oui = $this->loadDb();
          $query =('SELECT title,DISCUSSION.state,content,pseudo,message_date,DISCUSSION.disc_id FROM DISCUSSION,USER,MESSAGE  
                                         WHERE MESSAGE.disc_id=DISCUSSION.disc_id
                                         AND  MESSAGE.user_id = USER.user_id
-                                        ORDER BY DISCUSSION.disc_id DESC LIMIT :limit');
+                                        ORDER BY DISCUSSION.disc_id DESC LIMIT :limit OFFSET :debut');
          $query = $oui->prepare($query);
          $query->bindValue('limit' , $limit , PDO::PARAM_INT);
+         $query->bindValue('debut' , $debut , PDO::PARAM_INT );
          $query->execute();
          return $query;
 
