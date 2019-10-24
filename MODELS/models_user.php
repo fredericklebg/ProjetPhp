@@ -386,7 +386,6 @@ class user extends base
                 echo $e->getMessage();
             }
         }
-
 }
 
     public function changePassword()
