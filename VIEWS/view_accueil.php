@@ -36,7 +36,7 @@ require_once 'MODELS/models_discussion.php';
 
                 <table class="col-lg-12">
                     <tr>
-                        <td><?php echo getTitle(18); ?></td>
+                        <td><?php //echo getTitle(18); ?></td>
                         <td>Statut</td>
                         <td>Dernier message</td>
                         <td>Auteur</td>
