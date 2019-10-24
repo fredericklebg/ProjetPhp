@@ -47,12 +47,13 @@ $disc= new discussion();
                     $i=0;
                     while($row = $query->fetch())
                     {
+                        $id = $row['disc_id'];
                         $limit = 2;
                         $i++;
                         ?>
                         <tr>
-                            <td> <a href="http://tpphp.alwaysdata.net/ProjetPhp/?page=discussion&action=afficher&id=<?php $row['disc_id'] ?>">
-                                <?php echo $row['disc_id']  ?> </a> </td>
+                            <td> <a href="http://tpphp.alwaysdata.net/ProjetPhp/?page=discussion&action=afficher&id=<?php echo $id ?>">
+                                <?php echo $row['title']  ?> </a> </td>
                             <td><?php echo $row['state'] ?></td>
                             <td><?php echo $row['content']  ?></td>
                             <td><?php echo $row['pseudo'] ?></td>
