@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b41057ea-1169-4d87-bd84-37173161cc78" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/VIEWS/view_sendToken.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CONTROLLERS/controller_main.php" beforeDir="false" afterPath="$PROJECT_DIR$/CONTROLLERS/controller_main.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/VIEWS/view_changePass.php" beforeDir="false" afterPath="$PROJECT_DIR$/VIEWS/view_changePass.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/VIEWS/view_forgotMdp.php" beforeDir="false" afterPath="$PROJECT_DIR$/VIEWS/view_forgotMdp.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/VIEWS/view_passChanged.php" beforeDir="false" afterPath="$PROJECT_DIR$/VIEWS/view_passChanged.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/VIEWS/view_sendMdp.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/VIEWS/view_sendToken.php" beforeDir="false" afterPath="$PROJECT_DIR$/VIEWS/view_sendToken.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -147,27 +141,6 @@
       <workItem from="1571401539625" duration="2405000" />
       <workItem from="1571830003405" duration="4888000" />
       <workItem from="1571925238818" duration="2568000" />
-    </task>
-    <task id="LOCAL-00161" summary="test mvc">
-      <created>1571352671589</created>
-      <option name="number" value="00161" />
-      <option name="presentableId" value="LOCAL-00161" />
-      <option name="project" value="LOCAL" />
-      <updated>1571352671589</updated>
-    </task>
-    <task id="LOCAL-00162" summary="test mvc">
-      <created>1571352733694</created>
-      <option name="number" value="00162" />
-      <option name="presentableId" value="LOCAL-00162" />
-      <option name="project" value="LOCAL" />
-      <updated>1571352733694</updated>
-    </task>
-    <task id="LOCAL-00163" summary="test mvc">
-      <created>1571352768562</created>
-      <option name="number" value="00163" />
-      <option name="presentableId" value="LOCAL-00163" />
-      <option name="project" value="LOCAL" />
-      <updated>1571352768562</updated>
     </task>
     <task id="LOCAL-00164" summary="test mvc">
       <created>1571353070668</created>
@@ -491,7 +464,28 @@
       <option name="project" value="LOCAL" />
       <updated>1571932382249</updated>
     </task>
-    <option name="localTasksCounter" value="210" />
+    <task id="LOCAL-00210" summary="prenez un scooter">
+      <created>1571935655215</created>
+      <option name="number" value="00210" />
+      <option name="presentableId" value="LOCAL-00210" />
+      <option name="project" value="LOCAL" />
+      <updated>1571935655215</updated>
+    </task>
+    <task id="LOCAL-00211" summary="prenez un scooter">
+      <created>1571935676845</created>
+      <option name="number" value="00211" />
+      <option name="presentableId" value="LOCAL-00211" />
+      <option name="project" value="LOCAL" />
+      <updated>1571935676846</updated>
+    </task>
+    <task id="LOCAL-00212" summary="prenez un scooter">
+      <created>1571935878021</created>
+      <option name="number" value="00212" />
+      <option name="presentableId" value="LOCAL-00212" />
+      <option name="project" value="LOCAL" />
+      <updated>1571935878021</updated>
+    </task>
+    <option name="localTasksCounter" value="213" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
