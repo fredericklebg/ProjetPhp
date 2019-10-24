@@ -434,7 +434,7 @@ class user extends base
 // *       mail($mail, 'MDP OUBLIE BRO', $message);
 //    }
       public function  sendToken() {
-          $mailTok = $_POST['mail'];
+          $mailTok = $_POST['mailTok'];
           $_SESSION['mailTok']=$mailTok;
           $query = $this->loadDb()->prepare('SELECT mail FROM USER WHERE mail = :mail');
           $query->bindValue(':mail',$mailTok,PDO::PARAM_STR);
