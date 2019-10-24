@@ -5,7 +5,7 @@
 
 <?php
 
-
+$disc= new discussion();
 
 ?>
 
@@ -36,14 +36,14 @@
 
                 <table class="col-lg-12">
                     <tr>
-                        <td><?php  ?></td>
+                        <td> nom de la discussion </td>
                         <td>Statut</td>
                         <td>Dernier message</td>
                         <td>Auteur</td>
                         <td>Date</td>
                     </tr>
                     <tr>
-                        <td>Nom de la discussion</td>
+                        <td><?php $disc->getTitle(18);  ?></td>
                         <td>Statut</td>
                         <td>Dernier message</td>
                         <td>Auteur</td>
