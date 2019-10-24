@@ -1,6 +1,6 @@
 <?php
 
-//require_once 'CONTROLLERS/controller_accueil.php';
+require_once 'MODELS/models_discussion.php';
 
 
 

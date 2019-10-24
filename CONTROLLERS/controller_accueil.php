@@ -36,27 +36,16 @@ class controller_accueil extends controller_main
         $vue->generer(array());
     }
 
-    public function showDiscussion()
-    {
-        $query=$this->disc->showDisc();
-        while($row = $query->fetch())
-        {
-            ?>
-            <tr>
-            <td><?php echo $row['title']  ?></td>
-            <td><?php echo $row['state'] ?></td>
-            <td><?php echo $row['content']  ?></td>
-            <td><?php echo $row['pseudo'] ?></td>
-            <td><?php echo $row['message_date']  ?></td>
-            </tr>
-            <?php
-        }
-
-
-
-
-
-    }
+//    public function showDiscussion()
+//    {
+//        $query=$this->disc->showDisc();
+//
+//
+//
+//
+//
+//
+//    }
 
 
 }

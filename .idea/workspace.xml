@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b41057ea-1169-4d87-bd84-37173161cc78" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CONTROLLERS/controller_accueil.php" beforeDir="false" afterPath="$PROJECT_DIR$/CONTROLLERS/controller_accueil.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MODELS/models_discussion.php" beforeDir="false" afterPath="$PROJECT_DIR$/MODELS/models_discussion.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MODELS/models_message.php" beforeDir="false" afterPath="$PROJECT_DIR$/MODELS/models_message.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/VIEWS/view_accueil.php" beforeDir="false" afterPath="$PROJECT_DIR$/VIEWS/view_accueil.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/VIEWS/view_template.php" beforeDir="false" afterPath="$PROJECT_DIR$/VIEWS/view_template.php" afterDir="false" />
     </list>
@@ -156,34 +154,6 @@
       <workItem from="1571401539625" duration="2405000" />
       <workItem from="1571830003405" duration="4888000" />
       <workItem from="1571925238818" duration="2568000" />
-    </task>
-    <task id="LOCAL-00162" summary="test mvc">
-      <created>1571352733694</created>
-      <option name="number" value="00162" />
-      <option name="presentableId" value="LOCAL-00162" />
-      <option name="project" value="LOCAL" />
-      <updated>1571352733694</updated>
-    </task>
-    <task id="LOCAL-00163" summary="test mvc">
-      <created>1571352768562</created>
-      <option name="number" value="00163" />
-      <option name="presentableId" value="LOCAL-00163" />
-      <option name="project" value="LOCAL" />
-      <updated>1571352768562</updated>
-    </task>
-    <task id="LOCAL-00164" summary="test mvc">
-      <created>1571353070668</created>
-      <option name="number" value="00164" />
-      <option name="presentableId" value="LOCAL-00164" />
-      <option name="project" value="LOCAL" />
-      <updated>1571353070668</updated>
-    </task>
-    <task id="LOCAL-00165" summary="test mvc">
-      <created>1571353126296</created>
-      <option name="number" value="00165" />
-      <option name="presentableId" value="LOCAL-00165" />
-      <option name="project" value="LOCAL" />
-      <updated>1571353126296</updated>
     </task>
     <task id="LOCAL-00166" summary="test mvc">
       <created>1571353287542</created>
@@ -500,7 +470,35 @@
       <option name="project" value="LOCAL" />
       <updated>1571934890242</updated>
     </task>
-    <option name="localTasksCounter" value="211" />
+    <task id="LOCAL-00211" summary="prenez un scooter">
+      <created>1571936484676</created>
+      <option name="number" value="00211" />
+      <option name="presentableId" value="LOCAL-00211" />
+      <option name="project" value="LOCAL" />
+      <updated>1571936484676</updated>
+    </task>
+    <task id="LOCAL-00212" summary="prenez un scooter">
+      <created>1571936515191</created>
+      <option name="number" value="00212" />
+      <option name="presentableId" value="LOCAL-00212" />
+      <option name="project" value="LOCAL" />
+      <updated>1571936515191</updated>
+    </task>
+    <task id="LOCAL-00213" summary="prenez un scooter">
+      <created>1571936536406</created>
+      <option name="number" value="00213" />
+      <option name="presentableId" value="LOCAL-00213" />
+      <option name="project" value="LOCAL" />
+      <updated>1571936536406</updated>
+    </task>
+    <task id="LOCAL-00214" summary="prenez un scooter">
+      <created>1571936592031</created>
+      <option name="number" value="00214" />
+      <option name="presentableId" value="LOCAL-00214" />
+      <option name="project" value="LOCAL" />
+      <updated>1571936592031</updated>
+    </task>
+    <option name="localTasksCounter" value="215" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

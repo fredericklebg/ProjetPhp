@@ -5,8 +5,7 @@
 
 <?php
 
-$ctr= new controller_accueil();
-
+$disc= new discussion();
 ?>
 
 
@@ -44,7 +43,7 @@ $ctr= new controller_accueil();
                     </tr>
 
                     <?php ///
-                    $ctr->showDiscussion();
+                    $disc->showDisc();
 
                     ?>
                 </table>
