@@ -43,7 +43,7 @@ $ctr= new controller_accueil();
                         <td>Date</td>
                     </tr>
 
-                    <?php //
+                    <?php ///
                     $ctr->showDiscussion();
 
                     ?>
