@@ -48,7 +48,9 @@ $disc= new discussion();
                     $page = (!empty($_GET['id']) ? $_GET['id'] : 1);
                     $debut = ($page - 1 ) * $limit;
 
+
                     $query=$disc->showDisc($debut,$limit);
+                    $nbPages = ceil($query[1] / $limit);
                     while($row = $query[0]->fetch())
                     {
                         $id = $row['disc_id'];
@@ -67,7 +69,12 @@ $disc= new discussion();
                 </table>
             <div class="col-lg-12 text-center">
                 <a href="?id=<?php echo $page-1; ?>"  ><input type="image" alt="previous" src="VIEWS/Media/gauche.jpg" width="30px" height="30px"> </a>
-                <a href="?id=<?php echo $page+1; ?>"  ><input type="image" alt="next" src="VIEWS/Media/droite.jpg" width="30px" height="30px" > </a>
+                <?php
+                if ($page < $nbPages) { ?>
+                       <a href="?id=<? echo $page + 1 ?> "><input type="image" alt="next" src="VIEWS/Media/droite.jpg" width="30px" height="30px"> </a>
+                <?php
+                }
+                ?>
             </div>
 
         </section>
