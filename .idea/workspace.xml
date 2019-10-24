@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b41057ea-1169-4d87-bd84-37173161cc78" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/VIEWS/view_discussion.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MODELS/models_message.php" beforeDir="false" afterPath="$PROJECT_DIR$/MODELS/models_message.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/VIEWS/view_affichdisc.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/VIEWS/view_error.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/VIEWS/view_discussion.php" beforeDir="false" afterPath="$PROJECT_DIR$/VIEWS/view_discussion.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -150,20 +146,6 @@
       <workItem from="1571401539625" duration="2405000" />
       <workItem from="1571830003405" duration="4888000" />
       <workItem from="1571925238818" duration="2568000" />
-    </task>
-    <task id="LOCAL-00209" summary="prenez un scooter">
-      <created>1571934808759</created>
-      <option name="number" value="00209" />
-      <option name="presentableId" value="LOCAL-00209" />
-      <option name="project" value="LOCAL" />
-      <updated>1571934808759</updated>
-    </task>
-    <task id="LOCAL-00210" summary="prenez un scooter">
-      <created>1571934890242</created>
-      <option name="number" value="00210" />
-      <option name="presentableId" value="LOCAL-00210" />
-      <option name="project" value="LOCAL" />
-      <updated>1571934890242</updated>
     </task>
     <task id="LOCAL-00211" summary="prenez un scooter">
       <created>1571936484676</created>
@@ -494,7 +476,21 @@
       <option name="project" value="LOCAL" />
       <updated>1571958023355</updated>
     </task>
-    <option name="localTasksCounter" value="258" />
+    <task id="LOCAL-00258" summary="discussion">
+      <created>1571959174050</created>
+      <option name="number" value="00258" />
+      <option name="presentableId" value="LOCAL-00258" />
+      <option name="project" value="LOCAL" />
+      <updated>1571959174050</updated>
+    </task>
+    <task id="LOCAL-00259" summary="discussion">
+      <created>1571959215341</created>
+      <option name="number" value="00259" />
+      <option name="presentableId" value="LOCAL-00259" />
+      <option name="project" value="LOCAL" />
+      <updated>1571959215341</updated>
+    </task>
+    <option name="localTasksCounter" value="260" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -548,6 +544,7 @@
     <MESSAGE value="test" />
     <MESSAGE value="test pagination" />
     <MESSAGE value="pagination" />
-    <option name="LAST_COMMIT_MESSAGE" value="pagination" />
+    <MESSAGE value="discussion" />
+    <option name="LAST_COMMIT_MESSAGE" value="discussion" />
   </component>
 </project>
