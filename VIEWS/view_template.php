@@ -1,7 +1,8 @@
 <?php
 
 require_once 'MODELS/models_discussion.php';
-require_once 'MODELS/models_message.php';
+
+
 
 class Vue {
 

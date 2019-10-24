@@ -8,6 +8,7 @@ class controller_accueil extends controller_main
 {
     private $user;
 
+
     public function index()
     {
         $vue = new Vue('accueil');
@@ -15,6 +16,7 @@ class controller_accueil extends controller_main
 
     }
     public function __construct() {
+
         $this->user = new user();
     }
 
@@ -31,6 +33,18 @@ class controller_accueil extends controller_main
         $vue = new Vue('passChanged');
         $vue->generer(array());
     }
+
+//    public function showDiscussion()
+//    {
+//        $query=$this->disc->showDisc();
+//
+//
+//
+//
+//
+//
+//    }
+
 
 }
 

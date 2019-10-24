@@ -1,9 +1,7 @@
 <?php
 
 
-spl_autoload_register(function ($class_name) {
-    require_once 'CONTROLLERS/'.$class_name . '.php';
-});
+require_once 'CONTROLLERS/router.php';
 
 
 session_start();
