@@ -41,8 +41,12 @@ $disc= new discussion();
                         <td>Dernier message</td>
                         <td>Auteur</td>
                         <td>Date</td>
+                    </tr>
 
-
+                    <?php
+                    $var= new discussion();
+                    $var->showDisc();
+                    ?>
                 </table>
             <div class="col-lg-12 text-center">
                 <input type="image" alt="previous" src="VIEWS/Media/gauche.jpg" width="30px" height="30px">
