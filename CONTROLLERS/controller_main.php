@@ -79,7 +79,6 @@ abstract class controller_main {
         $this->user->sendToken();
         $vue = new Vue('sendToken');
         $vue->generer(array());
-
     }
     public function forgotMdp() {
 
