@@ -16,8 +16,7 @@ class controller_accueil extends controller_main
 
     }
     public function __construct() {
-        $this->disc= new discussion();
-        $this->msg= new message();
+
         $this->user = new user();
     }
 
