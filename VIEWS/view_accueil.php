@@ -51,6 +51,8 @@ $disc= new discussion();
                     $query=$disc->showDisc($debut,$limit);
                     while($row = $query->fetch())
                     {
+                        if ($row['title']==NULL)
+                            header('Location: http://tpphp.alwaysdata.net/ProjetPhp/?id='.$page);
                         $id = $row['disc_id'];
                         ?>
                         <tr>
@@ -63,9 +65,6 @@ $disc= new discussion();
                         </tr>
                         <?php
                     }
-                    echo $page;
-                    echo $debut;
-
                     ?>
                 </table>
             <div class="col-lg-12 text-center">
