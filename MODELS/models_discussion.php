@@ -74,7 +74,7 @@ class discussion extends base
          $query = $oui->query('SELECT title,DISCUSSION.state,content,pseudo,message_date,DISCUSSION.disc_id FROM DISCUSSION,USER,MESSAGE  
                                         WHERE MESSAGE.disc_id=DISCUSSION.disc_id
                                         AND  MESSAGE.user_id = USER.user_id
-                                        ORDER BY DISCUSSION.disc_id DESC LIMIT \'' . $limit .'\';');
+                                        ORDER BY DISCUSSION.disc_id DESC LIMIT 2');
          return $query;
 
      }
