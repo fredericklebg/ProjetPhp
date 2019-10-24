@@ -5,8 +5,8 @@
 
 <?php
 
-$disc= new discussion();
-$msg = new message();
+$ctr= new controller_accueil();
+
 ?>
 
 
@@ -44,8 +44,8 @@ $msg = new message();
                     </tr>
 
                     <?php
-                    $id=$disc->showDisc();
-                    $msg->showMsg($id);
+                    $ctr->showDiscussion();
+
                     ?>
                 </table>
             <div class="col-lg-12 text-center">

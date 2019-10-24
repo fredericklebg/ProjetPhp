@@ -71,22 +71,14 @@ class discussion extends base
 
      public function showDisc()
      {
+
          $oui = $this->loadDb();
-         $query = $oui->query('SELECT * FROM DISCUSSION ORDER BY disc_id DESC');
+         $query = $oui->query('SELECT title,DISCUSSION.state,content,pseudo,message_date FROM DISCUSSION,USER,MESSAGE  
+                                        WHERE MESSAGE.disc_id=DISCUSSION.disc_id
+                                        AND  MESSAGE.user_id = USER.user_id
+                                        ORDER BY DISCUSSION.disc_id DESC;');
+         return $query;
 
-
-         while($row = $query->fetch())
-         {
-             ?>
-             <tr>
-                 <td><?php echo $row['title']  ?></td>
-                 <td><?php echo $row['state'] ?></td>
-
-             <?php
-
-             return $row['disc_id'];
-
-         }
      }
 
 

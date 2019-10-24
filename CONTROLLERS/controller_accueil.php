@@ -7,6 +7,8 @@ require_once 'VIEWS/view_template.php';
 class controller_accueil extends controller_main
 {
     private $user;
+    private $disc;
+    private $msg;
 
     public function index()
     {
@@ -15,6 +17,8 @@ class controller_accueil extends controller_main
 
     }
     public function __construct() {
+        $this->disc= new discussion();
+        $this->msg= new message();
         $this->user = new user();
     }
 
@@ -31,6 +35,29 @@ class controller_accueil extends controller_main
         $vue = new Vue('passChanged');
         $vue->generer(array());
     }
+
+    public function showDiscussion()
+    {
+        $query=$this->disc->showDisc();
+        while($row = $query->fetch())
+        {
+            ?>
+            <tr>
+            <td><?php echo $row['title']  ?></td>
+            <td><?php echo $row['state'] ?></td>
+            <td><?php echo $row['content']  ?></td>
+            <td><?php echo $row['pseudo'] ?></td>
+            <td><?php echo $row['message_date']  ?></td>
+            </tr>
+            <?php
+        }
+
+
+
+
+
+    }
+
 
 }
 
