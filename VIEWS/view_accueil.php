@@ -56,7 +56,7 @@ $disc= new discussion();
                         $id = $row['disc_id'];
                         ?>
                         <tr>
-                            <td> <a href="?page=discussion&action=afficher&id=<?php echo $id ?>">
+                            <td> <a href="?page=discussion&id=<?php echo $id ?>">
                                 <?php echo $row['title']  ?> </a> </td>
                             <td><?php echo $row['state'] ?></td>
                             <td><?php echo $row['content']  ?></td>
