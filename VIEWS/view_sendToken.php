@@ -8,7 +8,7 @@
             <input type="text" placeholder="Entrer le code" name="token" /> <br>
             <input type="password" placeholder="nouveau mot de passe" name="newMdp"/> <br>
             <input type="password" placeholder="confirmer mot de passe" name="confirmMdp"/> <br>
-            <input type="submit" name="action" value="changePass" placeholder="modifier"/> <br>
+            <input type="submit" name="action" value="changePass"/> <br>
         </form>
 
     </section>
