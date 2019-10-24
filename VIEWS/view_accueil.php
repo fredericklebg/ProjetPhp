@@ -42,8 +42,10 @@ $disc= new discussion();
                         <td>Date</td>
                     </tr>
 
-                    <?php ///
-                    $debut = ($_GET['id'] - 1 ) * $limit;
+                    <?php
+
+                    $page = (!empty($_GET['page']) ? $_GET['page'] : 1);
+                    $debut = ($page - 1 ) * $limit;
                     $limit=2;
                     $query=$disc->showDisc($debut,$limit);
                     $i=0;
@@ -65,8 +67,8 @@ $disc= new discussion();
                     ?>
                 </table>
             <div class="col-lg-12 text-center">
-                <a><input type="image" alt="previous" src="VIEWS/Media/gauche.jpg" width="30px" height="30px"> </a>
-                <a><input type="image" alt="next" src="VIEWS/Media/droite.jpg" width="30px" height="30px" > </a>
+                <a href="?id=<?php echo $page-1; ?>"  ><input type="image" alt="previous" src="VIEWS/Media/gauche.jpg" width="30px" height="30px"> </a>
+                <a href="?id=<?php echo $page+1; ?>"  ><input type="image" alt="next" src="VIEWS/Media/droite.jpg" width="30px" height="30px" > </a>
             </div>
 
         </section>

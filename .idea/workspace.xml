@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b41057ea-1169-4d87-bd84-37173161cc78" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/MODELS/models_discussion.php" beforeDir="false" afterPath="$PROJECT_DIR$/MODELS/models_discussion.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/VIEWS/view_accueil.php" beforeDir="false" afterPath="$PROJECT_DIR$/VIEWS/view_accueil.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -147,20 +146,6 @@
       <workItem from="1571401539625" duration="2405000" />
       <workItem from="1571830003405" duration="4888000" />
       <workItem from="1571925238818" duration="2568000" />
-    </task>
-    <task id="LOCAL-00195" summary="modif texte accueil">
-      <created>1571403499268</created>
-      <option name="number" value="00195" />
-      <option name="presentableId" value="LOCAL-00195" />
-      <option name="project" value="LOCAL" />
-      <updated>1571403499268</updated>
-    </task>
-    <task id="LOCAL-00196" summary="modif disc">
-      <created>1571832338062</created>
-      <option name="number" value="00196" />
-      <option name="presentableId" value="LOCAL-00196" />
-      <option name="project" value="LOCAL" />
-      <updated>1571832338063</updated>
     </task>
     <task id="LOCAL-00197" summary="modif disc">
       <created>1571832395212</created>
@@ -491,7 +476,21 @@
       <option name="project" value="LOCAL" />
       <updated>1571954603620</updated>
     </task>
-    <option name="localTasksCounter" value="244" />
+    <task id="LOCAL-00244" summary="test pagination">
+      <created>1571954867550</created>
+      <option name="number" value="00244" />
+      <option name="presentableId" value="LOCAL-00244" />
+      <option name="project" value="LOCAL" />
+      <updated>1571954867550</updated>
+    </task>
+    <task id="LOCAL-00245" summary="test pagination">
+      <created>1571954959116</created>
+      <option name="number" value="00245" />
+      <option name="presentableId" value="LOCAL-00245" />
+      <option name="project" value="LOCAL" />
+      <updated>1571954959116</updated>
+    </task>
+    <option name="localTasksCounter" value="246" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
