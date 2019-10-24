@@ -51,7 +51,7 @@ $disc= new discussion();
                         $i++;
                         ?>
                         <tr>
-                            <td> <a href="http://tpphp.alwaysdata.net/ProjetPhp/?page=discussion&action=afficher&id=<?php$row['disc_id'] ?>">
+                            <td> <a href="http://tpphp.alwaysdata.net/ProjetPhp/?page=discussion&action=afficher&id=<?php $row['disc_id'] ?>">
                                 <?php echo $row['title']  ?> </a> </td>
                             <td><?php echo $row['state'] ?></td>
                             <td><?php echo $row['content']  ?></td>
