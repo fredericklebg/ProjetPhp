@@ -34,7 +34,7 @@
 
                 <table class="col-lg-12">
                     <tr>
-                        <td>Nom de la discussion</td>
+                        <td><?php echo $_SESSION['login'];  ?></td>
                         <td>Statut</td>
                         <td>Dernier message</td>
                         <td>Auteur</td>
