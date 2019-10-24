@@ -85,6 +85,9 @@ abstract class controller_main {
         $vue = new Vue('forgotMdp');
         $vue->generer(array());
     }
+    public function replacePass () {
+
+    }
 
     public function disconnect()
     {
