@@ -6,7 +6,7 @@
 <?php
 
 $disc= new discussion();
-
+$msg = new message();
 ?>
 
 
@@ -41,8 +41,12 @@ $disc= new discussion();
                         <td>Dernier message</td>
                         <td>Auteur</td>
                         <td>Date</td>
+                    </tr>
 
-
+                    <?php
+                    $id=$disc->showDisc();
+                    $msg->showMsg($id);
+                    ?>
                 </table>
             <div class="col-lg-12 text-center">
                 <input type="image" alt="previous" src="VIEWS/Media/gauche.jpg" width="30px" height="30px">

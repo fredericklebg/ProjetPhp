@@ -69,6 +69,31 @@ class discussion extends base
         return $result;
     }
 
+     public function showDisc()
+     {
+         $oui = $this->loadDb();
+         $query = $oui->query('SELECT * FROM DISCUSSION ORDER BY disc_id DESC');
+
+
+         while($row = $query->fetch())
+         {
+             ?>
+             <tr>
+                 <td><?php echo $row['title']  ?></td>
+                 <td><?php echo $row['state'] ?></td>
+
+             <?php
+
+             return $row['disc_id'];
+
+         }
+     }
+
+
+
+
+
+
  //   public function showDiscussion
 
 //    public function closeDiscussion()
