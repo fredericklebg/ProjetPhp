@@ -7,8 +7,7 @@ require_once 'VIEWS/view_template.php';
 class controller_accueil extends controller_main
 {
     private $user;
-    private $disc;
-    private $msg;
+
 
     public function index()
     {
