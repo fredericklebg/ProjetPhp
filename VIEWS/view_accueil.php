@@ -34,7 +34,7 @@
 
                 <table class="col-lg-12">
                     <tr>
-                        <td><?php getDisc(disc_id,18); ?></td>
+                        <td></td>
                         <td>Statut</td>
                         <td>Dernier message</td>
                         <td>Auteur</td>
