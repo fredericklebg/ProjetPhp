@@ -434,6 +434,22 @@ class user extends base
 //        echo"le mail a bien été envoyé";
 //        mail($mail, 'MDP OUBLIE BRO', $message);
 //    }
+      public function  sendToken() {
+          $mail = $_POST['mail'];
+          $query = $this->loadDb()->prepare('SELECT mail FROM USER WHERE mail = :mail');
+          $query->bindValue(':mail',$mail,PDO::PARAM_STR);
+          $query->execute();
+          if ($query->rowCount()==1) {
+              $token=$this->genererChaineAleatoire();
+              $_SESSION['token']=$token;
+              mail($mail,'Changement de mpot de passe','Utiliser ce code  :\''.$token.'\' sur la page ouverte');
+          }
+
+          else {
+              throw new Exception('Mail vide');
+          }
+
+      }
       public function sendMdp() {
           $mail = $_POST['mail'];
           $query = $this->loadDb()->prepare('SELECT mail FROM USER WHERE mail = :mail');
@@ -441,10 +457,10 @@ class user extends base
           $query->execute();
           if ($query->rowCount()==1) {
 
-              $mdp = $this->genererChaineAleatoire();
-              mail($mail, 'Changement de mot de passe', 'Mot de passe temporaire: \''.$mdp.'\'
+              $mdptemporaire = $this->genererChaineAleatoire();
+              mail($mail, 'Changement de mot de passe', 'Mot de passe temporaire: \''.$mdptemporaire.'\'
               Veillez a bien changer votre mot de passe par la suite');
-              $passwordHash = hash('sha256', $mdp);
+              $passwordHash = hash('sha256', $mdptemporaire);
               $query = $this->loadDb()->prepare('UPDATE USER SET password = :password WHERE mail = :mail');
               $query->bindValue(':password', $passwordHash, PDO::PARAM_STR);
               $query->bindValue('mail', $mail, PDO::PARAM_STR);
