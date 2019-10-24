@@ -116,6 +116,23 @@ class message extends base
 
     }
 
+    public function showMsg($discId)
+    {
+        $oui = $this->loadDb();
+        $query = $oui->query('SELECT pseudo,content,message_date FROM MESSAGE,USER
+                                        WHERE MESSAGE.user_id=USER.user_id ORDER BY message_id DESC');
+
+
+        while($row = $query->fetch())
+        {
+            ?>
+                <td><?php echo $row['content']  ?></td>
+                <td><?php echo $row['pseudo'] ?></td>
+                <td> <?php echo $row['message_date'] ?> </td>
+            </tr>
+            <?php
+
+        }
 
 
 //    public function CloseMessage($content, $message_id)

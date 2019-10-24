@@ -6,7 +6,7 @@
 <?php
 
 $disc= new discussion();
-
+$msg = new message();
 ?>
 
 
@@ -44,8 +44,8 @@ $disc= new discussion();
                     </tr>
 
                     <?php
-                    $var= new discussion();
-                    $var->showDisc();
+                    $id=$disc->showDisc();
+                    $msg->showMsg($id);
                     ?>
                 </table>
             <div class="col-lg-12 text-center">

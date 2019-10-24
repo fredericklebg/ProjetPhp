@@ -81,11 +81,10 @@ class discussion extends base
              <tr>
                  <td><?php echo $row['title']  ?></td>
                  <td><?php echo $row['state'] ?></td>
-                 <td> Dernier Message </td>
-                 <td> Auteur </td>
-                 <td>Date</td>
-             </tr>
+
              <?php
+
+             return $row['disc_id'];
 
          }
      }
