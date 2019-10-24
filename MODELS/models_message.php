@@ -117,6 +117,15 @@ class message extends base
 //
     }
 
+    public function showMsg($discId)
+    {
+        $query=('SELECT * FROM MESSAGE WHERE disc_id = :discId ');
+        $query = $this->loadDb()->prepare($query);
+        $query->bindValue('discId',$discId,PDO::PARAM_INT);
+        $query->execute();
+        return $query;
+    }
+
 
 
 
