@@ -13,10 +13,10 @@
 
 
         <div class="TitreD">
-            <p> <? echo $disc->getTitle($_GET['id']); ?> </p>
+            <h2> <? echo $disc->getTitle($_GET['id']); ?> </h2>
         </div>
 
-       >
+
 
             <p>
                 <?php
