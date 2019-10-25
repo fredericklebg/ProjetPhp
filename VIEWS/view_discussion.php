@@ -3,7 +3,7 @@
 
 <div class="container">
 
-    <section class="col-lg-12 text-center">
+    <section class="col-lg-12">
 
         <?php
         $msg = new message();
