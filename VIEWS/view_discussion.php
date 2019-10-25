@@ -18,7 +18,7 @@
 
 
 
-            <p>
+
                 <?php
                 while($row = $query->fetch())
                 {
@@ -27,7 +27,7 @@
                 }
 
                 ?>
-            </p>
+
 
 
 
