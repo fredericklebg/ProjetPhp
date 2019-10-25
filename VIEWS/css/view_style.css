@@ -272,11 +272,10 @@ a:hover
 
 .blok
 {
-    /*display: flex;*/
+    display: flex;
     border-style: groove;
-    /*justify-content: space-around;*/
-    /*align-items : flex-start;*/
-    /*flex-direction : row;*/
+    align-items : flex-start;
+    flex-direction : row;
     height: 16em;
 }
 
