@@ -16,7 +16,7 @@
             <p> <? echo $disc->getTitle($_GET['id']); ?> </p>
         </div>
 
-        <div class="row blok">
+       >
 
             <p>
                 <?php
@@ -29,7 +29,7 @@
                 ?>
             </p>
 
-        </div>
+
 
         <?php
 
