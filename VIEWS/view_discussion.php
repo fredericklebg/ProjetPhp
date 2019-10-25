@@ -19,6 +19,7 @@
         <div class="row blok">
 
 
+
                 <?php
                 while($row = $query->fetch())
                 {
