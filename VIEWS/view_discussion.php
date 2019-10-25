@@ -16,7 +16,7 @@
             <h2> <? echo $disc->getTitle($_GET['id']); ?> </h2>
         </div>
 
-        <div class="row blok">
+        <div class="row">
 
 
 
