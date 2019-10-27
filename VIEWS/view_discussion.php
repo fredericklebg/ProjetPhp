@@ -23,6 +23,8 @@
                 while($row = $query->fetch())
                 {
                     echo  $row['content'];
+                    echo '<br/>';
+
 
                 }
 
