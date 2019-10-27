@@ -1,4 +1,4 @@
-<?php //$this->title = 'paramètres'; ?>
+<?php $this->title = 'param'; ?>
 <div class="container">
 
     <section class="col-lg-12 text-center">
