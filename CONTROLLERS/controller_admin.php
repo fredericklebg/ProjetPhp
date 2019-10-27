@@ -12,7 +12,7 @@ class controller_admin extends controller_main
 
     }
 
-    public function crateadm()
+    public function createadm()
     {
         $vue = new Vue('param');
         $vue->generer(array());
