@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b41057ea-1169-4d87-bd84-37173161cc78" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/MODELS/models_discussion.php" beforeDir="false" afterPath="$PROJECT_DIR$/MODELS/models_discussion.php" afterDir="false" />
+    <list default="true" id="50521d7d-5bb4-4bb5-a0ce-0d036ce4d9ff" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/VIEWS/view_param.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VIEWS/css/view_style.css" beforeDir="false" afterPath="$PROJECT_DIR$/VIEWS/css/view_style.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -118,6 +120,11 @@
               <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@68c175" type="7427dc5b:ServiceModel$ServiceGroupNode" />
               <item name="com.intellij.execution.services.ServiceModel$ServiceNode@710c6e4b" type="9fbbdea:ServiceModel$ServiceNode" />
             </path>
+            <path>
+              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@68c175" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@7683453c" type="9fbbdea:ServiceModel$ServiceNode" />
+            </path>
           </expand>
           <select />
         </treeState>
@@ -147,6 +154,76 @@
       <workItem from="1571830003405" duration="4888000" />
       <workItem from="1571925238818" duration="2568000" />
       <workItem from="1571998602922" duration="877000" />
+    </task>
+    <task id="LOCAL-00242" summary="test pagination">
+      <created>1571954297069</created>
+      <option name="number" value="00242" />
+      <option name="presentableId" value="LOCAL-00242" />
+      <option name="project" value="LOCAL" />
+      <updated>1571954297069</updated>
+    </task>
+    <task id="LOCAL-00243" summary="test pagination">
+      <created>1571954603620</created>
+      <option name="number" value="00243" />
+      <option name="presentableId" value="LOCAL-00243" />
+      <option name="project" value="LOCAL" />
+      <updated>1571954603620</updated>
+    </task>
+    <task id="LOCAL-00244" summary="test pagination">
+      <created>1571954867550</created>
+      <option name="number" value="00244" />
+      <option name="presentableId" value="LOCAL-00244" />
+      <option name="project" value="LOCAL" />
+      <updated>1571954867550</updated>
+    </task>
+    <task id="LOCAL-00245" summary="test pagination">
+      <created>1571954959116</created>
+      <option name="number" value="00245" />
+      <option name="presentableId" value="LOCAL-00245" />
+      <option name="project" value="LOCAL" />
+      <updated>1571954959116</updated>
+    </task>
+    <task id="LOCAL-00246" summary="test pagination">
+      <created>1571955397801</created>
+      <option name="number" value="00246" />
+      <option name="presentableId" value="LOCAL-00246" />
+      <option name="project" value="LOCAL" />
+      <updated>1571955397801</updated>
+    </task>
+    <task id="LOCAL-00247" summary="test pagination">
+      <created>1571955677264</created>
+      <option name="number" value="00247" />
+      <option name="presentableId" value="LOCAL-00247" />
+      <option name="project" value="LOCAL" />
+      <updated>1571955677265</updated>
+    </task>
+    <task id="LOCAL-00248" summary="test pagination">
+      <created>1571955723803</created>
+      <option name="number" value="00248" />
+      <option name="presentableId" value="LOCAL-00248" />
+      <option name="project" value="LOCAL" />
+      <updated>1571955723803</updated>
+    </task>
+    <task id="LOCAL-00249" summary="test pagination">
+      <created>1571955802292</created>
+      <option name="number" value="00249" />
+      <option name="presentableId" value="LOCAL-00249" />
+      <option name="project" value="LOCAL" />
+      <updated>1571955802292</updated>
+    </task>
+    <task id="LOCAL-00250" summary="test pagination">
+      <created>1571955844218</created>
+      <option name="number" value="00250" />
+      <option name="presentableId" value="LOCAL-00250" />
+      <option name="project" value="LOCAL" />
+      <updated>1571955844218</updated>
+    </task>
+    <task id="LOCAL-00251" summary="test pagination">
+      <created>1571956275471</created>
+      <option name="number" value="00251" />
+      <option name="presentableId" value="LOCAL-00251" />
+      <option name="project" value="LOCAL" />
+      <updated>1571956275471</updated>
     </task>
     <task id="LOCAL-00252" summary="test pagination">
       <created>1571956309740</created>
@@ -421,77 +498,7 @@
       <option name="project" value="LOCAL" />
       <updated>1572182181440</updated>
     </task>
-    <task id="LOCAL-00291" summary="discussions">
-      <created>1572182364540</created>
-      <option name="number" value="00291" />
-      <option name="presentableId" value="LOCAL-00291" />
-      <option name="project" value="LOCAL" />
-      <updated>1572182364540</updated>
-    </task>
-    <task id="LOCAL-00292" summary="discussions">
-      <created>1572182400096</created>
-      <option name="number" value="00292" />
-      <option name="presentableId" value="LOCAL-00292" />
-      <option name="project" value="LOCAL" />
-      <updated>1572182400096</updated>
-    </task>
-    <task id="LOCAL-00293" summary="discussions">
-      <created>1572184066640</created>
-      <option name="number" value="00293" />
-      <option name="presentableId" value="LOCAL-00293" />
-      <option name="project" value="LOCAL" />
-      <updated>1572184066640</updated>
-    </task>
-    <task id="LOCAL-00294" summary="discussions">
-      <created>1572184168291</created>
-      <option name="number" value="00294" />
-      <option name="presentableId" value="LOCAL-00294" />
-      <option name="project" value="LOCAL" />
-      <updated>1572184168291</updated>
-    </task>
-    <task id="LOCAL-00295" summary="discussions">
-      <created>1572184251375</created>
-      <option name="number" value="00295" />
-      <option name="presentableId" value="LOCAL-00295" />
-      <option name="project" value="LOCAL" />
-      <updated>1572184251375</updated>
-    </task>
-    <task id="LOCAL-00296" summary="discussions">
-      <created>1572184293541</created>
-      <option name="number" value="00296" />
-      <option name="presentableId" value="LOCAL-00296" />
-      <option name="project" value="LOCAL" />
-      <updated>1572184293541</updated>
-    </task>
-    <task id="LOCAL-00297" summary="discussions">
-      <created>1572184425594</created>
-      <option name="number" value="00297" />
-      <option name="presentableId" value="LOCAL-00297" />
-      <option name="project" value="LOCAL" />
-      <updated>1572184425594</updated>
-    </task>
-    <task id="LOCAL-00298" summary="discussions">
-      <created>1572184620970</created>
-      <option name="number" value="00298" />
-      <option name="presentableId" value="LOCAL-00298" />
-      <option name="project" value="LOCAL" />
-      <updated>1572184620970</updated>
-    </task>
-    <task id="LOCAL-00299" summary="discussions">
-      <created>1572184721387</created>
-      <option name="number" value="00299" />
-      <option name="presentableId" value="LOCAL-00299" />
-      <option name="project" value="LOCAL" />
-      <updated>1572184721387</updated>
-    </task>
-    <task id="LOCAL-00300" summary="discussions">
-      <created>1572185035064</created>
-      <option name="number" value="00300" />
-      <option name="presentableId" value="LOCAL-00300" />
-      <option name="project" value="LOCAL" />
-      <updated>1572185035064</updated>
-    </task>
-    <option name="localTasksCounter" value="301" />
+    <option name="localTasksCounter" value="291" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
