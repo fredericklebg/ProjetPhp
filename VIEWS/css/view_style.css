@@ -285,6 +285,7 @@ a:hover
     align-items: center;
     flex-direction: column;
     background-color: lightblue;
+    border-radius: 20px;
 }
 .blok
 {
