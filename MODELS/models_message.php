@@ -37,7 +37,7 @@ class message extends base
      */
     public function getMessageId()
     {
-        return $this->message_id;
+
     }
 
     /**
@@ -55,7 +55,7 @@ class message extends base
     {
         $query = 'SELECT state FROM MESSAGE WHERE message_id = :message_id';
         $query = $this->loadDb()->prepare($query);
-        $query->bindValue('message_id' , 27, PDO::PARAM_INT);
+        $query->bindValue('message_id' , $this->message_id, PDO::PARAM_INT);
         $query->execute();
         $result = $query->fetchColumn();
         var_dump($result);
@@ -138,7 +138,17 @@ class message extends base
     {
 
         $content=$_POST['msg'];
-        $query1='SELECT MIN(message_id) FROM MESSAGE WHERE disc_id=:disc_id AND state=:state';
+
+        $query2='SELECT state FROM MESSAGE WHERE message_id IN(SELECT MAX(message_id) FROM MESSAGE WHERE disc_id= :disc_id)';
+        $query2 = $this->loadDb()->prepare($query2);
+        $query2->bindValue('disc_id' , $_GET['id'] , PDO::PARAM_INT);
+        $query2->execute();
+        $state = $query2->fetchColumn();
+
+        if($state=='fermé')
+            return -1;
+
+        $query1='SELECT MAX(message_id) FROM MESSAGE WHERE disc_id=:disc_id AND state=:state';
         $query1 = $this->loadDb()->prepare($query1);
         $query1->bindValue('disc_id',$_GET['id'],PDO::PARAM_INT);
         $query1->bindValue('state','ouvert',PDO::PARAM_STR);
