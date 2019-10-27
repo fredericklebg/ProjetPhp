@@ -55,10 +55,9 @@ class message extends base
     {
         $query = 'SELECT state FROM MESSAGE WHERE message_id = :message_id';
         $query = $this->loadDb()->prepare($query);
-        $query->bindValue('message_id' , $this->message_id, PDO::PARAM_INT);
+        $query->bindValue('message_id' , 27, PDO::PARAM_INT);
         $query->execute();
         $result = $query->fetchColumn();
-        var_dump($result);
         return $result;
     }
 
