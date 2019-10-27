@@ -129,6 +129,7 @@ class message extends base
 
     public function completeMsg()
     {
+        $content=$_POST['msg'];
         $query1='SELECT MIN(message_id) FROM MESSAGE WHERE disc_id=:disc_id AND state=:state';
         $query1 = $this->loadDb()->prepare($query1);
         $query1->bindValue('disc_id',$_GET['id'],PDO::PARAM_INT);
@@ -138,6 +139,7 @@ class message extends base
 
         $query = 'UPDATE MESSAGE SET content = concat(content,:message) where message_id=:message_id';
         $query = $this->loadDb()->prepare($query);
+        $query ->bindValue('message',$content,PDO::PARAM_STR);
         $query->bindValue('message_id',$msg_id,PDO::PARAM_INT);
         $query->execute();
 
