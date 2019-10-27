@@ -43,12 +43,12 @@
                             <div class="offset-4 col-lg-4">
                                  <form action="?page=discussion&action=traiterMsg&id=<?echo $_GET['id']?>" method="post">
                                      <input type="text" placeholder="votre message" name="msg"/>
-                                     <button type="submit" name="action" value="Envoyer"> Envoyer le message  </button>
+                                     <button type="submit" name="action" value="Envoyer"> compléter le message  </button>
                                      <?php
                                      if($msg->getState() == 'ouvert')
                                      {
                                      ?>
-                                         <button type="submit" name="action" value="Fermer"> Envoyer et fermer le message </button>
+                                         <button type="submit" name="action" value="Fermer"> compléter et fermer le message </button>
                                      <? }
                                      ?>
 
