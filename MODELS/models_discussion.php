@@ -67,6 +67,7 @@ class discussion extends base
         return $result;
     }
 
+
      public function showDisc($debut,$limit)
      {
 

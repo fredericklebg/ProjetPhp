@@ -42,5 +42,14 @@ class controller_discussion extends controller_main
         else throw new Exception('vous devez etre connecté pour créer une discussion');
     }
 
+    public function completeMsg()
+    {
+        if(strlen($_POST['msg'])== 0)
+        {
+            throw new Exception('le message est vide');
+        }
+        $this->msg->completeMsg();
+    }
+
 //
 }

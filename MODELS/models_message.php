@@ -4,6 +4,7 @@ require_once 'models_base.php';
 
 class message extends base
 {
+    private $disc_id;
     private $message_id;
     private $content;
     private $message_date;
@@ -12,8 +13,7 @@ class message extends base
 
     public function __construct()
     {
-//        $query =('SELECT * FROM MESSAGE');
-//        $this->execquery($query);
+
     }
 
     /**
@@ -127,6 +127,19 @@ class message extends base
     }
 
 
+    public function completeMsg()
+    {
+        $query1='SELECT MIN(message_id) FROM MESSAGE WHERE disc_id=:disc_id AND state=:state';
+        $query1 = $this->loadDb()->prepare($query1);
+        $query1->bindValue('disc_id',$_GET['id'],PDO::PARAM_INT);
+        $query1->bindValue('state','ouvert',PDO::PARAM_STR);
+        $mdg_id = $query1->execute();
+        var_dump($mdg_id);
+
+        $query = 'UPDATE MESSAGE SET content = concat(content,:message) where message_id=:message_id';
+
+
+    }
 
 
 
