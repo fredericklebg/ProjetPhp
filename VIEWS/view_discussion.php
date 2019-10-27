@@ -36,7 +36,7 @@
 
                 if ($_SESSION['isLogin']=='ok')
                     {
-                        ?><div >
+                        ?><div class = "row">
                         <a href=""> <input  type="button" value="Envoyer"> </a>
                         <a href=""> <input  type="button" value="Envoyer et fermer"> </a>
                         </div>
