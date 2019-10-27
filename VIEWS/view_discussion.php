@@ -16,9 +16,11 @@
             <h2> <? echo $disc->getTitle($_GET['id']); ?> </h2>
         </div>
 
-        <div class="row text-center offset-4">
+        <br>
 
-            <p class="msg">
+        <div class="row text-center msg">
+
+            <p>
                 <?php
                 while($row = $query->fetch())
                 {
@@ -38,8 +40,8 @@
                 if ($_SESSION['isLogin']=='ok')
                     {
                         ?>
-                        <div class = "row">
-                            <div class="offset-4 col-lg-4">
+                        <div class = "row text-center msg">
+                            <div class="col-lg-4">
                                  <form action="?page=discussion&action=traiterMsg&id=<?echo $_GET['id']?>" method="post">
                                      <input type="text" placeholder="votre message" name="msg"/>
                                      <button type="submit" name="action" value="Envoyer"> compléter le message  </button>
