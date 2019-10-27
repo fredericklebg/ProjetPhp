@@ -49,10 +49,8 @@ class controller_discussion extends controller_main
             throw new Exception('le message est vide');
         }
 
-        if ($this->msg->getState() == 'fermé')
-            $this->msg->addMessage($_GET['id']);
-        else
-            $this->msg->traiterMsg();
+            if($this->msg->traiterMsg() == -1) //si le message est fermé, on est créé un nouveau dans la discussion
+                $this->msg->addMessage($_GET['id']);
 
         $vue= new Vue('discussion');
         $vue->generer(array());

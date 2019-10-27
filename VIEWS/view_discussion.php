@@ -23,6 +23,9 @@
                 while($row = $query->fetch())
                 {
                     echo  $row['content'];
+                    echo ' ';
+                    echo '<br/>';
+
 
                 }
 
