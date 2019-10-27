@@ -20,18 +20,18 @@
 
         <div class="row text-center msg">
 
-            <p>
+
                 <?php
                 while($row = $query->fetch())
                 {
-                    echo  $row['content'];
-                    echo ' ';
+                    echo '<p>' . $row['content'];
+                    echo '</p>';
                     echo '<br> <br>';
 
                 }
 
                 ?>
-            </p>
+
         </div>
 
 
