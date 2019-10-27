@@ -109,6 +109,8 @@ class message extends base
 
     public function addMessage($discId)
     {
+        echo 'aaaaa';
+        exit();
         $msg=$_POST['msg'];
         $userId=$_SESSION['userId'];
         $query = 'INSERT INTO MESSAGE(disc_id,content,user_id,state,message_date)
@@ -144,7 +146,6 @@ class message extends base
         $query2->bindValue('disc_id' , $_GET['id'] , PDO::PARAM_INT);
         $query2->execute();
         $state = $query2->fetchColumn();
-        var_dump($state);
 
         if($state=='fermé')
             return -1;
