@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b41057ea-1169-4d87-bd84-37173161cc78" name="Default Changelist" comment="" />
+    <list default="true" id="b41057ea-1169-4d87-bd84-37173161cc78" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VIEWS/view_accueil.php" beforeDir="false" afterPath="$PROJECT_DIR$/VIEWS/view_accueil.php" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -140,13 +143,6 @@
       <workItem from="1571830003405" duration="4888000" />
       <workItem from="1571925238818" duration="2568000" />
       <workItem from="1571998602922" duration="877000" />
-    </task>
-    <task id="LOCAL-00259" summary="discussion">
-      <created>1571959215341</created>
-      <option name="number" value="00259" />
-      <option name="presentableId" value="LOCAL-00259" />
-      <option name="project" value="LOCAL" />
-      <updated>1571959215341</updated>
     </task>
     <task id="LOCAL-00260" summary="discussion">
       <created>1571999126946</created>
@@ -484,7 +480,14 @@
       <option name="project" value="LOCAL" />
       <updated>1572194023797</updated>
     </task>
-    <option name="localTasksCounter" value="308" />
+    <task id="LOCAL-00308" summary="pagination">
+      <created>1572195228447</created>
+      <option name="number" value="00308" />
+      <option name="presentableId" value="LOCAL-00308" />
+      <option name="project" value="LOCAL" />
+      <updated>1572195228447</updated>
+    </task>
+    <option name="localTasksCounter" value="309" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -536,7 +539,6 @@
     <MESSAGE value="prenez un scooter" />
     <MESSAGE value="discussion &amp; pagination" />
     <MESSAGE value="test pagination" />
-    <MESSAGE value="pagination" />
     <MESSAGE value="discussion" />
     <MESSAGE value="test" />
     <MESSAGE value="discussions" />
@@ -544,6 +546,7 @@
     <MESSAGE value="changement des input en button dans certains forms" />
     <MESSAGE value="déconnexion" />
     <MESSAGE value="destruction de sessions" />
-    <option name="LAST_COMMIT_MESSAGE" value="destruction de sessions" />
+    <MESSAGE value="pagination" />
+    <option name="LAST_COMMIT_MESSAGE" value="pagination" />
   </component>
 </project>

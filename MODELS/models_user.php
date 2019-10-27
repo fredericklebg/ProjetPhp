@@ -420,8 +420,8 @@ class user extends base
 
     public function disconnect()
     {
-        //$_SESSION['isLogin']='no';
-        session_unset();
+        $_SESSION['isLogin']='no';
+        //session_unset();
     }
 
 //    public function forgotPwd()
