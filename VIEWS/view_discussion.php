@@ -16,8 +16,8 @@
             <h2> <? echo $disc->getTitle($_GET['id']); ?> </h2>
         </div>
 
+        <div class="offset-2 col-lg-8">
         <div class="row">
-            <div class="offset-2 col-lg-8">
             <p>
                 <?php
                 while($row = $query->fetch())
