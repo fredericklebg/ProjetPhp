@@ -24,9 +24,6 @@
                 {
                     echo  $row['content'];
                     echo ' ';
-                    echo '<br/>';
-
-
                 }
 
                 ?>
