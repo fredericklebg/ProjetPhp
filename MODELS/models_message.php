@@ -139,6 +139,7 @@ class message extends base
     {
 
         $content=$_POST['msg'];
+        $content = ' ' . $content;
 
         $query2='SELECT state FROM MESSAGE WHERE message_id IN(SELECT MAX(message_id) FROM MESSAGE WHERE disc_id= :disc_id)';
         $query2 = $this->loadDb()->prepare($query2);
