@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b41057ea-1169-4d87-bd84-37173161cc78" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/VIEWS/view_common.php" beforeDir="false" afterPath="$PROJECT_DIR$/VIEWS/view_common.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -73,54 +74,9 @@
       </set>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="y" value="28" />
-    <option name="width" value="840" />
-    <option name="height" value="994" />
-  </component>
   <component name="ProjectId" id="1Rw0kPHN0vwT9hFLFkKQQgvSROt" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
-  </component>
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="ProjetPhp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ProjetPhp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ProjetPhp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ProjetPhp" type="462c0819:PsiDirectoryNode" />
-              <item name="CONTROLLERS" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ProjetPhp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ProjetPhp" type="462c0819:PsiDirectoryNode" />
-              <item name="MODELS" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ProjetPhp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ProjetPhp" type="462c0819:PsiDirectoryNode" />
-              <item name="VIEWS" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ProjetPhp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ProjetPhp" type="462c0819:PsiDirectoryNode" />
-              <item name="VIEWS" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
@@ -192,13 +148,6 @@
       <workItem from="1571830003405" duration="4888000" />
       <workItem from="1571925238818" duration="2568000" />
       <workItem from="1571998602922" duration="877000" />
-    </task>
-    <task id="LOCAL-00216" summary="prenez un scooter">
-      <created>1571936828155</created>
-      <option name="number" value="00216" />
-      <option name="presentableId" value="LOCAL-00216" />
-      <option name="project" value="LOCAL" />
-      <updated>1571936828155</updated>
     </task>
     <task id="LOCAL-00217" summary="prenez un scooter">
       <created>1571936883714</created>
@@ -536,11 +485,15 @@
       <option name="project" value="LOCAL" />
       <updated>1571999397035</updated>
     </task>
-    <option name="localTasksCounter" value="265" />
+    <task id="LOCAL-00265" summary="test">
+      <created>1572168674856</created>
+      <option name="number" value="00265" />
+      <option name="presentableId" value="LOCAL-00265" />
+      <option name="project" value="LOCAL" />
+      <updated>1572168674856</updated>
+    </task>
+    <option name="localTasksCounter" value="266" />
     <servers />
-  </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1485000" />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -551,12 +504,6 @@
         <entry key="MAIN">
           <value>
             <State>
-              <option name="RECENTLY_FILTERED_USER_GROUPS">
-                <collection />
-              </option>
-              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
-                <collection />
-              </option>
               <option name="COLUMN_ORDER" />
             </State>
           </value>
@@ -596,10 +543,10 @@
     <MESSAGE value="AUTO" />
     <MESSAGE value="prenez un scooter" />
     <MESSAGE value="discussion &amp; pagination" />
-    <MESSAGE value="test" />
     <MESSAGE value="test pagination" />
     <MESSAGE value="pagination" />
     <MESSAGE value="discussion" />
-    <option name="LAST_COMMIT_MESSAGE" value="discussion" />
+    <MESSAGE value="test" />
+    <option name="LAST_COMMIT_MESSAGE" value="test" />
   </component>
 </project>
