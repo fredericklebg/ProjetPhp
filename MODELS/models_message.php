@@ -58,6 +58,7 @@ class message extends base
         $query->bindValue('message_id' , 27, PDO::PARAM_INT);
         $query->execute();
         $result = $query->fetchColumn();
+        var_dump($result);
         return $result;
     }
 
