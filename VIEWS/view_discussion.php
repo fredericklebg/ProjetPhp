@@ -18,7 +18,7 @@
 
         <div class="row text-center offset-4">
 
-            <p>
+            <p class="msg">
                 <?php
                 while($row = $query->fetch())
                 {

@@ -271,6 +271,13 @@ a:hover
     border-style: groove;
 }
 
+
+.msg{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
 .blok
 {
     display: flex;
