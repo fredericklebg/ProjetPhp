@@ -109,7 +109,6 @@ class message extends base
     public function addMessage($discId)
     {
 
-        session_start();
         $msg=$_POST['msg'];
         $userId=$_SESSION['userId'];
         $query = 'INSERT INTO MESSAGE(disc_id,content,user_id,state,message_date)

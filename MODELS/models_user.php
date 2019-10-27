@@ -66,14 +66,6 @@ class user extends base
         return $this->get('mail',$pseudo);
     }
 
-    /**
-     * @return mixed
-     */
-    public function getPassword($pseudo)
-    {
-        return $this->get('password',$pseudo);
-
-    }
 
     /**
      * @return mixed
