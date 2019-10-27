@@ -87,6 +87,17 @@ class discussion extends base
 
      }
 
+    //  public function deleteDiscussion()
+    //  {
+    //     ////afficher le bouton que pour les admins
+    //      $query = ('DELETE INTO DISCUSSION disc_id,state, title');
+ 
+    //      $this->execRequete($query);
+
+    //  }
+
+     
+
 
 
 
