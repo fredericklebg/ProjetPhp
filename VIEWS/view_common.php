@@ -43,7 +43,8 @@
                     <a  href="http://tpphp.alwaysdata.net/ProjetPhp/?page=accueil&action=forgotMdp"> mot de passe oublié </a>
                     <input type="text" name="login"  placeholder="Identifiant"/>
                     <input type="password" name="mdp" placeholder="Mot de passe"/>
-                    <input type="submit" name="action" value="login"/>
+<!--                    <input type="submit" name="action" value="login"/>-->
+                    <button type="submit" name="action" value="login"> loggiiin</button>
 
 
                 </form>
