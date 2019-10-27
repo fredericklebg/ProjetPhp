@@ -144,6 +144,7 @@ class message extends base
         $query2->bindValue('disc_id' , $_GET['id'] , PDO::PARAM_INT);
         $query2->execute();
         $state = $query2->fetchColumn();
+        var_dump($state);
 
         if($state=='fermé')
             return -1;
