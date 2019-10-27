@@ -48,7 +48,7 @@
                                      if($msg->getState() == 'ouvert')
                                      {
                                      ?>
-                                     <input type="submit" name="action" value="Fermer"/>
+                                         <button type="submit" name="action" value="Fermer"> Envoyer et fermer le message </button>
                                      <? }
                                      ?>
 
