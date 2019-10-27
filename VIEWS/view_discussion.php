@@ -39,8 +39,12 @@
                         ?>
                         <div class = "row">
                             <div class="offset-4 col-lg-4"
-                        <a href=""> <input  type="button" value="Envoyer"> </a>
-                        <a href=""> <input  type="button" value="Envoyer et fermer"> </a>
+                                 <form action="?page=discussion&action=addMsg&id=<?echo $_GET['id']?>" method="post">
+                                     <input type="text" placeholder="votre message" name="msg">
+                                     <input type="submit" name="action" value="Envoyer">
+                                     <input type="submit" name="action" value="Fermer">
+                                 </form>
+                            </div>
                         </div>
                         <?php
                     }
