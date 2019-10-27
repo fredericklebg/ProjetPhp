@@ -42,7 +42,7 @@ class controller_discussion extends controller_main
         else throw new Exception('vous devez etre connecté pour créer une discussion');
     }
 
-    public function completeMsg()
+    public function envoyer()
     {
         if(strlen($_POST['msg'])== 0)
         {
