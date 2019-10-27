@@ -25,6 +25,14 @@ class controller_discussion extends controller_main
 
     public function createDiscussion()
     {
+        if(strlen($_POST['msg'])== 0)
+        {
+            throw new Exception('le message est vide');
+        }
+        if(strlen($_POST['nomDisc'])== 0)
+        {
+            throw new Exception('le titre de la discussion est vide');
+        }
         $id=$this->discussion->createDiscussion();
         //ajouter message avec addMessage
         $this->msg->addMessage($id);
@@ -36,9 +44,11 @@ class controller_discussion extends controller_main
     {
         if ($_SESSION['isLogin']=='ok')
         {
+
             $vue = new Vue('newDiscussion');
             $vue->generer(array());
         }
+
         else throw new Exception('vous devez etre connecté pour créer une discussion');
     }
 
