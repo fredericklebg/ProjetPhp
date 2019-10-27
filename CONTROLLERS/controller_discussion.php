@@ -42,13 +42,27 @@ class controller_discussion extends controller_main
         else throw new Exception('vous devez etre connecté pour créer une discussion');
     }
 
-    public function envoyer()
+    public function Envoyer()
     {
         if(strlen($_POST['msg'])== 0)
         {
             throw new Exception('le message est vide');
         }
-        $this->msg->completeMsg();
+        $this->msg->traiterMsg();
+
+        $vue= new Vue('discussion');
+        $vue->generer(array());
+    }
+    public function Fermer()
+    {
+        if(strlen($_POST['msg'])== 0)
+        {
+            throw new Exception('le message est vide');
+        }
+
+        $this->msg->traiterMsg();
+        $this->msg->setState('fermé'); //ferme le message courant
+        $this->msg->addMessage($_GET['id']); //demarre un nouveau message vide
 
         $vue= new Vue('discussion');
         $vue->generer(array());

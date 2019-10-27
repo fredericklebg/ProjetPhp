@@ -97,8 +97,8 @@ class message extends base
      */
     public function setState($state)
     {
-        $query = ('UPDATE MESSAGE SET MESSAGE.state =\''.$state.'\'');
-        $this->execquery($query);;
+        $query = ('UPDATE MESSAGE SET MESSAGE.state =\''.$state.'\' WHERE message_id= \'' .$this->message_id . '\' ' );
+        $this->execRequete($query);
     }
 
     public function addMessage($discId)
@@ -114,6 +114,7 @@ class message extends base
                 NOW()   
          )';
         $this->execRequete($query);
+        $this->message_id=$this->execRequete('SELECT MAX(message_id) FROM MESSAGE');
 //
     }
 
@@ -127,8 +128,9 @@ class message extends base
     }
 
 
-    public function completeMsg()
+    public function traiterMsg()
     {
+
         $content=$_POST['msg'];
         $query1='SELECT MIN(message_id) FROM MESSAGE WHERE disc_id=:disc_id AND state=:state';
         $query1 = $this->loadDb()->prepare($query1);
@@ -142,6 +144,7 @@ class message extends base
         $query ->bindValue('message',$content,PDO::PARAM_STR);
         $query->bindValue('message_id',$msg_id,PDO::PARAM_INT);
         $query->execute();
+
 
     }
 

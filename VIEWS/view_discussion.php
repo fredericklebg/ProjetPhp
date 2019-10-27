@@ -18,17 +18,16 @@
 
         <div class="row">
 
-
-
+            <p>
                 <?php
                 while($row = $query->fetch())
                 {
-                    echo $row['content'];
-                    echo ' ';
+                    echo  $row['content'];
+
                 }
 
                 ?>
-
+            </p>
         </div>
 
 
@@ -39,9 +38,9 @@
                         ?>
                         <div class = "row">
                             <div class="offset-4 col-lg-4">
-                                 <form action="?page=discussion&action=completeMsg&id=<?echo $_GET['id']?>" method="post">
+                                 <form action="?page=discussion&action=traiterMsg&id=<?echo $_GET['id']?>" method="post">
                                      <input type="text" placeholder="votre message" name="msg"/>
-                                     <input type="submit" name="action" value="envoyer"/>
+                                     <input type="submit" name="action" value="Envoyer"/>
                                      <input type="submit" name="action" value="Fermer"/>
                                  </form>
                             </div>
