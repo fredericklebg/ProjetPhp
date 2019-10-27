@@ -53,13 +53,12 @@ class message extends base
      */
     public function getState()
     {
-        $query = 'SELECT state FROM MESSAGE WHERE message_id = :message_id';
-        $query = $this->loadDb()->prepare($query);
-        $query->bindValue('message_id' , $this->message_id, PDO::PARAM_INT);
-        $query->execute();
-        $result = $query->fetchColumn();
-        var_dump($result);
-        return $result;
+        $query2='SELECT state FROM MESSAGE WHERE message_id IN(SELECT MAX(message_id) FROM MESSAGE WHERE disc_id= :disc_id)';
+        $query2 = $this->loadDb()->prepare($query2);
+        $query2->bindValue('disc_id' , $_GET['id'] , PDO::PARAM_INT);
+        $query2->execute();
+        $state = $query2->fetchColumn();
+        return $state;
     }
 
     /**
