@@ -53,8 +53,8 @@ class router
     // Détermine l'action à exécuter en fonction de la requête reçue
     private function creerAction(requete $requete) {
         $action = "index";  // Action par défaut
-        if ($requete->existeParametre('name')) {
-            $action = $requete->getParametre('name');
+        if ($requete->existeParametre('action')) {
+            $action = $requete->getParametre('action');
         }
         return $action;
     }
