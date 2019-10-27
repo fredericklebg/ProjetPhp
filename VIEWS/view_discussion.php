@@ -16,20 +16,21 @@
             <h2> <? echo $disc->getTitle($_GET['id']); ?> </h2>
         </div>
 
-        <div class="offset-2 col-lg-8">
-        <div class="row">
+        <div class="row text-center">
+
             <p>
                 <?php
                 while($row = $query->fetch())
                 {
                     echo  $row['content'];
                     echo ' ';
-                    echo '<br>';
+                    echo '<br/>';
+
+
                 }
 
                 ?>
             </p>
-            </div>
         </div>
 
 
