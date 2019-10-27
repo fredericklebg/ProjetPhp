@@ -44,7 +44,14 @@
                                  <form action="?page=discussion&action=traiterMsg&id=<?echo $_GET['id']?>" method="post">
                                      <input type="text" placeholder="votre message" name="msg"/>
                                      <input type="submit" name="action" value="Envoyer"/>
+                                     <?php
+                                     if($msg->getState() == 'ouvert')
+                                     {
+                                     ?>
                                      <input type="submit" name="action" value="Fermer"/>
+                                     <? }
+                                     ?>
+
                                  </form>
                             </div>
                         </div>
