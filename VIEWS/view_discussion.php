@@ -24,7 +24,7 @@
                 <?php
                 while($row = $query->fetch())
                 {
-                    echo '<p>' . $row['content'];
+                    echo '<p class="msg2">' . $row['content'];
                     echo '</p>';
                     echo '<br> <br>';
 
@@ -40,7 +40,7 @@
                 if ($_SESSION['isLogin']=='ok')
                     {
                         ?>
-                        <div class = "row text-center msg2">
+                        <div class = "row text-center msg">
                             <div class="col-lg-4">
                                  <form action="?page=discussion&action=traiterMsg&id=<?echo $_GET['id']?>" method="post">
                                      <input type="text" placeholder="votre message" name="msg"/>
