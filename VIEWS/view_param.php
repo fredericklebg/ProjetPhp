@@ -1,4 +1,4 @@
-<?php $this->title = 'paramètres'; ?>
+<?php //$this->title = 'paramètres'; ?>
 
 <div class="container">
 
