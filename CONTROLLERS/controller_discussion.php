@@ -28,6 +28,7 @@ class controller_discussion extends controller_main
         $id=$this->discussion->createDiscussion();
         //ajouter message avec addMessage
         var_dump($id);
+        exit();
         $this->msg->addMessage($id);
         header("Location: http://tpphp.alwaysdata.net/ProjetPhp");
 
