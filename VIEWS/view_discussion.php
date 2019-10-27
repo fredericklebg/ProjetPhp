@@ -16,7 +16,7 @@
             <h2> <? echo $disc->getTitle($_GET['id']); ?> </h2>
         </div>
 
-        <div class="row text-center">
+        <div class="row text-center offset-4">
 
             <p>
                 <?php
@@ -24,8 +24,7 @@
                 {
                     echo  $row['content'];
                     echo ' ';
-                    echo '<br/>';
-
+                    echo '<br> <br>';
 
                 }
 
