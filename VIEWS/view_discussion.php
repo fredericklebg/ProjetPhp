@@ -42,7 +42,7 @@
                                  <form action="?page=discussion&action=completeMsg&id=<?echo $_GET['id']?>" method="post">
                                      <input type="text" placeholder="votre message" name="msg">
                                      <input type="submit" name="action" value="Envoyer">
-                                     <input type="submit" name="action" value="Fermer">
+<!--                                     <input type="submit" name="action" value="Fermer">-->
                                  </form>
                             </div>
                         </div>

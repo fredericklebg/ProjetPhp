@@ -2,10 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b41057ea-1169-4d87-bd84-37173161cc78" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CONTROLLERS/controller_discussion.php" beforeDir="false" afterPath="$PROJECT_DIR$/CONTROLLERS/controller_discussion.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MODELS/models_discussion.php" beforeDir="false" afterPath="$PROJECT_DIR$/MODELS/models_discussion.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MODELS/models_message.php" beforeDir="false" afterPath="$PROJECT_DIR$/MODELS/models_message.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/VIEWS/view_discussion.php" beforeDir="false" afterPath="$PROJECT_DIR$/VIEWS/view_discussion.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -122,11 +118,6 @@
               <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@68c175" type="7427dc5b:ServiceModel$ServiceGroupNode" />
               <item name="com.intellij.execution.services.ServiceModel$ServiceNode@710c6e4b" type="9fbbdea:ServiceModel$ServiceNode" />
             </path>
-            <path>
-              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@68c175" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@7764daf" type="9fbbdea:ServiceModel$ServiceNode" />
-            </path>
           </expand>
           <select />
         </treeState>
@@ -156,13 +147,6 @@
       <workItem from="1571830003405" duration="4888000" />
       <workItem from="1571925238818" duration="2568000" />
       <workItem from="1571998602922" duration="877000" />
-    </task>
-    <task id="LOCAL-00225" summary="prenez un scooter">
-      <created>1571940201160</created>
-      <option name="number" value="00225" />
-      <option name="presentableId" value="LOCAL-00225" />
-      <option name="project" value="LOCAL" />
-      <updated>1571940201160</updated>
     </task>
     <task id="LOCAL-00226" summary="prenez un scooter">
       <created>1571940259940</created>
@@ -500,7 +484,14 @@
       <option name="project" value="LOCAL" />
       <updated>1572171710522</updated>
     </task>
-    <option name="localTasksCounter" value="274" />
+    <task id="LOCAL-00274" summary="discussions">
+      <created>1572175321665</created>
+      <option name="number" value="00274" />
+      <option name="presentableId" value="LOCAL-00274" />
+      <option name="project" value="LOCAL" />
+      <updated>1572175321665</updated>
+    </task>
+    <option name="localTasksCounter" value="275" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
