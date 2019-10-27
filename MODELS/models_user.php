@@ -505,6 +505,17 @@ class user extends base
               throw new Exception("Le mail est vide ou n'existe pas");
           }
       }
+
+    //  public function deleteUser()
+    //  {
+    //     //afficher le bouton que pour les admins
+    //      $query = ('DELETE INTO USER user_id,pseudo,mail,password,state,phone,country,user_date,gender');
+ 
+    //      $this->execRequete($query);
+
+    //  }
+
+
 }
 
 
