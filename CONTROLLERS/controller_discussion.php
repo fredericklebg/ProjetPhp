@@ -49,6 +49,9 @@ class controller_discussion extends controller_main
             throw new Exception('le message est vide');
         }
         $this->msg->completeMsg();
+
+        $vue= new Vue('discussion');
+        $vue->generer(array());
     }
 
 //
