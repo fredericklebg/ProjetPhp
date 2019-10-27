@@ -98,6 +98,7 @@ class message extends base
     public function setState($state)
     {
         $query = ('UPDATE MESSAGE SET MESSAGE.state =\''.$state.'\' WHERE message_id= \'' .$this->message_id . '\' ' );
+        var_dump($query);
         $this->execRequete($query);
     }
 
