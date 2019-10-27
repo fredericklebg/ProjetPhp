@@ -17,7 +17,7 @@
         </div>
 
         <div class="row">
-
+            <div class="offset-2 col-lg-8">
             <p>
                 <?php
                 while($row = $query->fetch())
@@ -31,6 +31,7 @@
 
                 ?>
             </p>
+            </div>
         </div>
 
 
