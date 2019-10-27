@@ -75,6 +75,7 @@ class discussion extends base
          $query =('SELECT SQL_CALC_FOUND_ROWS title,DISCUSSION.state,content,pseudo,message_date,DISCUSSION.disc_id FROM DISCUSSION,USER,MESSAGE  
                                         WHERE MESSAGE.disc_id=DISCUSSION.disc_id
                                         AND  MESSAGE.user_id = USER.user_id
+                                        AND message_id in (SELECT MAX(message_id) from MESSAGE)
                                         ORDER BY DISCUSSION.disc_id DESC LIMIT :limit OFFSET :debut');
          $query = $oui->prepare($query);
          $query->bindValue('limit' , $limit , PDO::PARAM_INT);
