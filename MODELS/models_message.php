@@ -135,11 +135,11 @@ class message extends base
         $query1->bindValue('state','ouvert',PDO::PARAM_STR);
         $query1->execute();
         $msg_id = $query1->fetchColumn();
-        echo $msg_id;
-        exit();
 
         $query = 'UPDATE MESSAGE SET content = concat(content,:message) where message_id=:message_id';
-
+        $query = $this->loadDb()->prepare($query);
+        $query->bindValue('message_id',$msg_id,PDO::PARAM_INT);
+        $query->execute();
 
     }
 
