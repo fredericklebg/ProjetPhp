@@ -120,6 +120,7 @@ class message extends base
                 NOW()   
          )';
         $this->execRequete($query);
+        var_dump($query);
         $this->message_id=$this->execRequete('SELECT MAX(message_id) FROM MESSAGE');
 //
     }
