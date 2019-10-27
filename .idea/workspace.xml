@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b41057ea-1169-4d87-bd84-37173161cc78" name="Default Changelist" comment="page paramètre">
-      <change beforePath="$PROJECT_DIR$/VIEWS/view_discussion.php" beforeDir="false" afterPath="$PROJECT_DIR$/VIEWS/view_discussion.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/VIEWS/view_newDiscussion.php" beforeDir="false" afterPath="$PROJECT_DIR$/VIEWS/view_newDiscussion.php" afterDir="false" />
+    <list default="true" id="b41057ea-1169-4d87-bd84-37173161cc78" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/MODELS/models_user.php" beforeDir="false" afterPath="$PROJECT_DIR$/MODELS/models_user.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -148,27 +147,6 @@
       <workItem from="1571830003405" duration="4888000" />
       <workItem from="1571925238818" duration="2568000" />
       <workItem from="1571998602922" duration="877000" />
-    </task>
-    <task id="LOCAL-00254" summary="test pagination">
-      <created>1571957515260</created>
-      <option name="number" value="00254" />
-      <option name="presentableId" value="LOCAL-00254" />
-      <option name="project" value="LOCAL" />
-      <updated>1571957515260</updated>
-    </task>
-    <task id="LOCAL-00255" summary="pagination">
-      <created>1571957662469</created>
-      <option name="number" value="00255" />
-      <option name="presentableId" value="LOCAL-00255" />
-      <option name="project" value="LOCAL" />
-      <updated>1571957662469</updated>
-    </task>
-    <task id="LOCAL-00256" summary="pagination">
-      <created>1571957922108</created>
-      <option name="number" value="00256" />
-      <option name="presentableId" value="LOCAL-00256" />
-      <option name="project" value="LOCAL" />
-      <updated>1571957922108</updated>
     </task>
     <task id="LOCAL-00257" summary="pagination">
       <created>1571958023353</created>
@@ -492,7 +470,28 @@
       <option name="project" value="LOCAL" />
       <updated>1572193131224</updated>
     </task>
-    <option name="localTasksCounter" value="303" />
+    <task id="LOCAL-00303" summary="changement des input en button dans certains forms">
+      <created>1572193305736</created>
+      <option name="number" value="00303" />
+      <option name="presentableId" value="LOCAL-00303" />
+      <option name="project" value="LOCAL" />
+      <updated>1572193305736</updated>
+    </task>
+    <task id="LOCAL-00304" summary="changement des input en button dans certains forms">
+      <created>1572193354427</created>
+      <option name="number" value="00304" />
+      <option name="presentableId" value="LOCAL-00304" />
+      <option name="project" value="LOCAL" />
+      <updated>1572193354427</updated>
+    </task>
+    <task id="LOCAL-00305" summary="changement des input en button dans certains forms">
+      <created>1572193396108</created>
+      <option name="number" value="00305" />
+      <option name="presentableId" value="LOCAL-00305" />
+      <option name="project" value="LOCAL" />
+      <updated>1572193396108</updated>
+    </task>
+    <option name="localTasksCounter" value="306" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -549,6 +548,7 @@
     <MESSAGE value="test" />
     <MESSAGE value="discussions" />
     <MESSAGE value="page paramètre" />
-    <option name="LAST_COMMIT_MESSAGE" value="page paramètre" />
+    <MESSAGE value="changement des input en button dans certains forms" />
+    <option name="LAST_COMMIT_MESSAGE" value="changement des input en button dans certains forms" />
   </component>
 </project>
