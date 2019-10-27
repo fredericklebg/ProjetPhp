@@ -48,7 +48,11 @@ class controller_discussion extends controller_main
         {
             throw new Exception('le message est vide');
         }
-        $this->msg->traiterMsg();
+
+        if ($this->msg->getState() == 'fermé')
+            $this->msg->addMessage($_GET['id']);
+        else
+            $this->msg->traiterMsg();
 
         $vue= new Vue('discussion');
         $vue->generer(array());
@@ -62,7 +66,6 @@ class controller_discussion extends controller_main
 
         $this->msg->traiterMsg();
         $this->msg->setState('fermé'); //ferme le message courant
-        $this->msg->addMessage($_GET['id']); //demarre un nouveau message vide
 
         $vue= new Vue('discussion');
         $vue->generer(array());

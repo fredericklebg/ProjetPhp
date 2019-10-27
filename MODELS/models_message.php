@@ -53,7 +53,11 @@ class message extends base
      */
     public function getState()
     {
-        return $this->state;
+        $query = 'SELECT state FROM MESSAGE WHERE message_id = :message_id';
+        $query = $this->loadDb()->prepare($query);
+        $query->bindValue('message_id' , $this->message_id, PDO::PARAM_INT);
+        $query->execute();
+        return $query->fetchColumn();
     }
 
     /**
@@ -103,7 +107,7 @@ class message extends base
 
     public function addMessage($discId)
     {
-        $msg=$_POST['newMsg'];
+        $msg=$_POST['msg'];
         $userId=$_SESSION['userId'];
         $query = 'INSERT INTO MESSAGE(disc_id,content,user_id,state,message_date)
         VALUES (
