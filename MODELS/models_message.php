@@ -109,6 +109,7 @@ class message extends base
     public function addMessage($discId)
     {
 
+        session_start();
         $msg=$_POST['msg'];
         $userId=$_SESSION['userId'];
         $query = 'INSERT INTO MESSAGE(disc_id,content,user_id,state,message_date)
@@ -120,8 +121,6 @@ class message extends base
                 NOW()   
          )';
         $this->execRequete($query);
-        var_dump($query);
-        exit();
         $this->message_id=$this->execRequete('SELECT MAX(message_id) FROM MESSAGE');
 //
     }
