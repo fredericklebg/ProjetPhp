@@ -305,17 +305,17 @@ class user extends base
 //            $_SESSION['phone']=$this->getPhone($login);
 //            $_SESSION['country']=$this->getCountry($login);
 //            $_SESSION['date']=$this->getUserDate($login);
-            $this->password=$password;
+            $this->password=$hashedPass;
             $this->pseudo=$login;
-            $this->user_id=$this->get('user_id',$login,$password);
+            $this->user_id=$this->get('user_id',$login,$hashedPass);
             var_dump($this->user_id);
             exit();
-            $this->mail=$this->get('mail',$login,$password);
-            $this->phone=$this->get('phone',$login,$password);
-            $this->country=$this->get('country',$login,$password);
-            $this->user_date=$this->get('user_date',$login,$password);
-            $this->state=$this->get('state',$login,$password);
-            $this->gender=$this->get('gender',$login,$password);
+            $this->mail=$this->get('mail',$login,$hashedPass);
+            $this->phone=$this->get('phone',$login,$hashedPass);
+            $this->country=$this->get('country',$login,$hashedPass);
+            $this->user_date=$this->get('user_date',$login,$hashedPass);
+            $this->state=$this->get('state',$login,$hashedPass);
+            $this->gender=$this->get('gender',$login,$hashedPass);
         }
 
 
