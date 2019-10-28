@@ -1,6 +1,7 @@
 <?php
 
-require_once 'models_base.php';
+//require_once 'models_base.php';
+require_once 'models_user.php';
 
 class message extends base
 {
@@ -108,9 +109,10 @@ class message extends base
 
     public function addMessage($discId)
     {
+        $user=unserialize($_SESSION['user']);
         if( $this->verifMsg()) {
         $msg=$_POST['msg'];
-        $userId=$_SESSION['userId'];
+        $userId=$user->getUserId();
         $query = 'INSERT INTO MESSAGE(disc_id,content,user_id,state,message_date)
         VALUES (
          \'' . $discId. '\' ,
