@@ -339,8 +339,6 @@ class user extends base
 
         $login = $this->pseudo;
         $pass = $this->password;
-        var_dump($pass);
-        exit();
         $oldMdp=$_POST['oldMdp'];
         $newMdp=$_POST['newMdp'];
         $confirmMdp=$_POST['confirmMdp'];
