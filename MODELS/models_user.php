@@ -308,6 +308,8 @@ class user extends base
             $this->password=$password;
             $this->pseudo=$login;
             $this->user_id=$this->get('user_id',$login,$password);
+            var_dump($this->user_id);
+            exit();
             $this->mail=$this->get('mail',$login,$password);
             $this->phone=$this->get('phone',$login,$password);
             $this->country=$this->get('country',$login,$password);
