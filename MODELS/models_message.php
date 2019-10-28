@@ -206,7 +206,6 @@ class message extends base
     }
 
 
-
 //    public function CloseMessage($content, $message_id)
 //    {
 //    if ($content > 2)
