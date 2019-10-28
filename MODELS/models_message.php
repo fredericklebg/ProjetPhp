@@ -109,8 +109,9 @@ class message extends base
 
     public function addMessage($discId)
     {
-        if( $this->verifMsg()) {
+
         $user=unserialize($_SESSION['user']);
+        if( $this->verifMsg()) {
         $msg=$_POST['msg'];
         $userId=$user->getUserId();
         $query = 'INSERT INTO MESSAGE(disc_id,content,user_id,state,message_date,authors_id)
@@ -141,7 +142,7 @@ class message extends base
 
     public function traiterMsg()
     {
-        if ($this->verifMsg()) {
+
 
         $user=unserialize($_SESSION['user']);
         $userId=$user->getUserId();
@@ -166,7 +167,7 @@ class message extends base
         $query1->execute();
         $msg_id = $query1->fetchColumn();
         $this->message_id=$msg_id;
-
+        if ($this->verifMsg()) {
         $query = 'UPDATE MESSAGE SET content = concat(content,:message), authors_id = concat(content,:userId) where message_id=:message_id';
         $query = $this->loadDb()->prepare($query);
         $query ->bindValue('message',$content,PDO::PARAM_STR);
