@@ -109,9 +109,8 @@ class message extends base
 
     public function addMessage($discId)
     {
-
-        $user=unserialize($_SESSION['user']);
         if( $this->verifMsg()) {
+        $user=unserialize($_SESSION['user']);
         $msg=$_POST['msg'];
         $userId=$user->getUserId();
         $query = 'INSERT INTO MESSAGE(disc_id,content,user_id,state,message_date,authors_id)
