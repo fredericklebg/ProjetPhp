@@ -119,6 +119,7 @@ class message extends base
           \'' . 'ouvert' . '\' ,
                 NOW()   
          )';
+        var_dump($query);
         $this->execRequete($query);
         $this->message_id=$this->execRequete('SELECT MAX(message_id) FROM MESSAGE');
         }
@@ -126,7 +127,7 @@ class message extends base
     public function verifMsg () {
         if(preg_match("#^[ ]*[a-zA-Z0-9.-_]+[ ]*[a-zA-Z0-9.-_]+[ ]*$#",$_POST['msg'])) return true;
         else {
-            throw new Exception('Le message est trop grand et comporte plus de 2 mots');
+            throw new Exception('Le message est trop grand ou comporte plus de 2 mots');
         }
     }
 
