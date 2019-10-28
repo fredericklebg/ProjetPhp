@@ -77,7 +77,8 @@ class user extends base
 
     public function getPseudo()
     {
-        return $this->pseudo;
+        //return $this->pseudo;
+        return 'tamere';
         //return $this->pseudo;
     }
 
@@ -310,8 +311,6 @@ class user extends base
     //            $_SESSION['date']=$this->getUserDate($login);
                 $this->password=$hashedPass;
                 $this->pseudo=$login;
-                echo $this->pseudo;
-                exit();
                 $this->user_id=$this->get('user_id',$login,$hashedPass);
                 $this->mail=$this->get('mail',$login,$hashedPass);
                 $this->phone=$this->get('phone',$login,$hashedPass);
