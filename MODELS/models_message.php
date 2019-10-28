@@ -176,7 +176,7 @@ class message extends base
         $authors = $query3->fetchColumn();
 
 
-        if(strpos( $authors , $userId ) === false)
+        if(strpos( $authors , $userId ) === false || $user->getState()=='admin')
         {
 
             if ($this->verifMsg())
