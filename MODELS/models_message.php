@@ -174,6 +174,8 @@ class message extends base
         $query3->bindValue('message_id',$msg_id,PDO::PARAM_INT);
         $query3->execute();
         $authors = $query3->fetchColumn();
+        var_dump($authors);
+        exit();
 
         if(strpos( $authors , $userId ) === true)
             throw new Exception('vous avez deja posté dans ce message');
