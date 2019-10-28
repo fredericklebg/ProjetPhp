@@ -447,8 +447,6 @@ class user extends base
         if($_SESSION['isLogin']=='ok'){
             throw new Exception('vous êtes déjà connecté');
         }
-
-
         $mail = $_SESSION['mailTok'];
         $token = $_POST['token'];
         $newMdp=$_POST['newMdp'];
@@ -473,6 +471,7 @@ class user extends base
                 $query->bindValue(':mail',$mail,PDO::PARAM_STR);
                 $query->execute();
             }
+
             catch (PDOException $e){
                 echo $e->getMessage();
             }

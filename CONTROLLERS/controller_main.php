@@ -74,7 +74,7 @@ abstract class controller_main {
         $vue = new Vue($_GET['page']);
         $vue->generer(array());
     }
-    public function sendToken()
+    public function Envoyer()
     {
         $this->user->sendToken();
         $vue = new Vue('sendToken');
@@ -85,7 +85,7 @@ abstract class controller_main {
         $vue = new Vue('forgotMdp');
         $vue->generer(array());
     }
-    public function replacePass () {
+    public function Remplacer () {
         $this->user->replacePassword();
         $vue = new Vue($_GET['page']);
         $vue->generer(array());

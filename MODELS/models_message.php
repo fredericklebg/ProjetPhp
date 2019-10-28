@@ -108,7 +108,7 @@ class message extends base
 
     public function addMessage($discId)
     {
-
+        if( $this->verifMsg()) {
         $msg=$_POST['msg'];
         $userId=$_SESSION['userId'];
         $query = 'INSERT INTO MESSAGE(disc_id,content,user_id,state,message_date)
@@ -121,7 +121,13 @@ class message extends base
          )';
         $this->execRequete($query);
         $this->message_id=$this->execRequete('SELECT MAX(message_id) FROM MESSAGE');
-//
+        }
+    }
+    public function verifMsg () {
+        if(preg_match("#^[ ]*[a-zA-Z0-9.-_]+[ ]*[a-zA-Z0-9.-_]+[ ]*$#",$_POST['msg'])) return true;
+        else {
+            throw new Exception('Le message est trop grand et comporte plus de 2 mots');
+        }
     }
 
     public function showMsg($discId)
@@ -156,14 +162,14 @@ class message extends base
         $query1->execute();
         $msg_id = $query1->fetchColumn();
         $this->message_id=$msg_id;
-
+        if ($this->verifMsg()) {
         $query = 'UPDATE MESSAGE SET content = concat(content,:message) where message_id=:message_id';
         $query = $this->loadDb()->prepare($query);
         $query ->bindValue('message',$content,PDO::PARAM_STR);
         $query->bindValue('message_id',$msg_id,PDO::PARAM_INT);
         $query->execute();
 
-
+        }
     }
 
 
