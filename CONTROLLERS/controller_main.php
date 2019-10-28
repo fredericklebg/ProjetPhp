@@ -74,7 +74,7 @@ abstract class controller_main {
         $vue = new Vue($_GET['page']);
         $vue->generer(array());
     }
-    public function sendToken()
+    public function Envoyé()
     {
         $this->user->sendToken();
         $vue = new Vue('sendToken');
