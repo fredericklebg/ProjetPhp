@@ -145,8 +145,6 @@ class message extends base
 
         $user=unserialize($_SESSION['user']);
         $userId=$user->getUserId();
-        echo $userId;
-        exit();
         $userId=strval($userId);
         $content=$_POST['msg'];
         $content = ' ' . $content;
