@@ -65,8 +65,8 @@ abstract class controller_main {
     {
 
         $this ->user ->login();
-        $_SESSION['user']=serialize($this->user);
-        $vue = new Vue($_GET['page']);
+        $_SESSION['user']=serialize($this->user); // permet de mettre l'objet user en dession
+        $vue = new Vue($_GET['page']);             // pour y acceder, il faut le unsarialise()
         $vue->generer(array());
     }
 
@@ -74,6 +74,7 @@ abstract class controller_main {
     {
 
         $this->user->changePassword();
+        $_SESSION['user']=serialize($this->user);
         $vue = new Vue($_GET['page']);
         $vue->generer(array());
     }
@@ -81,6 +82,7 @@ abstract class controller_main {
     {
 
         $this->user->sendToken();
+        $_SESSION['user']=serialize($this->user);
         $vue = new Vue('sendToken');
         $vue->generer(array());
     }
@@ -92,6 +94,7 @@ abstract class controller_main {
     public function Remplacer () {
 
         $this->user->replacePassword();
+        $_SESSION['user']=serialize($this->user);
         $vue = new Vue($_GET['page']);
         $vue->generer(array());
     }

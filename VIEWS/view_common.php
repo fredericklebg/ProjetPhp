@@ -1,3 +1,7 @@
+<?php
+require_once 'MODELS/models_user.php';
+?>
+
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -21,7 +25,7 @@
         <div class="col-xs-3 col-lg-3 text-center form" >
 
             <?php
-
+            $user = unserialize($_SESSION['user']);
 
 
             if ($_SESSION['isLogin']!='ok')
@@ -31,7 +35,7 @@
             else
             {
                 echo '<p> </p>';
-                echo '  Bienvenue ' . $_SESSION['login'] . ' ! '   ;
+                echo '  Bienvenue ' . $user->getLogin() . ' ! '   ;
                 echo '<br/> <a href="http://tpphp.alwaysdata.net/ProjetPhp/?page=accueil&action=disconnect"> se déconnecter </a>';
             }
 
