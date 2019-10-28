@@ -72,7 +72,7 @@ abstract class controller_main {
 
     public function changePass()
     {
-        echo $this->user->getPassword();
+        echo $this->user->getPseudo();
         exit();
         $this->user->changePassword();
         $_SESSION['user']=serialize($this->user);
