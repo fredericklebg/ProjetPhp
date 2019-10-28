@@ -113,13 +113,14 @@ class message extends base
         if( $this->verifMsg()) {
         $msg=$_POST['msg'];
         $userId=$user->getUserId();
-        $query = 'INSERT INTO MESSAGE(disc_id,content,user_id,state,message_date)
+        $query = 'INSERT INTO MESSAGE(disc_id,content,user_id,state,message_date,authors_id)
         VALUES (
          \'' . $discId. '\' ,
          \'' . $msg. '\',
          \'' . $userId . '\' ,
           \'' . 'ouvert' . '\' ,
-                NOW()   
+                NOW()   ,
+          \'' . $userId . '\' ,      
          )';
         $this->execRequete($query);
         $this->message_id=$this->execRequete('SELECT MAX(message_id) FROM MESSAGE');
@@ -145,6 +146,9 @@ class message extends base
     public function traiterMsg()
     {
 
+        $user=unserialize($_SESSION['user']);
+        $userId=$user->getUserId();
+        $userId=strval($userId);
         $content=$_POST['msg'];
         $content = ' ' . $content;
 
@@ -157,6 +161,7 @@ class message extends base
         if($state=='fermé')
             return -1;
 
+
         $query1='SELECT MAX(message_id) FROM MESSAGE WHERE disc_id=:disc_id AND state=:state';
         $query1 = $this->loadDb()->prepare($query1);
         $query1->bindValue('disc_id',$_GET['id'],PDO::PARAM_INT);
@@ -165,10 +170,11 @@ class message extends base
         $msg_id = $query1->fetchColumn();
         $this->message_id=$msg_id;
         if ($this->verifMsg()) {
-        $query = 'UPDATE MESSAGE SET content = concat(content,:message) where message_id=:message_id';
+        $query = 'UPDATE MESSAGE SET content = concat(content,:message), authors_id = concat(content,:userId) where message_id=:message_id';
         $query = $this->loadDb()->prepare($query);
         $query ->bindValue('message',$content,PDO::PARAM_STR);
         $query->bindValue('message_id',$msg_id,PDO::PARAM_INT);
+        $query->bindValue('userId','/'. $userId , PDO::PARAM_STR);
         $query->execute();
 
         }
