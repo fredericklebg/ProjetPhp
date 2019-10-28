@@ -40,15 +40,30 @@ class Vue {
         }
     }
 
-    // Génère et affiche la vue
+   //  Génère et affiche la vue
     public function generer($data) {
+//        // Génération de la partie spécifique de la vue
+//            $content = $this->genererFichier($this->file, $data);
+//        // Génération du gabarit commun utilisant la partie spécifique
+//            $vue = $this->genererFichier('VIEWS/view_common.php',
+//                array('title' => $this->title, 'content' => $content));
+//        // Renvoi de la vue au navigateur
+//        echo $vue;
+
         // Génération de la partie spécifique de la vue
-            $content = $this->genererFichier($this->file, $data);
+        $content = $this->genererFichier($this->file, $data);
+        // On définit une variable locale accessible par la vue pour la racine Web
+        // Il s'agit du chemin vers le site sur le serveur Web
+        // Nécessaire pour les URI de type controleur/action/id
+        $root = '/ProjetPhp/';
         // Génération du gabarit commun utilisant la partie spécifique
-            $vue = $this->genererFichier('VIEWS/view_common.php',
-                array('title' => $this->title, 'content' => $content));
-        // Renvoi de la vue au navigateur
+        $vue = $this->genererFichier('VIEWS/view_common.php',
+            array('titre' => $this->title, 'contenu' => $content,
+                'root' => $root));
+        // Renvoi de la vue générée au navigateur
         echo $vue;
+
+
     }
 
 

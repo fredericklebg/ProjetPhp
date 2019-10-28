@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b41057ea-1169-4d87-bd84-37173161cc78" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/CONTROLLERS/controller_main.php" beforeDir="false" afterPath="$PROJECT_DIR$/CONTROLLERS/controller_main.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.htaccess" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VIEWS/view_common.php" beforeDir="false" afterPath="$PROJECT_DIR$/VIEWS/view_common.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VIEWS/view_template.php" beforeDir="false" afterPath="$PROJECT_DIR$/VIEWS/view_template.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -129,28 +132,7 @@
       <workItem from="1571925238818" duration="2568000" />
       <workItem from="1572259027171" duration="4763000" />
       <workItem from="1572272356255" duration="123000" />
-      <workItem from="1572272480336" duration="3997000" />
-    </task>
-    <task id="LOCAL-00237" summary="prenez un scooter">
-      <created>1572261975350</created>
-      <option name="number" value="00237" />
-      <option name="presentableId" value="LOCAL-00237" />
-      <option name="project" value="LOCAL" />
-      <updated>1572261975350</updated>
-    </task>
-    <task id="LOCAL-00238" summary="prenez un scooter">
-      <created>1572262049247</created>
-      <option name="number" value="00238" />
-      <option name="presentableId" value="LOCAL-00238" />
-      <option name="project" value="LOCAL" />
-      <updated>1572262049247</updated>
-    </task>
-    <task id="LOCAL-00239" summary="prenez un scooter">
-      <created>1572262256227</created>
-      <option name="number" value="00239" />
-      <option name="presentableId" value="LOCAL-00239" />
-      <option name="project" value="LOCAL" />
-      <updated>1572262256227</updated>
+      <workItem from="1572272480336" duration="5021000" />
     </task>
     <task id="LOCAL-00240" summary="prenez un scooter">
       <created>1572262726957</created>
@@ -474,7 +456,28 @@
       <option name="project" value="LOCAL" />
       <updated>1572276426597</updated>
     </task>
-    <option name="localTasksCounter" value="286" />
+    <task id="LOCAL-00286" summary="tests">
+      <created>1572276506899</created>
+      <option name="number" value="00286" />
+      <option name="presentableId" value="LOCAL-00286" />
+      <option name="project" value="LOCAL" />
+      <updated>1572276506899</updated>
+    </task>
+    <task id="LOCAL-00287" summary="tests">
+      <created>1572276535866</created>
+      <option name="number" value="00287" />
+      <option name="presentableId" value="LOCAL-00287" />
+      <option name="project" value="LOCAL" />
+      <updated>1572276535866</updated>
+    </task>
+    <task id="LOCAL-00288" summary="FINDESTESTS">
+      <created>1572276671829</created>
+      <option name="number" value="00288" />
+      <option name="presentableId" value="LOCAL-00288" />
+      <option name="project" value="LOCAL" />
+      <updated>1572276671829</updated>
+    </task>
+    <option name="localTasksCounter" value="289" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -530,6 +533,7 @@
     <MESSAGE value="commentaires" />
     <MESSAGE value="passage d'objet en session" />
     <MESSAGE value="tests" />
-    <option name="LAST_COMMIT_MESSAGE" value="tests" />
+    <MESSAGE value="FINDESTESTS" />
+    <option name="LAST_COMMIT_MESSAGE" value="FINDESTESTS" />
   </component>
 </project>

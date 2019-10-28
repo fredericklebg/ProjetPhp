@@ -7,6 +7,7 @@ require_once 'MODELS/models_user.php';
 <head>
     <title><?= $title ?></title>
     <meta charset="UTF-8">
+    <base href="<?= $root ?>" >
     <link href="VIEWS/css/bootstrap.css" rel="stylesheet">
     <link rel="stylesheet" href="VIEWS/css/view_style.css">
     <link rel="icon" type="image/png" href="VIEWS/Media/loginFreeNote.png" />
