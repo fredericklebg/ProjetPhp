@@ -65,7 +65,7 @@ abstract class controller_main {
     {
 
         $this ->user ->login();
-        echo $this->user->getPseudo();
+        echo $this->user->getUserId();
         exit();
         $_SESSION['user']=serialize($this->user);
         $vue = new Vue($_GET['page']);
