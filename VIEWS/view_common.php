@@ -26,6 +26,7 @@ require_once 'MODELS/models_user.php';
 
             <?php
             $user = unserialize($_SESSION['user']);
+            var_dump($user);
 
 
             if ($_SESSION['isLogin']!='ok')
