@@ -147,28 +147,7 @@
       <workItem from="1571401539625" duration="2405000" />
       <workItem from="1571830003405" duration="4888000" />
       <workItem from="1571925238818" duration="2568000" />
-      <workItem from="1572259027171" duration="4269000" />
-    </task>
-    <task id="LOCAL-00194" summary="test mvc">
-      <created>1571400324555</created>
-      <option name="number" value="00194" />
-      <option name="presentableId" value="LOCAL-00194" />
-      <option name="project" value="LOCAL" />
-      <updated>1571400324555</updated>
-    </task>
-    <task id="LOCAL-00195" summary="modif texte accueil">
-      <created>1571403499268</created>
-      <option name="number" value="00195" />
-      <option name="presentableId" value="LOCAL-00195" />
-      <option name="project" value="LOCAL" />
-      <updated>1571403499268</updated>
-    </task>
-    <task id="LOCAL-00196" summary="modif disc">
-      <created>1571832338062</created>
-      <option name="number" value="00196" />
-      <option name="presentableId" value="LOCAL-00196" />
-      <option name="project" value="LOCAL" />
-      <updated>1571832338063</updated>
+      <workItem from="1572259027171" duration="4520000" />
     </task>
     <task id="LOCAL-00197" summary="modif disc">
       <created>1571832395212</created>
@@ -492,7 +471,28 @@
       <option name="project" value="LOCAL" />
       <updated>1572263134182</updated>
     </task>
-    <option name="localTasksCounter" value="243" />
+    <task id="LOCAL-00243" summary="prenez un scooter">
+      <created>1572263511468</created>
+      <option name="number" value="00243" />
+      <option name="presentableId" value="LOCAL-00243" />
+      <option name="project" value="LOCAL" />
+      <updated>1572263511468</updated>
+    </task>
+    <task id="LOCAL-00244" summary="prenez un scooter">
+      <created>1572263598753</created>
+      <option name="number" value="00244" />
+      <option name="presentableId" value="LOCAL-00244" />
+      <option name="project" value="LOCAL" />
+      <updated>1572263598753</updated>
+    </task>
+    <task id="LOCAL-00245" summary="prenez un scooter">
+      <created>1572263653865</created>
+      <option name="number" value="00245" />
+      <option name="presentableId" value="LOCAL-00245" />
+      <option name="project" value="LOCAL" />
+      <updated>1572263653865</updated>
+    </task>
+    <option name="localTasksCounter" value="246" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

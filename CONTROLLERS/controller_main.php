@@ -85,7 +85,7 @@ abstract class controller_main {
         $vue = new Vue('forgotMdp');
         $vue->generer(array());
     }
-    public function remplacer () {
+    public function Remplacer () {
         $this->user->replacePassword();
         $vue = new Vue($_GET['page']);
         $vue->generer(array());

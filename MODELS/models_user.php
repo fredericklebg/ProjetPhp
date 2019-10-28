@@ -400,7 +400,7 @@ class user extends base
 
     public function genererChaineAleatoire($longueur = 10)
     {
-        $caracteres = ['0-9a-zA-Z'];
+        $caracteres = preg_match('#^[a-zA-Z0-9_]*$#');
         $longueurMax = strlen($caracteres);
         $chaineAleatoire = '';
         for ($i = 0; $i < $longueur; $i++)
