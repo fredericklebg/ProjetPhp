@@ -175,6 +175,9 @@ class message extends base
         $query->bindValue('userId','/'. $userId , PDO::PARAM_STR);
         $query->execute();
 
+        var_dump($query);
+        exit();
+
         }
     }
 
