@@ -109,11 +109,12 @@ class message extends base
 
     public function addMessage($discId)
     {
-        if( $this->verifMsg()) {
+
         $user=unserialize($_SESSION['user']);
-        $msg=$_POST['msg'];
-        $userId=$user->getUserId();
-        $query = 'INSERT INTO MESSAGE(disc_id,content,user_id,state,message_date,authors_id)
+        if( $this->verifMsg()) {
+            $msg=$_POST['msg'];
+            $userId=$user->getUserId();
+            $query = 'INSERT INTO MESSAGE(disc_id,content,user_id,state,message_date,authors_id)
         VALUES (
          \'' . $discId. '\' ,
          \'' . $msg. '\',
@@ -123,8 +124,8 @@ class message extends base
           \'' . $userId . '\'      
          )';
 
-        $this->execRequete($query);
-        $this->message_id=$this->execRequete('SELECT MAX(message_id) FROM MESSAGE');
+            $this->execRequete($query);
+            $this->message_id=$this->execRequete('SELECT MAX(message_id) FROM MESSAGE');
         }
     }
 
@@ -142,7 +143,7 @@ class message extends base
     public function traiterMsg()
     {
 
-        if ($this->verifMsg()) {
+
         $user=unserialize($_SESSION['user']);
         $userId=$user->getUserId();
         $userId=strval($userId);
@@ -167,19 +168,37 @@ class message extends base
         $msg_id = $query1->fetchColumn();
         $this->message_id=$msg_id;
 
-        $query = 'UPDATE MESSAGE SET content = concat(content,:message), authors_id = concat(authors_id,:userId) where message_id=:message_id';
-        $query = $this->loadDb()->prepare($query);
-        $query ->bindValue('message',$content,PDO::PARAM_STR);
-        $query->bindValue('message_id',$msg_id,PDO::PARAM_INT);
-        $query->bindValue('userId','/'. $userId , PDO::PARAM_STR);
-        $query->execute();
 
+        $query3='SELECT authors_id FROM MESSAGE WHERE message_id=:message_id';
+        $query3 = $this->loadDb()->prepare($query3);
+        $query3->bindValue('message_id',$msg_id,PDO::PARAM_INT);
+        $query3->execute();
+        $authors = $query3->fetchColumn();
+
+
+        if(strpos( $authors , $userId ) === false)
+        {
+
+            if ($this->verifMsg())
+            {
+                $query = 'UPDATE MESSAGE SET content = concat(content,:message), authors_id = concat(authors_id,:userId) where message_id=:message_id';
+                $query = $this->loadDb()->prepare($query);
+                $query->bindValue('message', $content, PDO::PARAM_STR);
+                $query->bindValue('message_id', $msg_id, PDO::PARAM_INT);
+                $query->bindValue('userId', '/' . $userId, PDO::PARAM_STR);
+                $query->execute();
+
+            }
         }
+        else
+            throw new Exception('vous avez deja posté dans ce message');
+
     }
 
-    public function verifMsg () {
-        if(preg_match("#^[ ]*[a-zA-Z0-9.-_]+[ ]*[a-zA-Z0-9]+[ ]*$#",$_POST['msg'])) return true;
 
+
+    public function verifMsg () {
+        if(preg_match("#^[ ]*[a-zA-Z0-9.-_]+[ ]*[a-zA-Z0-9.-_]+[ ]*$#",$_POST['msg'])) return true;
         else {
             throw new Exception('Le message est trop grand ou comporte plus de 2 mots');
         }
