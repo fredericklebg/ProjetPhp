@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="b41057ea-1169-4d87-bd84-37173161cc78" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/CONTROLLERS/controller_main.php" beforeDir="false" afterPath="$PROJECT_DIR$/CONTROLLERS/controller_main.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MODELS/models_user.php" beforeDir="false" afterPath="$PROJECT_DIR$/MODELS/models_user.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -130,28 +129,7 @@
       <workItem from="1571925238818" duration="2568000" />
       <workItem from="1572259027171" duration="4763000" />
       <workItem from="1572272356255" duration="123000" />
-      <workItem from="1572272480336" duration="2468000" />
-    </task>
-    <task id="LOCAL-00221" summary="prenez un scooter">
-      <created>1571938979934</created>
-      <option name="number" value="00221" />
-      <option name="presentableId" value="LOCAL-00221" />
-      <option name="project" value="LOCAL" />
-      <updated>1571938979934</updated>
-    </task>
-    <task id="LOCAL-00222" summary="prenez un scooter">
-      <created>1571939151565</created>
-      <option name="number" value="00222" />
-      <option name="presentableId" value="LOCAL-00222" />
-      <option name="project" value="LOCAL" />
-      <updated>1571939151566</updated>
-    </task>
-    <task id="LOCAL-00223" summary="prenez un scooter">
-      <created>1571939240922</created>
-      <option name="number" value="00223" />
-      <option name="presentableId" value="LOCAL-00223" />
-      <option name="project" value="LOCAL" />
-      <updated>1571939240922</updated>
+      <workItem from="1572272480336" duration="2721000" />
     </task>
     <task id="LOCAL-00224" summary="prenez un scooter">
       <created>1571939886487</created>
@@ -475,7 +453,28 @@
       <option name="project" value="LOCAL" />
       <updated>1572274637207</updated>
     </task>
-    <option name="localTasksCounter" value="270" />
+    <task id="LOCAL-00270" summary="tests">
+      <created>1572274968298</created>
+      <option name="number" value="00270" />
+      <option name="presentableId" value="LOCAL-00270" />
+      <option name="project" value="LOCAL" />
+      <updated>1572274968298</updated>
+    </task>
+    <task id="LOCAL-00271" summary="tests">
+      <created>1572275009879</created>
+      <option name="number" value="00271" />
+      <option name="presentableId" value="LOCAL-00271" />
+      <option name="project" value="LOCAL" />
+      <updated>1572275009879</updated>
+    </task>
+    <task id="LOCAL-00272" summary="tests">
+      <created>1572275102183</created>
+      <option name="number" value="00272" />
+      <option name="presentableId" value="LOCAL-00272" />
+      <option name="project" value="LOCAL" />
+      <updated>1572275102183</updated>
+    </task>
+    <option name="localTasksCounter" value="273" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
