@@ -13,7 +13,7 @@ require_once 'MODELS/models_user.php';
     <link rel="icon" type="image/png" href="VIEWS/Media/loginFreeNote.png" />
     <style type="text/css">
         .col-lg-8 { line-height: 200px; }
-        /**.col-lg-12 { line-height: 80px; }*/
+        /*.col-lg-12 { line-height: 80px; }*/
     </style>
 </head>
 <body>
