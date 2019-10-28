@@ -43,7 +43,7 @@ d'outils utiles pour le design d'applications web, il nous a notamment été uti
 
 La configuration logicielle :
 
-
+Rien à signaler.
 
 Les identifiants de connexion :
 
