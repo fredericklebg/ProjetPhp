@@ -37,26 +37,26 @@ class user extends base
     /**
      * @return mixed
      */
-    public function getUserId($pseudo)
+    public function getUserId()
     {
         //return $this->get('user_id',$pseudo);
         return $this->user_id;
     }
 
 
-    public function getCountry($pseudo)
+    public function getCountry()
     {
         return $this->country;
         //return $this->get('country',$pseudo);
     }
 
-    public function getGender($pseudo)
+    public function getGender()
     {
        return $this->gender;
         // return $this->get('gender', $pseudo);
     }
 
-    public function getMail($pseudo)
+    public function getMail()
     {
         return $this->mail;
         //return $this->get('mail',$pseudo);
@@ -64,7 +64,7 @@ class user extends base
 
 
 
-    public function getPhone($pseudo)
+    public function getPhone()
     {
         return $this->phone;
        //return $this->get('phone',$pseudo);
@@ -78,7 +78,7 @@ class user extends base
     }
 
 
-    public function getUserDate($pseudo)
+    public function getUserDate()
 
     {
         return $this->user_date;
