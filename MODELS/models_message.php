@@ -142,7 +142,7 @@ class message extends base
 
     public function traiterMsg()
     {
-        if ($this->verifMsg()) {
+
         $content=$_POST['msg'];
         $content = ' ' . $content;
 
@@ -162,7 +162,7 @@ class message extends base
         $query1->execute();
         $msg_id = $query1->fetchColumn();
         $this->message_id=$msg_id;
-
+        if ($this->verifMsg()) {
         $query = 'UPDATE MESSAGE SET content = concat(content,:message) where message_id=:message_id';
         $query = $this->loadDb()->prepare($query);
         $query ->bindValue('message',$content,PDO::PARAM_STR);
