@@ -1,14 +1,14 @@
 <?php $this -> title ='Profil';
 require_once 'MODELS/models_user.php';
 
-var_dump($_SESSION['user']);
+$user=unserialize($user);
 ?>
 
 <hr>
 <div class="container">
     <table class="col-lg-12">
 
-        <tr> <td> Pseudo : <?php echo $_SESSION['user']->getPseudo();  ?> </td> </tr>
+        <tr> <td> Pseudo : <?php echo $user->getPseudo();  ?> </td> </tr>
         <tr> <td> <a href="https://tpphp.alwaysdata.net/ProjetPhp/?page=accueil&action=changePassView"> Changer mot de passe  </a>          </td>  </tr>
         <tr> <td> Email :  <?php echo  $_SESSION['mail'];?>       </td> </tr>
         <tr> <td> Numéro : <?php echo  $_SESSION['phone']; ?>    </td> </tr>

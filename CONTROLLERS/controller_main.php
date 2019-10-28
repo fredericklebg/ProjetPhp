@@ -22,7 +22,7 @@ abstract class controller_main {
     // Définit la requête entrante
     public function setRequete(requete $requete) {
         $this->user = new user();
-        $_SESSION['user']=$this->user;
+        $_SESSION['user']=serialize($this->user);
         $this->requete = $requete;
     }
 
@@ -59,13 +59,17 @@ abstract class controller_main {
     public function inscription()
     {
         //$this ->user ->register();
-        $_SESSION['user']->register();
+        $user=unserialize( $_SESSION['user']);
+        $user->register();
+        $_SESSION['user']=serialize($user);
         $vue = new Vue('inscription');
         $vue->generer(array());
     }
     public function login()
     {
-        $_SESSION['user']->login();
+        $user=unserialize( $_SESSION['user']);
+        $user->login();
+        $_SESSION['user']=serialize($user);
         //$this ->user ->login();
         $vue = new Vue($_GET['page']);
         $vue->generer(array());
