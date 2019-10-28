@@ -22,6 +22,7 @@ abstract class controller_main {
     // Définit la requête entrante
     public function setRequete(requete $requete) {
         $this->user = new user();
+        $_SESSION['user']=$this->user;
         $this->requete = $requete;
     }
 
@@ -57,26 +58,30 @@ abstract class controller_main {
 
     public function inscription()
     {
-        $this ->user ->register();
+        //$this ->user ->register();
+        $_SESSION['user']->register();
         $vue = new Vue('inscription');
         $vue->generer(array());
     }
     public function login()
     {
-        $this ->user ->login();
+        $_SESSION['user']->login;
+        //$this ->user ->login();
         $vue = new Vue($_GET['page']);
         $vue->generer(array());
     }
 
     public function changePass()
     {
-        $this->user->changePassword();
+        $_SESSION['user']->changePassword();
+        //$this->user->changePassword();
         $vue = new Vue($_GET['page']);
         $vue->generer(array());
     }
     public function Envoyer()
     {
-        $this->user->sendToken();
+        $_SESSION['user']->sendToken();
+        //$this->user->sendToken();
         $vue = new Vue('sendToken');
         $vue->generer(array());
     }
@@ -86,14 +91,16 @@ abstract class controller_main {
         $vue->generer(array());
     }
     public function Remplacer () {
-        $this->user->replacePassword();
+        $_SESSION['user']->replacePassword();
+        //$this->user->replacePassword();
         $vue = new Vue($_GET['page']);
         $vue->generer(array());
     }
 
     public function disconnect()
     {
-        $this->user->disconnect();
+        $_SESSION['user']->disconnect();
+        //$this->user->disconnect();
         $vue = new Vue($_GET['page']);
         $vue->generer(array());
     }

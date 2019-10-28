@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b41057ea-1169-4d87-bd84-37173161cc78" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/MODELS/models_message.php" beforeDir="false" afterPath="$PROJECT_DIR$/MODELS/models_message.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CONTROLLERS/controller_main.php" beforeDir="false" afterPath="$PROJECT_DIR$/CONTROLLERS/controller_main.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MODELS/models_base.php" beforeDir="false" afterPath="$PROJECT_DIR$/MODELS/models_base.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MODELS/models_user.php" beforeDir="false" afterPath="$PROJECT_DIR$/MODELS/models_user.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VIEWS/view_profilePage.php" beforeDir="false" afterPath="$PROJECT_DIR$/VIEWS/view_profilePage.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -142,20 +145,6 @@
       <workItem from="1571830003405" duration="4888000" />
       <workItem from="1571925238818" duration="2568000" />
       <workItem from="1572259027171" duration="4763000" />
-    </task>
-    <task id="LOCAL-00198" summary="modif disc ajout msg erreur">
-      <created>1571833857812</created>
-      <option name="number" value="00198" />
-      <option name="presentableId" value="LOCAL-00198" />
-      <option name="project" value="LOCAL" />
-      <updated>1571833857812</updated>
-    </task>
-    <task id="LOCAL-00199" summary="AUTO">
-      <created>1571927417409</created>
-      <option name="number" value="00199" />
-      <option name="presentableId" value="LOCAL-00199" />
-      <option name="project" value="LOCAL" />
-      <updated>1571927417410</updated>
     </task>
     <task id="LOCAL-00200" summary="AUTO">
       <created>1571928309936</created>
@@ -486,7 +475,21 @@
       <option name="project" value="LOCAL" />
       <updated>1572263823597</updated>
     </task>
-    <option name="localTasksCounter" value="247" />
+    <task id="LOCAL-00247" summary="test pck les msg marchent pas CA MARCHE PAS CA ARCHE PAS">
+      <created>1572268812979</created>
+      <option name="number" value="00247" />
+      <option name="presentableId" value="LOCAL-00247" />
+      <option name="project" value="LOCAL" />
+      <updated>1572268812979</updated>
+    </task>
+    <task id="LOCAL-00248" summary="test pck les msg marchent pas CA MARCHE PAS CA ARCHE PAS">
+      <created>1572268912237</created>
+      <option name="number" value="00248" />
+      <option name="presentableId" value="LOCAL-00248" />
+      <option name="project" value="LOCAL" />
+      <updated>1572268912237</updated>
+    </task>
+    <option name="localTasksCounter" value="249" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -536,6 +539,8 @@
     <MESSAGE value="modif disc ajout msg erreur" />
     <MESSAGE value="AUTO" />
     <MESSAGE value="prenez un scooter" />
-    <option name="LAST_COMMIT_MESSAGE" value="prenez un scooter" />
+    <MESSAGE value="test" />
+    <MESSAGE value="test pck les msg marchent pas CA MARCHE PAS CA ARCHE PAS" />
+    <option name="LAST_COMMIT_MESSAGE" value="test pck les msg marchent pas CA MARCHE PAS CA ARCHE PAS" />
   </component>
 </project>
