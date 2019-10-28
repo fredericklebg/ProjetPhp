@@ -72,9 +72,6 @@ abstract class controller_main {
 
     public function changePass()
     {
-        $user=unserialize($_SESSION['user']);
-        echo $user->getPseudo();
-        exit();
         $this->user->changePassword();
         $_SESSION['user']=serialize($this->user);
         $vue = new Vue($_GET['page']);
