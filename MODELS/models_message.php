@@ -121,7 +121,7 @@ class message extends base
          \'' . $userId . '\' ,
           \'' . 'ouvert' . '\' ,
                 NOW()   ,
-          \'' . $userId . '\' ,      
+          \'' . $userId . '\'      
          )';
 
         $this->execRequete($query);
