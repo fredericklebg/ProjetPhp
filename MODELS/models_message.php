@@ -168,7 +168,7 @@ class message extends base
         $msg_id = $query1->fetchColumn();
         $this->message_id=$msg_id;
         if ($this->verifMsg()) {
-        $query = 'UPDATE MESSAGE SET content = concat(content,:message), authors_id = concat(content,:userId) where message_id=:message_id';
+        $query = 'UPDATE MESSAGE SET content = concat(content,:message), authors_id = concat(authors_id,:userId) where message_id=:message_id';
         $query = $this->loadDb()->prepare($query);
         $query ->bindValue('message',$content,PDO::PARAM_STR);
         $query->bindValue('message_id',$msg_id,PDO::PARAM_INT);
