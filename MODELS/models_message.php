@@ -142,7 +142,6 @@ class message extends base
 
     public function traiterMsg()
     {
-
         if ($this->verifMsg()) {
         $user=unserialize($_SESSION['user']);
         $userId=$user->getUserId();
@@ -156,7 +155,7 @@ class message extends base
         $query2->execute();
         $state = $query2->fetchColumn();
 
-        if($state=='fermé')
+        if($state =='fermé')
             return -1;
 
 
