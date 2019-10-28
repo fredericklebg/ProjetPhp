@@ -1,7 +1,9 @@
 <?php $this -> title ='Profil';
 require_once 'MODELS/models_user.php';
 
-$user=unserialize($user);
+$user=unserialize($_SESSION['user']);
+var_dump($user);
+
 ?>
 
 <hr>
