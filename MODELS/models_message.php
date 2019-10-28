@@ -174,24 +174,25 @@ class message extends base
         $query3->bindValue('message_id',$msg_id,PDO::PARAM_INT);
         $query3->execute();
         $authors = $query3->fetchColumn();
-        var_dump($userId);
-        exit();
 
-        if(strpos( $authors , $userId ) === true)
+
+        if(strpos( $authors , $userId ) === false)
+        {
+
+            if ($this->verifMsg())
+            {
+                $query = 'UPDATE MESSAGE SET content = concat(content,:message), authors_id = concat(authors_id,:userId) where message_id=:message_id';
+                $query = $this->loadDb()->prepare($query);
+                $query->bindValue('message', $content, PDO::PARAM_STR);
+                $query->bindValue('message_id', $msg_id, PDO::PARAM_INT);
+                $query->bindValue('userId', '/' . $userId, PDO::PARAM_STR);
+                $query->execute();
+
+            }
+        }
+        else
             throw new Exception('vous avez deja posté dans ce message');
 
-
-//
-        if ($this->verifMsg()) {
-        $query = 'UPDATE MESSAGE SET content = concat(content,:message), authors_id = concat(authors_id,:userId) where message_id=:message_id';
-        $query = $this->loadDb()->prepare($query);
-        $query ->bindValue('message',$content,PDO::PARAM_STR);
-        $query->bindValue('message_id',$msg_id,PDO::PARAM_INT);
-        $query->bindValue('userId','/'. $userId , PDO::PARAM_STR);
-        $query->execute();
-
-
-        }
     }
 
 
