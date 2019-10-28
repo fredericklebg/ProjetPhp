@@ -25,8 +25,7 @@ require_once 'MODELS/models_user.php';
         <div class="col-xs-3 col-lg-3 text-center form" >
 
             <?php
-            $user = unserialize($_SESSION['user']);
-            var_dump($user);
+            $user = unserialize($_SESSION['user']);;
 
 
             if ($_SESSION['isLogin']!='ok')
@@ -36,7 +35,7 @@ require_once 'MODELS/models_user.php';
             else
             {
                 echo '<p> </p>';
-                echo '  Bienvenue ' . $user->getLogin() . ' ! '   ;
+                echo '  Bienvenue ' . $user->getPseudo() . ' ! '   ;
                 echo '<br/> <a href="http://tpphp.alwaysdata.net/ProjetPhp/?page=accueil&action=disconnect"> se déconnecter </a>';
             }
 
