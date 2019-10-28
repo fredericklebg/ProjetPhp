@@ -67,28 +67,36 @@ class discussion extends base
         return $result;
     }
 
-     public function showDisc()
+
+     public function showDisc($debut,$limit)
      {
 
          $oui = $this->loadDb();
-         $query = $oui->query('SELECT title,DISCUSSION.state,content,pseudo,message_date FROM DISCUSSION,USER,MESSAGE  
+         $query =('SELECT SQL_CALC_FOUND_ROWS title,DISCUSSION.state,content,pseudo,message_date,DISCUSSION.disc_id FROM DISCUSSION,USER,MESSAGE  
                                         WHERE MESSAGE.disc_id=DISCUSSION.disc_id
                                         AND  MESSAGE.user_id = USER.user_id
-                                        ORDER BY DISCUSSION.disc_id DESC;');
-         while($row = $query->fetch())
-         {
-             ?>
-             <tr>
-                 <td><?php echo $row['title']  ?></td>
-                 <td><?php echo $row['state'] ?></td>
-                 <td><?php echo $row['content']  ?></td>
-                 <td><?php echo $row['pseudo'] ?></td>
-                 <td><?php echo $row['message_date']  ?></td>
-             </tr>
-             <?php
-         }
+                                        AND message_id in (SELECT MAX(message_id) from MESSAGE where MESSAGE.disc_id = DISCUSSION.disc_id)
+                                        ORDER BY DISCUSSION.disc_id DESC LIMIT :limit OFFSET :debut');
+         $query = $oui->prepare($query);
+         $query->bindValue('limit' , $limit , PDO::PARAM_INT);
+         $query->bindValue('debut' , $debut , PDO::PARAM_INT );
+         $query->execute();
+         $total = $oui -> query('SELECT found_rows()')->fetchColumn();
+         return array($query, $total);
+
 
      }
+
+    //  public function deleteDiscussion()
+    //  {
+    //     ////afficher le bouton que pour les admins
+    //      $query = ('DELETE INTO DISCUSSION disc_id,state, title');
+ 
+    //      $this->execRequete($query);
+
+    //  }
+
+     
 
 
 

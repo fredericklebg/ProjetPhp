@@ -207,7 +207,7 @@ a:hover
 /*    margin-bottom: 4em;*/
 /*    justify-content: space-around;*/
 /*    align-items: center;*/
-/*}**
+/*}
 ²/
 
 /*.col-lg-4 col-md-4 col-sm-12 text-center*/
@@ -223,7 +223,7 @@ a:hover
 }
 
 /*.col-lg-4 col-md-4 col-sm-12 text-center*/
-/*{*/
+/*{*/*
 /*    display: flex;*/
 /*    height: 2em;*/
 /*}*/
@@ -268,15 +268,31 @@ a:hover
     justify-content: space-around;
     align-items: center;
     flex-direction: column;
+    border-style: groove;
 }
 
+
+.msg{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+.msg2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    background-color: lightblue;
+    border-radius: 20px;
+}
 .blok
 {
     display: flex;
     border-style: groove;
-    justify-content: space-around;
-    align-items: center;
-    flex-direction: column;
+    align-items : flex-start;
+    flex-direction : row;
     height: 16em;
 }
 
@@ -308,6 +324,8 @@ a:hover
     flex-direction: column;
     padding: 1em;
 }
+
+
 
 @media (max-width: 992px) {
     .registerMenu{

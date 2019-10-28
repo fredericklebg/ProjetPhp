@@ -99,6 +99,8 @@ abstract class controller_main {
     }
     public function profilePage()
     {
+        if($_SESSION['isLogin'] != 'ok')
+            throw new Exception('vous n\'etes pas connectés !');
         $vue = new Vue('profilePage');
         $vue->generer(array());
     }

@@ -66,14 +66,6 @@ class user extends base
         return $this->get('mail',$pseudo);
     }
 
-    /**
-     * @return mixed
-     */
-    public function getPassword($pseudo)
-    {
-        return $this->get('password',$pseudo);
-
-    }
 
     /**
      * @return mixed
@@ -421,6 +413,7 @@ class user extends base
     public function disconnect()
     {
         $_SESSION['isLogin']='no';
+        //session_unset();
     }
 
 //    public function forgotPwd()
@@ -505,6 +498,17 @@ class user extends base
               throw new Exception("Le mail est vide ou n'existe pas");
           }
       }
+
+    //  public function deleteUser()
+    //  {
+    //     //afficher le bouton que pour les admins
+    //      $query = ('DELETE INTO USER user_id,pseudo,mail,password,state,phone,country,user_date,gender');
+ 
+    //      $this->execRequete($query);
+
+    //  }
+
+
 }
 
 

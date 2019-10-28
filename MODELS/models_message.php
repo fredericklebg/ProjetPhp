@@ -4,6 +4,7 @@ require_once 'models_base.php';
 
 class message extends base
 {
+    private $disc_id;
     private $message_id;
     private $content;
     private $message_date;
@@ -12,8 +13,7 @@ class message extends base
 
     public function __construct()
     {
-//        $query =('SELECT * FROM MESSAGE');
-//        $this->execquery($query);
+
     }
 
     /**
@@ -37,7 +37,7 @@ class message extends base
      */
     public function getMessageId()
     {
-        return $this->message_id;
+
     }
 
     /**
@@ -53,7 +53,12 @@ class message extends base
      */
     public function getState()
     {
-        return $this->state;
+        $query2='SELECT state FROM MESSAGE WHERE message_id IN(SELECT MAX(message_id) FROM MESSAGE WHERE disc_id= :disc_id)';
+        $query2 = $this->loadDb()->prepare($query2);
+        $query2->bindValue('disc_id' , $_GET['id'] , PDO::PARAM_INT);
+        $query2->execute();
+        $state = $query2->fetchColumn();
+        return $state;
     }
 
     /**
@@ -97,13 +102,14 @@ class message extends base
      */
     public function setState($state)
     {
-        $query = ('UPDATE MESSAGE SET MESSAGE.state =\''.$state.'\'');
-        $this->execquery($query);;
+        $query = ('UPDATE MESSAGE SET MESSAGE.state =\''.$state.'\' WHERE message_id= \'' .$this->message_id . '\' ' );
+        $this->execRequete($query);
     }
 
     public function addMessage($discId)
     {
-        $msg=$_POST['newMsg'];
+
+        $msg=$_POST['msg'];
         $userId=$_SESSION['userId'];
         $query = 'INSERT INTO MESSAGE(disc_id,content,user_id,state,message_date)
         VALUES (
@@ -114,10 +120,51 @@ class message extends base
                 NOW()   
          )';
         $this->execRequete($query);
+        $this->message_id=$this->execRequete('SELECT MAX(message_id) FROM MESSAGE');
 //
     }
 
+    public function showMsg($discId)
+    {
+        $query=('SELECT * FROM MESSAGE WHERE disc_id = :discId ');
+        $query = $this->loadDb()->prepare($query);
+        $query->bindValue('discId',$discId,PDO::PARAM_INT);
+        $query->execute();
+        return $query;
+    }
 
+
+    public function traiterMsg()
+    {
+
+        $content=$_POST['msg'];
+        $content = ' ' . $content;
+
+        $query2='SELECT state FROM MESSAGE WHERE message_id IN(SELECT MAX(message_id) FROM MESSAGE WHERE disc_id= :disc_id)';
+        $query2 = $this->loadDb()->prepare($query2);
+        $query2->bindValue('disc_id' , $_GET['id'] , PDO::PARAM_INT);
+        $query2->execute();
+        $state = $query2->fetchColumn();
+
+        if($state=='fermé')
+            return -1;
+
+        $query1='SELECT MAX(message_id) FROM MESSAGE WHERE disc_id=:disc_id AND state=:state';
+        $query1 = $this->loadDb()->prepare($query1);
+        $query1->bindValue('disc_id',$_GET['id'],PDO::PARAM_INT);
+        $query1->bindValue('state','ouvert',PDO::PARAM_STR);
+        $query1->execute();
+        $msg_id = $query1->fetchColumn();
+        $this->message_id=$msg_id;
+
+        $query = 'UPDATE MESSAGE SET content = concat(content,:message) where message_id=:message_id';
+        $query = $this->loadDb()->prepare($query);
+        $query ->bindValue('message',$content,PDO::PARAM_STR);
+        $query->bindValue('message_id',$msg_id,PDO::PARAM_INT);
+        $query->execute();
+
+
+    }
 
 
 

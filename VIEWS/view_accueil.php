@@ -22,12 +22,12 @@ $disc= new discussion();
             </div>
             <div class="row">
                 <div class="col-lg-4 col-md-4 col-sm-12 text-center">
-                    <a href="http://tpphp.alwaysdata.net/ProjetPhp/?page=discussion&action=newDiscussion">
+                    <a href="?page=discussion&action=newDiscussion">
                       <input class="newbouton" type="button" value="Nouvelle Discussion"> </a>
                 </div>
 
                 <div class="offset-lg-4 col-lg-4 col-md-4 col-sm-12 text-center">
-                    <a href="http://tpphp.alwaysdata.net/ProjetPhp">
+                    <a href="">
                      <input class="refreshbouton" type="button" value="Actualiser"> </a>
                 </div>
             </div>
@@ -42,14 +42,41 @@ $disc= new discussion();
                         <td>Date</td>
                     </tr>
 
-                    <?php ///
-                    $disc->showDisc();
+                    <?php
 
+                    $limit=2;
+                    $page = (!empty($_GET['id']) ? $_GET['id'] : 1);
+                    $debut = ($page - 1 ) * $limit;
+
+
+                    $query=$disc->showDisc($debut,$limit);
+                    $nbPages = ceil($query[1] / $limit);
+                    while($row = $query[0]->fetch())
+                    {
+                        $id = $row['disc_id'];
+                        ?>
+                        <tr>
+                            <td> <a href="?page=discussion&id=<?php echo $id ?>">
+                                <?php echo $row['title']  ?> </a> </td>
+                            <td><?php echo $row['state'] ?></td>
+                            <td><?php echo $row['content']  ?></td>
+                            <td><?php echo $row['pseudo'] ?></td>
+                            <td><?php echo $row['message_date']  ?></td>
+                        </tr>
+                        <?php
+                    }
                     ?>
                 </table>
             <div class="col-lg-12 text-center">
-                <input type="image" alt="previous" src="VIEWS/Media/gauche.jpg" width="30px" height="30px">
-                <input type="image" alt="next" src="VIEWS/Media/droite.jpg" width="30px" height="30px" >
+                <? if($page > 1) { ?>
+                <a href="?id=<?php echo $page-1; ?>"  ><input type="image" alt="previous" src="VIEWS/Media/gauche.jpg" width="30px" height="30px"> </a>
+                <?php
+                                 }
+                if ($page < $nbPages) { ?>
+                       <a href="?id=<? echo $page + 1 ?> "><input type="image" alt="next" src="VIEWS/Media/droite.jpg" width="30px" height="30px"> </a>
+                <?php
+                }
+                ?>
             </div>
 
         </section>
