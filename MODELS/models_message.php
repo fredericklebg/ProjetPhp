@@ -121,7 +121,7 @@ class message extends base
          \'' . $userId . '\' ,
           \'' . 'ouvert' . '\' ,
                 NOW()   ,
-          \'' . $userId . '\' ,      
+          \'' . $userId . '\'      
          )';
 
         $this->execRequete($query);
@@ -175,8 +175,6 @@ class message extends base
         $query->bindValue('userId','/'. $userId , PDO::PARAM_STR);
         $query->execute();
 
-        var_dump($query);
-        exit();
 
         }
     }
