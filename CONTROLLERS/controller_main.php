@@ -22,7 +22,6 @@ abstract class controller_main {
     // Définit la requête entrante
     public function setRequete(requete $requete) {
         $this->user = new user();
-        $_SESSION['user']=serialize($this->user);
         $this->requete = $requete;
     }
 
@@ -58,34 +57,30 @@ abstract class controller_main {
 
     public function inscription()
     {
-        //$this ->user ->register();
-        $user=unserialize( $_SESSION['user']);
-        $user->register();
-        $_SESSION['user']=serialize($user);
+        $this ->user ->register();
         $vue = new Vue('inscription');
         $vue->generer(array());
     }
     public function login()
     {
-        $user=unserialize( $_SESSION['user']);
-        $user->login();
-        $_SESSION['user']=serialize($user);
-        //$this ->user ->login();
+
+        $this ->user ->login();
+        $_SESSION['user']=serialize($this->user);
         $vue = new Vue($_GET['page']);
         $vue->generer(array());
     }
 
     public function changePass()
     {
-        $_SESSION['user']->changePassword();
-        //$this->user->changePassword();
+
+        $this->user->changePassword();
         $vue = new Vue($_GET['page']);
         $vue->generer(array());
     }
     public function Envoyer()
     {
-        $_SESSION['user']->sendToken();
-        //$this->user->sendToken();
+
+        $this->user->sendToken();
         $vue = new Vue('sendToken');
         $vue->generer(array());
     }
@@ -95,16 +90,16 @@ abstract class controller_main {
         $vue->generer(array());
     }
     public function Remplacer () {
-        $_SESSION['user']->replacePassword();
-        //$this->user->replacePassword();
+
+        $this->user->replacePassword();
         $vue = new Vue($_GET['page']);
         $vue->generer(array());
     }
 
     public function disconnect()
     {
-        $_SESSION['user']->disconnect();
-        //$this->user->disconnect();
+
+        $this->user->disconnect();
         $vue = new Vue($_GET['page']);
         $vue->generer(array());
     }
