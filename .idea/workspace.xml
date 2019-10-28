@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9e80995e-a65b-479d-a02d-ee860a476b18" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MODELS/models_message.php" beforeDir="false" afterPath="$PROJECT_DIR$/MODELS/models_message.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -145,13 +146,6 @@
       <workItem from="1572259027171" duration="4763000" />
       <workItem from="1572272356255" duration="123000" />
       <workItem from="1572272480336" duration="9229000" />
-    </task>
-    <task id="LOCAL-00267" summary="commentaires">
-      <created>1572274155518</created>
-      <option name="number" value="00267" />
-      <option name="presentableId" value="LOCAL-00267" />
-      <option name="project" value="LOCAL" />
-      <updated>1572274155518</updated>
     </task>
     <task id="LOCAL-00268" summary="passage d'objet en session">
       <created>1572274509610</created>
@@ -489,7 +483,14 @@
       <option name="project" value="LOCAL" />
       <updated>1572285294863</updated>
     </task>
-    <option name="localTasksCounter" value="316" />
+    <task id="LOCAL-00316" summary="messages">
+      <created>1572285423378</created>
+      <option name="number" value="00316" />
+      <option name="presentableId" value="LOCAL-00316" />
+      <option name="project" value="LOCAL" />
+      <updated>1572285423378</updated>
+    </task>
+    <option name="localTasksCounter" value="317" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
