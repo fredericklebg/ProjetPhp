@@ -174,7 +174,6 @@ class message extends base
         $query->bindValue('userId','/'. $userId , PDO::PARAM_STR);
         $query->execute();
 
-
         }
     }
     public function verifMsg () {
