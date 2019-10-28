@@ -7,12 +7,13 @@ require_once 'MODELS/models_user.php';
 <head>
     <title><?= $title ?></title>
     <meta charset="UTF-8">
+    <base href="<?= $root ?>" >
     <link href="VIEWS/css/bootstrap.css" rel="stylesheet">
     <link rel="stylesheet" href="VIEWS/css/view_style.css">
     <link rel="icon" type="image/png" href="VIEWS/Media/loginFreeNote.png" />
     <style type="text/css">
         .col-lg-8 { line-height: 200px; }
-        /**.col-lg-12 { line-height: 80px; }*/
+        /*.col-lg-12 { line-height: 80px; }*/
     </style>
 </head>
 <body>
@@ -36,15 +37,15 @@ require_once 'MODELS/models_user.php';
             {
                 echo '<p> </p>';
                 echo '  Bienvenue ' . $user->getPseudo() . ' ! '   ;
-                echo '<br/> <a href="http://tpphp.alwaysdata.net/ProjetPhp/?page=accueil&action=disconnect"> se déconnecter </a>';
+                echo '<br/> <a href="/ProjetPhp/accueil/disconnect"> se déconnecter </a>';
             }
 
             ?>
 
 
 
-                <form class="loginmenu" action="http://tpphp.alwaysdata.net/ProjetPhp/?page=accueil&action=login" method="post" >
-                    <a  href="http://tpphp.alwaysdata.net/ProjetPhp/?page=accueil&action=forgotMdp"> mot de passe oublié </a>
+                <form class="loginmenu" action="/ProjetPhp/accueil/login" method="post" >
+                    <a  href="/ProjetPhp/accueil/forgotMdp"> mot de passe oublié </a>
                     <input type="text" name="login"  placeholder="Identifiant"/>
                     <input type="password" name="mdp" placeholder="Mot de passe"/>
 <!--                    <input type="submit" name="action" value="login"/>-->
@@ -66,12 +67,12 @@ require_once 'MODELS/models_user.php';
             }
             else
             {
-                echo '<a href="http://tpphp.alwaysdata.net/ProjetPhp/?page=accueil&action=profilePage"><input class="avatar"  type="image"  alt="avatar"  src="VIEWS/Media/login.png"></a>';
+                echo '<a href="/ProjetPhp/accueil/profilePage"><input class="avatar"  type="image"  alt="avatar"  src="VIEWS/Media/login.png"></a>';
             }
 
             ?>
 
-                <form class="registerMenu" action="http://tpphp.alwaysdata.net/ProjetPhp/?page=accueil&action=inscription" method="post">
+                <form class="registerMenu" action="/ProjetPhp/accueil/inscription" method="post">
                     <input type="text" placeholder="identifiant" name="identifiant" /> <br>
                     <label> sexe </label> <br>
                     <input type="radio" value="homme" name="genre" checked/> homme <br>

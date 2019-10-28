@@ -27,7 +27,7 @@ class user extends base
     /**
      * @return mixed
      */
-    public function getState($pseudo)
+    public function getState()
     {
         //return $this->get('state',$pseudo);
         return $this->state;
