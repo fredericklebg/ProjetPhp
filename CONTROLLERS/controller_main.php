@@ -81,8 +81,9 @@ abstract class controller_main {
     public function Envoyer()
     {
 
-        $this->user->sendToken();
-        $_SESSION['user']=serialize($this->user);
+        $user=unserialize($_SESSION['user']);
+        $user->sendToken();
+        $_SESSION['user']=serialize($user);
         $vue = new Vue('sendToken');
         $vue->generer(array());
     }
@@ -93,8 +94,9 @@ abstract class controller_main {
     }
     public function Remplacer () {
 
-        $this->user->replacePassword();
-        $_SESSION['user']=serialize($this->user);
+        $user=unserialize($_SESSION['user']);
+        $user->replacePassword();
+        $_SESSION['user']=serialize($user);
         $vue = new Vue($_GET['page']);
         $vue->generer(array());
     }
@@ -102,7 +104,8 @@ abstract class controller_main {
     public function disconnect()
     {
 
-        $this->user->disconnect();
+        $user=unserialize($_SESSION['user']);
+        $user->disconnect();
         $vue = new Vue($_GET['page']);
         $vue->generer(array());
     }
