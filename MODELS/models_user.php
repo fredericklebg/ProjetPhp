@@ -43,6 +43,10 @@ class user extends base
         return $this->user_id;
     }
 
+    public function getPassword()
+    {
+        return $this->password;
+    }
 
     public function getCountry()
     {
@@ -288,33 +292,32 @@ class user extends base
 
         try
         {
-
             if($sql->rowCount()==0)
-        {
-            throw new Exception("mauvais pseudo ou mot de passe");
+            {
+                throw new Exception("mauvais pseudo ou mot de passe");
 
-        }
-        else
-        {
+            }
+            else
+            {
 
-            $_SESSION['isLogin'] = 'ok';
-//            $_SESSION['login'] = $login;
-//            $_SESSION['userId']=$this->getUserId($login);
-//            $_SESSION['password'] = $hashedPass;
-//            $_SESSION['mail']=$this->getMail($login);
-//            $_SESSION['phone']=$this->getPhone($login);
-//            $_SESSION['country']=$this->getCountry($login);
-//            $_SESSION['date']=$this->getUserDate($login);
-            $this->password=$hashedPass;
-            $this->pseudo=$login;
-            $this->user_id=$this->get('user_id',$login,$hashedPass);
-            $this->mail=$this->get('mail',$login,$hashedPass);
-            $this->phone=$this->get('phone',$login,$hashedPass);
-            $this->country=$this->get('country',$login,$hashedPass);
-            $this->user_date=$this->get('user_date',$login,$hashedPass);
-            $this->state=$this->get('state',$login,$hashedPass);
-            $this->gender=$this->get('gender',$login,$hashedPass);
-        }
+                $_SESSION['isLogin'] = 'ok';
+    //            $_SESSION['login'] = $login;
+    //            $_SESSION['userId']=$this->getUserId($login);
+    //            $_SESSION['password'] = $hashedPass;
+    //            $_SESSION['mail']=$this->getMail($login);
+    //            $_SESSION['phone']=$this->getPhone($login);
+    //            $_SESSION['country']=$this->getCountry($login);
+    //            $_SESSION['date']=$this->getUserDate($login);
+                $this->password=$hashedPass;
+                $this->pseudo=$login;
+                $this->user_id=$this->get('user_id',$login,$hashedPass);
+                $this->mail=$this->get('mail',$login,$hashedPass);
+                $this->phone=$this->get('phone',$login,$hashedPass);
+                $this->country=$this->get('country',$login,$hashedPass);
+                $this->user_date=$this->get('user_date',$login,$hashedPass);
+                $this->state=$this->get('state',$login,$hashedPass);
+                $this->gender=$this->get('gender',$login,$hashedPass);
+            }
 
 
         }
