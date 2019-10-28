@@ -73,10 +73,8 @@ abstract class controller_main {
     public function changePass()
     {
         $user=unserialize($_SESSION['user']);
-        echo $user->getPassword();
-        exit();
-        $this->user->changePassword();
-        $_SESSION['user']=serialize($this->user);
+        $user->changePassword();
+        $_SESSION['user']=serialize($user);
         $vue = new Vue($_GET['page']);
         $vue->generer(array());
     }
