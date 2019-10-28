@@ -69,11 +69,11 @@ $disc= new discussion();
                 </table>
             <div class="col-lg-12 text-center">
                 <? if($page > 1) { ?>
-                <a href="/accueil//<?php echo $page-1; ?>"  ><input type="image" alt="previous" src="VIEWS/Media/gauche.jpg" width="30px" height="30px"> </a>
+                <a href="/ProjetPhp/accueil//<?php echo $page-1; ?>"  ><input type="image" alt="previous" src="VIEWS/Media/gauche.jpg" width="30px" height="30px"> </a>
                 <?php
                                  }
                 if ($page < $nbPages) { ?>
-                       <a href="/accueil//=<? echo $page + 1 ?> "><input type="image" alt="next" src="VIEWS/Media/droite.jpg" width="30px" height="30px"> </a>
+                       <a href="/ProjetPhp/accueil//<? echo $page + 1 ?> "><input type="image" alt="next" src="VIEWS/Media/droite.jpg" width="30px" height="30px"> </a>
                 <?php
                 }
                 ?>
