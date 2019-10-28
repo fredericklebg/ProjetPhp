@@ -360,5 +360,9 @@ a:hover
         width: 30%;
     }
 
+    .refreshbouton
+    {
+        text-align: right;
+    }
 
 }
