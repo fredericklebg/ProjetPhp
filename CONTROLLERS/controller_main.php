@@ -72,7 +72,8 @@ abstract class controller_main {
 
     public function changePass()
     {
-        echo $this->user->getPseudo();
+        $user=unserialize($_SESSION['user']);
+        echo $user->getPseudo();
         exit();
         $this->user->changePassword();
         $_SESSION['user']=serialize($this->user);
