@@ -308,8 +308,6 @@ class user extends base
             $this->password=$hashedPass;
             $this->pseudo=$login;
             $this->user_id=$this->get('user_id',$login,$hashedPass);
-            var_dump($this->user_id);
-            exit();
             $this->mail=$this->get('mail',$login,$hashedPass);
             $this->phone=$this->get('phone',$login,$hashedPass);
             $this->country=$this->get('country',$login,$hashedPass);
