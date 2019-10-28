@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b41057ea-1169-4d87-bd84-37173161cc78" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/CONTROLLERS/controller_main.php" beforeDir="false" afterPath="$PROJECT_DIR$/CONTROLLERS/controller_main.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MODELS/models_base.php" beforeDir="false" afterPath="$PROJECT_DIR$/MODELS/models_base.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MODELS/models_user.php" beforeDir="false" afterPath="$PROJECT_DIR$/MODELS/models_user.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/VIEWS/view_profilePage.php" beforeDir="false" afterPath="$PROJECT_DIR$/VIEWS/view_profilePage.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -145,20 +142,6 @@
       <workItem from="1571830003405" duration="4888000" />
       <workItem from="1571925238818" duration="2568000" />
       <workItem from="1572259027171" duration="4763000" />
-    </task>
-    <task id="LOCAL-00200" summary="AUTO">
-      <created>1571928309936</created>
-      <option name="number" value="00200" />
-      <option name="presentableId" value="LOCAL-00200" />
-      <option name="project" value="LOCAL" />
-      <updated>1571928309937</updated>
-    </task>
-    <task id="LOCAL-00201" summary="AUTO">
-      <created>1571928329419</created>
-      <option name="number" value="00201" />
-      <option name="presentableId" value="LOCAL-00201" />
-      <option name="project" value="LOCAL" />
-      <updated>1571928329419</updated>
     </task>
     <task id="LOCAL-00202" summary="AUTO">
       <created>1571928357356</created>
@@ -489,7 +472,21 @@
       <option name="project" value="LOCAL" />
       <updated>1572268912237</updated>
     </task>
-    <option name="localTasksCounter" value="249" />
+    <task id="LOCAL-00249" summary="test users">
+      <created>1572270562468</created>
+      <option name="number" value="00249" />
+      <option name="presentableId" value="LOCAL-00249" />
+      <option name="project" value="LOCAL" />
+      <updated>1572270562468</updated>
+    </task>
+    <task id="LOCAL-00250" summary="test users">
+      <created>1572270742071</created>
+      <option name="number" value="00250" />
+      <option name="presentableId" value="LOCAL-00250" />
+      <option name="project" value="LOCAL" />
+      <updated>1572270742071</updated>
+    </task>
+    <option name="localTasksCounter" value="251" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -541,6 +538,7 @@
     <MESSAGE value="prenez un scooter" />
     <MESSAGE value="test" />
     <MESSAGE value="test pck les msg marchent pas CA MARCHE PAS CA ARCHE PAS" />
-    <option name="LAST_COMMIT_MESSAGE" value="test pck les msg marchent pas CA MARCHE PAS CA ARCHE PAS" />
+    <MESSAGE value="test users" />
+    <option name="LAST_COMMIT_MESSAGE" value="test users" />
   </component>
 </project>

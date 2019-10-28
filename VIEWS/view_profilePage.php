@@ -1,7 +1,7 @@
 <?php $this -> title ='Profil';
 require_once 'MODELS/models_user.php';
 
-
+var_dump($_SESSION['user']);
 ?>
 
 <hr>
