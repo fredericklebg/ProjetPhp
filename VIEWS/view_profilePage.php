@@ -16,7 +16,7 @@ var_dump($user);
         <tr> <td> Numéro : <?php echo  $user->getPhone(); ?>    </td> </tr>
         <tr> <td> Pays : <?php echo $user->getCountry(); ?>      </td> </tr>
         <tr> <td> date d'inscription : <?php
-                $date = DateTime::createFromFormat('Y-m-d',$user->getUserDate();
+                $date = DateTime::createFromFormat('Y-m-d',$user->getUserDate());
                 echo $date->format('d-m-Y');  ?>      </td> </tr>
 <!--        <tr> <td> id : --><?//  echo $_SESSION['userId'];  ?><!--</td></tr>-->
 

@@ -29,22 +29,18 @@
     <expand>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="tpphp_bd@mysql-tpphp.alwaysdata.net" type="feb32156:DbDataSourceImpl" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="tpphp_bd@mysql-tpphp.alwaysdata.net" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="tpphp_bd@mysql-tpphp.alwaysdata.net" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="tpphp_bd: schema" type="ebfa3cd1:MariaImplModel$Schema" />
+        <item name="tpphp_bd@mysql-tpphp.alwaysdata.net [2]" type="feb32156:DbDataSourceImpl" />
       </path>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
         <item name="tpphp_bd@mysql-tpphp.alwaysdata.net [2]" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="tpphp_bd@mysql-tpphp.alwaysdata.net [2]" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="tpphp_bd: schema" type="ebfa3cd1:MariaImplModel$Schema" />
       </path>
     </expand>
     <select />
