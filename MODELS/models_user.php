@@ -334,8 +334,8 @@ class user extends base
         }
 
 
-        $login = $_SESSION['login'];
-        $pass = $_SESSION['password'];
+        $login = $this->pseudo;
+        $pass = $this->password;
         $oldMdp=$_POST['oldMdp'];
         $newMdp=$_POST['newMdp'];
         $confirmMdp=$_POST['confirmMdp'];
