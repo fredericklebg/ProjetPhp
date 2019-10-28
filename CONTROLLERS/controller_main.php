@@ -65,7 +65,7 @@ abstract class controller_main {
     }
     public function login()
     {
-        $_SESSION['user']->login;
+        $_SESSION['user']->login();
         //$this ->user ->login();
         $vue = new Vue($_GET['page']);
         $vue->generer(array());
