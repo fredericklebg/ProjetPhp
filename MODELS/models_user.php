@@ -336,6 +336,8 @@ class user extends base
 
         $login = $this->pseudo;
         $pass = $this->password;
+        var_dump($pass);
+        exit();
         $oldMdp=$_POST['oldMdp'];
         $newMdp=$_POST['newMdp'];
         $confirmMdp=$_POST['confirmMdp'];
@@ -347,7 +349,7 @@ class user extends base
 
         if ($newMdp != $confirmMdp)
         {
-            throw new Exception("les  nouveaux mots de passe ne coresspondent pas");
+            throw new Exception("les  nouveaux mots de passe ne corespondent pas");
         }
         $hashedOldPass = hash('sha256',$oldMdp);
         $hashedNewPass = hash('sha256',$newMdp);
