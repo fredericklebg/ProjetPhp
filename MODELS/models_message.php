@@ -181,7 +181,7 @@ class message extends base
             throw new Exception('vous avez deja posté dans ce message');
 
 
-
+//
         if ($this->verifMsg()) {
         $query = 'UPDATE MESSAGE SET content = concat(content,:message), authors_id = concat(authors_id,:userId) where message_id=:message_id';
         $query = $this->loadDb()->prepare($query);
