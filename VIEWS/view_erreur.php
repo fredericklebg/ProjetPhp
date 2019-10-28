@@ -5,7 +5,7 @@
     <section class="col-lg-12 text-center">
 
     <p >Une erreur est survenue : <?= $msgErreur ?> <br> </p>
-        <a href="http://tpphp.alwaysdata.net/ProjetPhp"> retourner a la page d'accueil </a>
+        <a href="/ProjetPhp/"> retourner a la page d'accueil </a>
 
     </section>
 </div>

@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b41057ea-1169-4d87-bd84-37173161cc78" name="Default Changelist" comment="" />
+    <list default="true" id="b41057ea-1169-4d87-bd84-37173161cc78" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/VIEWS/view_changePass.php" beforeDir="false" afterPath="$PROJECT_DIR$/VIEWS/view_changePass.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VIEWS/view_common.php" beforeDir="false" afterPath="$PROJECT_DIR$/VIEWS/view_common.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VIEWS/view_discussion.php" beforeDir="false" afterPath="$PROJECT_DIR$/VIEWS/view_discussion.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VIEWS/view_erreur.php" beforeDir="false" afterPath="$PROJECT_DIR$/VIEWS/view_erreur.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VIEWS/view_newDiscussion.php" beforeDir="false" afterPath="$PROJECT_DIR$/VIEWS/view_newDiscussion.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VIEWS/view_param.php" beforeDir="false" afterPath="$PROJECT_DIR$/VIEWS/view_param.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VIEWS/view_profilePage.php" beforeDir="false" afterPath="$PROJECT_DIR$/VIEWS/view_profilePage.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VIEWS/view_sendToken.php" beforeDir="false" afterPath="$PROJECT_DIR$/VIEWS/view_sendToken.php" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,17 +106,7 @@
     <option name="allServicesViewState">
       <serviceView>
         <treeState>
-          <expand>
-            <path>
-              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@63dd14a7" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-            </path>
-            <path>
-              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@63dd14a7" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@72960723" type="9fbbdea:ServiceModel$ServiceNode" />
-            </path>
-          </expand>
+          <expand />
           <select />
         </treeState>
       </serviceView>
@@ -137,14 +136,7 @@
       <workItem from="1571925238818" duration="2568000" />
       <workItem from="1572259027171" duration="4763000" />
       <workItem from="1572272356255" duration="123000" />
-      <workItem from="1572272480336" duration="7177000" />
-    </task>
-    <task id="LOCAL-00246" summary="prenez un scooter">
-      <created>1572263823597</created>
-      <option name="number" value="00246" />
-      <option name="presentableId" value="LOCAL-00246" />
-      <option name="project" value="LOCAL" />
-      <updated>1572263823597</updated>
+      <workItem from="1572272480336" duration="7575000" />
     </task>
     <task id="LOCAL-00247" summary="test pck les msg marchent pas CA MARCHE PAS CA ARCHE PAS">
       <created>1572268812979</created>
@@ -482,7 +474,14 @@
       <option name="project" value="LOCAL" />
       <updated>1572280321163</updated>
     </task>
-    <option name="localTasksCounter" value="295" />
+    <task id="LOCAL-00295" summary="ajout contributeurs messages">
+      <created>1572280489255</created>
+      <option name="number" value="00295" />
+      <option name="presentableId" value="LOCAL-00295" />
+      <option name="project" value="LOCAL" />
+      <updated>1572280489255</updated>
+    </task>
+    <option name="localTasksCounter" value="296" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
