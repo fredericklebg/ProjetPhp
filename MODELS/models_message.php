@@ -167,6 +167,19 @@ class message extends base
         $query1->execute();
         $msg_id = $query1->fetchColumn();
         $this->message_id=$msg_id;
+
+
+        $query3='SELECT authors_id FROM MESSAGE WHERE message_id=:message_id';
+        $query3 = $this->loadDb()->prepare($query3);
+        $query3->bindValue('message_id',$msg_id,PDO::PARAM_INT);
+        $query3->execute();
+        $authors = $query3->fetchColumn();
+
+        if(strpos( $authors , $userId ) === true)
+            throw new Exception('vous avez deja posté dans ce message');
+
+
+
         if ($this->verifMsg()) {
         $query = 'UPDATE MESSAGE SET content = concat(content,:message), authors_id = concat(authors_id,:userId) where message_id=:message_id';
         $query = $this->loadDb()->prepare($query);
