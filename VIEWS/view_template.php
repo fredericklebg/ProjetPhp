@@ -58,7 +58,7 @@ class Vue {
         $root = '/ProjetPhp/';
         // Génération du gabarit commun utilisant la partie spécifique
         $vue = $this->genererFichier('VIEWS/view_common.php',
-            array('titre' => $this->title, 'contenu' => $content,
+            array('titre' => $this->title, 'content' => $content,
                 'root' => $root));
         // Renvoi de la vue générée au navigateur
         echo $vue;

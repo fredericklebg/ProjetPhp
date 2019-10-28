@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b41057ea-1169-4d87-bd84-37173161cc78" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.htaccess" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/VIEWS/view_common.php" beforeDir="false" afterPath="$PROJECT_DIR$/VIEWS/view_common.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/VIEWS/view_template.php" beforeDir="false" afterPath="$PROJECT_DIR$/VIEWS/view_template.php" afterDir="false" />
-    </list>
+    <list default="true" id="b41057ea-1169-4d87-bd84-37173161cc78" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -132,21 +127,7 @@
       <workItem from="1571925238818" duration="2568000" />
       <workItem from="1572259027171" duration="4763000" />
       <workItem from="1572272356255" duration="123000" />
-      <workItem from="1572272480336" duration="5021000" />
-    </task>
-    <task id="LOCAL-00240" summary="prenez un scooter">
-      <created>1572262726957</created>
-      <option name="number" value="00240" />
-      <option name="presentableId" value="LOCAL-00240" />
-      <option name="project" value="LOCAL" />
-      <updated>1572262726957</updated>
-    </task>
-    <task id="LOCAL-00241" summary="prenez un scooter">
-      <created>1572262926024</created>
-      <option name="number" value="00241" />
-      <option name="presentableId" value="LOCAL-00241" />
-      <option name="project" value="LOCAL" />
-      <updated>1572262926024</updated>
+      <workItem from="1572272480336" duration="5267000" />
     </task>
     <task id="LOCAL-00242" summary="prenez un scooter">
       <created>1572263134182</created>
@@ -477,7 +458,21 @@
       <option name="project" value="LOCAL" />
       <updated>1572276671829</updated>
     </task>
-    <option name="localTasksCounter" value="289" />
+    <task id="LOCAL-00289" summary="test htaccess">
+      <created>1572278339982</created>
+      <option name="number" value="00289" />
+      <option name="presentableId" value="LOCAL-00289" />
+      <option name="project" value="LOCAL" />
+      <updated>1572278339982</updated>
+    </task>
+    <task id="LOCAL-00290" summary="test htaccess">
+      <created>1572278362026</created>
+      <option name="number" value="00290" />
+      <option name="presentableId" value="LOCAL-00290" />
+      <option name="project" value="LOCAL" />
+      <updated>1572278362026</updated>
+    </task>
+    <option name="localTasksCounter" value="291" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -534,6 +529,7 @@
     <MESSAGE value="passage d'objet en session" />
     <MESSAGE value="tests" />
     <MESSAGE value="FINDESTESTS" />
-    <option name="LAST_COMMIT_MESSAGE" value="FINDESTESTS" />
+    <MESSAGE value="test htaccess" />
+    <option name="LAST_COMMIT_MESSAGE" value="test htaccess" />
   </component>
 </project>
