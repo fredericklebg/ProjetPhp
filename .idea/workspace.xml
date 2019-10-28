@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b41057ea-1169-4d87-bd84-37173161cc78" name="Default Changelist" comment="" />
+    <list default="true" id="b41057ea-1169-4d87-bd84-37173161cc78" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/MODELS/models_message.php" beforeDir="false" afterPath="$PROJECT_DIR$/MODELS/models_message.php" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -127,35 +129,7 @@
       <workItem from="1571925238818" duration="2568000" />
       <workItem from="1572259027171" duration="4763000" />
       <workItem from="1572272356255" duration="123000" />
-      <workItem from="1572272480336" duration="7849000" />
-    </task>
-    <task id="LOCAL-00248" summary="test pck les msg marchent pas CA MARCHE PAS CA ARCHE PAS">
-      <created>1572268912237</created>
-      <option name="number" value="00248" />
-      <option name="presentableId" value="LOCAL-00248" />
-      <option name="project" value="LOCAL" />
-      <updated>1572268912237</updated>
-    </task>
-    <task id="LOCAL-00249" summary="test users">
-      <created>1572270562468</created>
-      <option name="number" value="00249" />
-      <option name="presentableId" value="LOCAL-00249" />
-      <option name="project" value="LOCAL" />
-      <updated>1572270562468</updated>
-    </task>
-    <task id="LOCAL-00250" summary="test users">
-      <created>1572270742071</created>
-      <option name="number" value="00250" />
-      <option name="presentableId" value="LOCAL-00250" />
-      <option name="project" value="LOCAL" />
-      <updated>1572270742071</updated>
-    </task>
-    <task id="LOCAL-00251" summary="test users">
-      <created>1572270882069</created>
-      <option name="number" value="00251" />
-      <option name="presentableId" value="LOCAL-00251" />
-      <option name="project" value="LOCAL" />
-      <updated>1572270882069</updated>
+      <workItem from="1572272480336" duration="8139000" />
     </task>
     <task id="LOCAL-00252" summary="test users">
       <created>1572272078014</created>
@@ -472,7 +446,35 @@
       <option name="project" value="LOCAL" />
       <updated>1572280791147</updated>
     </task>
-    <option name="localTasksCounter" value="297" />
+    <task id="LOCAL-00297" summary="messages">
+      <created>1572281103276</created>
+      <option name="number" value="00297" />
+      <option name="presentableId" value="LOCAL-00297" />
+      <option name="project" value="LOCAL" />
+      <updated>1572281103276</updated>
+    </task>
+    <task id="LOCAL-00298" summary="messages">
+      <created>1572281188523</created>
+      <option name="number" value="00298" />
+      <option name="presentableId" value="LOCAL-00298" />
+      <option name="project" value="LOCAL" />
+      <updated>1572281188523</updated>
+    </task>
+    <task id="LOCAL-00299" summary="messages">
+      <created>1572281232868</created>
+      <option name="number" value="00299" />
+      <option name="presentableId" value="LOCAL-00299" />
+      <option name="project" value="LOCAL" />
+      <updated>1572281232868</updated>
+    </task>
+    <task id="LOCAL-00300" summary="messages">
+      <created>1572281277050</created>
+      <option name="number" value="00300" />
+      <option name="presentableId" value="LOCAL-00300" />
+      <option name="project" value="LOCAL" />
+      <updated>1572281277050</updated>
+    </task>
+    <option name="localTasksCounter" value="301" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -507,7 +509,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Création MVC" />
     <MESSAGE value="connexion BD" />
     <MESSAGE value="formulaire" />
     <MESSAGE value="bd" />
@@ -532,6 +533,7 @@
     <MESSAGE value="test htaccess" />
     <MESSAGE value="ajout contributeurs messages" />
     <MESSAGE value="redirection" />
-    <option name="LAST_COMMIT_MESSAGE" value="redirection" />
+    <MESSAGE value="messages" />
+    <option name="LAST_COMMIT_MESSAGE" value="messages" />
   </component>
 </project>
