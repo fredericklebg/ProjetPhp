@@ -400,7 +400,7 @@ class user extends base
 
     public function genererChaineAleatoire($longueur = 10)
     {
-        $caracteres = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+        $caracteres = '0-9a-zA-Z';
         $longueurMax = strlen($caracteres);
         $chaineAleatoire = '';
         for ($i = 0; $i < $longueur; $i++)
