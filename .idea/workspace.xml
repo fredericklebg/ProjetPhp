@@ -156,27 +156,6 @@
       <workItem from="1572277858770" duration="236000" />
       <workItem from="1572282103111" duration="65000" />
     </task>
-    <task id="LOCAL-00264" summary="discussion">
-      <created>1571999397035</created>
-      <option name="number" value="00264" />
-      <option name="presentableId" value="LOCAL-00264" />
-      <option name="project" value="LOCAL" />
-      <updated>1571999397035</updated>
-    </task>
-    <task id="LOCAL-00265" summary="test">
-      <created>1572168674856</created>
-      <option name="number" value="00265" />
-      <option name="presentableId" value="LOCAL-00265" />
-      <option name="project" value="LOCAL" />
-      <updated>1572168674856</updated>
-    </task>
-    <task id="LOCAL-00266" summary="test">
-      <created>1572169075586</created>
-      <option name="number" value="00266" />
-      <option name="presentableId" value="LOCAL-00266" />
-      <option name="project" value="LOCAL" />
-      <updated>1572169075586</updated>
-    </task>
     <task id="LOCAL-00267" summary="test">
       <created>1572170183205</created>
       <option name="number" value="00267" />
@@ -499,7 +478,28 @@
       <option name="project" value="LOCAL" />
       <updated>1572287607273</updated>
     </task>
-    <option name="localTasksCounter" value="313" />
+    <task id="LOCAL-00313" summary="car oui">
+      <created>1572287839697</created>
+      <option name="number" value="00313" />
+      <option name="presentableId" value="LOCAL-00313" />
+      <option name="project" value="LOCAL" />
+      <updated>1572287839697</updated>
+    </task>
+    <task id="LOCAL-00314" summary="car oui">
+      <created>1572287917579</created>
+      <option name="number" value="00314" />
+      <option name="presentableId" value="LOCAL-00314" />
+      <option name="project" value="LOCAL" />
+      <updated>1572287917579</updated>
+    </task>
+    <task id="LOCAL-00315" summary="car oui">
+      <created>1572288058500</created>
+      <option name="number" value="00315" />
+      <option name="presentableId" value="LOCAL-00315" />
+      <option name="project" value="LOCAL" />
+      <updated>1572288058500</updated>
+    </task>
+    <option name="localTasksCounter" value="316" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
