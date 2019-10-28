@@ -198,7 +198,7 @@ a:hover
 {
   color : #C0BEBC;
 }
-/*.row/
+/**.row/
 /*{*/
 /*    display: flex;*/
 /*    width: 100%;*/
@@ -360,5 +360,9 @@ a:hover
         width: 30%;
     }
 
+    .refreshbouton
+    {
+        text-align: right;
+    }
 
 }
