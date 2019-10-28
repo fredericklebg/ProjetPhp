@@ -77,8 +77,7 @@ class user extends base
 
     public function getPseudo()
     {
-        //return $this->pseudo;
-        return 'tamere';
+        return $this->pseudo;
         //return $this->pseudo;
     }
 
