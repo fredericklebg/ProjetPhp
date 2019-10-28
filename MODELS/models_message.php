@@ -199,8 +199,7 @@ class message extends base
 
     public function verifMsg () {
 
-        if(preg_match("#^[ ]*[a-zA-Z0-9]+[']*[a-zA-Z0-9]+[ ]*$#",$_POST['msg'])) return true;
-        if(preg_match("#^[ ]*[a-zA-Z0-9]+[ ]*[a-zA-Z0-9]+[']*$#",$_POST['msg'])) return true;
+        if(preg_match("#^[ ]*[a-zA-Z0-9]+[']*$#",$_POST['msg'])) return true;
         if(preg_match("#^[ ]*[a-zA-Z0-9]+[-]*[a-zA-Z0-9]+[ ]*[a-zA-Z0-9]+[ ]*$#",$_POST['msg'])) return true;
         if(preg_match("#^[ ]*[a-zA-Z0-9]+[ ]*[a-zA-Z0-9']+[ ]*[a-zA-Z0-9]+[-]*$#",$_POST['msg'])) return true;
         if(preg_match("#^[ ]*[a-zA-Z0-9]+[ ]*[a-zA-Z0-9]+[ ]*$#",$_POST['msg'])) return true;
