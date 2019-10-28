@@ -65,8 +65,6 @@ abstract class controller_main {
     {
 
         $this ->user ->login();
-        echo $this->user->getPseudo();
-        exit();
         $_SESSION['user']=serialize($this->user); // permet de mettre l'objet user en session
         $vue = new Vue($_GET['page']);             // pour y acceder, il faut le unsarialise()
         $vue->generer(array());                      // par exemple regardez dans profilePage ou dans addMessage pour recup l'id
