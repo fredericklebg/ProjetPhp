@@ -125,6 +125,9 @@ class message extends base
     }
     public function verifMsg () {
         if(preg_match('\^[ ]*[a-zA-Z0-9.-_]+[ ]*[a-zA-Z0-9.-_]+[ ]*/$',$_POST['msg'])) return true;
+        else {
+            throw new Exception('le message est trop grand et comporte plus de 2 mots');
+        }
     }
 
     public function showMsg($discId)
