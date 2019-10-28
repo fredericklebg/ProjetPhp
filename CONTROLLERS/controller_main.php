@@ -63,20 +63,27 @@ abstract class controller_main {
     }
     public function login()
     {
+
         $this ->user ->login();
-        $vue = new Vue($_GET['page']);
-        $vue->generer(array());
+        $_SESSION['user']=serialize($this->user); // permet de mettre l'objet user en session
+        $vue = new Vue($_GET['page']);             // pour y acceder, il faut le unsarialise()
+        $vue->generer(array());                      // par exemple regardez dans profilePage ou dans addMessage pour recup l'id
     }
 
     public function changePass()
     {
-        $this->user->changePassword();
+        $user=unserialize($_SESSION['user']);
+        $user->changePassword();
+        $_SESSION['user']=serialize($user);
         $vue = new Vue($_GET['page']);
         $vue->generer(array());
     }
-    public function sendToken()
+    public function Envoyer()
     {
-        $this->user->sendToken();
+
+        $user=unserialize($_SESSION['user']);
+        $user->sendToken();
+        $_SESSION['user']=serialize($user);
         $vue = new Vue('sendToken');
         $vue->generer(array());
     }
@@ -85,15 +92,20 @@ abstract class controller_main {
         $vue = new Vue('forgotMdp');
         $vue->generer(array());
     }
-    public function replacePass () {
-        $this->user->replacePassword();
+    public function Remplacer () {
+
+        $user=unserialize($_SESSION['user']);
+        $user->replacePassword();
+        $_SESSION['user']=serialize($user);
         $vue = new Vue($_GET['page']);
         $vue->generer(array());
     }
 
     public function disconnect()
     {
-        $this->user->disconnect();
+
+        $user=unserialize($_SESSION['user']);
+        $user->disconnect();
         $vue = new Vue($_GET['page']);
         $vue->generer(array());
     }

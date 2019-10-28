@@ -19,8 +19,7 @@ class user extends base
 
     public function __construct()
     {
-//       $query =('SELECT * FROM USER');
-//       $this->execquery($query);
+
     }
 
 
@@ -30,147 +29,123 @@ class user extends base
      */
     public function getState($pseudo)
     {
-        return $this->get('state',$pseudo);
+        //return $this->get('state',$pseudo);
+        return $this->state;
+
     }
 
     /**
      * @return mixed
      */
-    public function getUserId($pseudo)
+    public function getUserId()
     {
-        return $this->get('user_id',$pseudo);
+        //return $this->get('user_id',$pseudo);
+        return $this->user_id;
     }
 
-
-    /**
-     * @return mixed
-     */
-    public function getCountry($pseudo)
+    public function getPassword()
     {
-        return $this->get('country',$pseudo);
+        return $this->password;
     }
 
-    /**
-     * @return mixed
-     */
-    public function getGender($pseudo)
+    public function getCountry()
     {
-        return $this->get('gender',$pseudo);
+        return $this->country;
+        //return $this->get('country',$pseudo);
     }
 
-    /**
-     * @return mixed
-     */
-    public function getMail($pseudo)
+    public function getGender()
     {
-        return $this->get('mail',$pseudo);
+       return $this->gender;
+        // return $this->get('gender', $pseudo);
     }
 
-
-    /**
-     * @return mixed
-     */
-    public function getPhone($pseudo)
+    public function getMail()
     {
-       return $this->get('phone',$pseudo);
+        return $this->mail;
+        //return $this->get('mail',$pseudo);
     }
 
-    /**
-     * @return mixed
-     */
+
+
+    public function getPhone()
+    {
+        return $this->phone;
+       //return $this->get('phone',$pseudo);
+    }
+
+
     public function getPseudo()
     {
         return $this->pseudo;
+        //return $this->pseudo;
     }
 
-    /**
-     * @return mixed
-     */
-    public function getUserDate($pseudo)
+
+    public function getUserDate()
 
     {
-        return $this->get('user_date',$pseudo);
+        return $this->user_date;
+        //return $this->get('user_date',$pseudo);
     }
 
-    /**
-     * @param mixed $country
-     */
+
     public function setCountry($country)
     {
         $query = ('UPDATE USER SET USER.country :=\''.$country.'\'');
-        $this->execquery($query);
+        $this->execRequete($query);
     }
 
-    /**
-     * @param mixed $gender
-     */
+
     public function setGender($gender)
     {
         $query = ('UPDATE USER SET USER.gender :=\''.$gender.'\'');
-        $this->execquery($query);
+        $this->execRequete($query);
     }
 
-    /**
-     * @param mixed $mail
-     */
+
     public function setMail($mail)
     {
         $query = ('UPDATE USER SET USER.mail :=\''.$mail.'\'');
-        $this->execquery($query);
+        $this->execRequete($query);
     }
 
-    /**
-     * @param mixed $password
-     */
+
     public function setPassword($password)
     {
         $query = ('UPDATE USER SET USER.password :=\''.$password.'\'');
-        $this->execquery($query);
+        $this->execRequete($query);
     }
 
-    /**
-     * @param mixed $phone
-     */
     public function setPhone($phone)
     {
         $query = ('UPDATE USER SET USER.phone :=\''.$phone.'\'');
-        $this->execquery($query);
+        $this->execRequete($query);
     }
 
-    /**
-     * @param mixed $pseudo
-     */
     public function setPseudo($pseudo)
     {
         $query = ('UPDATE USER SET USER.pseudo :=\''.$pseudo.'\'');
-        $this->execquery($query);
+        $this->execRequete($query);
     }
 
-    /**
-     * @param mixed $user_date
-     */
     public function setUserDate($user_date)
     {
         $query = ('UPDATE USER SET USER.date :=\''.$user_date.'\'');
-        $this->execquery($query);
+        $this->execRequete($query);
     }
 
-    /**
-     * @param mixed $user_id
-     */
     public function setUserId($user_id)
     {
         $query = ('UPDATE USER SET USER.user_id :=\''.$user_id.'\'');
-        $this->execquery($query);
+        $this->execRequete($query);
     }
 
-    /**
-     * @param mixed $state
-     */
+
     public function setState($state)
     {
         $query = ('UPDATE USER SET USER.state :=\''.$state.'\'');
-        $this->execquery($query);
+        $this->execRequete($query);
     }
 
 
@@ -317,25 +292,32 @@ class user extends base
 
         try
         {
-
             if($sql->rowCount()==0)
-        {
-            throw new Exception("mauvais pseudo ou mot de passe");
+            {
+                throw new Exception("mauvais pseudo ou mot de passe");
 
-        }
-        else
-        {
+            }
+            else
+            {
 
-
-            $_SESSION['isLogin'] = 'ok';
-            $_SESSION['login'] = $login;
-            $_SESSION['userId']=$this->getUserId($login);
-            $_SESSION['password'] = $hashedPass;
-            $_SESSION['mail']=$this->getMail($login);
-            $_SESSION['phone']=$this->getPhone($login);
-            $_SESSION['country']=$this->getCountry($login);
-            $_SESSION['date']=$this->getUserDate($login);
-        }
+                $_SESSION['isLogin'] = 'ok';
+    //            $_SESSION['login'] = $login;
+    //            $_SESSION['userId']=$this->getUserId($login);
+    //            $_SESSION['password'] = $hashedPass;
+    //            $_SESSION['mail']=$this->getMail($login);
+    //            $_SESSION['phone']=$this->getPhone($login);
+    //            $_SESSION['country']=$this->getCountry($login);
+    //            $_SESSION['date']=$this->getUserDate($login);
+                $this->password=$hashedPass;
+                $this->pseudo=$login;
+                $this->user_id=$this->get('user_id',$login,$hashedPass);
+                $this->mail=$this->get('mail',$login,$hashedPass);
+                $this->phone=$this->get('phone',$login,$hashedPass);
+                $this->country=$this->get('country',$login,$hashedPass);
+                $this->user_date=$this->get('user_date',$login,$hashedPass);
+                $this->state=$this->get('state',$login,$hashedPass);
+                $this->gender=$this->get('gender',$login,$hashedPass);
+            }
 
 
         }
@@ -355,8 +337,8 @@ class user extends base
         }
 
 
-        $login = $_SESSION['login'];
-        $pass = $_SESSION['password'];
+        $login = $this->pseudo;
+        $pass = $this->password;
         $oldMdp=$_POST['oldMdp'];
         $newMdp=$_POST['newMdp'];
         $confirmMdp=$_POST['confirmMdp'];
@@ -368,7 +350,7 @@ class user extends base
 
         if ($newMdp != $confirmMdp)
         {
-            throw new Exception("les  nouveaux mots de passe ne coresspondent pas");
+            throw new Exception("les  nouveaux mots de passe ne corespondent pas");
         }
         $hashedOldPass = hash('sha256',$oldMdp);
         $hashedNewPass = hash('sha256',$newMdp);
@@ -447,8 +429,6 @@ class user extends base
         if($_SESSION['isLogin']=='ok'){
             throw new Exception('vous êtes déjà connecté');
         }
-
-
         $mail = $_SESSION['mailTok'];
         $token = $_POST['token'];
         $newMdp=$_POST['newMdp'];
@@ -473,6 +453,7 @@ class user extends base
                 $query->bindValue(':mail',$mail,PDO::PARAM_STR);
                 $query->execute();
             }
+
             catch (PDOException $e){
                 echo $e->getMessage();
             }
@@ -511,10 +492,6 @@ class user extends base
 
 }
 
-
-
-
-?>
 
 
 
