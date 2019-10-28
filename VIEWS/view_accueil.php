@@ -22,7 +22,7 @@ $disc= new discussion();
             </div>
             <div class="row">
                 <div class="col-lg-4 col-md-4 col-sm-12 text-center">
-                    <a href="?page=discussion&action=newDiscussion">
+                    <a href="/ProjetPhp/discussion/newDiscussion">
                       <input class="newbouton" type="button" value="Nouvelle Discussion"> </a>
                 </div>
 
@@ -56,7 +56,7 @@ $disc= new discussion();
                         $id = $row['disc_id'];
                         ?>
                         <tr>
-                            <td> <a href="?page=discussion&id=<?php echo $id ?>">
+                            <td> <a href="/ProjetPhp/discussion//<?php echo $id ?>">
                                 <?php echo $row['title']  ?> </a> </td>
                             <td><?php echo $row['state'] ?></td>
                             <td><?php echo $row['content']  ?></td>

@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b41057ea-1169-4d87-bd84-37173161cc78" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MODELS/models_message.php" beforeDir="false" afterPath="$PROJECT_DIR$/MODELS/models_message.php" afterDir="false" />
-    </list>
+    <list default="true" id="b41057ea-1169-4d87-bd84-37173161cc78" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -140,14 +137,7 @@
       <workItem from="1571925238818" duration="2568000" />
       <workItem from="1572259027171" duration="4763000" />
       <workItem from="1572272356255" duration="123000" />
-      <workItem from="1572272480336" duration="6924000" />
-    </task>
-    <task id="LOCAL-00245" summary="prenez un scooter">
-      <created>1572263653865</created>
-      <option name="number" value="00245" />
-      <option name="presentableId" value="LOCAL-00245" />
-      <option name="project" value="LOCAL" />
-      <updated>1572263653865</updated>
+      <workItem from="1572272480336" duration="7177000" />
     </task>
     <task id="LOCAL-00246" summary="prenez un scooter">
       <created>1572263823597</created>
@@ -485,7 +475,14 @@
       <option name="project" value="LOCAL" />
       <updated>1572279000122</updated>
     </task>
-    <option name="localTasksCounter" value="294" />
+    <task id="LOCAL-00294" summary="ajout contributeurs messages">
+      <created>1572280321163</created>
+      <option name="number" value="00294" />
+      <option name="presentableId" value="LOCAL-00294" />
+      <option name="project" value="LOCAL" />
+      <updated>1572280321163</updated>
+    </task>
+    <option name="localTasksCounter" value="295" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -543,6 +540,7 @@
     <MESSAGE value="tests" />
     <MESSAGE value="FINDESTESTS" />
     <MESSAGE value="test htaccess" />
-    <option name="LAST_COMMIT_MESSAGE" value="test htaccess" />
+    <MESSAGE value="ajout contributeurs messages" />
+    <option name="LAST_COMMIT_MESSAGE" value="ajout contributeurs messages" />
   </component>
 </project>
