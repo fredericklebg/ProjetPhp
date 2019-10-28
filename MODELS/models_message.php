@@ -108,7 +108,7 @@ class message extends base
 
     public function addMessage($discId)
     {
-
+        if( $this->verifMsg()) {
         $msg=$_POST['msg'];
         $userId=$_SESSION['userId'];
         $query = 'INSERT INTO MESSAGE(disc_id,content,user_id,state,message_date)
@@ -121,7 +121,10 @@ class message extends base
          )';
         $this->execRequete($query);
         $this->message_id=$this->execRequete('SELECT MAX(message_id) FROM MESSAGE');
-//
+        }
+    }
+    public function verifMsg () {
+        if(preg_match('\^[ ]*[a-zA-Z0-9.-_]+[ ]*[a-zA-Z0-9.-_]+[ ]*/$',$_POST['msg'])) return true;
     }
 
     public function showMsg($discId)
