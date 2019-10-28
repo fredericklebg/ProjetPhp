@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="50521d7d-5bb4-4bb5-a0ce-0d036ce4d9ff" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="9e80995e-a65b-479d-a02d-ee860a476b18" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/MODELS/models_message.php" beforeDir="false" afterPath="$PROJECT_DIR$/MODELS/models_message.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -74,7 +74,7 @@
     </option>
   </component>
   <component name="ProjectId" id="1Rw0kPHN0vwT9hFLFkKQQgvSROt" />
-  <component name="ProjectLevelVcsManager">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="PropertiesComponent">
@@ -155,13 +155,6 @@
       <workItem from="1572255647927" duration="4819000" />
       <workItem from="1572277858770" duration="236000" />
       <workItem from="1572282103111" duration="65000" />
-    </task>
-    <task id="LOCAL-00255" summary="pagination">
-      <created>1571957662469</created>
-      <option name="number" value="00255" />
-      <option name="presentableId" value="LOCAL-00255" />
-      <option name="project" value="LOCAL" />
-      <updated>1571957662469</updated>
     </task>
     <task id="LOCAL-00256" summary="pagination">
       <created>1571957922108</created>
@@ -499,7 +492,14 @@
       <option name="project" value="LOCAL" />
       <updated>1572277960183</updated>
     </task>
-    <option name="localTasksCounter" value="304" />
+    <task id="LOCAL-00304" summary="car oui">
+      <created>1572286351701</created>
+      <option name="number" value="00304" />
+      <option name="presentableId" value="LOCAL-00304" />
+      <option name="project" value="LOCAL" />
+      <updated>1572286351701</updated>
+    </task>
+    <option name="localTasksCounter" value="305" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -558,6 +558,7 @@
     <MESSAGE value="page paramètre" />
     <MESSAGE value="lisez-moi.txt (1)" />
     <MESSAGE value="lisez-moi.txt (2)" />
-    <option name="LAST_COMMIT_MESSAGE" value="lisez-moi.txt (2)" />
+    <MESSAGE value="car oui" />
+    <option name="LAST_COMMIT_MESSAGE" value="car oui" />
   </component>
 </project>
