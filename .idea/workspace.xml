@@ -156,20 +156,6 @@
       <workItem from="1572277858770" duration="236000" />
       <workItem from="1572282103111" duration="65000" />
     </task>
-    <task id="LOCAL-00256" summary="pagination">
-      <created>1571957922108</created>
-      <option name="number" value="00256" />
-      <option name="presentableId" value="LOCAL-00256" />
-      <option name="project" value="LOCAL" />
-      <updated>1571957922108</updated>
-    </task>
-    <task id="LOCAL-00257" summary="pagination">
-      <created>1571958023353</created>
-      <option name="number" value="00257" />
-      <option name="presentableId" value="LOCAL-00257" />
-      <option name="project" value="LOCAL" />
-      <updated>1571958023355</updated>
-    </task>
     <task id="LOCAL-00258" summary="discussion">
       <created>1571959174050</created>
       <option name="number" value="00258" />
@@ -499,7 +485,21 @@
       <option name="project" value="LOCAL" />
       <updated>1572286351701</updated>
     </task>
-    <option name="localTasksCounter" value="305" />
+    <task id="LOCAL-00305" summary="car oui">
+      <created>1572286559442</created>
+      <option name="number" value="00305" />
+      <option name="presentableId" value="LOCAL-00305" />
+      <option name="project" value="LOCAL" />
+      <updated>1572286559442</updated>
+    </task>
+    <task id="LOCAL-00306" summary="car oui">
+      <created>1572286749240</created>
+      <option name="number" value="00306" />
+      <option name="presentableId" value="LOCAL-00306" />
+      <option name="project" value="LOCAL" />
+      <updated>1572286749240</updated>
+    </task>
+    <option name="localTasksCounter" value="307" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
