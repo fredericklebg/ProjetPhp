@@ -485,10 +485,10 @@ class user extends base
           }
       }
 
-    //  public function deleteUser()
+    //  public function deleteUser($var)
     //  {
     //     //afficher le bouton que pour les admins
-    //      $query = ('DELETE INTO USER user_id,pseudo,mail,password,state,phone,country,user_date,gender');
+    //      $query = ('DELETE FROM USER WHERE pseudo = "$var"');
  
     //      $this->execRequete($query);
 
