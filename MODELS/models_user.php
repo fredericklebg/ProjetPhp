@@ -154,6 +154,11 @@ class user extends base
         $query->bindValue(':pseudo',$this->pseudo,PDO::PARAM_STR);
         $query->execute();
 
+        if(!preg_match("#^[0/+33]*[0-9]*[0-9]{8}$#"))
+        {
+            throw new Exception("Numéro de téléphone invalide");
+        }
+
         if(empty($_POST['identifiant']))
         {
             throw new Exception("l'identifiant est vide");
