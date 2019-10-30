@@ -1,5 +1,7 @@
 <?php
 require_once 'MODELS/models_user.php';
+
+$user = unserialize($_SESSION['user']);;
 ?>
 
 
@@ -22,13 +24,23 @@ require_once 'MODELS/models_user.php';
 <div class="container">
 
     <header class="row">
-        <div class="col-xs-2 col-lg-2 text-center"> <a href="http://tpphp.alwaysdata.net/ProjetPhp">
-                <img  alt="logo" src="VIEWS/Media/loginFreeNote.png" style="width: 70%"> </a></div>
+        <?php
+        if( $user != null && $user->getState() == 'admin')
+        {
+            ?>
+            <div class="col-xs-2 col-lg-2 text-center"> <a href="http://tpphp.alwaysdata.net/ProjetPhp">
+                    <img  alt="logo" src="VIEWS/Media/logroFreeNote.png" style="width: 70%"> </a></div>
+            <?php
+        }
+        else
+        {
+            ?>
+            <div class="col-xs-2 col-lg-2 text-center"> <a href="http://tpphp.alwaysdata.net/ProjetPhp">
+                    <img  alt="logo" src="VIEWS/Media/logoFreeNote.png" style="width: 70%"> </a></div>
+        <? } ?>
         <div class="col-xs-5 col-lg-5 text-center"> <a href="http://tpphp.alwaysdata.net/ProjetPhp"> <h1 style="line-height: 80px">GreeNote</h1> </a></div>
         <div class="col-xs-3 col-lg-3 text-center form" >
 
-            <?php
-            $user = unserialize($_SESSION['user']);;
 
 
             if ($_SESSION['isLogin']!='ok')
