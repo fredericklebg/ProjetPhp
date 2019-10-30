@@ -41,6 +41,7 @@ $user = unserialize($_SESSION['user']);;
         <div class="col-xs-5 col-lg-5 text-center"> <a href="http://tpphp.alwaysdata.net/ProjetPhp"> <h1 style="line-height: 80px">GreeNote</h1> </a></div>
         <div class="col-xs-3 col-lg-3 text-center form" >
 
+            <?php
 
 
             if ($_SESSION['isLogin']!='ok')
