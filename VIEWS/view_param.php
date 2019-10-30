@@ -3,13 +3,13 @@
 
     <section class="col-lg-12 text-center">
         <form class="parambloc" action="/ProjetPhp/admin"  method="post">
-            <input type="text" placeholder="Nombre  de discussions" name="d"/>
+            <input type="text" placeholder="Nombre  de discussions" name="d1"/>
             <input type="submit" name="action" value="Valider"/>
             <input type="text" placeholder="Nombre de messages" name="d2"/>
             <input type="submit" name="action" value="Valider"/>
-            <input type="text" placeholder="Saisir le Pseudo" name="d2"/>
+            <input type="text" placeholder="Saisir le Pseudo" name="d3"/>
             <input type="submit" name="action" value="Supprimer"/>
-            <input type="text" placeholder="Saisir le Titre" name="d2"/>
+            <input type="text" placeholder="Saisir le Titre" name="d4"/>
             <input type="submit" name="action" value="Supprimer"/>
 
 <!--            <button type="submit" value="Validerrrr"> Valider </button>-->
