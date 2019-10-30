@@ -4,13 +4,13 @@
     <section class="offset-4 col-lg-4 text-center">
         <div class="row">
         <form  action="/ProjetPhp/admin"  method="post">
-            <input type="text" placeholder="Nombre  de discussions" name="d1"/>
+            <input type="text" placeholder="Nombre  de discussions" name="d1"/> <br>
             <input type="submit" name="action" value="Valider"/>
-            <input type="text" placeholder="Nombre de messages" name="d2"/>
+            <input type="text" placeholder="Nombre de messages" name="d2"/> <br>
             <input type="submit" name="action" value="Valider"/>
-            <input type="text" placeholder="Saisir le Pseudo" name="d3"/>
+            <input type="text" placeholder="Saisir le Pseudo" name="d3"/> <br>
             <input type="submit" name="action" value="Supprimer"/>
-            <input type="text" placeholder="Saisir le Titre" name="d4"/>
+            <input type="text" placeholder="Saisir le Titre" name="d4"/> <br>
             <input type="submit" name="action" value="Supprimer"/>
 
 <!--            <button type="submit" value="Validerrrr"> Valider </button>-->
