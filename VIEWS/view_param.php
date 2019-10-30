@@ -7,10 +7,10 @@
             <input type="submit" name="action" value="Valider"/>
             <input type="text" placeholder="Nombre de messages" name="d2"/>
             <input type="submit" name="action" value="Valider"/>
-            <input type="text" placeholder="Saisir le Pseudo" name="d3"/>
-            <input type="submit" name="action" value="Supprimer"/>
-            <input type="text" placeholder="Saisir le Titre" name="d4"/>
-            <input type="submit" name="action" value="Supprimer"/>
+<!--            <input type="text" placeholder="Saisir le Pseudo" name="d3"/>-->
+<!--            <input type="submit" name="action" value="Supprimer"/>-->
+<!--            <input type="text" placeholder="Saisir le Titre" name="d4"/>-->
+<!--            <input type="submit" name="action" value="Supprimer"/>-->
 
 <!--            <button type="submit" value="Validerrrr"> Valider </button>-->
         </form>

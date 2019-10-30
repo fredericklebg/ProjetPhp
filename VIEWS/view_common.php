@@ -1,16 +1,9 @@
 <?php
 require_once 'MODELS/models_user.php';
-//$user=unserialize($_SESSION['user']);
 ?>
 
 
-<?php
-//
-//if ($user->GetState() == 'admin')
-//
-//{
-//
-//?>
+
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -135,14 +128,7 @@ require_once 'MODELS/models_user.php';
 </body>
 </html>
 
-<?php
-//}
-//?>
-<!---->
-<?php
-////else c'est le else qui bug*
-//{
-//?>
+
 
 <!DOCTYPE html>
 <html lang="fr">
@@ -190,7 +176,7 @@ require_once 'MODELS/models_user.php';
                     <a  href="/ProjetPhp/accueil/forgotMdp"> mot de passe oublié </a>
                     <input type="text" name="login"  placeholder="Identifiant"/>
                     <input type="password" name="mdp" placeholder="Mot de passe"/>
-<!--                    <input type="submit" name="action" value="login"/>-->
+                    <input type="submit" name="action" value="login"/>-->
                     <button type="submit" name="action" value="login"> login</button>
 
 
@@ -270,6 +256,3 @@ require_once 'MODELS/models_user.php';
 </body>
 </html>
 
-<?php
-//}
-//?>
