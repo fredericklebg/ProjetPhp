@@ -40,6 +40,11 @@ class controller_discussion extends controller_main
 
     }
 
+    public function delMsg()
+    {
+
+    }
+
     public function newDiscussion()
     {
         if ($_SESSION['isLogin']=='ok')
