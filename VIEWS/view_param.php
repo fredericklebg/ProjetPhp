@@ -3,7 +3,7 @@
 
     <section class="col-lg-12 text-center">
         <div class="row">
-        <form class="parambloc" action="/ProjetPhp/admin"  method="post">
+        <form  action="/ProjetPhp/admin"  method="post">
             <input type="text" placeholder="Nombre  de discussions" name="d1"/>
             <input type="submit" name="action" value="Valider"/>
             <input type="text" placeholder="Nombre de messages" name="d2"/>
