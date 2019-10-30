@@ -130,7 +130,7 @@ if ($user->GetState() == 'admin')
 ?>
 
 <?php
-else
+//else c'est le else qui bug
 {
 ?>
 

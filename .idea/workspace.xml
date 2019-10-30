@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="50521d7d-5bb4-4bb5-a0ce-0d036ce4d9ff" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/VIEWS/view_common.php" beforeDir="false" afterPath="$PROJECT_DIR$/VIEWS/view_common.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -160,14 +158,7 @@
       <workItem from="1572285506391" duration="577000" />
       <workItem from="1572293172435" duration="620000" />
       <workItem from="1572294814816" duration="496000" />
-      <workItem from="1572435283514" duration="4342000" />
-    </task>
-    <task id="LOCAL-00257" summary="pagination">
-      <created>1571958023353</created>
-      <option name="number" value="00257" />
-      <option name="presentableId" value="LOCAL-00257" />
-      <option name="project" value="LOCAL" />
-      <updated>1571958023355</updated>
+      <workItem from="1572435283514" duration="4719000" />
     </task>
     <task id="LOCAL-00258" summary="discussion">
       <created>1571959174050</created>
@@ -505,7 +496,14 @@
       <option name="project" value="LOCAL" />
       <updated>1572285615975</updated>
     </task>
-    <option name="localTasksCounter" value="306" />
+    <task id="LOCAL-00306" summary="aaaaaaaaaaaaah">
+      <created>1572444742595</created>
+      <option name="number" value="00306" />
+      <option name="presentableId" value="LOCAL-00306" />
+      <option name="project" value="LOCAL" />
+      <updated>1572444742596</updated>
+    </task>
+    <option name="localTasksCounter" value="307" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -540,7 +538,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Création MVC" />
     <MESSAGE value="connexion BD" />
     <MESSAGE value="formulaire" />
     <MESSAGE value="bd" />
@@ -565,6 +562,7 @@
     <MESSAGE value="lisez-moi.txt (1)" />
     <MESSAGE value="lisez-moi.txt (2)" />
     <MESSAGE value="responsive" />
-    <option name="LAST_COMMIT_MESSAGE" value="responsive" />
+    <MESSAGE value="aaaaaaaaaaaaah" />
+    <option name="LAST_COMMIT_MESSAGE" value="aaaaaaaaaaaaah" />
   </component>
 </project>
