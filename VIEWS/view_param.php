@@ -1,7 +1,7 @@
 <?php $this->title = 'param'; ?>
 <div class="container">
 
-    <section class="col-lg-12 text-center">
+    <section class="offset-4 col-lg-4 text-center">
         <div class="row">
         <form  action="/ProjetPhp/admin"  method="post">
             <input type="text" placeholder="Nombre  de discussions" name="d1"/>
