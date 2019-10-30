@@ -50,8 +50,8 @@ Site Web :
 
 simple utilisateur :
 
-- login : didier
-- mot de passe : didier
+- login : user123
+- mot de passe : user12345
 
 administrateur :
 
