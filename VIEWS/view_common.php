@@ -213,19 +213,19 @@ require_once 'MODELS/models_user.php';
                         <option> France </option>
                         <option> Espagne </option>
                         <option> Nigeria</option>
-                        <option> Afghanistan </option>
-                        <option> Congo </option>
-                        <option> Portugal </option>
-                        <option> Russie </option>
-                        <option> Etats-Unis </option>
-                        <option> Angleterre </option>
-                        <option> Cuba </option>
-                        <option> Chine </option>
-                        <option> Irlande </option>
-                        <option> Iran </option>
-                        <option> Inde </option>
-                        <option> Italie </option>
-                        <option> Allemagne </option>
+<!--                        <option> Afghanistan </option>-->
+<!--                        <option> Congo </option>-->
+<!--                        <option> Portugal </option>-->
+<!--                        <option> Russie </option>-->
+<!--                        <option> Etats-Unis </option>-->
+<!--                        <option> Angleterre </option>-->
+<!--                        <option> Cuba </option>-->
+<!--                        <option> Chine </option>-->
+<!--                        <option> Irlande </option>-->
+<!--                        <option> Iran </option>-->
+<!--                        <option> Inde </option>-->
+<!--                        <option> Italie </option>-->
+<!--                        <option> Allemagne </option>-->
                     </select> <br>
                     <label> conditions generales </label>
                     <input type="checkbox" name="conditions"/> <br>
