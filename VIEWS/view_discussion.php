@@ -26,9 +26,9 @@
                 while($row = $query->fetch())
                 {
                     echo '<p class="msg2">' . $row['content'];
+                    echo '</p>';
                     if( $user != null && $user->getState() == 'admin')
                         echo '<a href="ProjetPhp/discussion/delMsg"> supprimer </a>';
-                    echo '</p>';
                     echo '<br> <br>';
 
                 }

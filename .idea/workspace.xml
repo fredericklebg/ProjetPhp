@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="92c63984-ea07-4c62-8994-258128636016" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CONTROLLERS/controller_discussion.php" beforeDir="false" afterPath="$PROJECT_DIR$/CONTROLLERS/controller_discussion.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/VIEWS/view_discussion.php" beforeDir="false" afterPath="$PROJECT_DIR$/VIEWS/view_discussion.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -158,13 +156,6 @@
       <workItem from="1572447230057" duration="155000" />
       <workItem from="1572450868301" duration="831000" />
       <workItem from="1572458720269" duration="227000" />
-    </task>
-    <task id="LOCAL-00284" summary="discussions">
-      <created>1572179096648</created>
-      <option name="number" value="00284" />
-      <option name="presentableId" value="LOCAL-00284" />
-      <option name="project" value="LOCAL" />
-      <updated>1572179096648</updated>
     </task>
     <task id="LOCAL-00285" summary="discussions">
       <created>1572180984951</created>
@@ -502,7 +493,14 @@
       <option name="project" value="LOCAL" />
       <updated>1572467602523</updated>
     </task>
-    <option name="localTasksCounter" value="333" />
+    <task id="LOCAL-00333" summary="supp msg">
+      <created>1572471135322</created>
+      <option name="number" value="00333" />
+      <option name="presentableId" value="LOCAL-00333" />
+      <option name="project" value="LOCAL" />
+      <updated>1572471135322</updated>
+    </task>
+    <option name="localTasksCounter" value="334" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -537,7 +535,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="test menu" />
     <MESSAGE value="autoload" />
     <MESSAGE value="accueil" />
     <MESSAGE value="html accueil" />
@@ -562,6 +559,7 @@
     <MESSAGE value="pourquoi vous faites tb" />
     <MESSAGE value="test" />
     <MESSAGE value="page admin" />
-    <option name="LAST_COMMIT_MESSAGE" value="page admin" />
+    <MESSAGE value="supp msg" />
+    <option name="LAST_COMMIT_MESSAGE" value="supp msg" />
   </component>
 </project>
