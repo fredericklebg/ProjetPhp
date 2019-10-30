@@ -22,7 +22,6 @@ class router
             $id = $this->creerId($requete);
             $controleur->executerAction($action);
             $controleur->traiterId($id);
-            header("Location: http://tpphp.alwaysdata.net/ProjetPhp/" . $_GET['page']);
         } catch (Exception $e) {
             $this->gererErreur($e);
         }
