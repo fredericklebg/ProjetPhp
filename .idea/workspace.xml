@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9e80995e-a65b-479d-a02d-ee860a476b18" name="Default Changelist" comment="" />
+    <list default="true" id="9e80995e-a65b-479d-a02d-ee860a476b18" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/VIEWS/view_common.php" beforeDir="false" afterPath="$PROJECT_DIR$/VIEWS/view_common.php" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -146,13 +148,6 @@
       <workItem from="1572293172435" duration="620000" />
       <workItem from="1572294814816" duration="496000" />
       <workItem from="1572435283514" duration="4719000" />
-    </task>
-    <task id="LOCAL-00258" summary="discussion">
-      <created>1571959174050</created>
-      <option name="number" value="00258" />
-      <option name="presentableId" value="LOCAL-00258" />
-      <option name="project" value="LOCAL" />
-      <updated>1571959174050</updated>
     </task>
     <task id="LOCAL-00259" summary="discussion">
       <created>1571959215341</created>
@@ -490,7 +485,14 @@
       <option name="project" value="LOCAL" />
       <updated>1572444742596</updated>
     </task>
-    <option name="localTasksCounter" value="307" />
+    <task id="LOCAL-00307" summary="test logo admin">
+      <created>1572446684924</created>
+      <option name="number" value="00307" />
+      <option name="presentableId" value="LOCAL-00307" />
+      <option name="project" value="LOCAL" />
+      <updated>1572446684924</updated>
+    </task>
+    <option name="localTasksCounter" value="308" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -525,7 +527,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="connexion BD" />
     <MESSAGE value="formulaire" />
     <MESSAGE value="bd" />
     <MESSAGE value="test menu" />
@@ -550,6 +551,7 @@
     <MESSAGE value="lisez-moi.txt (2)" />
     <MESSAGE value="responsive" />
     <MESSAGE value="aaaaaaaaaaaaah" />
-    <option name="LAST_COMMIT_MESSAGE" value="aaaaaaaaaaaaah" />
+    <MESSAGE value="test logo admin" />
+    <option name="LAST_COMMIT_MESSAGE" value="test logo admin" />
   </component>
 </project>
