@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="92c63984-ea07-4c62-8994-258128636016" name="Default Changelist" comment="" />
+    <list default="true" id="92c63984-ea07-4c62-8994-258128636016" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/VIEWS/view_common.php" beforeDir="false" afterPath="$PROJECT_DIR$/VIEWS/view_common.php" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -159,13 +161,6 @@
       <workItem from="1572435283514" duration="5015000" />
       <workItem from="1572447230057" duration="155000" />
       <workItem from="1572450868301" duration="831000" />
-    </task>
-    <task id="LOCAL-00263" summary="discussion">
-      <created>1571999334360</created>
-      <option name="number" value="00263" />
-      <option name="presentableId" value="LOCAL-00263" />
-      <option name="project" value="LOCAL" />
-      <updated>1571999334360</updated>
     </task>
     <task id="LOCAL-00264" summary="discussion">
       <created>1571999397035</created>
@@ -503,7 +498,14 @@
       <option name="project" value="LOCAL" />
       <updated>1572456809083</updated>
     </task>
-    <option name="localTasksCounter" value="312" />
+    <task id="LOCAL-00312" summary="pays">
+      <created>1572457017344</created>
+      <option name="number" value="00312" />
+      <option name="presentableId" value="LOCAL-00312" />
+      <option name="project" value="LOCAL" />
+      <updated>1572457017344</updated>
+    </task>
+    <option name="localTasksCounter" value="313" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -538,7 +540,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="connexion BD" />
     <MESSAGE value="formulaire" />
     <MESSAGE value="bd" />
     <MESSAGE value="test menu" />
@@ -563,6 +564,7 @@
     <MESSAGE value="lisez-moi.txt (2)" />
     <MESSAGE value="responsive" />
     <MESSAGE value="aaaaaaaaaaaaah" />
-    <option name="LAST_COMMIT_MESSAGE" value="aaaaaaaaaaaaah" />
+    <MESSAGE value="pays" />
+    <option name="LAST_COMMIT_MESSAGE" value="pays" />
   </component>
 </project>
