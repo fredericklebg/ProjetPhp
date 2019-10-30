@@ -91,10 +91,11 @@ require_once 'MODELS/models_user.php';
                 <input type="password" placeholder="confirmer mot de passe" name="cmdp"/> <br>
                 <input type="text" placeholder="telephone" name="phone" /> <br>
                 <select  name="pays">
-                    <option> france </option>
-                    <option> espagne </option>
-                    <option> nigeria</option>
-                    <option> afgranistan </option>
+                    <option> France </option>
+                    <option> Espagne </option>
+                    <option> Nigeria</option>
+                    <option> Afgranistan </option>
+                    <option> Russie </option>
                 </select> <br>
                 <label> conditions generales </label>
                 <input type="checkbox" name="conditions"/> <br>
