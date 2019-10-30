@@ -19,14 +19,14 @@
 
         <br>
 
-        <div class="row text-center msg">
+        <div class="row text-center msg msg2">
 
 
                 <?php
                 while($row = $query->fetch())
                 {
-                    echo '<p class="msg2">' . $row['content'];
-                    echo '</p>';
+
+                    echo  $row['content'];
                     if( $user != null && $user->getState() == 'admin')
                         echo '<a href="ProjetPhp/discussion/delMsg"> supprimer </a>';
                     echo '<br> <br>';
