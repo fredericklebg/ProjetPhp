@@ -2,6 +2,7 @@
 <div class="container">
 
     <section class="col-lg-12 text-center">
+        <div class="row">
         <form class="parambloc" action="/ProjetPhp/admin"  method="post">
             <input type="text" placeholder="Nombre  de discussions" name="d1"/>
             <input type="submit" name="action" value="Valider"/>
@@ -14,6 +15,7 @@
 
 <!--            <button type="submit" value="Validerrrr"> Valider </button>-->
         </form>
+        </div>
         <div class="back">
             <a href="http://tpphp.alwaysdata.net/ProjetPhp" >retourner à la page d'accueil</a>
         </div>

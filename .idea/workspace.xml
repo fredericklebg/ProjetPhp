@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="92c63984-ea07-4c62-8994-258128636016" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/CONTROLLERS/controller_main.php" beforeDir="false" afterPath="$PROJECT_DIR$/CONTROLLERS/controller_main.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CONTROLLERS/router.php" beforeDir="false" afterPath="$PROJECT_DIR$/CONTROLLERS/router.php" afterDir="false" />
-    </list>
+    <list default="true" id="92c63984-ea07-4c62-8994-258128636016" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -152,20 +149,6 @@
       <workItem from="1572447230057" duration="155000" />
       <workItem from="1572450868301" duration="831000" />
       <workItem from="1572458720269" duration="227000" />
-    </task>
-    <task id="LOCAL-00273" summary="discussions">
-      <created>1572171710522</created>
-      <option name="number" value="00273" />
-      <option name="presentableId" value="LOCAL-00273" />
-      <option name="project" value="LOCAL" />
-      <updated>1572171710522</updated>
-    </task>
-    <task id="LOCAL-00274" summary="discussions">
-      <created>1572175321665</created>
-      <option name="number" value="00274" />
-      <option name="presentableId" value="LOCAL-00274" />
-      <option name="project" value="LOCAL" />
-      <updated>1572175321665</updated>
     </task>
     <task id="LOCAL-00275" summary="discussions">
       <created>1572175561700</created>
@@ -496,7 +479,21 @@
       <option name="project" value="LOCAL" />
       <updated>1572464433388</updated>
     </task>
-    <option name="localTasksCounter" value="322" />
+    <task id="LOCAL-00322" summary="test">
+      <created>1572465913385</created>
+      <option name="number" value="00322" />
+      <option name="presentableId" value="LOCAL-00322" />
+      <option name="project" value="LOCAL" />
+      <updated>1572465913385</updated>
+    </task>
+    <task id="LOCAL-00323" summary="test">
+      <created>1572465986163</created>
+      <option name="number" value="00323" />
+      <option name="presentableId" value="LOCAL-00323" />
+      <option name="project" value="LOCAL" />
+      <updated>1572465986163</updated>
+    </task>
+    <option name="localTasksCounter" value="324" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -547,7 +544,6 @@
     <MESSAGE value="test pagination" />
     <MESSAGE value="pagination" />
     <MESSAGE value="discussion" />
-    <MESSAGE value="test" />
     <MESSAGE value="discussions" />
     <MESSAGE value="page paramètre" />
     <MESSAGE value="lisez-moi.txt (1)" />
@@ -556,6 +552,7 @@
     <MESSAGE value="aaaaaaaaaaaaah" />
     <MESSAGE value="pays" />
     <MESSAGE value="pourquoi vous faites tb" />
-    <option name="LAST_COMMIT_MESSAGE" value="pourquoi vous faites tb" />
+    <MESSAGE value="test" />
+    <option name="LAST_COMMIT_MESSAGE" value="test" />
   </component>
 </project>
