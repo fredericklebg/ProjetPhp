@@ -214,10 +214,22 @@ require_once 'MODELS/models_user.php';
                     <input type="password" placeholder="confirmer mot de passe" name="cmdp"/> <br>
                     <input type="text" placeholder="telephone" name="phone" /> <br>
                     <select  name="pays">
-                        <option> france </option>
-                        <option> espagne </option>
-                        <option> nigeria</option>
-                        <option> afgranistan </option>
+                        <option> France </option>
+                        <option> Espagne </option>
+                        <option> Nigeria</option>
+                        <option> Afghanistan </option>
+                        <option> Congo </option>
+                        <option> Portugal </option>
+                        <option> Russie </option>
+                        <option> Etats-Unis </option>
+                        <option> Angleterre </option>
+                        <option> Cuba </option>
+                        <option> Chine </option>
+                        <option> Irlande </option>
+                        <option> Iran </option>
+                        <option> Inde </option>
+                        <option> Italie </option>
+                        <option> Allemagne </option>
                     </select> <br>
                     <label> conditions generales </label>
                     <input type="checkbox" name="conditions"/> <br>
