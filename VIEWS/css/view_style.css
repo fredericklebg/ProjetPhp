@@ -274,16 +274,16 @@ a:hover
 
 .msg{
     display: flex;
-    /*justify-content: space-around;*/
+    justify-content: space-around;
     align-items: center;
-    /*flex-direction: column;*/
+    flex-direction: column;
 }
 
 .msg2{
     display: flex;
-    /*justify-content: space-around;*/
+    justify-content: space-around;
     align-items: center;
-    /*flex-direction: column;*/
+    flex-direction: column;
     background-color: lightblue;
     border-radius: 20px;
 }
