@@ -107,7 +107,7 @@ abstract class controller_main {
         $user->disconnect();
         unset($user);
         $_SESSION['user']=null;
-        header("Location: http://tpphp.alwaysdata.net/ProjetPhp");v
+        header("Location: http://tpphp.alwaysdata.net/ProjetPhp");
     }
     public function profilePage()
     {
