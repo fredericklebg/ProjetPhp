@@ -98,8 +98,6 @@ $user=unserialize($_SESSION['user']);
                     <option> nigeria</option>
                     <option> afgranistan </option>
                 </select> <br>
-                <label> conditions generales </label>
-                <input type="checkbox" name="conditions"/> <br>
                 <input type="submit" name="action" value="inscription"/> <br>
             </form>
 

@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9e80995e-a65b-479d-a02d-ee860a476b18" name="Default Changelist" comment="" />
+    <list default="true" id="9e80995e-a65b-479d-a02d-ee860a476b18" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/VIEWS/view_common.php" beforeDir="false" afterPath="$PROJECT_DIR$/VIEWS/view_common.php" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,11 +44,6 @@
         <option value="JavaScript File" />
       </list>
     </option>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>change</find>
-    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="UPDATE_TYPE" value="MERGE" />
@@ -146,20 +143,6 @@
       <workItem from="1572293172435" duration="620000" />
       <workItem from="1572294814816" duration="496000" />
       <workItem from="1572435283514" duration="4719000" />
-    </task>
-    <task id="LOCAL-00265" summary="test">
-      <created>1572168674856</created>
-      <option name="number" value="00265" />
-      <option name="presentableId" value="LOCAL-00265" />
-      <option name="project" value="LOCAL" />
-      <updated>1572168674856</updated>
-    </task>
-    <task id="LOCAL-00266" summary="test">
-      <created>1572169075586</created>
-      <option name="number" value="00266" />
-      <option name="presentableId" value="LOCAL-00266" />
-      <option name="project" value="LOCAL" />
-      <updated>1572169075586</updated>
     </task>
     <task id="LOCAL-00267" summary="test">
       <created>1572170183205</created>
@@ -490,7 +473,21 @@
       <option name="project" value="LOCAL" />
       <updated>1572447241711</updated>
     </task>
-    <option name="localTasksCounter" value="314" />
+    <task id="LOCAL-00314" summary="redirections">
+      <created>1572447490650</created>
+      <option name="number" value="00314" />
+      <option name="presentableId" value="LOCAL-00314" />
+      <option name="project" value="LOCAL" />
+      <updated>1572447490650</updated>
+    </task>
+    <task id="LOCAL-00315" summary="redirections">
+      <created>1572447524112</created>
+      <option name="number" value="00315" />
+      <option name="presentableId" value="LOCAL-00315" />
+      <option name="project" value="LOCAL" />
+      <updated>1572447524112</updated>
+    </task>
+    <option name="localTasksCounter" value="316" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -525,7 +522,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="formulaire" />
     <MESSAGE value="bd" />
     <MESSAGE value="test menu" />
     <MESSAGE value="autoload" />
@@ -550,6 +546,7 @@
     <MESSAGE value="responsive" />
     <MESSAGE value="aaaaaaaaaaaaah" />
     <MESSAGE value="test logo admin" />
-    <option name="LAST_COMMIT_MESSAGE" value="test logo admin" />
+    <MESSAGE value="redirections" />
+    <option name="LAST_COMMIT_MESSAGE" value="redirections" />
   </component>
 </project>
