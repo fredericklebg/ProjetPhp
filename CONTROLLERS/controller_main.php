@@ -107,6 +107,7 @@ abstract class controller_main {
         $user=unserialize($_SESSION['user']);
         $user->disconnect();
         unset($user);
+        $_SESSION['user']=null;
         $vue = new Vue($_GET['page']);
         $vue->generer(array());
     }
