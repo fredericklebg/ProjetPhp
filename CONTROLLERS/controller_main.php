@@ -66,8 +66,9 @@ abstract class controller_main {
 
         $this ->user ->login();
         $_SESSION['user']=serialize($this->user); // permet de mettre l'objet user en session
-        $vue = new Vue($_GET['page']);             // pour y acceder, il faut le unsarialise()
-        $vue->generer(array());                      // par exemple regardez dans profilePage ou dans addMessage pour recup l'id
+        //$vue = new Vue($_GET['page']);             // pour y acceder, il faut le unsarialise()
+        //$vue->generer(array());                      // par exemple regardez dans profilePage ou dans addMessage pour recup l'id
+        header("Location: http://tpphp.alwaysdata.net/ProjetPhp");
     }
 
     public function changePass()
@@ -75,8 +76,7 @@ abstract class controller_main {
         $user=unserialize($_SESSION['user']);
         $user->changePassword();
         $_SESSION['user']=serialize($user);
-        $vue = new Vue($_GET['page']);
-        $vue->generer(array());
+        header("Location: http://tpphp.alwaysdata.net/ProjetPhp");
     }
     public function Envoyer()
     {
@@ -97,8 +97,7 @@ abstract class controller_main {
         $user=unserialize($_SESSION['user']);
         $user->replacePassword();
         $_SESSION['user']=serialize($user);
-        $vue = new Vue($_GET['page']);
-        $vue->generer(array());
+        header("Location: http://tpphp.alwaysdata.net/ProjetPhp");
     }
 
     public function disconnect()
@@ -106,8 +105,9 @@ abstract class controller_main {
 
         $user=unserialize($_SESSION['user']);
         $user->disconnect();
-        $vue = new Vue($_GET['page']);
-        $vue->generer(array());
+        unset($user);
+        $_SESSION['user']=null;
+        header("Location: http://tpphp.alwaysdata.net/ProjetPhp");
     }
     public function profilePage()
     {
