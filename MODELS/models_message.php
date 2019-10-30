@@ -199,10 +199,31 @@ class message extends base
 
     public function delMsg($id)
     {
+        $query1 = 'SELECT disc_id FROM MESSAGE WHERE message_id = :id';
+        $query1=$this->loadDb()->prepare($query1);
+        $query1->bindValue('id',$id,PDO::PARAM_INT);
+        $query1->execute();
+        $discId=$query1->fetchColumn();
+
         $query = 'DELETE FROM MESSAGE WHERE message_id = :id';
         $query=$this->loadDb()->prepare($query);
         $query->bindValue('id',$id,PDO::PARAM_INT);
         $query->execute();
+
+        $query3 = 'SELECT * FROM MESSAGE WHERE disc_id = :discId';
+        $query3=$this->loadDb()->prepare($query3);
+        $query3->bindValue('disdId',$discId,PDO::PARAM_INT);
+        $query3->execute();
+
+        if($query3->rowCount()==0)
+        {
+           $query4='DELETE FROM DISCUSSION WHERE disc_id=:discId';
+           $query4=$this->loadDb()->prepare($query4);
+           $query4->bindValue('discId',$discId,PDO::PARAM_INT);
+           $query4->execute();
+
+        }
+
     }
 
     public function verifMsg () {
