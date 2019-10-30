@@ -30,7 +30,7 @@ $user=unserialize($_SESSION['user']);
 
     <header class="row">
         <?php
-        if( isset($user) && $user->getState() == 'admin')
+        if( $user != null && $user->getState() == 'admin')
         {
         ?>
          <div class="col-xs-2 col-lg-2 text-center"> <a href="http://tpphp.alwaysdata.net/ProjetPhp">
