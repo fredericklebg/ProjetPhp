@@ -50,13 +50,13 @@ Site Web :
 
 simple utilisateur :
 
-- login : francis
-- mot de passe : francis
+- login : didier
+- mot de passe : didier
 
 administrateur :
 
--login : josé
-- mot de passe : josé
+-login : francis    
+- mot de passe : francis
 
 
 Base de données : 
