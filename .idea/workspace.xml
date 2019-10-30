@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="92c63984-ea07-4c62-8994-258128636016" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/VIEWS/view_common.php" beforeDir="false" afterPath="$PROJECT_DIR$/VIEWS/view_common.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/VIEWS/view_param.php" beforeDir="false" afterPath="$PROJECT_DIR$/VIEWS/view_param.php" afterDir="false" />
-    </list>
+    <list default="true" id="92c63984-ea07-4c62-8994-258128636016" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -162,13 +159,6 @@
       <workItem from="1572435283514" duration="5015000" />
       <workItem from="1572447230057" duration="155000" />
       <workItem from="1572450868301" duration="831000" />
-    </task>
-    <task id="LOCAL-00268" summary="discussions">
-      <created>1572170405642</created>
-      <option name="number" value="00268" />
-      <option name="presentableId" value="LOCAL-00268" />
-      <option name="project" value="LOCAL" />
-      <updated>1572170405642</updated>
     </task>
     <task id="LOCAL-00269" summary="discussions">
       <created>1572170465563</created>
@@ -506,7 +496,14 @@
       <option name="project" value="LOCAL" />
       <updated>1572457982743</updated>
     </task>
-    <option name="localTasksCounter" value="317" />
+    <task id="LOCAL-00317" summary="pays">
+      <created>1572458185344</created>
+      <option name="number" value="00317" />
+      <option name="presentableId" value="LOCAL-00317" />
+      <option name="project" value="LOCAL" />
+      <updated>1572458185344</updated>
+    </task>
+    <option name="localTasksCounter" value="318" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
