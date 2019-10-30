@@ -1,16 +1,16 @@
 <?php
 require_once 'MODELS/models_user.php';
-$user=unserialize($_SESSION['user']);
+//$user=unserialize($_SESSION['user']);
 ?>
 
 
 <?php
-
-if ($user->GetState() == 'admin')
-
-{
-
-?>
+//
+//if ($user->GetState() == 'admin')
+//
+//{
+//
+//?>
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -126,13 +126,13 @@ if ($user->GetState() == 'admin')
 </html>
 
 <?php
-}
-?>
-
+//}
+//?>
+<!---->
 <?php
-//else c'est le else qui bug*
-{
-?>
+////else c'est le else qui bug*
+//{
+//?>
 
 <!DOCTYPE html>
 <html lang="fr">
@@ -249,5 +249,5 @@ if ($user->GetState() == 'admin')
 </html>
 
 <?php
-}
-?>
+//}
+//?>
