@@ -68,7 +68,7 @@ abstract class controller_main {
         $_SESSION['user']=serialize($this->user); // permet de mettre l'objet user en session
         //$vue = new Vue($_GET['page']);             // pour y acceder, il faut le unsarialise()
         //$vue->generer(array());                      // par exemple regardez dans profilePage ou dans addMessage pour recup l'id
-        header("Location: http://tpphp.alwaysdata.net/ProjetPhp");
+        //header("Location: http://tpphp.alwaysdata.net/ProjetPhp");
     }
 
     public function changePass()
@@ -107,7 +107,7 @@ abstract class controller_main {
         $user->disconnect();
         unset($user);
         $_SESSION['user']=null;
-        header("Location: http://tpphp.alwaysdata.net/ProjetPhp");
+        //header("Location: http://tpphp.alwaysdata.net/ProjetPhp");
     }
     public function profilePage()
     {
