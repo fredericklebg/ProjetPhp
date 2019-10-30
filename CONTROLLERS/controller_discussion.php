@@ -42,6 +42,8 @@ class controller_discussion extends controller_main
 
     public function delMsg()
     {
+        $this->msg->delMsg($_GET['id']);
+        header("Location: http://tpphp.alwaysdata.net/ProjetPhp/");
 
     }
 

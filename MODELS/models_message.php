@@ -197,6 +197,14 @@ class message extends base
 
 //
 
+    public function delMsg($id)
+    {
+        $query = 'DELETE FROM MESSAGE WHERE message_id = :id';
+        $query=$this->loadDb()->prepare($query);
+        $query->bindValue('id',$id,PDO::PARAM_INT);
+        $query->execute();
+    }
+
     public function verifMsg () {
 
         if(preg_match("#^[ ]*[a-zA-Z0-9]+[']*[a-zA-Z0-9]+[ ]*$#",$_POST['msg'])) return true;

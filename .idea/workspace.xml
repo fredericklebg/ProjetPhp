@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="92c63984-ea07-4c62-8994-258128636016" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/VIEWS/css/view_style.css" beforeDir="false" afterPath="$PROJECT_DIR$/VIEWS/css/view_style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CONTROLLERS/controller_discussion.php" beforeDir="false" afterPath="$PROJECT_DIR$/CONTROLLERS/controller_discussion.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MODELS/models_message.php" beforeDir="false" afterPath="$PROJECT_DIR$/MODELS/models_message.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VIEWS/view_discussion.php" beforeDir="false" afterPath="$PROJECT_DIR$/VIEWS/view_discussion.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -39,6 +42,12 @@
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
         <item name="tpphp_bd@mysql-tpphp.alwaysdata.net [2]" type="feb32156:DbDataSourceImpl" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="tpphp_bd@mysql-tpphp.alwaysdata.net [2]" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="tpphp_bd: schema" type="ebfa3cd1:MariaImplModel$Schema" />
       </path>
     </expand>
     <select />
@@ -156,20 +165,6 @@
       <workItem from="1572447230057" duration="155000" />
       <workItem from="1572450868301" duration="831000" />
       <workItem from="1572458720269" duration="227000" />
-    </task>
-    <task id="LOCAL-00291" summary="page paramètre">
-      <created>1572185294230</created>
-      <option name="number" value="00291" />
-      <option name="presentableId" value="LOCAL-00291" />
-      <option name="project" value="LOCAL" />
-      <updated>1572185294231</updated>
-    </task>
-    <task id="LOCAL-00292" summary="page paramètre">
-      <created>1572185364976</created>
-      <option name="number" value="00292" />
-      <option name="presentableId" value="LOCAL-00292" />
-      <option name="project" value="LOCAL" />
-      <updated>1572185364976</updated>
     </task>
     <task id="LOCAL-00293" summary="page paramètre">
       <created>1572185921531</created>
@@ -500,7 +495,21 @@
       <option name="project" value="LOCAL" />
       <updated>1572477515215</updated>
     </task>
-    <option name="localTasksCounter" value="340" />
+    <task id="LOCAL-00340" summary="supp msg">
+      <created>1572477577884</created>
+      <option name="number" value="00340" />
+      <option name="presentableId" value="LOCAL-00340" />
+      <option name="project" value="LOCAL" />
+      <updated>1572477577884</updated>
+    </task>
+    <task id="LOCAL-00341" summary="supp msg">
+      <created>1572477649118</created>
+      <option name="number" value="00341" />
+      <option name="presentableId" value="LOCAL-00341" />
+      <option name="project" value="LOCAL" />
+      <updated>1572477649118</updated>
+    </task>
+    <option name="localTasksCounter" value="342" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
