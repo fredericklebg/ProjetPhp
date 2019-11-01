@@ -125,6 +125,11 @@
               <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@400e6563" type="7427dc5b:ServiceModel$ServiceGroupNode" />
               <item name="com.intellij.execution.services.ServiceModel$ServiceNode@16ff9a14" type="9fbbdea:ServiceModel$ServiceNode" />
             </path>
+            <path>
+              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@400e6563" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@7cdc5df2" type="9fbbdea:ServiceModel$ServiceNode" />
+            </path>
           </expand>
           <select />
         </treeState>
@@ -165,27 +170,6 @@
       <workItem from="1572450868301" duration="831000" />
       <workItem from="1572458720269" duration="227000" />
       <workItem from="1572603879094" duration="617000" />
-    </task>
-    <task id="LOCAL-00331" summary="page admin">
-      <created>1572467474102</created>
-      <option name="number" value="00331" />
-      <option name="presentableId" value="LOCAL-00331" />
-      <option name="project" value="LOCAL" />
-      <updated>1572467474102</updated>
-    </task>
-    <task id="LOCAL-00332" summary="page admin">
-      <created>1572467602523</created>
-      <option name="number" value="00332" />
-      <option name="presentableId" value="LOCAL-00332" />
-      <option name="project" value="LOCAL" />
-      <updated>1572467602523</updated>
-    </task>
-    <task id="LOCAL-00333" summary="supp msg">
-      <created>1572471135322</created>
-      <option name="number" value="00333" />
-      <option name="presentableId" value="LOCAL-00333" />
-      <option name="project" value="LOCAL" />
-      <updated>1572471135322</updated>
     </task>
     <task id="LOCAL-00334" summary="supp msg">
       <created>1572474339331</created>
@@ -509,7 +493,28 @@
       <option name="project" value="LOCAL" />
       <updated>1572623603940</updated>
     </task>
-    <option name="localTasksCounter" value="380" />
+    <task id="LOCAL-00380" summary="discussions">
+      <created>1572623754821</created>
+      <option name="number" value="00380" />
+      <option name="presentableId" value="LOCAL-00380" />
+      <option name="project" value="LOCAL" />
+      <updated>1572623754821</updated>
+    </task>
+    <task id="LOCAL-00381" summary="discussions">
+      <created>1572623800486</created>
+      <option name="number" value="00381" />
+      <option name="presentableId" value="LOCAL-00381" />
+      <option name="project" value="LOCAL" />
+      <updated>1572623800486</updated>
+    </task>
+    <task id="LOCAL-00382" summary="discussions">
+      <created>1572623879882</created>
+      <option name="number" value="00382" />
+      <option name="presentableId" value="LOCAL-00382" />
+      <option name="project" value="LOCAL" />
+      <updated>1572623879882</updated>
+    </task>
+    <option name="localTasksCounter" value="383" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
