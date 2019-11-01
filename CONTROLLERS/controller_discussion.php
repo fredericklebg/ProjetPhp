@@ -72,15 +72,13 @@ class controller_discussion extends controller_main
 
 
         if($this->msg->traiterMsg() == -1) //si le message est fermé, on est créé un nouveau dans la discussion
-            if($this->msg->countMsg($_GET['id']) >= $this->msg->getMaxMsg() && $this->msg->getState() == 'fermé')
-                $this->discussion->setState('fermée',$_GET['id']);
-            else
                 $this->msg->addMessage($_GET['id']);
 
 
         $vue= new Vue('discussion');
         $vue->generer(array());
     }
+
     public function Fermer()
     {
         if(strlen($_POST['msg'])== 0)
@@ -90,6 +88,9 @@ class controller_discussion extends controller_main
 
         $this->msg->traiterMsg();
         $this->msg->setState('fermé'); //ferme le message courant
+
+        if($this->msg->countMsg($_GET['id']) >= $this->msg->getMaxMsg() && $this->msg->getState() == 'fermé')
+            $this->discussion->setState('fermée',$_GET['id']);
 
         $vue= new Vue('discussion');
         $vue->generer(array());
