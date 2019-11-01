@@ -71,10 +71,9 @@ class controller_discussion extends controller_main
         }
 
 
-        if($this->msg->countMsg($_GET['id']) >= $this->msg->getMaxMsg() && $this->msg->getState() == 'fermé')
-            $this->discussion->setState('fermée',$_GET['id']);
-
         if($this->msg->traiterMsg() == -1) //si le message est fermé, on est créé un nouveau dans la discussion
+            if($this->msg->countMsg($_GET['id']) >= $this->msg->getMaxMsg() && $this->msg->getState() == 'fermé')
+                $this->discussion->setState('fermée',$_GET['id']);
             $this->msg->addMessage($_GET['id']);
 
 
