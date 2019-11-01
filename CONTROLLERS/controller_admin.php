@@ -9,7 +9,6 @@ class controller_admin extends controller_main
 
     public function __construct() {
         $this->user = new user();
-
     }
 
     public function index()
