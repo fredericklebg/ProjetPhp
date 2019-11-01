@@ -70,7 +70,7 @@ class discussion extends base
 
     public function countDisc()
     {
-        $query='SELECT * FROM DISCUSSION where state=:state';
+        $query='SELECT count(*) FROM DISCUSSION where state=:state';
         $query=$this->loadDb()->prepare($query);
         $query->bindValue('state', 'ouverte' , PDO::PARAM_STR);
         $query->execute();

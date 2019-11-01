@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="92c63984-ea07-4c62-8994-258128636016" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CONTROLLERS/controller_discussion.php" beforeDir="false" afterPath="$PROJECT_DIR$/CONTROLLERS/controller_discussion.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MODELS/models_discussion.php" beforeDir="false" afterPath="$PROJECT_DIR$/MODELS/models_discussion.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -167,20 +165,6 @@
       <workItem from="1572450868301" duration="831000" />
       <workItem from="1572458720269" duration="227000" />
       <workItem from="1572603879094" duration="617000" />
-    </task>
-    <task id="LOCAL-00316" summary="pays">
-      <created>1572457982743</created>
-      <option name="number" value="00316" />
-      <option name="presentableId" value="LOCAL-00316" />
-      <option name="project" value="LOCAL" />
-      <updated>1572457982743</updated>
-    </task>
-    <task id="LOCAL-00317" summary="pays">
-      <created>1572458185344</created>
-      <option name="number" value="00317" />
-      <option name="presentableId" value="LOCAL-00317" />
-      <option name="project" value="LOCAL" />
-      <updated>1572458185344</updated>
     </task>
     <task id="LOCAL-00318" summary="pays">
       <created>1572458546393</created>
@@ -511,7 +495,21 @@
       <option name="project" value="LOCAL" />
       <updated>1572614956907</updated>
     </task>
-    <option name="localTasksCounter" value="365" />
+    <task id="LOCAL-00365" summary="discussions">
+      <created>1572620511052</created>
+      <option name="number" value="00365" />
+      <option name="presentableId" value="LOCAL-00365" />
+      <option name="project" value="LOCAL" />
+      <updated>1572620511052</updated>
+    </task>
+    <task id="LOCAL-00366" summary="discussions">
+      <created>1572620620122</created>
+      <option name="number" value="00366" />
+      <option name="presentableId" value="LOCAL-00366" />
+      <option name="project" value="LOCAL" />
+      <updated>1572620620122</updated>
+    </task>
+    <option name="localTasksCounter" value="367" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -556,7 +554,6 @@
     <MESSAGE value="discussion &amp; pagination" />
     <MESSAGE value="test pagination" />
     <MESSAGE value="discussion" />
-    <MESSAGE value="discussions" />
     <MESSAGE value="page paramètre" />
     <MESSAGE value="lisez-moi.txt (1)" />
     <MESSAGE value="lisez-moi.txt (2)" />
@@ -571,6 +568,7 @@
     <MESSAGE value="pagination" />
     <MESSAGE value="admin" />
     <MESSAGE value="modifier nb disc admin" />
-    <option name="LAST_COMMIT_MESSAGE" value="modifier nb disc admin" />
+    <MESSAGE value="discussions" />
+    <option name="LAST_COMMIT_MESSAGE" value="discussions" />
   </component>
 </project>
