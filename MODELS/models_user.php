@@ -147,11 +147,7 @@ class user extends base
         $query = ('UPDATE USER SET USER.state :=\''.$state.'\'');
         $this->execRequete($query);
     }
-    public function deleteUser() {
-        $query = $this->loadDb()->prepare('DELETE * FROM USER WHERE pseudo = :pseudo');
-        $query->bindValue(':pseudo',$_POST['aurevoir'],PDO::PARAM_STR);
-        $query->execute();
-    }
+
 
 
     public function isSafeForm() {

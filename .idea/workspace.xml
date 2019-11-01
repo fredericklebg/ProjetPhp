@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="92c63984-ea07-4c62-8994-258128636016" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/CONTROLLERS/controller_admin.php" beforeDir="false" afterPath="$PROJECT_DIR$/CONTROLLERS/controller_admin.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MODELS/models_base.php" beforeDir="false" afterPath="$PROJECT_DIR$/MODELS/models_base.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MODELS/models_user.php" beforeDir="false" afterPath="$PROJECT_DIR$/MODELS/models_user.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -142,13 +143,6 @@
       <workItem from="1572450868301" duration="831000" />
       <workItem from="1572458720269" duration="227000" />
       <workItem from="1572603879094" duration="617000" />
-    </task>
-    <task id="LOCAL-00350" summary="pagination">
-      <created>1572613569387</created>
-      <option name="number" value="00350" />
-      <option name="presentableId" value="LOCAL-00350" />
-      <option name="project" value="LOCAL" />
-      <updated>1572613569387</updated>
     </task>
     <task id="LOCAL-00351" summary="pagination">
       <created>1572613645249</created>
@@ -486,7 +480,14 @@
       <option name="project" value="LOCAL" />
       <updated>1572627584530</updated>
     </task>
-    <option name="localTasksCounter" value="399" />
+    <task id="LOCAL-00399" summary="page admin">
+      <created>1572627814997</created>
+      <option name="number" value="00399" />
+      <option name="presentableId" value="LOCAL-00399" />
+      <option name="project" value="LOCAL" />
+      <updated>1572627814997</updated>
+    </task>
+    <option name="localTasksCounter" value="400" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
