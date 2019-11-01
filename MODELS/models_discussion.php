@@ -90,7 +90,10 @@ class discussion extends base
                                         WHERE MESSAGE.disc_id=DISCUSSION.disc_id
                                         AND  MESSAGE.user_id = USER.user_id
                                         AND message_id in (SELECT MAX(message_id) from MESSAGE where MESSAGE.disc_id = DISCUSSION.disc_id)
-                                        ORDER BY DISCUSSION.disc_id DESC, DISCUSSION.state ASC LIMIT :limit OFFSET :debut');
+                                        ORDER BY DISCUSSION.disc_id DESC, 
+                                        CASE state WHEN \'fermée\' THEN 2
+                                                   WHEN \'ouverte\' THEN 1
+                                        ASC , state ASC LIMIT :limit OFFSET :debut');
          $query = $oui->prepare($query);
          $query->bindValue('limit' , $limit , PDO::PARAM_INT);
          $query->bindValue('debut' , $debut , PDO::PARAM_INT );
@@ -101,7 +104,7 @@ class discussion extends base
 
      }
 
-    ///  public function deleteDiscussion($var)
+    //  public function deleteDiscussion($var)
     //  {
     //     ////afficher le bouton que pour les admins
     //      $query = ('DELETE FROM DISCUSSION WHERE title ="$var"');
