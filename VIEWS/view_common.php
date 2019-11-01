@@ -87,9 +87,9 @@ $user = unserialize($_SESSION['user']);;
             else
             {   if($user->getState() == 'admin')
                 {
-                    echo '<a href="/ProjetPhp/accueil/profilePage"><input class="avatar"  type="image"  alt="avatar"  src="VIEWS/Media/login.png"></a>';
+                    echo '<a href="/ProjetPhp/accueil/profilePage"><input class="avatar"  type="image"  alt="avatar"  src="VIEWS/Media/logrin.png"></a>';
                 }
-                else echo '<a href="/ProjetPhp/accueil/profilePage"><input class="avatar"  type="image"  alt="avatar"  src="VIEWS/Media/logrin.png"></a>';
+                else echo '<a href="/ProjetPhp/accueil/profilePage"><input class="avatar"  type="image"  alt="avatar"  src="VIEWS/Media/login.png"></a>';
             }
 
             ?>
