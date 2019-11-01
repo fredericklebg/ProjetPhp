@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="92c63984-ea07-4c62-8994-258128636016" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/MODELS/models_base.php" beforeDir="false" afterPath="$PROJECT_DIR$/MODELS/models_base.php" afterDir="false" />
-    </list>
+    <list default="true" id="92c63984-ea07-4c62-8994-258128636016" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -165,34 +163,6 @@
       <workItem from="1572450868301" duration="831000" />
       <workItem from="1572458720269" duration="227000" />
       <workItem from="1572603879094" duration="617000" />
-    </task>
-    <task id="LOCAL-00304" summary="responsive">
-      <created>1572285558353</created>
-      <option name="number" value="00304" />
-      <option name="presentableId" value="LOCAL-00304" />
-      <option name="project" value="LOCAL" />
-      <updated>1572285558354</updated>
-    </task>
-    <task id="LOCAL-00305" summary="responsive">
-      <created>1572285615975</created>
-      <option name="number" value="00305" />
-      <option name="presentableId" value="LOCAL-00305" />
-      <option name="project" value="LOCAL" />
-      <updated>1572285615975</updated>
-    </task>
-    <task id="LOCAL-00306" summary="aaaaaaaaaaaaah">
-      <created>1572444742595</created>
-      <option name="number" value="00306" />
-      <option name="presentableId" value="LOCAL-00306" />
-      <option name="project" value="LOCAL" />
-      <updated>1572444742596</updated>
-    </task>
-    <task id="LOCAL-00307" summary="aaaaaaaaaaaaah">
-      <created>1572445049007</created>
-      <option name="number" value="00307" />
-      <option name="presentableId" value="LOCAL-00307" />
-      <option name="project" value="LOCAL" />
-      <updated>1572445049007</updated>
     </task>
     <task id="LOCAL-00308" summary="aaaaaaaaaaaaah">
       <created>1572445120067</created>
@@ -509,7 +479,35 @@
       <option name="project" value="LOCAL" />
       <updated>1572613715485</updated>
     </task>
-    <option name="localTasksCounter" value="353" />
+    <task id="LOCAL-00353" summary="pagination">
+      <created>1572613752899</created>
+      <option name="number" value="00353" />
+      <option name="presentableId" value="LOCAL-00353" />
+      <option name="project" value="LOCAL" />
+      <updated>1572613752899</updated>
+    </task>
+    <task id="LOCAL-00354" summary="pagination">
+      <created>1572613781052</created>
+      <option name="number" value="00354" />
+      <option name="presentableId" value="LOCAL-00354" />
+      <option name="project" value="LOCAL" />
+      <updated>1572613781052</updated>
+    </task>
+    <task id="LOCAL-00355" summary="pagination">
+      <created>1572613849799</created>
+      <option name="number" value="00355" />
+      <option name="presentableId" value="LOCAL-00355" />
+      <option name="project" value="LOCAL" />
+      <updated>1572613849799</updated>
+    </task>
+    <task id="LOCAL-00356" summary="admin">
+      <created>1572613979432</created>
+      <option name="number" value="00356" />
+      <option name="presentableId" value="LOCAL-00356" />
+      <option name="project" value="LOCAL" />
+      <updated>1572613979432</updated>
+    </task>
+    <option name="localTasksCounter" value="357" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -544,7 +542,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="accueil" />
     <MESSAGE value="html accueil" />
     <MESSAGE value="page changement mdp" />
     <MESSAGE value="test mvc" />
@@ -569,6 +566,7 @@
     <MESSAGE value="supp msg" />
     <MESSAGE value="data et admin" />
     <MESSAGE value="pagination" />
-    <option name="LAST_COMMIT_MESSAGE" value="pagination" />
+    <MESSAGE value="admin" />
+    <option name="LAST_COMMIT_MESSAGE" value="admin" />
   </component>
 </project>
