@@ -112,7 +112,7 @@ class discussion extends base
        $query2->bindValue('id',$id,PDO::PARAM_INT);
        $query2->execute();
      }
-
+//
 
     ///  public function deleteDiscussion($var)
     //  {
