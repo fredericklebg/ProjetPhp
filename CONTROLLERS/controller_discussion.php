@@ -98,6 +98,7 @@ class controller_discussion extends controller_main
 
     public function delDisc()
     {
+
         $this->discussion->delDisc($_GET['id']);
         header("Location: http://tpphp.alwaysdata.net/ProjetPhp/");
     }
