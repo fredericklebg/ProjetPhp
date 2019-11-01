@@ -7,7 +7,8 @@ class controller_admin extends controller_main
 {
     private $user;
 
-    public function __construct() {
+    public function __construct()
+    {
         $this->user = new user();
 
     }
@@ -24,5 +25,10 @@ class controller_admin extends controller_main
         $this->user->setMaxDisc($_POST['d1']);
         $vue = new Vue('paramUpdated');
         $vue->generer(array('param' => 'le nombre de discussions ouvertes'));
+
     }
+    public function Supprimer () {
+        $this->user->deleteUser();
 }
+}    
+    

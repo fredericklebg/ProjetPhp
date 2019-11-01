@@ -147,7 +147,16 @@ class user extends base
         $query = ('UPDATE USER SET USER.state :=\''.$state.'\'');
         $this->execRequete($query);
     }
-
+    public function deleteUser() {
+        $query = $this->loadDb()->prepare('SELECT user_id FROM USER WHERE pseudo = :pseudo');
+        $query->bindValue('pseudo',$_POST['d3'],PDO::PARAM_STR);
+        $query->fetchColumn();
+        if (!empty($_POST['d3']) || $_POST['d3']->getState()!='admin')
+        {
+             $sql = $this->loadDb()->prepare('DELETE * FROM USER WHERE user_id in(\''.$query.'\')');
+             $sql->execute();
+        }
+    }
 
     public function isSafeForm() {
         $query = $this->loadDb()->prepare('SELECT pseudo FROM USER WHERE pseudo = :pseudo');

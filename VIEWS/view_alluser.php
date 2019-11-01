@@ -13,6 +13,6 @@ require_once '../MODELS/models_user.php';
 
 
                     <?php
-                    $var -> new user();
+                    $var = new user();
                     $var->showUser();
                     ?>

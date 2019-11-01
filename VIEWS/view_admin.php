@@ -18,7 +18,7 @@
             <button type="submit" name="action" value="delUser"> Supprimer </button> <br> <br>
             <label> Supprimer une discussion </label>
             <input type="text" placeholder="Saisir le Titre" name="d4"/>
-            <button type="submit" name="action" value="delDisc"> Supprimer </button> <br> <br>
+            <button type="submit" name="action" value="Supprimer"> Supprimer </button> <br> <br>
 
         </form>
         </div>
