@@ -29,7 +29,11 @@ $user = unserialize($_SESSION['user']);;
         {
             ?>
             <div class="col-xs-2 col-lg-2 text-center"> <a href="http://tpphp.alwaysdata.net/ProjetPhp">
-                    <img  alt="logo" src="VIEWS/Media/logroFreeNote.png" style="width: 70%"> </a></div>
+                    <img  alt="logo" src="VIEWS/Media/logroFreeNote.png" style="width: 70%"> </a>
+                    <a href="/ProjetPhp/accueil/param">Paramètres</a>
+            </div>
+
+
             <?php
         }
         else
