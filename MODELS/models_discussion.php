@@ -109,6 +109,7 @@ class discussion extends base
          $query='DELETE FROM MESSAGE WHERE disc_id= ' . $id;
          $this->execRequete($query);
          var_dump($query);
+         exit();
 //
 //       $query2 = 'DELETE FROM DISCUSSION WHERE disc_id=:id';
 //       $query2 = $this->loadDb()->prepare($query2);
