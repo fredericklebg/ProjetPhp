@@ -18,11 +18,11 @@ class controller_admin extends controller_main
         $vue->generer(array());
 
     }
-//
-//    public function createadm()
-//    {
-//        $vue = new Vue('param');
-//        $vue->generer(array());
-//
-//    }
+
+    public function changeNbDisc()
+    {
+        $this->user->setMaxDisc($_POST['d1']);
+        $vue = new Vue('paramUpdated');
+        $vue->generer(array('param' => 'le nombre de discussions ouvertes','value' => $_POST['d1']));
+    }
 }
