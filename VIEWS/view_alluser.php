@@ -14,5 +14,5 @@ require_once '../MODELS/models_user.php';
 
                     <?php
 
-                    $var->showDisc();
+                    $var->showUser();
                     ?>
