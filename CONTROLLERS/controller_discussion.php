@@ -70,8 +70,7 @@ class controller_discussion extends controller_main
             throw new Exception('le message est vide');
         }
 
-        var_dump($this->msg->getState());
-        exit();
+
         if($this->msg->countMsg($_GET['id']) >= $this->msg->getMaxMsg() && $this->msg->getState() == 'fermé')
             $this->discussion->setState('fermée',$_GET['id']);
 
