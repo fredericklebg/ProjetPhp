@@ -82,21 +82,23 @@ class base
         $query = 'SELECT pagination FROM DATA';
         $query = $this->loadDb()->prepare($query);
         $query->execute();
-        var_dump($query->fetchColumn());
-        exit();
-        return $this->execRequete($query);
+        return $query->fetchColumn();
     }
 
     public function getMaxDisc()
     {
         $query = 'SELECT max_disc FROM DATA';
-        return $this->execRequete($query);
+        $query = $this->loadDb()->prepare($query);
+        $query->execute();
+        return $query->fetchColumn();
     }
 
     public function getMaxMsg()
     {
         $query = 'SELECT max_msg FROM DATA';
-        return $this->execRequete($query);
+        $query = $this->loadDb()->prepare($query);
+        $query->execute();
+        return $query->fetchColumn();
     }
 
 
