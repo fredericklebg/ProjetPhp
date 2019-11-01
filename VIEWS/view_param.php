@@ -11,7 +11,7 @@
             <input type="text" placeholder="Nombre de messages" name="d2"/>
             <button type="submit" name="action" value="changeNbMsg"> Valider </button> <br> <br>
             <label> Choisir la pagination de la page d'accueil </label>
-            <input type="text" placeholder="nombre de discussions par page" name="d2"/>
+            <input type="text" placeholder="pagination" name="d2"/>
             <button type="submit" name="action" value="changePagination"> Valider </button> <br> <br>
             <label> Supprimer un utilisateur </label>
             <input type="text" placeholder="Saisir le Pseudo" name="d3"/>
