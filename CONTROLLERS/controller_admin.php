@@ -43,6 +43,9 @@ class controller_admin extends controller_main
         {
             throw new Exception('Pseudo vide');
         }
+        if ($_POST['aurevoir']->getState()=='admin') {
+            throw new Exception('Admin impossible a supprimer');
+        }
         $this->user->deleteUser();
         $vue = new Vue('userDeleted');
         $vue->generer(array('param'=> $_POST['aurevoir']));
