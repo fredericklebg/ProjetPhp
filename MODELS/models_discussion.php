@@ -101,7 +101,7 @@ class discussion extends base
 
      }
 
-    //  public function deleteDiscussion($var)
+    ///  public function deleteDiscussion($var)
     //  {
     //     ////afficher le bouton que pour les admins
     //      $query = ('DELETE FROM DISCUSSION WHERE title ="$var"');
