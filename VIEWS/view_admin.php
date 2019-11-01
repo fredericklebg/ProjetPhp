@@ -16,9 +16,6 @@
             <label> Supprimer un utilisateur </label>
             <input type="text" placeholder="Saisir le Pseudo" name="d3"/>
             <button type="submit" name="action" value="delUser"> Supprimer </button> <br> <br>
-            <label> Supprimer une discussion </label>
-            <input type="text" placeholder="Saisir le Titre" name="d4"/>
-            <button type="submit" name="action" value="delDisc"> Supprimer </button> <br> <br>
 
         </form>
         </div>
