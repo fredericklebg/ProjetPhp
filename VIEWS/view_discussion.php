@@ -45,15 +45,28 @@
                         ?>
                         <div class = "row text-center msg">
                             <div class="col-lg-4">
-                                 <form action="/ProjetPhp/discussion/traiterMsg/<?echo $_GET['id']?>" method="post">
-                                     <input type="text" placeholder="votre message" name="msg"/>
-                                     <button type="submit" name="action" value="Envoyer"> compléter le message  </button>
-                                     <?php
-                                     if($msg->getState() == 'ouvert')
-                                     {
+                                <? if($disc->getState($_GET['id']) == 'ouverte')
+                                {
+                                ?>
+                                <form action="/ProjetPhp/discussion/traiterMsg/<?
+                                echo $_GET['id'] ?>" method="post">
+                                    <input type="text" placeholder="votre message" name="msg"/>
+                                    <button type="submit" name="action" value="Envoyer"> compléter le message</button>
+                                    <?php
+                                    if ($msg->getState() == 'ouvert') {
+                                        ?>
+                                        <button type="submit" name="action" value="Fermer"> compléter et fermer le
+                                            message
+                                        </button>
+                                    <? }
+                                    }
+                                    else
+                                    {
                                      ?>
-                                         <button type="submit" name="action" value="Fermer"> compléter et fermer le message </button>
-                                     <? }
+                                    <p> la discussion est fermée !</p>
+
+                                    <?
+                                    }
                                      ?>
 
                                  </form>

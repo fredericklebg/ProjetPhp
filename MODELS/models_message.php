@@ -139,6 +139,15 @@ class message extends base
         return $query;
     }
 
+    public function countMsg($disc_id)
+    {
+        $query='SELECT count(*) FROM DISCUSSION where disc_id=:id';
+        $query=$this->loadDb()->prepare($query);
+        $query->bindValue('id', $disc_id , PDO::PARAM_INT);
+        $query->execute();
+        return $query->fetchColumn();
+
+    }
 
     public function traiterMsg()
     {
@@ -194,6 +203,8 @@ class message extends base
             throw new Exception('vous avez deja posté dans ce message');
 
     }
+
+
 
 //
 

@@ -25,9 +25,13 @@ class discussion extends base
     }
 
 
-    public function getState($pseudo)
+    public function getState($id)
     {
-        return $this->get('state',$pseudo);
+        $query = 'SELECT state FROM DISCUSSION where disc_id=:id';
+        $query = $this->loadDb()->prepare($query);
+        $query->bindValue('id',$id,PDO::PARAM_INT);
+        $query->execute();
+        $query->fetchColumn();
     }
 
 
