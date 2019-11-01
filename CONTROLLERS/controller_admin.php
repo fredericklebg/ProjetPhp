@@ -45,6 +45,7 @@ class controller_admin extends controller_main
             throw new Exception('Pseudo vide');
         }
         echo $userSupp->getState();
+        exit();
         if ($userSupp->getState()=='admin') {
             throw new Exception('Admin impossible a supprimer');
         }
