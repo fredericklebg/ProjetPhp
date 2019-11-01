@@ -51,5 +51,4 @@ class controller_admin extends controller_main
         $vue = new Vue('userDeleted');
         $vue->generer(array('param'=> $userSupp));
     }
-
 }
