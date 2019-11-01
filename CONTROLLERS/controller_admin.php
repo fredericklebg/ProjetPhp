@@ -42,8 +42,6 @@ class controller_admin extends controller_main
     {
         if (empty($_POST['aurevoir']) )
             throw new Exception('Pseudo vide');
-        if($_POST['aurevoir']->getState()=='admin')
-            throw new Exception('Impossible de supprimer un administrateur');
         $this->user->deleteUser();
     }
 }
