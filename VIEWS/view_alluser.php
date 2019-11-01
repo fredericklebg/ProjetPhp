@@ -1,6 +1,6 @@
 <?php
-require_once 'models_base.php';
-require_once 'models_user.php';
+require_once '../MODELS/models_base.php';
+require_once '../MODELS/models_user.php';
 ?>
 
 <tr>
