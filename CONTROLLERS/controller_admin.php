@@ -25,4 +25,4 @@ class controller_admin extends controller_main
         $vue = new Vue('paramUpdated');
         $vue->generer(array('param' => 'le nombre de discussions ouvertes','value' => $_POST['d1']));
     }
-}
+}//
