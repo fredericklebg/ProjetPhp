@@ -5,7 +5,7 @@
         <div class="row">
         <form  action="/ProjetPhp/admin"  method="post">
             <label> Choisir le nombre maximum de discussions ouvertes</label>
-            <input type="text" placeholder="Nombre  de discussions" name="d1"/>
+            <input type="text" placeholder="Nombre de discussions" name="d1"/>
             <button type="submit" name="action" value="changeNbDisc"> Valider </button> <br> <br>
             <label> Nombre maximum de messages dans une discussion </label>
             <input type="text" placeholder="Nombre de messages" name="d2"/>

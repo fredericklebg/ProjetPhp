@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="92c63984-ea07-4c62-8994-258128636016" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/VIEWS/view_common.php" beforeDir="false" afterPath="$PROJECT_DIR$/VIEWS/view_common.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VIEWS/view_param.php" beforeDir="false" afterPath="$PROJECT_DIR$/VIEWS/view_param.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -159,14 +158,7 @@
       <workItem from="1572450868301" duration="831000" />
       <workItem from="1572458720269" duration="227000" />
       <workItem from="1572459637546" duration="139000" />
-      <workItem from="1572601780924" duration="2245000" />
-    </task>
-    <task id="LOCAL-00276" summary="discussions">
-      <created>1572175829044</created>
-      <option name="number" value="00276" />
-      <option name="presentableId" value="LOCAL-00276" />
-      <option name="project" value="LOCAL" />
-      <updated>1572175829044</updated>
+      <workItem from="1572601780924" duration="2494000" />
     </task>
     <task id="LOCAL-00277" summary="discussions">
       <created>1572175903322</created>
@@ -504,7 +496,14 @@
       <option name="project" value="LOCAL" />
       <updated>1572603936526</updated>
     </task>
-    <option name="localTasksCounter" value="325" />
+    <task id="LOCAL-00325" summary="param">
+      <created>1572604292856</created>
+      <option name="number" value="00325" />
+      <option name="presentableId" value="LOCAL-00325" />
+      <option name="project" value="LOCAL" />
+      <updated>1572604292856</updated>
+    </task>
+    <option name="localTasksCounter" value="326" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
