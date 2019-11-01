@@ -43,11 +43,10 @@ class controller_admin extends controller_main
         {
             throw new Exception('Pseudo vide');
         }
-        if ($_POST['aurevoir']->getState() =='admin')
+        if ($_POST['aurevoir']->getState() == 'admin')
         {
             throw new Exception('Admin impossible à supprimer');
         }
         $this->user->deleteUser();
-
     }
 }
