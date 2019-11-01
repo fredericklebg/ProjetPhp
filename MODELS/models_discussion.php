@@ -31,6 +31,8 @@ class discussion extends base
         $query = $this->loadDb()->prepare($query);
         $query->bindValue('id',$id,PDO::PARAM_INT);
         $query->execute();
+        var_dump($query->fetchColumn());
+        exit();
         return $query->fetchColumn();
 
     }
