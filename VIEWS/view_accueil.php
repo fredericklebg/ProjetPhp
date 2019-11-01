@@ -45,7 +45,7 @@ $disc= new discussion();
                     <?php
 
                     $limit=$disc->getPagination();
-                    echo $limit;
+                    var_dump($limit);
                     $page = (!empty($_GET['id']) ? $_GET['id'] : 1);
                     $debut = ($page - 1 ) * $limit;
 
