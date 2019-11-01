@@ -1,9 +1,5 @@
-<?php $this->title ='FreeNote'; ?>
 
-<?php
 
-$disc= new discussion();
-?>
 
 <tr>
                         <td> Nom de la discussion </td>
