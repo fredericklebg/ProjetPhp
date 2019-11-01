@@ -1,5 +1,6 @@
 <?php
 require_once 'MODELS/models_user.php';
+require_once 'MODELS/models_data.php';
 
 $user = unserialize($_SESSION['user']);;
 ?>
