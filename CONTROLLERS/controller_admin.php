@@ -16,7 +16,6 @@ class controller_admin extends controller_main
     {
         $vue = new Vue('admin');
         $vue->generer(array());
-
     }
 
     public function changeNbDisc()
