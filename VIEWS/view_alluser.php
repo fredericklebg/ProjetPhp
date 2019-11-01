@@ -1,7 +1,5 @@
 <?php
 
-while($row = $query[0]->fetch())
-                    {
                         $id = $row['user_id'];
                         ?>
                         <tr>
@@ -9,5 +7,4 @@ while($row = $query[0]->fetch())
                                 <?php echo $row['pseudo']  ?> </a> </td>
 
                         </tr>
-                        <?php
-                    }
+
