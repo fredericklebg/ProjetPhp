@@ -82,8 +82,7 @@ class base
         $query = 'SELECT pagination FROM DATA';
         $query = $this->loadDb()->prepare($query);
         $query->execute();
-        echo "tamere";
-        var_dump($query);
+        var_dump($query->fetchColumn());
         exit();
         return $this->execRequete($query);
     }
