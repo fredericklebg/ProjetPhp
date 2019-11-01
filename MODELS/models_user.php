@@ -243,7 +243,7 @@ class user extends base
          \'' . $this->state . '\'
          )';
 
-        if(!preg_match('#^[a-zA-Z0-9_]*$#', $this->pseudo))
+        if(!preg_match('#^[a-zA-Z0-9àáâãäåçèéêëìíîïðòóôõöùúûüýÿ_]*$#', $this->pseudo))
         {
             throw new Exception("le pseudo n'est pas autorisé");
 //            $_SESSION['error'] = 'badnickname';
