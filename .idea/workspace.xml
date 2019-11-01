@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="92c63984-ea07-4c62-8994-258128636016" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CONTROLLERS/controller_discussion.php" beforeDir="false" afterPath="$PROJECT_DIR$/CONTROLLERS/controller_discussion.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MODELS/models_discussion.php" beforeDir="false" afterPath="$PROJECT_DIR$/MODELS/models_discussion.php" afterDir="false" />
-    </list>
+    <list default="true" id="92c63984-ea07-4c62-8994-258128636016" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -127,11 +123,6 @@
               <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@400e6563" type="7427dc5b:ServiceModel$ServiceGroupNode" />
               <item name="com.intellij.execution.services.ServiceModel$ServiceNode@16ff9a14" type="9fbbdea:ServiceModel$ServiceNode" />
             </path>
-            <path>
-              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@400e6563" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@46da23c5" type="9fbbdea:ServiceModel$ServiceNode" />
-            </path>
           </expand>
           <select />
         </treeState>
@@ -172,27 +163,6 @@
       <workItem from="1572450868301" duration="831000" />
       <workItem from="1572458720269" duration="227000" />
       <workItem from="1572603879094" duration="617000" />
-    </task>
-    <task id="LOCAL-00350" summary="pagination">
-      <created>1572613569387</created>
-      <option name="number" value="00350" />
-      <option name="presentableId" value="LOCAL-00350" />
-      <option name="project" value="LOCAL" />
-      <updated>1572613569387</updated>
-    </task>
-    <task id="LOCAL-00351" summary="pagination">
-      <created>1572613645249</created>
-      <option name="number" value="00351" />
-      <option name="presentableId" value="LOCAL-00351" />
-      <option name="project" value="LOCAL" />
-      <updated>1572613645249</updated>
-    </task>
-    <task id="LOCAL-00352" summary="pagination">
-      <created>1572613715485</created>
-      <option name="number" value="00352" />
-      <option name="presentableId" value="LOCAL-00352" />
-      <option name="project" value="LOCAL" />
-      <updated>1572613715485</updated>
     </task>
     <task id="LOCAL-00353" summary="pagination">
       <created>1572613752899</created>
@@ -516,7 +486,28 @@
       <option name="project" value="LOCAL" />
       <updated>1572629032672</updated>
     </task>
-    <option name="localTasksCounter" value="399" />
+    <task id="LOCAL-00399" summary="delete disc">
+      <created>1572630603056</created>
+      <option name="number" value="00399" />
+      <option name="presentableId" value="LOCAL-00399" />
+      <option name="project" value="LOCAL" />
+      <updated>1572630603056</updated>
+    </task>
+    <task id="LOCAL-00400" summary="delete disc">
+      <created>1572630619523</created>
+      <option name="number" value="00400" />
+      <option name="presentableId" value="LOCAL-00400" />
+      <option name="project" value="LOCAL" />
+      <updated>1572630619523</updated>
+    </task>
+    <task id="LOCAL-00401" summary="delete disc">
+      <created>1572630710961</created>
+      <option name="number" value="00401" />
+      <option name="presentableId" value="LOCAL-00401" />
+      <option name="project" value="LOCAL" />
+      <updated>1572630710961</updated>
+    </task>
+    <option name="localTasksCounter" value="402" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -551,7 +542,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="page changement mdp" />
     <MESSAGE value="test mvc" />
     <MESSAGE value="modif texte accueil" />
     <MESSAGE value="modif disc" />
@@ -576,6 +566,7 @@
     <MESSAGE value="modifier nb disc admin" />
     <MESSAGE value="discussions" />
     <MESSAGE value="page admin" />
-    <option name="LAST_COMMIT_MESSAGE" value="page admin" />
+    <MESSAGE value="delete disc" />
+    <option name="LAST_COMMIT_MESSAGE" value="delete disc" />
   </component>
 </project>
