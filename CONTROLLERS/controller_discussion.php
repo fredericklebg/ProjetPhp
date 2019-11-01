@@ -33,7 +33,7 @@ class controller_discussion extends controller_main
         {
             throw new Exception('le titre de la discussion est vide');
         }
-        if($this->discussion->countDisc() > $this->discussion->getMaxDisc())
+        if($this->discussion->countDisc() >=  $this->discussion->getMaxDisc())
         {
             throw new Exception('il y a trop de discussions ouvertes');
         }
@@ -70,8 +70,11 @@ class controller_discussion extends controller_main
             throw new Exception('le message est vide');
         }
 
-            if($this->msg->traiterMsg() == -1) //si le message est fermé, on est créé un nouveau dans la discussion
-                $this->msg->addMessage($_GET['id']);
+        if($this->msg->traiterMsg() == -1) //si le message est fermé, on est créé un nouveau dans la discussion
+            $this->msg->addMessage($_GET['id']);
+
+        if($this->msg->countMsg($_GET['id']) >= $this->msg->getMaxMsg())
+            $this->discussion->setState('fermée');
 
         $vue= new Vue('discussion');
         $vue->generer(array());
