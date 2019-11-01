@@ -113,7 +113,7 @@ class discussion extends base
 //       $query2 = $this->loadDb()->prepare($query2);
 //       $query2->bindValue('id',$id,PDO::PARAM_INT);
 //       $query2->execute();
-         $query2='DELETE FROM DISCUSSION WHERE disc_id= ' . $id
+         $query2='DELETE FROM DISCUSSION WHERE disc_id= ' . $id;
          $this->execRequete($query2);
      }
 
