@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="92c63984-ea07-4c62-8994-258128636016" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/MODELS/models_discussion.php" beforeDir="false" afterPath="$PROJECT_DIR$/MODELS/models_discussion.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VIEWS/view_discussion.php" beforeDir="false" afterPath="$PROJECT_DIR$/VIEWS/view_discussion.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -165,48 +165,6 @@
       <workItem from="1572450868301" duration="831000" />
       <workItem from="1572458720269" duration="227000" />
       <workItem from="1572603879094" duration="617000" />
-    </task>
-    <task id="LOCAL-00363" summary="modifier nb disc admin">
-      <created>1572614906550</created>
-      <option name="number" value="00363" />
-      <option name="presentableId" value="LOCAL-00363" />
-      <option name="project" value="LOCAL" />
-      <updated>1572614906550</updated>
-    </task>
-    <task id="LOCAL-00364" summary="modifier nb disc admin">
-      <created>1572614956907</created>
-      <option name="number" value="00364" />
-      <option name="presentableId" value="LOCAL-00364" />
-      <option name="project" value="LOCAL" />
-      <updated>1572614956907</updated>
-    </task>
-    <task id="LOCAL-00365" summary="discussions">
-      <created>1572620511052</created>
-      <option name="number" value="00365" />
-      <option name="presentableId" value="LOCAL-00365" />
-      <option name="project" value="LOCAL" />
-      <updated>1572620511052</updated>
-    </task>
-    <task id="LOCAL-00366" summary="discussions">
-      <created>1572620620122</created>
-      <option name="number" value="00366" />
-      <option name="presentableId" value="LOCAL-00366" />
-      <option name="project" value="LOCAL" />
-      <updated>1572620620122</updated>
-    </task>
-    <task id="LOCAL-00367" summary="discussions">
-      <created>1572620761787</created>
-      <option name="number" value="00367" />
-      <option name="presentableId" value="LOCAL-00367" />
-      <option name="project" value="LOCAL" />
-      <updated>1572620761787</updated>
-    </task>
-    <task id="LOCAL-00368" summary="discussions">
-      <created>1572622516301</created>
-      <option name="number" value="00368" />
-      <option name="presentableId" value="LOCAL-00368" />
-      <option name="project" value="LOCAL" />
-      <updated>1572622516301</updated>
     </task>
     <task id="LOCAL-00369" summary="discussions">
       <created>1572622551366</created>
@@ -509,7 +467,49 @@
       <option name="project" value="LOCAL" />
       <updated>1572631047748</updated>
     </task>
-    <option name="localTasksCounter" value="412" />
+    <task id="LOCAL-00412" summary="graspoutine">
+      <created>1572631253157</created>
+      <option name="number" value="00412" />
+      <option name="presentableId" value="LOCAL-00412" />
+      <option name="project" value="LOCAL" />
+      <updated>1572631253157</updated>
+    </task>
+    <task id="LOCAL-00413" summary="graspoutine">
+      <created>1572631322491</created>
+      <option name="number" value="00413" />
+      <option name="presentableId" value="LOCAL-00413" />
+      <option name="project" value="LOCAL" />
+      <updated>1572631322491</updated>
+    </task>
+    <task id="LOCAL-00414" summary="graspoutine">
+      <created>1572631348257</created>
+      <option name="number" value="00414" />
+      <option name="presentableId" value="LOCAL-00414" />
+      <option name="project" value="LOCAL" />
+      <updated>1572631348257</updated>
+    </task>
+    <task id="LOCAL-00415" summary="graspoutine">
+      <created>1572631376467</created>
+      <option name="number" value="00415" />
+      <option name="presentableId" value="LOCAL-00415" />
+      <option name="project" value="LOCAL" />
+      <updated>1572631376467</updated>
+    </task>
+    <task id="LOCAL-00416" summary="graspoutine">
+      <created>1572631399895</created>
+      <option name="number" value="00416" />
+      <option name="presentableId" value="LOCAL-00416" />
+      <option name="project" value="LOCAL" />
+      <updated>1572631399895</updated>
+    </task>
+    <task id="LOCAL-00417" summary="graspoutine">
+      <created>1572631466222</created>
+      <option name="number" value="00417" />
+      <option name="presentableId" value="LOCAL-00417" />
+      <option name="project" value="LOCAL" />
+      <updated>1572631466222</updated>
+    </task>
+    <option name="localTasksCounter" value="418" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

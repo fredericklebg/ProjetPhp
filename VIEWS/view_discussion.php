@@ -17,7 +17,7 @@
             <h2> <? echo $disc->getTitle($_GET['id']); ?> </h2>
             <?  if( $user != null && $user->getState() == 'admin')
             {
-                echo '<a href="/ProjetPhp/discussion/delDisc/" style="color: red"> supprimer la discussion</a>';
+                echo '<a href="/ProjetPhp/discussion/delDisc/' . $_GET['id'] .'" style="color: red"> supprimer la discussion</a>';
             }  ?>
         </div>
 
