@@ -115,7 +115,7 @@ class discussion extends base
        var_dump($query2);
        exit();
      }
-//
+
 
     ///  public function deleteDiscussion($var)
     //  {
