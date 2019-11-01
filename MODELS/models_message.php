@@ -141,7 +141,7 @@ class message extends base
 
     public function countMsg($disc_id)
     {
-        $query='SELECT count(*) FROM DISCUSSION where disc_id=:id';
+        $query='SELECT count(*) FROM MESSAGE where disc_id=:id';
         $query=$this->loadDb()->prepare($query);
         $query->bindValue('id', $disc_id , PDO::PARAM_INT);
         $query->execute();
