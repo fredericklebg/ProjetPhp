@@ -102,7 +102,7 @@ class base
     }
 
     public function deleteUser() {
-        $query = $this->loadDb()->prepare('DELETE * FROM USER WHERE pseudo = :pseudo');
+        $query = $this->loadDb()->prepare('DELETE FROM USER WHERE pseudo = :pseudo');
         $query->bindValue(':pseudo',$_POST['aurevoir'],PDO::PARAM_STR);
         $query->execute();
     }
