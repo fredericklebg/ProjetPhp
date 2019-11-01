@@ -80,7 +80,8 @@ class base
     public function getPagination()
     {
         $query = 'SELECT pagination FROM DATA';
-        $query = $this->execRequete($query);
+        $query = $this->loadDb()->prepare($query);
+        $query->execute();
         var_dump($query);
         exit();
         return $this->execRequete($query);
