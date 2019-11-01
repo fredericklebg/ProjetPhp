@@ -23,6 +23,6 @@ class controller_admin extends controller_main
     {
         $this->user->setMaxDisc($_POST['d1']);
         $vue = new Vue('paramUpdated');
-        $vue->generer(array('param' => 'le nombre de discussions ouvertes','value' => $_POST['d1']));
+        $vue->generer(array('param' => 'le nombre de discussions ouvertes'));
     }
 }
