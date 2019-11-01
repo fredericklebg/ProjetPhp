@@ -116,14 +116,7 @@ class discussion extends base
 //    }
 
 
-////    public function addMessageIntoDisc()
-//    {
-//        get($state,disc_id);
-//        if ($state = 'close')
-//            ERROR404;
-//        else
 
-//    }
 }
 
 

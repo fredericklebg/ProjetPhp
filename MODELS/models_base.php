@@ -40,6 +40,17 @@ class base
        return $result;
    }
 
+   public function getUser($attribut,$id)
+   {
+       $query = ('SELECT ' . $attribut . ' FROM USER WHERE user_id =\' '.$id .'\'');
+       foreach ($this->execRequete($query) as $row)
+       {
+           $result=$row[$attribut];
+       }
+
+       return $result;
+   }
+
 
 
 }
