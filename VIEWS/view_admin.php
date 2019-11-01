@@ -11,14 +11,11 @@
             <input type="text" placeholder="Nombre de messages" name="d2"/>
             <button type="submit" name="action" value="changeNbMsg"> Valider </button> <br> <br>
             <label> Choisir la pagination de la page d'accueil </label>
-            <input type="text" placeholder="pagination" name="d2"/>
+            <input type="text" placeholder="pagination" name="d5"/>
             <button type="submit" name="action" value="changePagination"> Valider </button> <br> <br>
             <label> Supprimer un utilisateur </label>
             <input type="text" placeholder="Saisir le Pseudo" name="d3"/>
             <button type="submit" name="action" value="delUser"> Supprimer </button> <br> <br>
-            <label> Supprimer une discussion </label>
-            <input type="text" placeholder="Saisir le Titre" name="d4"/>
-            <button type="submit" name="action" value="Supprimer"> Supprimer </button> <br> <br>
 
         </form>
         </div>
