@@ -46,4 +46,5 @@ class controller_admin extends controller_main
         $this->user->deleteUser();
         $vue = new Vue('');
     }
+
 }
