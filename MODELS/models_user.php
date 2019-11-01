@@ -484,6 +484,20 @@ class user extends base
               throw new Exception("Le mail est vide ou n'existe pas");
           }
       }
+      public function showUser()
+      {
+          $db = $this->loadDb();
+          $query = $db->query('SELECT * FROM USER ORDER BY user_id DESC');
+          while($row = $query->fetch())
+          {
+              ?>
+              <tr>
+                  <td><?php echo $row['pseudo']  ?></td>
+
+              </tr>
+              <?php
+          }
+      }
 
     //  public function deleteUser($var)
     //  {
