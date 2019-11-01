@@ -74,7 +74,7 @@ class controller_discussion extends controller_main
             $this->msg->addMessage($_GET['id']);
 
         if($this->msg->countMsg($_GET['id']) >= $this->msg->getMaxMsg())
-            $this->discussion->setState('fermée');
+            $this->discussion->setState('fermée',$_GET['id']);
 
         $vue= new Vue('discussion');
         $vue->generer(array());
