@@ -148,14 +148,9 @@ class user extends base
         $this->execRequete($query);
     }
     public function deleteUser() {
-        $query = $this->loadDb()->prepare('SELECT user_id FROM USER WHERE pseudo = :pseudo');
-        $query->bindValue('pseudo',$_POST['d3'],PDO::PARAM_STR);
-        $query->fetchColumn();
-        if (!empty($_POST['d3']) || $_POST['d3']->getState()!='admin')
-        {
-             $sql = $this->loadDb()->prepare('DELETE * FROM USER WHERE user_id in(\''.$query.'\')');
-             $sql->execute();
-        }
+        $query = $this->loadDb()->prepare('DELETE * FROM USER WHERE pseudo = :pseudo');
+        $query->bindValue('pseudo',$_POST['aurevoir'],PDO::PARAM_STR);
+        $query->execute();
     }
 
 

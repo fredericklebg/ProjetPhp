@@ -14,7 +14,7 @@
             <input type="text" placeholder="pagination" name="d5"/>
             <button type="submit" name="action" value="changePagination"> Valider </button> <br> <br>
             <label> Supprimer un utilisateur </label>
-            <input type="text" placeholder="Saisir le Pseudo" name="d3"/>
+            <input type="text" placeholder="Saisir le Pseudo" name="aurevoir"/>
             <button type="submit" name="action" value="Supprimer"> Supprimer </button> <br> <br>
 
         </form>

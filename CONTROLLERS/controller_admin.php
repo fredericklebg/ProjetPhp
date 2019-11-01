@@ -16,7 +16,6 @@ class controller_admin extends controller_main
     {
         $vue = new Vue('admin');
         $vue->generer(array());
-
     }
 
     public function changeNbDisc()
@@ -41,6 +40,10 @@ class controller_admin extends controller_main
     }
     public function Supprimer()
     {
+        if (empty($_POST['aurevoir']) )
+            throw new Exception('Pseudo vide');
+        if($_POST['aurevoir']->getState()=='admin')
+            throw new Exception('Impossible de supprimer un administrateur');
         $this->user->deleteUser();
     }
 }
