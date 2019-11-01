@@ -15,7 +15,7 @@
             <button type="submit" name="action" value="changePagination"> Valider </button> <br> <br>
             <label> Supprimer un utilisateur </label>
             <input type="text" placeholder="Saisir le Pseudo" name="d3"/>
-            <button type="submit" name="action" value="delUser"> Supprimer </button> <br> <br>
+            <button type="submit" name="action" value="Supprimer"> Supprimer </button> <br> <br>
 
         </form>
         </div>
