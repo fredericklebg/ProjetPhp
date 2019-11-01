@@ -39,16 +39,18 @@ class controller_admin extends controller_main
     }
     public function Supprimer()
     {
-        if (empty($_POST['aurevoir']) )
+        $userSupp=$_POST['aurevoir'];
+        if (empty($userSupp) )
         {
             throw new Exception('Pseudo vide');
         }
-        if ($_POST['aurevoir']->getState()=='admin') {
+
+        if ($userSupp->getState()=='admin') {
             throw new Exception('Admin impossible a supprimer');
         }
         $this->user->deleteUser();
         $vue = new Vue('userDeleted');
-        $vue->generer(array('param'=> $_POST['aurevoir']));
+        $vue->generer(array('param'=> $userSupp));
     }
 
 }

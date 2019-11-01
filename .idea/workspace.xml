@@ -143,13 +143,6 @@
       <workItem from="1572458720269" duration="227000" />
       <workItem from="1572603879094" duration="617000" />
     </task>
-    <task id="LOCAL-00356" summary="admin">
-      <created>1572613979432</created>
-      <option name="number" value="00356" />
-      <option name="presentableId" value="LOCAL-00356" />
-      <option name="project" value="LOCAL" />
-      <updated>1572613979432</updated>
-    </task>
     <task id="LOCAL-00357" summary="admin">
       <created>1572614036404</created>
       <option name="number" value="00357" />
@@ -486,7 +479,14 @@
       <option name="project" value="LOCAL" />
       <updated>1572629250343</updated>
     </task>
-    <option name="localTasksCounter" value="405" />
+    <task id="LOCAL-00405" summary="graspoutine">
+      <created>1572629591336</created>
+      <option name="number" value="00405" />
+      <option name="presentableId" value="LOCAL-00405" />
+      <option name="project" value="LOCAL" />
+      <updated>1572629591336</updated>
+    </task>
+    <option name="localTasksCounter" value="406" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -521,7 +521,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="page changement mdp" />
     <MESSAGE value="test mvc" />
     <MESSAGE value="modif texte accueil" />
     <MESSAGE value="modif disc" />
@@ -546,6 +545,7 @@
     <MESSAGE value="modifier nb disc admin" />
     <MESSAGE value="discussions" />
     <MESSAGE value="page admin" />
-    <option name="LAST_COMMIT_MESSAGE" value="page admin" />
+    <MESSAGE value="graspoutine" />
+    <option name="LAST_COMMIT_MESSAGE" value="graspoutine" />
   </component>
 </project>
