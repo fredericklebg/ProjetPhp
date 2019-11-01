@@ -33,6 +33,10 @@ class controller_discussion extends controller_main
         {
             throw new Exception('le titre de la discussion est vide');
         }
+        if($this->discussion->countDisc() > $this->discussion->getMaxDisc())
+        {
+            throw new Exception('il y a trop de discussions ouvertes');
+        }
         $id=$this->discussion->createDiscussion();
         //ajouter message avec addMessage
         $this->msg->addMessage($id);
