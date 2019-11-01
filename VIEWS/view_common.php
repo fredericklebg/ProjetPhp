@@ -14,7 +14,7 @@ $user = unserialize($_SESSION['user']);;
 <base href="<?= $root ?>" >
 <link href="VIEWS/css/bootstrap.css" rel="stylesheet">
 <link rel="stylesheet" href="VIEWS/css/view_style.css">
-<link rel="icon" type="image/png" href="VIEWS/Media/droite.png" />
+<link rel="icon" type="image/png" href="VIEWS/Media/logoFreeNote.png" />
 <style type="text/css">
     .col-lg-8 { line-height: 200px; }
     /*.col-lg-12 { line-height: 80px; }*/
@@ -42,7 +42,7 @@ $user = unserialize($_SESSION['user']);;
             <div class="col-xs-2 col-lg-2 text-center"> <a href="http://tpphp.alwaysdata.net/ProjetPhp">
                     <img  alt="logo" src="VIEWS/Media/logoFreeNote.png" style="width: 70%"> </a></div>
         <? } ?>
-        <div class="col-xs-5 col-lg-5 text-center"> <a href="http://tpphp.alwaysdata.net/ProjetPhp"> <h1 style="line-height: 80px">GreeNote</h1> </a></div>
+        <div class="col-xs-5 col-lg-5 text-center"> <a href="http://tpphp.alwaysdata.net/ProjetPhp"> <h1 style="line-height: 80px">FreeNote</h1> </a></div>
         <div class="col-xs-3 col-lg-3 text-center form" >
 
             <?php
