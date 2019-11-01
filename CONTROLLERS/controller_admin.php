@@ -40,7 +40,9 @@ class controller_admin extends controller_main
     public function Supprimer()
     {
         if (empty($_POST['aurevoir']) )
+        {
             throw new Exception('Pseudo vide');
+        }
         $this->user->deleteUser();
     }
 }
