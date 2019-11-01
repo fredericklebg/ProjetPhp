@@ -4,7 +4,7 @@
 
     <section class="col-lg-12 text-center">
 
-        <p ><?= $param ?> a bien été modifié sur <? $value ?> <br> </p>
+        <p ><?= $param ?> a bien été modifié(e)  <br> </p>
         <a href="/ProjetPhp/"> retourner a la page d'accueil </a>
 
     </section>
