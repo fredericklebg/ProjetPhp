@@ -39,4 +39,8 @@ class controller_admin extends controller_main
         $vue = new Vue('paramUpdated');
         $vue->generer(array('param' => 'la pagination'));
     }
+    public function Supprimer()
+    {
+        $this->user->deleteUser();
+    }
 }
