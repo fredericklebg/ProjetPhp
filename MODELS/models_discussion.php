@@ -98,8 +98,21 @@ class discussion extends base
          $total = $oui -> query('SELECT found_rows()')->fetchColumn();
          return array($query, $total);
 
-
      }
+
+     public function delDisc($id)
+     {
+       $query = 'DELETE FROM MESSAGE WHERE disc_id=:id';
+       $query = $this->loadDb()->prepare($query);
+       $query->bindValue('id',$id,PDO::PARAM_INT);
+       $query->execute();
+
+       $query2 = 'DELETE FROM DISCUSSION WHERE disc_id=:id';
+       $query2 = $this->loadDb()->prepare($query2);
+       $query2->bindValue('id',$id,PDO::PARAM_INT);
+       $query2->execute();
+     }
+
 
     ///  public function deleteDiscussion($var)
     //  {

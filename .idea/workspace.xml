@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="92c63984-ea07-4c62-8994-258128636016" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/CONTROLLERS/controller_admin.php" beforeDir="false" afterPath="$PROJECT_DIR$/CONTROLLERS/controller_admin.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CONTROLLERS/controller_discussion.php" beforeDir="false" afterPath="$PROJECT_DIR$/CONTROLLERS/controller_discussion.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MODELS/models_discussion.php" beforeDir="false" afterPath="$PROJECT_DIR$/MODELS/models_discussion.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -35,6 +37,24 @@
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
         <item name="tpphp_bd@mysql-tpphp.alwaysdata.net [2]" type="feb32156:DbDataSourceImpl" />
       </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="tpphp_bd@mysql-tpphp.alwaysdata.net [2]" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="tpphp_bd@mysql-tpphp.alwaysdata.net [2]" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="tpphp_bd: schema" type="ebfa3cd1:MariaImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="tpphp_bd@mysql-tpphp.alwaysdata.net [2]" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="tpphp_bd: schema" type="ebfa3cd1:MariaImplModel$Schema" />
+        <item name="DATA: table" type="dbc44a63:MariaImplModel$Table" />
+      </path>
     </expand>
     <select />
   </component>
@@ -44,11 +64,6 @@
         <option value="JavaScript File" />
       </list>
     </option>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>change</find>
-    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="UPDATE_TYPE" value="MERGE" />
@@ -100,7 +115,22 @@
           <expand>
             <path>
               <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@2c9f86c8" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@400e6563" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+            </path>
+            <path>
+              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@400e6563" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@7ae36035" type="9fbbdea:ServiceModel$ServiceNode" />
+            </path>
+            <path>
+              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@400e6563" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@16ff9a14" type="9fbbdea:ServiceModel$ServiceNode" />
+            </path>
+            <path>
+              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@400e6563" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@46da23c5" type="9fbbdea:ServiceModel$ServiceNode" />
             </path>
           </expand>
           <select />
@@ -142,6 +172,48 @@
       <workItem from="1572450868301" duration="831000" />
       <workItem from="1572458720269" duration="227000" />
       <workItem from="1572603879094" duration="617000" />
+    </task>
+    <task id="LOCAL-00350" summary="pagination">
+      <created>1572613569387</created>
+      <option name="number" value="00350" />
+      <option name="presentableId" value="LOCAL-00350" />
+      <option name="project" value="LOCAL" />
+      <updated>1572613569387</updated>
+    </task>
+    <task id="LOCAL-00351" summary="pagination">
+      <created>1572613645249</created>
+      <option name="number" value="00351" />
+      <option name="presentableId" value="LOCAL-00351" />
+      <option name="project" value="LOCAL" />
+      <updated>1572613645249</updated>
+    </task>
+    <task id="LOCAL-00352" summary="pagination">
+      <created>1572613715485</created>
+      <option name="number" value="00352" />
+      <option name="presentableId" value="LOCAL-00352" />
+      <option name="project" value="LOCAL" />
+      <updated>1572613715485</updated>
+    </task>
+    <task id="LOCAL-00353" summary="pagination">
+      <created>1572613752899</created>
+      <option name="number" value="00353" />
+      <option name="presentableId" value="LOCAL-00353" />
+      <option name="project" value="LOCAL" />
+      <updated>1572613752899</updated>
+    </task>
+    <task id="LOCAL-00354" summary="pagination">
+      <created>1572613781052</created>
+      <option name="number" value="00354" />
+      <option name="presentableId" value="LOCAL-00354" />
+      <option name="project" value="LOCAL" />
+      <updated>1572613781052</updated>
+    </task>
+    <task id="LOCAL-00355" summary="pagination">
+      <created>1572613849799</created>
+      <option name="number" value="00355" />
+      <option name="presentableId" value="LOCAL-00355" />
+      <option name="project" value="LOCAL" />
+      <updated>1572613849799</updated>
     </task>
     <task id="LOCAL-00356" summary="admin">
       <created>1572613979432</created>
@@ -424,69 +496,27 @@
       <updated>1572627097700</updated>
     </task>
     <task id="LOCAL-00396" summary="page admin">
-      <created>1572627407043</created>
+      <created>1572628894949</created>
       <option name="number" value="00396" />
       <option name="presentableId" value="LOCAL-00396" />
       <option name="project" value="LOCAL" />
-      <updated>1572627407043</updated>
+      <updated>1572628894949</updated>
     </task>
     <task id="LOCAL-00397" summary="page admin">
-      <created>1572627424687</created>
+      <created>1572629010569</created>
       <option name="number" value="00397" />
       <option name="presentableId" value="LOCAL-00397" />
       <option name="project" value="LOCAL" />
-      <updated>1572627424687</updated>
+      <updated>1572629010569</updated>
     </task>
     <task id="LOCAL-00398" summary="page admin">
-      <created>1572627584530</created>
+      <created>1572629032672</created>
       <option name="number" value="00398" />
       <option name="presentableId" value="LOCAL-00398" />
       <option name="project" value="LOCAL" />
-      <updated>1572627584530</updated>
+      <updated>1572629032672</updated>
     </task>
-    <task id="LOCAL-00399" summary="page admin">
-      <created>1572627814997</created>
-      <option name="number" value="00399" />
-      <option name="presentableId" value="LOCAL-00399" />
-      <option name="project" value="LOCAL" />
-      <updated>1572627814997</updated>
-    </task>
-    <task id="LOCAL-00400" summary="page admin">
-      <created>1572628785020</created>
-      <option name="number" value="00400" />
-      <option name="presentableId" value="LOCAL-00400" />
-      <option name="project" value="LOCAL" />
-      <updated>1572628785020</updated>
-    </task>
-    <task id="LOCAL-00401" summary="page admin">
-      <created>1572628807999</created>
-      <option name="number" value="00401" />
-      <option name="presentableId" value="LOCAL-00401" />
-      <option name="project" value="LOCAL" />
-      <updated>1572628807999</updated>
-    </task>
-    <task id="LOCAL-00402" summary="page admin">
-      <created>1572629065366</created>
-      <option name="number" value="00402" />
-      <option name="presentableId" value="LOCAL-00402" />
-      <option name="project" value="LOCAL" />
-      <updated>1572629065366</updated>
-    </task>
-    <task id="LOCAL-00403" summary="page admin">
-      <created>1572629136593</created>
-      <option name="number" value="00403" />
-      <option name="presentableId" value="LOCAL-00403" />
-      <option name="project" value="LOCAL" />
-      <updated>1572629136593</updated>
-    </task>
-    <task id="LOCAL-00404" summary="page admin">
-      <created>1572629250343</created>
-      <option name="number" value="00404" />
-      <option name="presentableId" value="LOCAL-00404" />
-      <option name="project" value="LOCAL" />
-      <updated>1572629250343</updated>
-    </task>
-    <option name="localTasksCounter" value="405" />
+    <option name="localTasksCounter" value="399" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

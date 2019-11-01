@@ -96,5 +96,9 @@ class controller_discussion extends controller_main
         $vue->generer(array());
     }
 
+    public function delDisc()
+    {
+
+    }
 //
 }
