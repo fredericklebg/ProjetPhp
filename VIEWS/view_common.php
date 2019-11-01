@@ -85,8 +85,11 @@ $user = unserialize($_SESSION['user']);;
                 echo '<a class="reg" style="line-height: 80px;"> s\'inscrire </a>';
             }
             else
-            {
-                echo '<a href="/ProjetPhp/accueil/profilePage"><input class="avatar"  type="image"  alt="avatar"  src="VIEWS/Media/login.png"></a>';
+            {   if($user->getState() == 'admin')
+                {
+                    echo '<a href="/ProjetPhp/accueil/profilePage"><input class="avatar"  type="image"  alt="avatar"  src="VIEWS/Media/login.png"></a>';
+                }
+                else echo '<a href="/ProjetPhp/accueil/profilePage"><input class="avatar"  type="image"  alt="avatar"  src="VIEWS/Media/logrin.png"></a>';
             }
 
             ?>
