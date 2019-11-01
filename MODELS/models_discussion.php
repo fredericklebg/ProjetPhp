@@ -43,9 +43,9 @@ class discussion extends base
     }
 
 
-    public function setState($state)
+    public function setState($state,$id)
     {
-        $query = ('UPDATE DISCUSSION SET DISCUSSION.state :=\''.$state.'\'');
+        $query = ('UPDATE DISCUSSION SET DISCUSSION.state :=\''.$state.'\' WHERE disc_id=\'' . $id . '\' ');
         $this->execRequete($query);
     }
 
