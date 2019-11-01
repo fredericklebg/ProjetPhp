@@ -48,5 +48,6 @@ class controller_admin extends controller_main
             throw new Exception('Admin impossible à supprimer');
         }
         $this->user->deleteUser();
+
     }
 }
