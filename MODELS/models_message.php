@@ -239,11 +239,11 @@ class message extends base
 
     public function verifMsg () {
 
-        if(preg_match("#^[ ]*[a-zA-Z0-9]+[']*[a-zA-Z0-9]+[ ]*$#",$_POST['msg'])) return true;
-        if(preg_match("#^[ ]*[a-zA-Z0-9]+[ ]*[a-zA-Z0-9]+[']*$#",$_POST['msg'])) return true;
-        if(preg_match("#^[ ]*[a-zA-Z0-9]+[-]*[a-zA-Z0-9]+[ ]*[a-zA-Z0-9]+[ ]*$#",$_POST['msg'])) return true;
-        if(preg_match("#^[ ]*[a-zA-Z0-9]+[ ]*[a-zA-Z0-9]+[-]*[a-zA-Z0-9]+[ ]*$#",$_POST['msg'])) return true;
-        if(preg_match("#^[ ]*[a-zA-Z0-9]+[ ]*[a-zA-Z0-9]+[ ]*$#",$_POST['msg'])) return true;
+        if(preg_match("#^[ ]*[a-zA-Z0-9éàèèç]+[']*[a-zA-Z0-9éàèèç]+[ ]*$#",$_POST['msg'])) return true;
+        if(preg_match("#^[ ]*[a-zA-Z0-9éàèèç]+[ ]*[a-zA-Z0-9éàèèç]+[']*$#",$_POST['msg'])) return true;
+        if(preg_match("#^[ ]*[a-zA-Z0-9éàèèç]+[-]*[a-zA-Z0-9éàèèç]+[ ]*[a-zA-Z0-9éàèèç]+[ ]*$#",$_POST['msg'])) return true;
+        if(preg_match("#^[ ]*[a-zA-Z0-9éàèèç]+[ ]*[a-zA-Z0-9éàèèç]+[-]*[a-zA-Z0-9éàèèç]+[ ]*$#",$_POST['msg'])) return true;
+        if(preg_match("#^[ ]*[a-zA-Z0-9éàèèç]+[ ]*[a-zA-Z0-9éàèèç]+[ ]*$#",$_POST['msg'])) return true;
         else {
             throw new Exception('Le message est trop grand ou comporte plus de 2 mots');
         }
