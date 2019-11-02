@@ -59,8 +59,8 @@ CREATE TABLE DATA2
 
 INSERT INTO USER2 (pseudo, mail, password, state, phone, country, user_date, gender)
 VALUES
-('anonyme', anonyme@ano.nime , 'anonyme', 'membre', '0606060606', 'France', '2019-11-02', 'homme');
-('louis', 'louis@gmail.com', 'voiture123', 'member', '0657787587', 'France', '2019-11-01', 'homme'),
+('anonyme', 'anonyme@ano.nime' , 'anonyme', 'membre', '0606060606', 'France', '2019-11-02', 'homme'),
+('louis', 'louis@gmail.com', '90ad4b0e3900d2b61b4b32f9facd744f2cfe956ab41c1957b4bbef474b5ad4bb', 'member', '0657787587', 'France', '2019-11-01', 'homme'),
 ('thomas', 'thomasdu13@gmail.com', 'ananas89', 'member', '0657597810', 'France', '2019-11-02', 'homme'),
 ('user123', 'user123@gmail.com', 'XxunderxX12', 'admin', '0745787475', 'France', '2019-11-03', 'femme'),
 ('jeannot', 'jeannotdusud@yahoo.fr', 'lepastaga', 'member', '0657787974', 'France', '2019-11-03', 'homme'),
@@ -69,9 +69,6 @@ VALUES
 ('francis', 'francis@laposte.net', 'francis', 'member', '0645721805', 'Espagne', '2019-11-02', 'homme'),
 ('jose', 'jose@laposte.net', 'jose', 'admin', '0647148965', 'France', '2019-11-02', 'homme');
 
-INSERT INTO USER2 (user_id, pseudo, mail, password, state, phone, country, user_date, gender)
-VALUES
-('anonyme', anonyme@ano.nime , 'anonyme', 'membre', '0606060606', 'France', '2019-11-02', 'homme');
 
 
 INSERT INTO DISCUSSION2 (title, state)
@@ -107,5 +104,9 @@ VALUES
 INSERT INTO DATA2 (max_disc, max_msg, pagination)
 VALUES
 (20, 10, 2);
+
+
+les mots de passes sont:
+louis : voiture123;
 
 
