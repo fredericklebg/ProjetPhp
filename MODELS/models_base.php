@@ -103,6 +103,9 @@ class base
 
     public function deleteUser() {
         $userSupp=$_POST['aurevoir'];
+        if (!isAdmin($userSupp)) {
+
+        }
 //        if  ($userSupp != null && $userSupp->getState() == 'admin') {
 //            throw new Exception('Admin impossible a supprimer');
 //        }
@@ -110,7 +113,7 @@ class base
         $sql->bindValue('pseudo',$userSupp,PDO::PARAM_STR);
         $sql->execute();
         if($sql->rowCount()==0)
-            throw new Exception('\''.$userSupp.'\'n\'est pas un utilisateur existant');
+            throw new Exception('\''.$userSupp.'\' n\'est pas un utilisateur existant');
         $query = $this->loadDb()->prepare('DELETE FROM USER WHERE pseudo = :pseudo');
         $query->bindValue(':pseudo',$_POST['aurevoir'],PDO::PARAM_STR);
         $query->execute();
