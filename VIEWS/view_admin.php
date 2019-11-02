@@ -1,5 +1,6 @@
 <?php $this->title = 'param';
 
+$user=unserialize($_SESSION['user']);
 
 if( $user != null && $user->getState() == 'admin')
 {
