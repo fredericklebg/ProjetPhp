@@ -501,11 +501,11 @@ class user extends base
 
       }
         public function isAdmin($user) {
-        $query = $this->loadDb()->prepare('SELECT * FROM USER WHERE pseudo = :pseudo and state=\'admin\'');
-        $query->bindValue('pseudo',$user,PDO::PARAM_STR);
-        $query->execute();
-        if($query->rowCount()==0) return false;
-        }
+            $query = $this->loadDb()->prepare('SELECT * FROM USER WHERE pseudo = :pseudo and state=\'admin\'');
+            $query->bindValue('pseudo',$user,PDO::PARAM_STR);
+            $query->execute();
+            if($query->rowCount()==0) return false;
+            }
     //  public function deleteUser($var)
     //  {
     //     //afficher le bouton que pour les admins

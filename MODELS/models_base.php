@@ -103,9 +103,6 @@ class base
 
     public function deleteUser() {
         $userSupp=$_POST['aurevoir'];
-        if (!isAdmin($userSupp)) {
-
-        }
 //        if  ($userSupp != null && $userSupp->getState() == 'admin') {
 //            throw new Exception('Admin impossible a supprimer');
 //        }
