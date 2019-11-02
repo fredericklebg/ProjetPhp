@@ -103,9 +103,6 @@ class base
 
     public function deleteUser() {
         $userSupp=$_POST['aurevoir'];
-//        if  ($userSupp != null && $userSupp->getState() == 'admin') {
-//            throw new Exception('Admin impossible a supprimer');
-//        }
         $sql = $this->loadDb()->prepare('SELECT * FROM USER WHERE pseudo =:pseudo');
         $sql->bindValue('pseudo',$userSupp,PDO::PARAM_STR);
         $sql->execute();
