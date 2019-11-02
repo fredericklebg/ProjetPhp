@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="92c63984-ea07-4c62-8994-258128636016" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VIEWS/lisez-moi.txt" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -160,13 +161,7 @@
       <workItem from="1572458720269" duration="227000" />
       <workItem from="1572603879094" duration="617000" />
       <workItem from="1572633620337" duration="430000" />
-    </task>
-    <task id="LOCAL-00366" summary="discussions">
-      <created>1572620620122</created>
-      <option name="number" value="00366" />
-      <option name="presentableId" value="LOCAL-00366" />
-      <option name="project" value="LOCAL" />
-      <updated>1572620620122</updated>
+      <workItem from="1572691784668" duration="529000" />
     </task>
     <task id="LOCAL-00367" summary="discussions">
       <created>1572620761787</created>
@@ -504,7 +499,14 @@
       <option name="project" value="LOCAL" />
       <updated>1572633779696</updated>
     </task>
-    <option name="localTasksCounter" value="415" />
+    <task id="LOCAL-00415" summary="jeu de test de discussions">
+      <created>1572691843214</created>
+      <option name="number" value="00415" />
+      <option name="presentableId" value="LOCAL-00415" />
+      <option name="project" value="LOCAL" />
+      <updated>1572691843214</updated>
+    </task>
+    <option name="localTasksCounter" value="416" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -539,7 +541,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="test mvc" />
     <MESSAGE value="modif texte accueil" />
     <MESSAGE value="modif disc" />
     <MESSAGE value="modif disc ajout msg erreur" />
@@ -564,6 +565,7 @@
     <MESSAGE value="discussions" />
     <MESSAGE value="page admin" />
     <MESSAGE value="graspoutine" />
-    <option name="LAST_COMMIT_MESSAGE" value="graspoutine" />
+    <MESSAGE value="jeu de test de discussions" />
+    <option name="LAST_COMMIT_MESSAGE" value="jeu de test de discussions" />
   </component>
 </project>
