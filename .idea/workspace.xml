@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="92c63984-ea07-4c62-8994-258128636016" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/VIEWS/commandesjeudetest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/VIEWS/commandesjeudetest.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -145,13 +144,6 @@
       <workItem from="1572458720269" duration="227000" />
       <workItem from="1572603879094" duration="617000" />
       <workItem from="1572633620337" duration="16058000" />
-    </task>
-    <task id="LOCAL-00414" summary="graspoutine">
-      <created>1572633779696</created>
-      <option name="number" value="00414" />
-      <option name="presentableId" value="LOCAL-00414" />
-      <option name="project" value="LOCAL" />
-      <updated>1572633779696</updated>
     </task>
     <task id="LOCAL-00415" summary="graspoutine">
       <created>1572634055537</created>
@@ -489,7 +481,14 @@
       <option name="project" value="LOCAL" />
       <updated>1572734986657</updated>
     </task>
-    <option name="localTasksCounter" value="463" />
+    <task id="LOCAL-00463" summary="jeu de test cryptage mdp">
+      <created>1572735228250</created>
+      <option name="number" value="00463" />
+      <option name="presentableId" value="LOCAL-00463" />
+      <option name="project" value="LOCAL" />
+      <updated>1572735228250</updated>
+    </task>
+    <option name="localTasksCounter" value="464" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -524,7 +523,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="modif disc ajout msg erreur" />
     <MESSAGE value="AUTO" />
     <MESSAGE value="prenez un scooter" />
     <MESSAGE value="discussion &amp; pagination" />
@@ -549,6 +547,7 @@
     <MESSAGE value="condition page admin" />
     <MESSAGE value="modification jeu de test" />
     <MESSAGE value="modif mdp" />
-    <option name="LAST_COMMIT_MESSAGE" value="modif mdp" />
+    <MESSAGE value="jeu de test cryptage mdp" />
+    <option name="LAST_COMMIT_MESSAGE" value="jeu de test cryptage mdp" />
   </component>
 </project>

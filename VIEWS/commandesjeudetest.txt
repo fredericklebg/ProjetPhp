@@ -1,14 +1,14 @@
 Suppression des tables :
 
-DROP TABLE DISCUSSION
-DROP TABLE USER
-DROP TABLE MESSAGE
-DROP TABLE DATA
+DROP TABLE MESSAGE;
+DROP TABLE DISCUSSION;
+DROP TABLE USER;
+DROP TABLE DATA;
 
 Création des tables et insertion des données:
 
 
-CREATE TABLE DISCUSSION2
+CREATE TABLE DISCUSSION
 (
     disc_id INT(11) PRIMARY KEY NOT NULL AUTO_INCREMENT,
     title VARCHAR(255),
@@ -16,7 +16,7 @@ CREATE TABLE DISCUSSION2
 );
 
 
-CREATE TABLE USER2
+CREATE TABLE USER
 (
     user_id INT(11) PRIMARY KEY NOT NULL AUTO_INCREMENT,
     pseudo VARCHAR(255),
@@ -31,7 +31,7 @@ CREATE TABLE USER2
 );
 
 
-CREATE TABLE MESSAGE2
+CREATE TABLE MESSAGE
 (
     message_id INT(11) PRIMARY KEY NOT NULL AUTO_INCREMENT,
     content VARCHAR(255),
@@ -42,13 +42,13 @@ CREATE TABLE MESSAGE2
     disc_id INT(11) NOT NULL,
     CONSTRAINT user_message
          FOREIGN KEY (user_id)
-         REFERENCES USER2(user_id),
+         REFERENCES USER(user_id),
     CONSTRAINT disc_message
              FOREIGN KEY (disc_id)
-             REFERENCES DISCUSSION2(disc_id)
+             REFERENCES DISCUSSION(disc_id)
 );
 
-CREATE TABLE DATA2
+CREATE TABLE DATA
 (
     max_disc INT(11),
     max_msg INT(11),
@@ -57,7 +57,7 @@ CREATE TABLE DATA2
 
 
 
-INSERT INTO USER2 (pseudo, mail, password, state, phone, country, user_date, gender)
+INSERT INTO USER (pseudo, mail, password, state, phone, country, user_date, gender)
 VALUES
 ('anonyme', 'anonyme@ano.nime' , 'anonyme', 'membre', '0606060606', 'France', '2019-11-02', 'homme'),
 ('louis', 'louis@gmail.com', '90ad4b0e3900d2b61b4b32f9facd744f2cfe956ab41c1957b4bbef474b5ad4bb', 'member', '0657787587', 'France', '2019-11-01', 'homme'),
@@ -67,11 +67,11 @@ VALUES
 ('harry', 'harryenglish@gmail.com', '90ad15d6a42342733de113b4fcc2a68337aa822bbc6357c741fb6c2c5bb872ee', 'member', '0657784552', 'Angleterre', '2019-11-03', 'homme'),
 ('david', 'david89798@gmail.com', '5fa8e2817189d3d88a3cdd333fb8e593ebd5ba5b6b5c9f5ce136945221bd3447', 'member', '0747875743', 'Espagne', '2019-11-02', 'homme'),
 ('francis', 'francis@laposte.net', 'fe384adb7e67d54e973c65b0174e3de5d8288e483958da561d39c98ddb1cc5d4', 'member', '0645721805', 'Espagne', '2019-11-02', 'homme'),
-('jose', 'jose@laposte.net', '8cc6d99489b5b7168835743bdb42b2e8b89d6b97eb95a6033c0581ece863fb4d', 'admin', '0647148965', 'France', '2019-11-02', 'homme');
+('josee', 'josee@laposte.net', '8cc6d99489b5b7168835743bdb42b2e8b89d6b97eb95a6033c0581ece863fb4d', 'admin', '0647148965', 'France', '2019-11-02', 'femme');
 
 
 
-INSERT INTO DISCUSSION2 (title, state)
+INSERT INTO DISCUSSION (title, state)
 VALUES
 ('Discussion 1', 'ouverte'),
 ('Discussion 2', 'ouverte'),
@@ -85,7 +85,7 @@ VALUES
 ('Discussion 10', 'ouverte');
 
 
-INSERT INTO MESSAGE2 (content, message_date, state, authors_id, user_id, disc_id)
+INSERT INTO MESSAGE (content, message_date, state, authors_id, user_id, disc_id)
 VALUES
 ('salut', '2019-11-01', 'fermé', '1', 1, 1),
 ('ça va bien oui nickel', '2019-11-02', 'ouvert', '2/1/2', 2, 1),
@@ -101,7 +101,7 @@ VALUES
 ('Aurevoir bye ciao', '2019-11-03', 'fermé', '2/5/6', 2, 10);
 
 
-INSERT INTO DATA2 (max_disc, max_msg, pagination)
+INSERT INTO DATA (max_disc, max_msg, pagination)
 VALUES
 (20, 10, 2);
 
