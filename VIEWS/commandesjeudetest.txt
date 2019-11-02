@@ -63,11 +63,11 @@ VALUES
 ('louis', 'louis@gmail.com', '90ad4b0e3900d2b61b4b32f9facd744f2cfe956ab41c1957b4bbef474b5ad4bb', 'member', '0657787587', 'France', '2019-11-01', 'homme'),
 ('thomas', 'thomasdu13@gmail.com', '946de8c02950d682753cbef1644b984f4c0a93f2bb65c432918a08f3b943101e', 'member', '0657597810', 'France', '2019-11-02', 'homme'),
 ('user123', 'user123@gmail.com', '598121508cf3df97634a7ba0603a453c8603fd097db9cb98bb807a1669da945a', 'admin', '0745787475', 'France', '2019-11-03', 'femme'),
-('jeannot', 'jeannotdusud@yahoo.fr', 'lepastaga', 'member', '0657787974', 'France', '2019-11-03', 'homme'),
-('harry', 'harryenglish@gmail.com', 'teatime', 'member', '0657784552', 'Angleterre', '2019-11-03', 'homme'),
-('david', 'david89798@gmail.com', 'esplanada14', 'member', '0747875743', 'Espagne', '2019-11-02', 'homme'),
-('francis', 'francis@laposte.net', 'francis', 'member', '0645721805', 'Espagne', '2019-11-02', 'homme'),
-('jose', 'jose@laposte.net', 'jose', 'admin', '0647148965', 'France', '2019-11-02', 'homme');
+('jeannot', 'jeannotdusud@yahoo.fr', '13a968a492617d379c53baf94815279996808f44aba21b3ca93aa1732dd3eaad', 'member', '0657787974', 'France', '2019-11-03', 'homme'),
+('harry', 'harryenglish@gmail.com', '90ad15d6a42342733de113b4fcc2a68337aa822bbc6357c741fb6c2c5bb872ee', 'member', '0657784552', 'Angleterre', '2019-11-03', 'homme'),
+('david', 'david89798@gmail.com', '5fa8e2817189d3d88a3cdd333fb8e593ebd5ba5b6b5c9f5ce136945221bd3447', 'member', '0747875743', 'Espagne', '2019-11-02', 'homme'),
+('francis', 'francis@laposte.net', 'fe384adb7e67d54e973c65b0174e3de5d8288e483958da561d39c98ddb1cc5d4', 'member', '0645721805', 'Espagne', '2019-11-02', 'homme'),
+('jose', 'jose@laposte.net', '8cc6d99489b5b7168835743bdb42b2e8b89d6b97eb95a6033c0581ece863fb4d', 'admin', '0647148965', 'France', '2019-11-02', 'homme');
 
 
 
@@ -114,4 +114,4 @@ jeannot : lepastaga
 harry : teatime
 david : esplanada14
 francis : francis
-jose : jose
+josee : josee
