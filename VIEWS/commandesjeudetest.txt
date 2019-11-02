@@ -62,7 +62,7 @@ VALUES
 ('anonyme', 'anonyme@ano.nime' , 'anonyme', 'membre', '0606060606', 'France', '2019-11-02', 'homme'),
 ('louis', 'louis@gmail.com', '90ad4b0e3900d2b61b4b32f9facd744f2cfe956ab41c1957b4bbef474b5ad4bb', 'member', '0657787587', 'France', '2019-11-01', 'homme'),
 ('thomas', 'thomasdu13@gmail.com', '946de8c02950d682753cbef1644b984f4c0a93f2bb65c432918a08f3b943101e', 'member', '0657597810', 'France', '2019-11-02', 'homme'),
-('user123', 'user123@gmail.com', 'XxunderxX12', 'admin', '0745787475', 'France', '2019-11-03', 'femme'),
+('user123', 'user123@gmail.com', '598121508cf3df97634a7ba0603a453c8603fd097db9cb98bb807a1669da945a', 'admin', '0745787475', 'France', '2019-11-03', 'femme'),
 ('jeannot', 'jeannotdusud@yahoo.fr', 'lepastaga', 'member', '0657787974', 'France', '2019-11-03', 'homme'),
 ('harry', 'harryenglish@gmail.com', 'teatime', 'member', '0657784552', 'Angleterre', '2019-11-03', 'homme'),
 ('david', 'david89798@gmail.com', 'esplanada14', 'member', '0747875743', 'Espagne', '2019-11-02', 'homme'),
@@ -110,4 +110,8 @@ les mots de passes sont:
 louis : voiture123;
 thomas : ananas89
 user123 : XxunderxX12
-
+jeannot : lepastaga
+harry : teatime
+david : esplanada14
+francis : francis
+jose : jose

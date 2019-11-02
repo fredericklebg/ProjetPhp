@@ -371,7 +371,7 @@ class user extends base
                 $query->bindValue(':pseudo',$login,PDO::PARAM_STR);
                 $query->bindValue(':pass',$pass,PDO::PARAM_STR);
                 $query->execute();
-                $_SESSION['password'] = $hashedNewPass;
+                $this->password = $hashedNewPass;
             }
             catch (PDOException $e)
             {
