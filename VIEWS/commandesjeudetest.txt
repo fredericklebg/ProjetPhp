@@ -1,0 +1,104 @@
+Suppression des tables :
+
+DROP TABLE DISCUSSION
+DROP TABLE USER
+DROP TABLE MESSAGE
+DROP TABLE DATA
+
+Création des tables :
+
+
+CREATE TABLE DISCUSSION
+(
+    disc_id INT(11) PRIMARY KEY NOT NULL,
+    title VARCHAR(255),
+    state VARCHAR(255)
+)
+
+
+CREATE TABLE USER
+(
+    user_id INT(11) PRIMARY KEY NOT NULL,
+    pseudo VARCHAR(255),
+    mail VARCHAR(255),
+    password VARCHAR(255),
+    state VARCHAR(255),
+    phone INT(20),
+    country VARCHAR(255),
+    user_date DATE,
+    gender VARCHAR(255)
+
+)
+
+CREATE TABLE MESSAGE
+(
+    message_id INT(11) PRIMARY KEY NOT NULL,
+    content VARCHAR(255),
+    message_date DATE,
+    state VARCHAR(255),
+    authors_id VARCHAR(255),
+    user_id INT(11) NOT NULL,
+    disc_id INT(11) NOT NULL,
+    CONSTRAINT user_message
+         FOREIGN KEY (user_id)
+         REFERENCES USER2(user_id),
+    CONSTRAINT disc_message
+             FOREIGN KEY (disc_id)
+             REFERENCES DISCUSSION2(disc_id)
+)
+
+CREATE TABLE DATA
+(
+    max_disc INT(11),
+    max_msg INT(11),
+    pagination INT(11)
+)
+
+Insertion des données :
+
+INSERT INTO USER (user_id, pseudo, mail, password, state, phone, country, user_date, gender)
+VALUES
+('1', 'louis', 'louis@gmail.com', 'voiture123', 'member', '0657787587', 'France', '2019-11-01', 'homme'),
+('2', 'thomas', 'thomasdu13@gmail.com', 'ananas89', 'member', '0657597810', 'France', '2019-11-02', 'homme'),
+('3', 'user123', 'user123@gmail.com', 'XxunderxX12', 'admin', '0745787475', 'France', '2019-11-03', 'femme'),
+('4', 'jeannot', 'jeannotdusud@yahoo.fr', 'lepastaga', 'member', '0657787974', 'France', '2019-11-03', 'homme'),
+('5', 'harry', 'harryenglish@gmail.com', 'teatime', 'member', '0657784552', 'Angleterre', '2019-11-03', 'homme'),
+('6', 'david', 'david89798@gmail.com', 'esplanada14', 'member', '0747875743', 'Espagne', '2019-11-02', 'homme');
+
+
+INSERT INTO DISCUSSION (disc_id, title, state)
+VALUES
+('1', 'Discussion 1', 'ouverte'),
+('2', 'Discussion 2', 'ouverte'),
+('3', 'Discussion 3', 'ouverte'),
+('4', 'Discussion 4', 'ouverte'),
+('5', 'Discussion 5', 'fermée'),
+('6', 'Discussion 6', 'ouverte'),
+('7', 'Discussion 7', 'ouverte'),
+('8', 'Discussion 8', 'ouverte'),
+('9', 'Discussion 9', 'ouverte'),
+('10', 'Discussion 10', 'ouverte');
+
+
+INSERT INTO MESSAGE (message_id, content, message_date, state, authors_id, user_id, disc_id)
+VALUES
+('1', 'salut', '2019-11-01', 'fermé', '1', '1', '1'),
+('2', 'ça va bien oui nickel', '2019-11-02', 'ouvert', '2/1/2', '2', '1'),
+('3', 'projet php', '2019-11-01', 'fermé', '3', '3', '3'),
+('4', 'Bienvenue', '2019-11-01', 'ouvert', '4', '4', '4'),
+('5', 'Welcome', '2019-11-01', 'ouvert', '5', '5', '5'),
+('6', 'Bienvenida', '2019-11-02', 'fermé', '6', '6', '6'),
+('7', 'fruits abricot poire mangue orange citron fraise cerise pomme', '2019-11-02', 'fermé', '2/3/1/3/1', '2', '7'),
+('8', 'un deux', '2019-11-02', 'fermé', '4', '4', '8'),
+('9', 'trois quatre', '2019-11-01', 'ouvert', '3', '3', '8'),
+('10', 'je suis agile grâce à la méthode agile', '2019-11-03', 'fermé', '4/1/3/4', '4', '9'),
+('11', 'Vive le MVC', '2019-11-03', 'ouvert', '1/2', '1', '9');
+('12', 'Aurevoir bye ciao', '2019-11-03', 'fermé', '2/5/6', '2', '10');
+
+
+INSERT INTO DATA (max_disc, max_msg, pagination)
+VALUES
+('20', '10', '2');
+
+
+
