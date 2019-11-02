@@ -501,7 +501,6 @@ class user extends base
 
       }
         public function isAdmin($user) {
-            $user=$_POST['aurevoir'];
             $query = $this->loadDb()->prepare('SELECT * FROM USER WHERE pseudo = :pseudo and state=\'admin\'');
             $query->bindValue('pseudo',$user,PDO::PARAM_STR);
             $query->execute();
