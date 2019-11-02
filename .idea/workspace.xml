@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="92c63984-ea07-4c62-8994-258128636016" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/CONTROLLERS/controller_admin.php" beforeDir="false" afterPath="$PROJECT_DIR$/CONTROLLERS/controller_admin.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MODELS/models_user.php" beforeDir="false" afterPath="$PROJECT_DIR$/MODELS/models_user.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -138,35 +137,7 @@
       <workItem from="1572450868301" duration="831000" />
       <workItem from="1572458720269" duration="227000" />
       <workItem from="1572603879094" duration="617000" />
-      <workItem from="1572633620337" duration="8991000" />
-    </task>
-    <task id="LOCAL-00391" summary="page admin">
-      <created>1572626443844</created>
-      <option name="number" value="00391" />
-      <option name="presentableId" value="LOCAL-00391" />
-      <option name="project" value="LOCAL" />
-      <updated>1572626443844</updated>
-    </task>
-    <task id="LOCAL-00392" summary="page admin">
-      <created>1572626584385</created>
-      <option name="number" value="00392" />
-      <option name="presentableId" value="LOCAL-00392" />
-      <option name="project" value="LOCAL" />
-      <updated>1572626584385</updated>
-    </task>
-    <task id="LOCAL-00393" summary="page admin">
-      <created>1572626908418</created>
-      <option name="number" value="00393" />
-      <option name="presentableId" value="LOCAL-00393" />
-      <option name="project" value="LOCAL" />
-      <updated>1572626908418</updated>
-    </task>
-    <task id="LOCAL-00394" summary="page admin">
-      <created>1572626933735</created>
-      <option name="number" value="00394" />
-      <option name="presentableId" value="LOCAL-00394" />
-      <option name="project" value="LOCAL" />
-      <updated>1572626933735</updated>
+      <workItem from="1572633620337" duration="9271000" />
     </task>
     <task id="LOCAL-00395" summary="page admin">
       <created>1572627097700</created>
@@ -483,7 +454,35 @@
       <option name="project" value="LOCAL" />
       <updated>1572701775986</updated>
     </task>
-    <option name="localTasksCounter" value="440" />
+    <task id="LOCAL-00440" summary="graspoutine">
+      <created>1572702269283</created>
+      <option name="number" value="00440" />
+      <option name="presentableId" value="LOCAL-00440" />
+      <option name="project" value="LOCAL" />
+      <updated>1572702269283</updated>
+    </task>
+    <task id="LOCAL-00441" summary="graspoutine">
+      <created>1572702381185</created>
+      <option name="number" value="00441" />
+      <option name="presentableId" value="LOCAL-00441" />
+      <option name="project" value="LOCAL" />
+      <updated>1572702381185</updated>
+    </task>
+    <task id="LOCAL-00442" summary="graspoutine">
+      <created>1572702430187</created>
+      <option name="number" value="00442" />
+      <option name="presentableId" value="LOCAL-00442" />
+      <option name="project" value="LOCAL" />
+      <updated>1572702430187</updated>
+    </task>
+    <task id="LOCAL-00443" summary="graspoutine">
+      <created>1572702483433</created>
+      <option name="number" value="00443" />
+      <option name="presentableId" value="LOCAL-00443" />
+      <option name="project" value="LOCAL" />
+      <updated>1572702483433</updated>
+    </task>
+    <option name="localTasksCounter" value="444" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

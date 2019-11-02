@@ -500,9 +500,9 @@ class user extends base
           }
 
       }
-        public function isAdmin($user) {
+        public function isAdmin($userSupp) {
             $query = $this->loadDb()->prepare('SELECT * FROM USER WHERE pseudo = :pseudo and state=\'admin\'');
-            $query->bindValue('pseudo',$user,PDO::PARAM_STR);
+            $query->bindValue('pseudo',$userSupp,PDO::PARAM_STR);
             $query->execute();
             if($query->rowCount()==0) return false;
             }
