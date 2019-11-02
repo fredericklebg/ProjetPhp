@@ -1,4 +1,9 @@
-<?php $this->title = 'param'; ?>
+<?php $this->title = 'param';
+
+
+if( $user != null && $user->getState() == 'admin')
+{
+?>
 <div class="container">
 
     <section class="offset-4 col-lg-5 text-center">
@@ -28,5 +33,9 @@
     </section>
 </div>
 
+<?php
+    }
+else{
+    throw new Exception('vous n\'etes pas un administrateur)
 
 
