@@ -137,28 +137,7 @@
       <workItem from="1572450868301" duration="831000" />
       <workItem from="1572458720269" duration="227000" />
       <workItem from="1572603879094" duration="617000" />
-      <workItem from="1572633620337" duration="6896000" />
-    </task>
-    <task id="LOCAL-00384" summary="discussions">
-      <created>1572624483317</created>
-      <option name="number" value="00384" />
-      <option name="presentableId" value="LOCAL-00384" />
-      <option name="project" value="LOCAL" />
-      <updated>1572624483317</updated>
-    </task>
-    <task id="LOCAL-00385" summary="page admin">
-      <created>1572624851938</created>
-      <option name="number" value="00385" />
-      <option name="presentableId" value="LOCAL-00385" />
-      <option name="project" value="LOCAL" />
-      <updated>1572624851938</updated>
-    </task>
-    <task id="LOCAL-00386" summary="page admin">
-      <created>1572624969292</created>
-      <option name="number" value="00386" />
-      <option name="presentableId" value="LOCAL-00386" />
-      <option name="project" value="LOCAL" />
-      <updated>1572624969292</updated>
+      <workItem from="1572633620337" duration="7143000" />
     </task>
     <task id="LOCAL-00387" summary="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;CONTROLLERS/controller_admin.php&#10;#&#9;VIEWS/view_admin.php">
       <created>1572625695192</created>
@@ -482,7 +461,28 @@
       <option name="project" value="LOCAL" />
       <updated>1572699690437</updated>
     </task>
-    <option name="localTasksCounter" value="433" />
+    <task id="LOCAL-00433" summary="graspoutine">
+      <created>1572699948124</created>
+      <option name="number" value="00433" />
+      <option name="presentableId" value="LOCAL-00433" />
+      <option name="project" value="LOCAL" />
+      <updated>1572699948124</updated>
+    </task>
+    <task id="LOCAL-00434" summary="graspoutine">
+      <created>1572699995079</created>
+      <option name="number" value="00434" />
+      <option name="presentableId" value="LOCAL-00434" />
+      <option name="project" value="LOCAL" />
+      <updated>1572699995079</updated>
+    </task>
+    <task id="LOCAL-00435" summary="graspoutine">
+      <created>1572700071642</created>
+      <option name="number" value="00435" />
+      <option name="presentableId" value="LOCAL-00435" />
+      <option name="project" value="LOCAL" />
+      <updated>1572700071642</updated>
+    </task>
+    <option name="localTasksCounter" value="436" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
