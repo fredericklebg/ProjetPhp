@@ -40,7 +40,6 @@ class controller_admin extends controller_main
     public function Supprimer()
     {
         $userSupp=$_POST['aurevoir'];
-        echo var_dump($this->user->isAdmin($userSupp));
         if ($this->user->isAdmin($userSupp)==null) {
             throw new Exception('Admin impossible à supprimer');
         }
