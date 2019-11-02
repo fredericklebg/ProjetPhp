@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="92c63984-ea07-4c62-8994-258128636016" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/VIEWS/view_admin.php" beforeDir="false" afterPath="$PROJECT_DIR$/VIEWS/view_admin.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -45,13 +45,6 @@
         <item name="tpphp_bd@mysql-tpphp.alwaysdata.net [2]" type="feb32156:DbDataSourceImpl" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="tpphp_bd: schema" type="ebfa3cd1:MariaImplModel$Schema" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="tpphp_bd@mysql-tpphp.alwaysdata.net [2]" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="tpphp_bd: schema" type="ebfa3cd1:MariaImplModel$Schema" />
-        <item name="DATA: table" type="dbc44a63:MariaImplModel$Table" />
       </path>
     </expand>
     <select />
@@ -113,7 +106,12 @@
           <expand>
             <path>
               <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@2c9f86c8" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@e6781c69" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+            </path>
+            <path>
+              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@e6781c69" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@3b178950" type="9fbbdea:ServiceModel$ServiceNode" />
             </path>
           </expand>
           <select />
@@ -156,34 +154,6 @@
       <workItem from="1572458720269" duration="227000" />
       <workItem from="1572603879094" duration="617000" />
       <workItem from="1572633620337" duration="16058000" />
-    </task>
-    <task id="LOCAL-00405" summary="graspoutine">
-      <created>1572629591336</created>
-      <option name="number" value="00405" />
-      <option name="presentableId" value="LOCAL-00405" />
-      <option name="project" value="LOCAL" />
-      <updated>1572629591336</updated>
-    </task>
-    <task id="LOCAL-00406" summary="graspoutine">
-      <created>1572629968504</created>
-      <option name="number" value="00406" />
-      <option name="presentableId" value="LOCAL-00406" />
-      <option name="project" value="LOCAL" />
-      <updated>1572629968504</updated>
-    </task>
-    <task id="LOCAL-00407" summary="graspoutine">
-      <created>1572630107460</created>
-      <option name="number" value="00407" />
-      <option name="presentableId" value="LOCAL-00407" />
-      <option name="project" value="LOCAL" />
-      <updated>1572630107460</updated>
-    </task>
-    <task id="LOCAL-00408" summary="graspoutine">
-      <created>1572630179676</created>
-      <option name="number" value="00408" />
-      <option name="presentableId" value="LOCAL-00408" />
-      <option name="project" value="LOCAL" />
-      <updated>1572630179676</updated>
     </task>
     <task id="LOCAL-00409" summary="graspoutine">
       <created>1572630250777</created>
@@ -500,7 +470,35 @@
       <option name="project" value="LOCAL" />
       <updated>1572715771269</updated>
     </task>
-    <option name="localTasksCounter" value="454" />
+    <task id="LOCAL-00454" summary="condition page admin">
+      <created>1572731945135</created>
+      <option name="number" value="00454" />
+      <option name="presentableId" value="LOCAL-00454" />
+      <option name="project" value="LOCAL" />
+      <updated>1572731945137</updated>
+    </task>
+    <task id="LOCAL-00455" summary="condition page admin">
+      <created>1572731990594</created>
+      <option name="number" value="00455" />
+      <option name="presentableId" value="LOCAL-00455" />
+      <option name="project" value="LOCAL" />
+      <updated>1572731990594</updated>
+    </task>
+    <task id="LOCAL-00456" summary="condition page admin">
+      <created>1572732019961</created>
+      <option name="number" value="00456" />
+      <option name="presentableId" value="LOCAL-00456" />
+      <option name="project" value="LOCAL" />
+      <updated>1572732019961</updated>
+    </task>
+    <task id="LOCAL-00457" summary="condition page admin">
+      <created>1572732101128</created>
+      <option name="number" value="00457" />
+      <option name="presentableId" value="LOCAL-00457" />
+      <option name="project" value="LOCAL" />
+      <updated>1572732101128</updated>
+    </task>
+    <option name="localTasksCounter" value="458" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -535,7 +533,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="test mvc" />
     <MESSAGE value="modif texte accueil" />
     <MESSAGE value="modif disc" />
     <MESSAGE value="modif disc ajout msg erreur" />
@@ -560,6 +557,7 @@
     <MESSAGE value="discussions" />
     <MESSAGE value="page admin" />
     <MESSAGE value="graspoutine" />
-    <option name="LAST_COMMIT_MESSAGE" value="graspoutine" />
+    <MESSAGE value="condition page admin" />
+    <option name="LAST_COMMIT_MESSAGE" value="condition page admin" />
   </component>
 </project>
