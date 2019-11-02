@@ -36,6 +36,6 @@ if( $user != null && $user->getState() == 'admin')
 <?php
     }
 else{
-    throw new Exception('vous n\'etes pas un administrateur)
+    throw new Exception('vous n\'etes pas un administrateur');
 
 
