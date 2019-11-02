@@ -109,7 +109,7 @@ class base
         if($sql->rowCount()==0)
             throw new Exception('\''.$userSupp.'\' n\'est pas un utilisateur existant');
 
-        $addAnonymous=$this->loadDb()->prepare('INSERT INTO USER(user_id, mail, pseudo, password, phone, country, gender, state) VALUES(0, \'anonymous@anonymous.fr\', \'anonymous\', 123456, 0303030303, wakanda ,\'homme\', \'membre\')') ;
+        $addAnonymous=$this->loadDb()->prepare('INSERT INTO `USER`( `user_id`,`pseudo`, `mail`, `password`, `state`, `phone`, `country`, `gender`) VALUES (0,\'anonymous\',\'anony@mous.fr\',123456,\'admin\',0303030303,\'wakanda\',\'homme\')') ;
         $addAnonymous->execute();
         $sql=$this->loadDb()->prepare('UPDATE MESSAGE SET user_id=0 where user_id in(SELECT user_id FROM USER WHERE pseudo= :pseudo)');
         $sql->bindValue('pseudo',$userSupp,PDO::PARAM_STR);
