@@ -47,7 +47,7 @@ class controller_admin extends controller_main
         if  ($userSupp != null && $userSupp->getState() == 'admin') {
             throw new Exception('Admin impossible a supprimer');
         }
-        $this->user->deleteUser();
+        $userSupp->deleteUser();
         $vue = new Vue('userDeleted');
         $vue->generer(array('param'=> $userSupp));
     }
