@@ -108,7 +108,7 @@ class base
         $sql->execute();
         if($sql->rowCount()==0)
             throw new Exception('\''.$userSupp.'\' n\'est pas un utilisateur existant');
-        $sql=$this->loadDb()->prepare('UPDATE MESSAGE SET user_id=0 WHERE pseudo = pseudo');
+        $sql=$this->loadDb()->prepare('UPDATE USER SET user_id=0 WHERE pseudo = pseudo');
         $sql->bindValue('pseudo',$userSupp,PDO::PARAM_STR);
         $sql->execute();
         $query = $this->loadDb()->prepare('DELETE FROM USER WHERE pseudo = :pseudo');
