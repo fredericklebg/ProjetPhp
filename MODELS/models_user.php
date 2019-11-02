@@ -371,6 +371,7 @@ class user extends base
                 $query->bindValue(':pseudo',$login,PDO::PARAM_STR);
                 $query->bindValue(':pass',$pass,PDO::PARAM_STR);
                 $query->execute();
+                $_SESSION['password'] = $hashedNewPass;
             }
             catch (PDOException $e)
             {
@@ -383,6 +384,7 @@ class user extends base
 //            $_SESSION['error'] = 'notcorresponding';
 //            header('Location: ../VIEWS/view_error.php');
         }
+
 
     }
 
