@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="92c63984-ea07-4c62-8994-258128636016" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/VIEWS/lisez-moi.txt" beforeDir="false" />
-    </list>
+    <list default="true" id="92c63984-ea07-4c62-8994-258128636016" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -161,14 +158,7 @@
       <workItem from="1572458720269" duration="227000" />
       <workItem from="1572603879094" duration="617000" />
       <workItem from="1572633620337" duration="430000" />
-      <workItem from="1572691784668" duration="529000" />
-    </task>
-    <task id="LOCAL-00367" summary="discussions">
-      <created>1572620761787</created>
-      <option name="number" value="00367" />
-      <option name="presentableId" value="LOCAL-00367" />
-      <option name="project" value="LOCAL" />
-      <updated>1572620761787</updated>
+      <workItem from="1572691784668" duration="778000" />
     </task>
     <task id="LOCAL-00368" summary="discussions">
       <created>1572622516301</created>
@@ -506,7 +496,14 @@
       <option name="project" value="LOCAL" />
       <updated>1572691843214</updated>
     </task>
-    <option name="localTasksCounter" value="416" />
+    <task id="LOCAL-00416" summary="suppression alluser">
+      <created>1572692390727</created>
+      <option name="number" value="00416" />
+      <option name="presentableId" value="LOCAL-00416" />
+      <option name="project" value="LOCAL" />
+      <updated>1572692390728</updated>
+    </task>
+    <option name="localTasksCounter" value="417" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -541,7 +538,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="modif texte accueil" />
     <MESSAGE value="modif disc" />
     <MESSAGE value="modif disc ajout msg erreur" />
     <MESSAGE value="AUTO" />
@@ -566,6 +562,7 @@
     <MESSAGE value="page admin" />
     <MESSAGE value="graspoutine" />
     <MESSAGE value="jeu de test de discussions" />
-    <option name="LAST_COMMIT_MESSAGE" value="jeu de test de discussions" />
+    <MESSAGE value="suppression alluser" />
+    <option name="LAST_COMMIT_MESSAGE" value="suppression alluser" />
   </component>
 </project>
