@@ -504,7 +504,7 @@ class user extends base
             $query = $this->loadDb()->prepare('SELECT * FROM USER WHERE pseudo = :pseudo and state=\'admin\'');
             $query->bindValue('pseudo',$user,PDO::PARAM_STR);
             $query->execute();
-            if($query->rowCount()==0) return false;
+            if($query->rowCount()==1) return true;
             }
     //  public function deleteUser($var)
     //  {
