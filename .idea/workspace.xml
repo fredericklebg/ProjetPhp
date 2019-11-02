@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="92c63984-ea07-4c62-8994-258128636016" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/VIEWS/commandesjeudetest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/VIEWS/commandesjeudetest.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -144,13 +145,6 @@
       <workItem from="1572458720269" duration="227000" />
       <workItem from="1572603879094" duration="617000" />
       <workItem from="1572633620337" duration="16058000" />
-    </task>
-    <task id="LOCAL-00415" summary="graspoutine">
-      <created>1572634055537</created>
-      <option name="number" value="00415" />
-      <option name="presentableId" value="LOCAL-00415" />
-      <option name="project" value="LOCAL" />
-      <updated>1572634055537</updated>
     </task>
     <task id="LOCAL-00416" summary="graspoutine">
       <created>1572634201064</created>
@@ -488,7 +482,14 @@
       <option name="project" value="LOCAL" />
       <updated>1572735228250</updated>
     </task>
-    <option name="localTasksCounter" value="464" />
+    <task id="LOCAL-00464" summary="supp user">
+      <created>1572735645206</created>
+      <option name="number" value="00464" />
+      <option name="presentableId" value="LOCAL-00464" />
+      <option name="project" value="LOCAL" />
+      <updated>1572735645206</updated>
+    </task>
+    <option name="localTasksCounter" value="465" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -523,7 +524,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="AUTO" />
     <MESSAGE value="prenez un scooter" />
     <MESSAGE value="discussion &amp; pagination" />
     <MESSAGE value="test pagination" />
@@ -548,6 +548,7 @@
     <MESSAGE value="modification jeu de test" />
     <MESSAGE value="modif mdp" />
     <MESSAGE value="jeu de test cryptage mdp" />
-    <option name="LAST_COMMIT_MESSAGE" value="jeu de test cryptage mdp" />
+    <MESSAGE value="supp user" />
+    <option name="LAST_COMMIT_MESSAGE" value="supp user" />
   </component>
 </project>

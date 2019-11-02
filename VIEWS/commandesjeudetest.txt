@@ -87,18 +87,18 @@ VALUES
 
 INSERT INTO MESSAGE (content, message_date, state, authors_id, user_id, disc_id)
 VALUES
-('salut', '2019-11-01', 'fermé', '1', 1, 1),
-('ça va bien oui nickel', '2019-11-02', 'ouvert', '2/1/2', 2, 1),
-('projet php', '2019-11-01', 'fermé', '3', 3, 3),
-('Bienvenue', '2019-11-01', 'ouvert', '4', 4, 4),
-('Welcome', '2019-11-01', 'ouvert', '5', 5, 5),
-('Bienvenida', '2019-11-02', 'fermé', '6', 6, 6),
-('fruits abricot poire mangue orange citron fraise cerise pomme', '2019-11-02', 'fermé', '2/3/1/3/1', 2, 7),
-('un deux', '2019-11-02', 'fermé', '4', 4, 8),
-('trois quatre', '2019-11-01', 'ouvert', '3', 3, 8),
-('je suis agile grâce à la méthode agile', '2019-11-03', 'fermé', '4/1/3/4', 4, 9),
-('Vive le MVC', '2019-11-03', 'ouvert', '1/2', 1, 9),
-('Aurevoir bye ciao', '2019-11-03', 'fermé', '2/5/6', 2, 10);
+('salut', '2019-11-01', 'fermé', '2', 2, 1),
+('ça va bien oui nickel', '2019-11-02', 'ouvert', '3/2/3', 3, 1),
+('projet php', '2019-11-01', 'fermé', '4', 4, 3),
+('Bienvenue', '2019-11-01', 'ouvert', '5', 5, 4),
+('Welcome', '2019-11-01', 'ouvert', '6', 6, 5),
+('Bienvenida', '2019-11-02', 'fermé', '7', 7, 6),
+('fruits abricot poire mangue orange citron fraise cerise pomme', '2019-11-02', 'fermé', '3/4/2/4/2', 3, 7),
+('un deux', '2019-11-02', 'fermé', '5', 5, 8),
+('trois quatre', '2019-11-01', 'ouvert', '4', 4, 8),
+('je suis agile grâce à la méthode agile', '2019-11-03', 'fermé', '5/2/4/5', 5, 9),
+('Vive le MVC', '2019-11-03', 'ouvert', '2/3', 2, 9),
+('Aurevoir bye ciao', '2019-11-03', 'fermé', '3/6/7', 3, 10);
 
 
 INSERT INTO DATA (max_disc, max_msg, pagination)
