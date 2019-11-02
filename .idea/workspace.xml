@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="92c63984-ea07-4c62-8994-258128636016" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VIEWS/commandesjeudetest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/VIEWS/commandesjeudetest.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -103,17 +104,7 @@
     <option name="allServicesViewState">
       <serviceView>
         <treeState>
-          <expand>
-            <path>
-              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@e6781c69" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-            </path>
-            <path>
-              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@e6781c69" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@3b178950" type="9fbbdea:ServiceModel$ServiceNode" />
-            </path>
-          </expand>
+          <expand />
           <select />
         </treeState>
       </serviceView>
@@ -154,13 +145,6 @@
       <workItem from="1572458720269" duration="227000" />
       <workItem from="1572603879094" duration="617000" />
       <workItem from="1572633620337" duration="16058000" />
-    </task>
-    <task id="LOCAL-00409" summary="graspoutine">
-      <created>1572630250777</created>
-      <option name="number" value="00409" />
-      <option name="presentableId" value="LOCAL-00409" />
-      <option name="project" value="LOCAL" />
-      <updated>1572630250777</updated>
     </task>
     <task id="LOCAL-00410" summary="graspoutine">
       <created>1572630818804</created>
@@ -498,7 +482,14 @@
       <option name="project" value="LOCAL" />
       <updated>1572732101128</updated>
     </task>
-    <option name="localTasksCounter" value="458" />
+    <task id="LOCAL-00458" summary="modification jeu de test">
+      <created>1572732552244</created>
+      <option name="number" value="00458" />
+      <option name="presentableId" value="LOCAL-00458" />
+      <option name="project" value="LOCAL" />
+      <updated>1572732552244</updated>
+    </task>
+    <option name="localTasksCounter" value="459" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -533,7 +524,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="modif texte accueil" />
     <MESSAGE value="modif disc" />
     <MESSAGE value="modif disc ajout msg erreur" />
     <MESSAGE value="AUTO" />
@@ -558,6 +548,7 @@
     <MESSAGE value="page admin" />
     <MESSAGE value="graspoutine" />
     <MESSAGE value="condition page admin" />
-    <option name="LAST_COMMIT_MESSAGE" value="condition page admin" />
+    <MESSAGE value="modification jeu de test" />
+    <option name="LAST_COMMIT_MESSAGE" value="modification jeu de test" />
   </component>
 </project>
