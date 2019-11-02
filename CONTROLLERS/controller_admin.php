@@ -39,7 +39,7 @@ class controller_admin extends controller_main
     }
     public function Supprimer()
     {
-        $userSupp=unserialize($_POST['aurevoir']);
+        $userSupp=$_POST['aurevoir'];
         if (empty($userSupp) )
         {
             throw new Exception('Pseudo vide');
