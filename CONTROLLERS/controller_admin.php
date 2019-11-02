@@ -43,6 +43,7 @@ class controller_admin extends controller_main
         if ($this->user->isAdmin($userSupp)==true) {
             throw new Exception('Admin impossible à supprimer');
         }
+
         if (empty($userSupp) )
         {
             throw new Exception('Pseudo vide');
