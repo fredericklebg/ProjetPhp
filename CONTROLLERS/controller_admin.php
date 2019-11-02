@@ -44,7 +44,7 @@ class controller_admin extends controller_main
         {
             throw new Exception('Pseudo vide');
         }
-        $userSupp->deleteUser();
+        $this->user->deleteUser();
         $vue = new Vue('userDeleted');
         $vue->generer(array('param'=> $userSupp));
     }
