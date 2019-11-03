@@ -239,17 +239,12 @@ a.stylebouton {
     border-radius: 1px;
     border: solid thin #929292;
     text-shadow: none;
-    background: #F6F6F6;
-    background-image: -webkit-linear-gradient(top, #F6F6F6, #DDDDDD);
-    background-image: -moz-linear-gradient(top, #F6F6F6, #DDDDDD);
-    background-image: -ms-linear-gradient(top, #F6F6F6, #DDDDDD);
-    background-image: -o-linear-gradient(top, #F6F6F6, #DDDDDD);
     background-image: linear-gradient(to bottom, #F6F6F6, #DDDDDD);
     color: buttontext;
     padding: 3px 8px;
-    margin: 2px;
+    margin: 7px;
     text-decoration: none;
-    font-size: 13.1999998092651px;
+    font-size: 15px;
 
 }
 
