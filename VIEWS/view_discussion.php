@@ -34,6 +34,8 @@
                     echo '</div>';
                     if( $user != null && $user->getState() == 'admin')
                         echo '<a href="/ProjetPhp/discussion/delMsg/' . $row['message_id'] . '" style="font-size: 0.7em"> supprimer </a>';
+                    else
+                        echo '<div style="margin-bottom: 10px;"> </div>';
                 }
 
                 ?>
