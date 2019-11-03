@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="92c63984-ea07-4c62-8994-258128636016" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MODELS/models_discussion.php" beforeDir="false" afterPath="$PROJECT_DIR$/MODELS/models_discussion.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VIEWS/view_admin.php" beforeDir="false" afterPath="$PROJECT_DIR$/VIEWS/view_admin.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -166,27 +166,6 @@
       <workItem from="1572695812315" duration="1947000" />
       <workItem from="1572728105202" duration="87000" />
       <workItem from="1572776016487" duration="2109000" />
-    </task>
-    <task id="LOCAL-00387" summary="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;CONTROLLERS/controller_admin.php&#10;#&#9;VIEWS/view_admin.php">
-      <created>1572625695192</created>
-      <option name="number" value="00387" />
-      <option name="presentableId" value="LOCAL-00387" />
-      <option name="project" value="LOCAL" />
-      <updated>1572625695192</updated>
-    </task>
-    <task id="LOCAL-00388" summary="page admin">
-      <created>1572625816973</created>
-      <option name="number" value="00388" />
-      <option name="presentableId" value="LOCAL-00388" />
-      <option name="project" value="LOCAL" />
-      <updated>1572625816973</updated>
-    </task>
-    <task id="LOCAL-00389" summary="page admin">
-      <created>1572625902039</created>
-      <option name="number" value="00389" />
-      <option name="presentableId" value="LOCAL-00389" />
-      <option name="project" value="LOCAL" />
-      <updated>1572625902039</updated>
     </task>
     <task id="LOCAL-00390" summary="page admin">
       <created>1572626412661</created>
@@ -510,7 +489,28 @@
       <option name="project" value="LOCAL" />
       <updated>1572790714470</updated>
     </task>
-    <option name="localTasksCounter" value="436" />
+    <task id="LOCAL-00436" summary="bd case sensitive">
+      <created>1572791768232</created>
+      <option name="number" value="00436" />
+      <option name="presentableId" value="LOCAL-00436" />
+      <option name="project" value="LOCAL" />
+      <updated>1572791768232</updated>
+    </task>
+    <task id="LOCAL-00437" summary="bd case sensitive">
+      <created>1572791969500</created>
+      <option name="number" value="00437" />
+      <option name="presentableId" value="LOCAL-00437" />
+      <option name="project" value="LOCAL" />
+      <updated>1572791969500</updated>
+    </task>
+    <task id="LOCAL-00438" summary="bd case sensitive">
+      <created>1572791997074</created>
+      <option name="number" value="00438" />
+      <option name="presentableId" value="LOCAL-00438" />
+      <option name="project" value="LOCAL" />
+      <updated>1572791997074</updated>
+    </task>
+    <option name="localTasksCounter" value="439" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -545,7 +545,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="prenez un scooter" />
     <MESSAGE value="discussion &amp; pagination" />
     <MESSAGE value="test pagination" />
     <MESSAGE value="page paramètre" />
@@ -570,6 +569,7 @@
     <MESSAGE value="title" />
     <MESSAGE value="w3c" />
     <MESSAGE value="ménage" />
-    <option name="LAST_COMMIT_MESSAGE" value="ménage" />
+    <MESSAGE value="bd case sensitive" />
+    <option name="LAST_COMMIT_MESSAGE" value="bd case sensitive" />
   </component>
 </project>

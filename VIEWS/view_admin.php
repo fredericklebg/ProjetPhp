@@ -16,10 +16,10 @@ if( $user != null && $user->getState() == 'admin')
             <label> Nombre maximum de messages dans une discussion </label>
             <input type="text" placeholder="Nombre de messages" name="d2"/>
             <button type="submit" name="action" value="changeNbMsg"> Valider </button> <br> <br>
-            <label> Choisir la pagination de la page d'accueil </label>
+            <label> Choisir la pagination de la page d'accueil </label> <br>
             <input type="text" placeholder="pagination" name="d5"/>
             <button type="submit" name="action" value="changePagination"> Valider </button> <br> <br>
-            <label> Supprimer un utilisateur </label>
+            <label> Supprimer un utilisateur </label> <br>
             <input type="text" placeholder="Saisir le Pseudo" name="aurevoir"/>
             <button type="submit" name="action" value="Supprimer"> Supprimer </button> <br> <br>
 
