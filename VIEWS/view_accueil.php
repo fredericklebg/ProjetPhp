@@ -24,12 +24,11 @@ $disc= new discussion();
                 <div class="col-lg-4 col-md-4 col-sm-12 text-center">
 
                     <a class="stylebouton newbouton" href="/ProjetPhp/discussion/newDiscussion"> Nouvelle discussion </a>
-<!--                      <input class="newbouton" type="button" value="Nouvelle Discussion"> </a>-->
+
                 </div>
 
                 <div class="offset-lg-4 col-lg-4 col-md-4 col-sm-12 text-center">
-                    <a href="">
-                     <input class="refreshbouton" type="button" value="Actualiser"> </a>
+                        <a class="refreshbouton stylebouton" href=""> Actualiser </a>
                 </div>
             </div>
 <hr>
