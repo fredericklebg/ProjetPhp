@@ -10,10 +10,10 @@ if( $user != null && $user->getState() == 'admin')
 <!--    <div class="offset-4 col-lg-5 text-center">-->
         <div class="row">
         <form class="col-lg-12 text-center" action="/ProjetPhp/admin"  method="post">
-            <label> Choisir le nombre maximum de discussions ouvertes</label>
+            <label> Choisir le nombre maximum de discussions ouvertes</label> <br>
             <input type="text" placeholder="Nombre de discussions" name="d1"/>
             <button type="submit" name="action" value="changeNbDisc"> Valider </button> <br> <br>
-            <label> Nombre maximum de messages dans une discussion </label>
+            <label> Nombre maximum de messages dans une discussion </label> <br>
             <input type="text" placeholder="Nombre de messages" name="d2"/>
             <button type="submit" name="action" value="changeNbMsg"> Valider </button> <br> <br>
             <label> Choisir la pagination de la page d'accueil </label> <br>
