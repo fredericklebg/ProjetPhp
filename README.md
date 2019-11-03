@@ -68,3 +68,4 @@ login : mdp
 - e-mail : alexpilous@gmail.com
 - mot de passe : EricZemour
 
+en cas de problemes, contactez nous a l'adresse mail vincent.simonetti-diez@etu.univ-amu.fr
