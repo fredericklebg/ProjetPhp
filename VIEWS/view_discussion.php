@@ -31,12 +31,9 @@
                 {
 
                     echo '<div class="msg2">' . $row['content'];
-                    echo '<br>';
                     echo '</div>';
                     if( $user != null && $user->getState() == 'admin')
                         echo '<a href="/ProjetPhp/discussion/delMsg/' . $row['message_id'] . '" style="font-size: 0.7em"> supprimer </a>';
-                    echo '<br> <br>';
-
                 }
 
                 ?>
