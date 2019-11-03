@@ -31,6 +31,7 @@ notre organisation.
 Dans le but de gagner du temps tout en facilitant notre projet, nous avons utilisé un framework CSS et HTML étant Bootstrap. Ce dernier est une collection
 d'outils utiles pour le design d'applications web, il nous a notamment été utile pour le responsive ou encore certaines animations.
 
+(pour accéder a la page de profil, cliquez sur l'icone de personnage en haut a droite du site)
 
 ### La configuration logicielle :
 
