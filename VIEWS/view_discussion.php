@@ -29,6 +29,7 @@
                 <?php
                 while($row = $query->fetch())
                 {
+                    echo '<br>';
                     echo '<div class="msg2">' . $row['content'];
                     echo '</div>';
                     if( $user != null && $user->getState() == 'admin')
