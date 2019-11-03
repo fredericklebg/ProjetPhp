@@ -15,10 +15,6 @@ $user = unserialize($_SESSION['user']);;
 <link href="VIEWS/css/bootstrap.css" rel="stylesheet">
 <link rel="stylesheet" href="VIEWS/css/view_style.css">
 <link rel="icon" type="image/png" href="VIEWS/Media/logoFreeNote.png" />
-<style type="text/css">
-    .col-lg-8 { line-height: 200px; }
-    /*.col-lg-12 { line-height: 80px; }*/
-</style>
 </head>
 <body>
 <div class="container">
