@@ -234,6 +234,7 @@ a:hover
 
 a.stylebouton {
 
+    position: relative;
     border: solid thin #929292;
     background-image: linear-gradient(to bottom, #F6F6F6, #DDDDDD);
     margin : 10px;
