@@ -7,7 +7,7 @@ if( $user != null && $user->getState() == 'admin')
 ?>
 <div class="container">
 
-    <section class="offset-4 col-lg-5 text-center">
+    <div class="offset-4 col-lg-5 text-center">
         <div class="row">
         <form  action="/ProjetPhp/admin"  method="post">
             <label> Choisir le nombre maximum de discussions ouvertes</label>
@@ -31,7 +31,7 @@ if( $user != null && $user->getState() == 'admin')
 
 
 
-    </section>
+    </div>
 </div>
 
 <?php

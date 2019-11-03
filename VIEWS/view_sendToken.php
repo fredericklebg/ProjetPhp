@@ -2,7 +2,7 @@
 
 <div class="container">
 
-    <section class="col-lg-12 text-center">
+    <div class="col-lg-12 text-center">
         <p >Votre code a bien été envoyé  par mail<br> </p>
         <form class="changebloc"  action="/ProjetPhp/accueil/replacePass" method="post">
             <input type="text" placeholder="Entrer le code" name="token" /> <br>
@@ -11,6 +11,6 @@
             <input type="submit" name="action" value="Remplacer"/> <br>
         </form>
 
-    </section>
+    </div>
 </div>
 
