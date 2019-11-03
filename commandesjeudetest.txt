@@ -1,4 +1,4 @@
-Suppression des tables :
+﻿Suppression des tables :
 
 DROP TABLE MESSAGE;
 DROP TABLE DISCUSSION;
@@ -8,7 +8,7 @@ DROP TABLE DATA;
 Création des tables et insertion des données:
 
 
-CREATE TABLE DISCUSSION
+            CREATE TABLE DISCUSSION
             (
                 disc_id INT(11) PRIMARY KEY NOT NULL AUTO_INCREMENT,
                 title VARCHAR(255),
@@ -104,5 +104,3 @@ CREATE TABLE DISCUSSION
             INSERT INTO DATA (max_disc, max_msg, pagination)
             VALUES
             (20, 10, 2);
-
-
