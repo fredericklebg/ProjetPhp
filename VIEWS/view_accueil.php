@@ -11,7 +11,7 @@ $disc= new discussion();
 
 <div class="container">
 
-        <section class="col-lg-12">
+        <div class="col-lg-12">
             <div class="row bbloc">
                 <p class="longtext"> Bienvenue sur FreeNote, le nouveau réseau social. Comme ses concurrents,
                     FreeNote est basé sur la communication entre utilisateurs autour de discussions.
@@ -79,7 +79,7 @@ $disc= new discussion();
                 ?>
             </div>
 
-        </section>
+        </div>
 
 
 
