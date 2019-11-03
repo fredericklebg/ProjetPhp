@@ -48,15 +48,24 @@ Les identifiants de connexion :
 
 Site Web :
 
-simple utilisateur :
-
-- login : user123
-- mot de passe : user12345
 
 administrateur :
 
--login : francis
-- mot de passe : francis
+login   -  mdp
+user123 : XxunderxX12
+josee : josee
+
+
+simple utilisateur :
+
+login   -  mdp
+louis : voiture123;
+thomas : ananas89
+jeannot : lepastaga
+harry : teatime
+david : esplanada14
+francis : francis
+
 
 
 Base de données :
