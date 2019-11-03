@@ -22,12 +22,8 @@ $disc= new discussion();
             </div>
             <div class="row">
                 <div class="col-lg-4 col-md-4 col-sm-12 text-center">
-                    <form action="/ProjetPhp/discussion/newDiscussion">
 
-                        <input class="newbouton" type="button" value="Nouvelle Discussion">
-                    </form>
-<!---->
-<!--                    <a href="/ProjetPhp/discussion/newDiscussion">-->
+                    <a class="stylebouton newbouton" href="/ProjetPhp/discussion/newDiscussion"> Nouvelle discussion </a>
 <!--                      <input class="newbouton" type="button" value="Nouvelle Discussion"> </a>-->
                 </div>
 

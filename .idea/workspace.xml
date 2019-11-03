@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="92c63984-ea07-4c62-8994-258128636016" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/VIEWS/view_template.php" beforeDir="false" afterPath="$PROJECT_DIR$/VIEWS/view_template.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VIEWS/view_accueil.php" beforeDir="false" afterPath="$PROJECT_DIR$/VIEWS/view_accueil.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -165,20 +165,6 @@
       <workItem from="1572695812315" duration="1947000" />
       <workItem from="1572728105202" duration="87000" />
       <workItem from="1572776016487" duration="2109000" />
-    </task>
-    <task id="LOCAL-00374" summary="discussions">
-      <created>1572622856410</created>
-      <option name="number" value="00374" />
-      <option name="presentableId" value="LOCAL-00374" />
-      <option name="project" value="LOCAL" />
-      <updated>1572622856410</updated>
-    </task>
-    <task id="LOCAL-00375" summary="discussions">
-      <created>1572622998221</created>
-      <option name="number" value="00375" />
-      <option name="presentableId" value="LOCAL-00375" />
-      <option name="project" value="LOCAL" />
-      <updated>1572622998221</updated>
     </task>
     <task id="LOCAL-00376" summary="discussions">
       <created>1572623190628</created>
@@ -509,7 +495,21 @@
       <option name="project" value="LOCAL" />
       <updated>1572787747754</updated>
     </task>
-    <option name="localTasksCounter" value="423" />
+    <task id="LOCAL-00423" summary="title">
+      <created>1572788201245</created>
+      <option name="number" value="00423" />
+      <option name="presentableId" value="LOCAL-00423" />
+      <option name="project" value="LOCAL" />
+      <updated>1572788201245</updated>
+    </task>
+    <task id="LOCAL-00424" summary="w3c">
+      <created>1572788403848</created>
+      <option name="number" value="00424" />
+      <option name="presentableId" value="LOCAL-00424" />
+      <option name="project" value="LOCAL" />
+      <updated>1572788403848</updated>
+    </task>
+    <option name="localTasksCounter" value="425" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -544,8 +544,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="modif disc ajout msg erreur" />
-    <MESSAGE value="AUTO" />
     <MESSAGE value="prenez un scooter" />
     <MESSAGE value="discussion &amp; pagination" />
     <MESSAGE value="test pagination" />
@@ -569,6 +567,8 @@
     <MESSAGE value="suppression alluser" />
     <MESSAGE value="ménage" />
     <MESSAGE value="discussion" />
-    <option name="LAST_COMMIT_MESSAGE" value="discussion" />
+    <MESSAGE value="title" />
+    <MESSAGE value="w3c" />
+    <option name="LAST_COMMIT_MESSAGE" value="w3c" />
   </component>
 </project>
