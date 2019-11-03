@@ -47,7 +47,7 @@ class router
         } else
             throw new Exception("Fichier '$fichierControleur' introuvable");
         }
-   // }
+
 
 
     // Détermine l'action à exécuter en fonction de la requête reçue

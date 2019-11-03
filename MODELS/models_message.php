@@ -129,7 +129,6 @@ class message extends base
         }
     }
 
-
     public function showMsg($discId)
     {
         $query=('SELECT * FROM MESSAGE WHERE disc_id = :discId ');
@@ -204,10 +203,6 @@ class message extends base
 
     }
 
-
-
-//
-
     public function delMsg($id)
     {
         $query1 = 'SELECT disc_id FROM MESSAGE WHERE message_id = :id';
@@ -249,11 +244,4 @@ class message extends base
         }
     }
 
-//    public function CloseMessage($content, $message_id)
-//    {
-//    if ($content > 2)
-//    {
-//      close($message_id);
-//    }
-//    }
 }

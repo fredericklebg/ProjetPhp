@@ -39,7 +39,6 @@ class user extends base
      */
     public function getUserId()
     {
-        //return $this->get('user_id',$pseudo);
         return $this->user_id;
     }
 
@@ -50,45 +49,33 @@ class user extends base
 
     public function getCountry()
     {
-        return $this->country;
-        //return $this->get('country',$pseudo);
+        return $this->country;;
     }
 
     public function getGender()
     {
        return $this->gender;
-        // return $this->get('gender', $pseudo);
     }
 
     public function getMail()
     {
         return $this->mail;
-        //return $this->get('mail',$pseudo);
     }
-
-
 
     public function getPhone()
     {
         return $this->phone;
-       //return $this->get('phone',$pseudo);
     }
-
 
     public function getPseudo()
     {
         return $this->pseudo;
-        //return $this->pseudo;
     }
-
 
     public function getUserDate()
-
     {
         return $this->user_date;
-        //return $this->get('user_date',$pseudo);
     }
-
 
     public function setCountry($country)
     {
@@ -96,20 +83,17 @@ class user extends base
         $this->execRequete($query);
     }
 
-
     public function setGender($gender)
     {
         $query = ('UPDATE USER SET USER.gender :=\''.$gender.'\'');
         $this->execRequete($query);
     }
 
-
     public function setMail($mail)
     {
         $query = ('UPDATE USER SET USER.mail :=\''.$mail.'\'');
         $this->execRequete($query);
     }
-
 
     public function setPassword($password)
     {
@@ -147,8 +131,6 @@ class user extends base
         $query = ('UPDATE USER SET USER.state :=\''.$state.'\'');
         $this->execRequete($query);
     }
-
-
 
     public function isSafeForm() {
         $query = $this->loadDb()->prepare('SELECT pseudo FROM USER WHERE pseudo = :pseudo');
@@ -246,10 +228,6 @@ class user extends base
         if(!preg_match('#^[a-zA-Z0-9àáâãäåçèéêëìíîïðòóôõöùúûüýÿ_]*$#', $this->pseudo))
         {
             throw new Exception("le pseudo n'est pas autorisé");
-//            $_SESSION['error'] = 'badnickname';
-//            header('Location: ../VIEWS/view_error.php');
-//
-//            exit();
         }
 
         if ($this->isSafeForm()) {
@@ -261,7 +239,7 @@ class user extends base
             }
         }
 
-//
+
 
 
     }
