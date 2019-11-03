@@ -145,14 +145,13 @@ class user extends base
         if(empty($_POST['identifiant']))
         {
             throw new Exception("l'identifiant est vide");
-            //$_SESSION['error']='pseudoNull'; return false;
+
         }
 
 
         if($query -> rowCount()==1)
         {
             throw new Exception("le pseudo a déja été pris, veuillez choisir un autre pseudo");
-            //$_SESSION['error']='pseudoTaken'; return false;
         }
 
         $query='SELECT mail FROM USER WHERE mail= \''.$this->mail.'\'';
@@ -160,19 +159,16 @@ class user extends base
 
         if($row -> rowCount()==1)  {
             throw new Exception("l'adresse email est deja utilisée");
-            //$_SESSION['error']='mailTaken'; return false;
         }
 
         if(!filter_var($this->mail,FILTER_VALIDATE_EMAIL))
         {
-            //$_SESSION['error']='invalidateEmail';return false;
             throw new Exception("l'adresse email est invalide");
         }
 
         if(is_null($this->password)|| is_null($this->password2))
         {
             throw new Exception("le mot de passe est vide");
-            //$_SESSION['error']='passwordNull';return false;
         }
 
 
@@ -180,14 +176,12 @@ class user extends base
         if(strlen($this->password) <5 || strlen($this->password) >20)
         {
             throw new Exception("le mot de passe doit faire entre 5 et 20 caractères");
-           // $_SESSION['error']='passwordOutOfRange'; return false;
         }
 
 
         if($this->password != $this->password2)
         {
             throw new Exception("les mots de passe ne correspondent pas");
-            //$_SESSION['error']='passWordNoCorresponding';return false;
         }
 
      return true;
@@ -200,7 +194,6 @@ class user extends base
         $this->mail = $_POST['mail'];
         $this->password = $_POST['mdp'];
         $this->pseudo = $_POST['identifiant'];
-        //if(preg_match("#^[a-zA-Z0-9]{4,6}$#",$_POST['identifiant'])) $this -> pseudo = $_POST['identifiant'];
         $this -> gender = $_POST['genre'];
         $this -> phone = $_POST['phone'];
         $this -> country = $_POST['pays'];
@@ -243,12 +236,7 @@ class user extends base
 
 
     }
-    public function isSafeLogin() {
-//        $query = 'SELECT password, pseudo FROM USER WHERE pseudo = \''.$login.'\' and password = \'' .$password.'\'';
-//        $row = $this->execRequete($query);
-//  *      if($row-> rowCount()==0) return false;
 
-    }
 
     public function login()
     {
@@ -263,10 +251,6 @@ class user extends base
         $sql->bindValue(':password',$hashedPass,PDO::PARAM_STR) ;
         $sql->execute();
 
-
-        //plus rapide mais moins sécure
-        //$sql = $this->loadDb()->prepare("SELECT * FROM USER WHERE  pseudo= ? AND password= ?");
-        //$sql->execute(array($login, $hashedPass));
 
 
         if(!preg_match('#^[a-zA-Z0-9_]*$#', $login))
@@ -285,13 +269,6 @@ class user extends base
             {
 
                 $_SESSION['isLogin'] = 'ok';
-    //            $_SESSION['login'] = $login;
-    //            $_SESSION['userId']=$this->getUserId($login);
-    //            $_SESSION['password'] = $hashedPass;
-    //            $_SESSION['mail']=$this->getMail($login);
-    //            $_SESSION['phone']=$this->getPhone($login);
-    //            $_SESSION['country']=$this->getCountry($login);
-    //            $_SESSION['date']=$this->getUserDate($login);
                 $this->password=$hashedPass;
                 $this->pseudo=$login;
                 $this->user_id=$this->get('user_id',$login,$hashedPass);
@@ -359,8 +336,7 @@ class user extends base
         else
         {
             throw new Exception("votre mot de passe actuel est faux");
-//            $_SESSION['error'] = 'notcorresponding';
-//            header('Location: ../VIEWS/view_error.php');
+;
         }
 
 
@@ -384,16 +360,6 @@ class user extends base
         //session_unset();
     }
 
-//    public function forgotPwd()
-//    {
-//        $message = $this->genererChaineAleatoire();
-//        $hashedPass = hash('sha256',$message);
-//        $mail = $_POST['mail'];
-//        $query = 'UPDATE USER SET password := \'' . $hashedPass .'\' WHERE mail = \'' . $mail . '\'';
-//        $this->execRequete($query);
-//        echo"le mail a bien été envoyé";
-// *       mail($mail, 'MDP OUBLIE BRO', $message);
-//    }
       public function  sendToken() {
           $mailTok = $_POST['mailTok'];
           $_SESSION['mailTok']=$mailTok;
@@ -486,14 +452,6 @@ class user extends base
             $query->execute();
             if($query->rowCount()==1) return true;
             }
-    //  public function deleteUser($var)
-    //  {
-    //     //afficher le bouton que pour les admins
-    //      $query = ('DELETE FROM USER WHERE pseudo = "$var"');
- 
-    //      $this->execRequete($query);
-
-    //  }
 
 
 }
