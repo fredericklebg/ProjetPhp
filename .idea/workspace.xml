@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="92c63984-ea07-4c62-8994-258128636016" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/VIEWS/view_admin.php" beforeDir="false" afterPath="$PROJECT_DIR$/VIEWS/view_admin.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VIEWS/css/view_style.css" beforeDir="false" afterPath="$PROJECT_DIR$/VIEWS/css/view_style.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -165,41 +165,6 @@
       <workItem from="1572695812315" duration="1947000" />
       <workItem from="1572728105202" duration="87000" />
       <workItem from="1572776016487" duration="2109000" />
-    </task>
-    <task id="LOCAL-00395" summary="page admin">
-      <created>1572627097700</created>
-      <option name="number" value="00395" />
-      <option name="presentableId" value="LOCAL-00395" />
-      <option name="project" value="LOCAL" />
-      <updated>1572627097700</updated>
-    </task>
-    <task id="LOCAL-00396" summary="page admin">
-      <created>1572627407043</created>
-      <option name="number" value="00396" />
-      <option name="presentableId" value="LOCAL-00396" />
-      <option name="project" value="LOCAL" />
-      <updated>1572627407043</updated>
-    </task>
-    <task id="LOCAL-00397" summary="page admin">
-      <created>1572627424687</created>
-      <option name="number" value="00397" />
-      <option name="presentableId" value="LOCAL-00397" />
-      <option name="project" value="LOCAL" />
-      <updated>1572627424687</updated>
-    </task>
-    <task id="LOCAL-00398" summary="page admin">
-      <created>1572627584530</created>
-      <option name="number" value="00398" />
-      <option name="presentableId" value="LOCAL-00398" />
-      <option name="project" value="LOCAL" />
-      <updated>1572627584530</updated>
-    </task>
-    <task id="LOCAL-00399" summary="page admin">
-      <created>1572627814997</created>
-      <option name="number" value="00399" />
-      <option name="presentableId" value="LOCAL-00399" />
-      <option name="project" value="LOCAL" />
-      <updated>1572627814997</updated>
     </task>
     <task id="LOCAL-00400" summary="page admin">
       <created>1572628785020</created>
@@ -509,7 +474,42 @@
       <option name="project" value="LOCAL" />
       <updated>1572792760547</updated>
     </task>
-    <option name="localTasksCounter" value="444" />
+    <task id="LOCAL-00444" summary="responsive admin">
+      <created>1572792976920</created>
+      <option name="number" value="00444" />
+      <option name="presentableId" value="LOCAL-00444" />
+      <option name="project" value="LOCAL" />
+      <updated>1572792976920</updated>
+    </task>
+    <task id="LOCAL-00445" summary="responsive admin">
+      <created>1572793002923</created>
+      <option name="number" value="00445" />
+      <option name="presentableId" value="LOCAL-00445" />
+      <option name="project" value="LOCAL" />
+      <updated>1572793002923</updated>
+    </task>
+    <task id="LOCAL-00446" summary="responsive admin">
+      <created>1572793034419</created>
+      <option name="number" value="00446" />
+      <option name="presentableId" value="LOCAL-00446" />
+      <option name="project" value="LOCAL" />
+      <updated>1572793034419</updated>
+    </task>
+    <task id="LOCAL-00447" summary="responsive admin">
+      <created>1572793064797</created>
+      <option name="number" value="00447" />
+      <option name="presentableId" value="LOCAL-00447" />
+      <option name="project" value="LOCAL" />
+      <updated>1572793064797</updated>
+    </task>
+    <task id="LOCAL-00448" summary="responsive admin">
+      <created>1572793103643</created>
+      <option name="number" value="00448" />
+      <option name="presentableId" value="LOCAL-00448" />
+      <option name="project" value="LOCAL" />
+      <updated>1572793103643</updated>
+    </task>
+    <option name="localTasksCounter" value="449" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

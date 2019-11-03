@@ -236,6 +236,7 @@ a.stylebouton {
 
     border: solid thin #929292;
     background-image: linear-gradient(to bottom, #F6F6F6, #DDDDDD);
+    margin : 10px;
     padding: 3px 8px;
     font-size: 20px;
 
