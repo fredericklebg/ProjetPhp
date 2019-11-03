@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="92c63984-ea07-4c62-8994-258128636016" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/VIEWS/view_accueil.php" beforeDir="false" afterPath="$PROJECT_DIR$/VIEWS/view_accueil.php" afterDir="false" />
-    </list>
+    <list default="true" id="92c63984-ea07-4c62-8994-258128636016" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -165,20 +163,6 @@
       <workItem from="1572695812315" duration="1947000" />
       <workItem from="1572728105202" duration="87000" />
       <workItem from="1572776016487" duration="2109000" />
-    </task>
-    <task id="LOCAL-00379" summary="discussions">
-      <created>1572623603940</created>
-      <option name="number" value="00379" />
-      <option name="presentableId" value="LOCAL-00379" />
-      <option name="project" value="LOCAL" />
-      <updated>1572623603940</updated>
-    </task>
-    <task id="LOCAL-00380" summary="discussions">
-      <created>1572623754821</created>
-      <option name="number" value="00380" />
-      <option name="presentableId" value="LOCAL-00380" />
-      <option name="project" value="LOCAL" />
-      <updated>1572623754821</updated>
     </task>
     <task id="LOCAL-00381" summary="discussions">
       <created>1572623800486</created>
@@ -509,7 +493,21 @@
       <option name="project" value="LOCAL" />
       <updated>1572788876426</updated>
     </task>
-    <option name="localTasksCounter" value="428" />
+    <task id="LOCAL-00428" summary="w3c">
+      <created>1572788979407</created>
+      <option name="number" value="00428" />
+      <option name="presentableId" value="LOCAL-00428" />
+      <option name="project" value="LOCAL" />
+      <updated>1572788979407</updated>
+    </task>
+    <task id="LOCAL-00429" summary="w3c">
+      <created>1572789181488</created>
+      <option name="number" value="00429" />
+      <option name="presentableId" value="LOCAL-00429" />
+      <option name="project" value="LOCAL" />
+      <updated>1572789181488</updated>
+    </task>
+    <option name="localTasksCounter" value="430" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
