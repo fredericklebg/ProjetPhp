@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="92c63984-ea07-4c62-8994-258128636016" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CONTROLLERS/controller_accueil.php" beforeDir="false" afterPath="$PROJECT_DIR$/CONTROLLERS/controller_accueil.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CONTROLLERS/controller_discussion.php" beforeDir="false" afterPath="$PROJECT_DIR$/CONTROLLERS/controller_discussion.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CONTROLLERS/router.php" beforeDir="false" afterPath="$PROJECT_DIR$/CONTROLLERS/router.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MODELS/logout.php" beforeDir="false" afterPath="$PROJECT_DIR$/MODELS/logout.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MODELS/models_discussion.php" beforeDir="false" afterPath="$PROJECT_DIR$/MODELS/models_discussion.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MODELS/models_message.php" beforeDir="false" afterPath="$PROJECT_DIR$/MODELS/models_message.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MODELS/models_user.php" beforeDir="false" afterPath="$PROJECT_DIR$/MODELS/models_user.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/VIEWS/css/view_style.css" beforeDir="false" afterPath="$PROJECT_DIR$/VIEWS/css/view_style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VIEWS/view_discussion.php" beforeDir="false" afterPath="$PROJECT_DIR$/VIEWS/view_discussion.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -121,12 +113,12 @@
           <expand>
             <path>
               <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@400e6563" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@bfe4a44b" type="7427dc5b:ServiceModel$ServiceGroupNode" />
             </path>
             <path>
               <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@400e6563" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@16ff9a14" type="9fbbdea:ServiceModel$ServiceNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@bfe4a44b" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@28b702fe" type="9fbbdea:ServiceModel$ServiceNode" />
             </path>
           </expand>
           <select />
@@ -173,13 +165,6 @@
       <workItem from="1572695812315" duration="1947000" />
       <workItem from="1572728105202" duration="87000" />
       <workItem from="1572776016487" duration="2109000" />
-    </task>
-    <task id="LOCAL-00369" summary="discussions">
-      <created>1572622551366</created>
-      <option name="number" value="00369" />
-      <option name="presentableId" value="LOCAL-00369" />
-      <option name="project" value="LOCAL" />
-      <updated>1572622551366</updated>
     </task>
     <task id="LOCAL-00370" summary="discussions">
       <created>1572622637417</created>
@@ -517,7 +502,14 @@
       <option name="project" value="LOCAL" />
       <updated>1572692648258</updated>
     </task>
-    <option name="localTasksCounter" value="418" />
+    <task id="LOCAL-00418" summary="discussion">
+      <created>1572786482186</created>
+      <option name="number" value="00418" />
+      <option name="presentableId" value="LOCAL-00418" />
+      <option name="project" value="LOCAL" />
+      <updated>1572786482186</updated>
+    </task>
+    <option name="localTasksCounter" value="419" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -557,7 +549,6 @@
     <MESSAGE value="prenez un scooter" />
     <MESSAGE value="discussion &amp; pagination" />
     <MESSAGE value="test pagination" />
-    <MESSAGE value="discussion" />
     <MESSAGE value="page paramètre" />
     <MESSAGE value="lisez-moi.txt (1)" />
     <MESSAGE value="lisez-moi.txt (2)" />
@@ -577,6 +568,7 @@
     <MESSAGE value="jeu de test de discussions" />
     <MESSAGE value="suppression alluser" />
     <MESSAGE value="ménage" />
-    <option name="LAST_COMMIT_MESSAGE" value="ménage" />
+    <MESSAGE value="discussion" />
+    <option name="LAST_COMMIT_MESSAGE" value="discussion" />
   </component>
 </project>
