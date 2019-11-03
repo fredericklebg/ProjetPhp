@@ -104,3 +104,5 @@ CREATE TABLE DISCUSSION
             INSERT INTO DATA (max_disc, max_msg, pagination)
             VALUES
             (20, 10, 2);
+
+
