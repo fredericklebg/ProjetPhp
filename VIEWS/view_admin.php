@@ -25,9 +25,10 @@ if( $user != null && $user->getState() == 'admin')
 
         </form>
 
-        </div>
-        <div class="back">
-            <a href="http://tpphp.alwaysdata.net/ProjetPhp" >retourner à la page d'accueil</a>
+            <div class="back">
+                <a href="http://tpphp.alwaysdata.net/ProjetPhp" >retourner à la page d'accueil</a>
+            </div>
+
         </div>
 
 
