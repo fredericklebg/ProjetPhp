@@ -86,7 +86,7 @@ class discussion extends base
                                         WHERE MESSAGE.disc_id=DISCUSSION.disc_id
                                         AND  MESSAGE.user_id = USER.user_id
                                         AND message_id in (SELECT MAX(message_id) from MESSAGE where MESSAGE.disc_id = DISCUSSION.disc_id)
-                                        ORDER BY length(DISCUSSION.state) , MESSAGE.message_id DESC LIMIT :limit OFFSET :debut');
+                                        ORDER BY length(DISCUSSION.state) COLLATE utf8_general_ci, MESSAGE.message_id DESC LIMIT :limit OFFSET :debut');
         $query = $oui->prepare($query);
         $query->bindValue('limit', $limit, PDO::PARAM_INT);
         $query->bindValue('debut', $debut, PDO::PARAM_INT);
