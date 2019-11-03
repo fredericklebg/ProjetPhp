@@ -138,7 +138,7 @@ $user = unserialize($_SESSION['user']);;
 
 
     <div class ="col-lg-12 text-center"> Copyright © | FreeNote </div>
-    <div class="col-lg-3 text-center"> <a href="https://github.com/Vincent-SD" target="_blank">  Vincent Simonetti-Diez </a> </div>
+    <div class="col-lg-3 text-center"> <a href="https://github.com/fredericklebg" target="_blank">  Vincent Simonetti-Diez </a> </div>
     <div class="col-lg-3 text-center"> <a href="https://github.com/sergegamingb" target="_blank"> Alexandre Salles  </a> </div>
     <div class="col-lg-3 text-center"> <a href="https://github.com/Ibrahim-Boulahrouz" target="_blank">  Ibrahim Boulahrouz </a> </div>
     <div class="col-lg-3 text-center"> <a href="https://github.com/AnthonyZIANE" target="_blank">  Anthony Ziane </a> </div>

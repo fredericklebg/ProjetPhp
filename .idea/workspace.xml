@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="92c63984-ea07-4c62-8994-258128636016" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/commandesjeudetest.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lisez-moi.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/VIEWS/commandesjeudetest.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/VIEWS/lisez-moi.txt" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lisez-moi.txt" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -158,13 +155,6 @@
       <workItem from="1572458720269" duration="227000" />
       <workItem from="1572603879094" duration="617000" />
       <workItem from="1572633620337" duration="16058000" />
-    </task>
-    <task id="LOCAL-00417" summary="graspoutine">
-      <created>1572693549686</created>
-      <option name="number" value="00417" />
-      <option name="presentableId" value="LOCAL-00417" />
-      <option name="project" value="LOCAL" />
-      <updated>1572693549686</updated>
     </task>
     <task id="LOCAL-00418" summary="graspoutine">
       <created>1572693583771</created>
@@ -502,7 +492,14 @@
       <option name="project" value="LOCAL" />
       <updated>1572736051715</updated>
     </task>
-    <option name="localTasksCounter" value="466" />
+    <task id="LOCAL-00466" summary="réaorganisation de fichiers">
+      <created>1572740201564</created>
+      <option name="number" value="00466" />
+      <option name="presentableId" value="LOCAL-00466" />
+      <option name="project" value="LOCAL" />
+      <updated>1572740201564</updated>
+    </task>
+    <option name="localTasksCounter" value="467" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -537,7 +534,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="discussion &amp; pagination" />
     <MESSAGE value="test pagination" />
     <MESSAGE value="discussion" />
     <MESSAGE value="page paramètre" />
@@ -562,6 +558,7 @@
     <MESSAGE value="jeu de test cryptage mdp" />
     <MESSAGE value="supp user" />
     <MESSAGE value="jeu de test" />
-    <option name="LAST_COMMIT_MESSAGE" value="jeu de test" />
+    <MESSAGE value="réaorganisation de fichiers" />
+    <option name="LAST_COMMIT_MESSAGE" value="réaorganisation de fichiers" />
   </component>
 </project>

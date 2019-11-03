@@ -3,14 +3,15 @@ Nom de l'équipe : ProjetPhp
 URL de l'index du site Web : php.alwaysdata.net/ProjetPhp/index.php
 
 
-Présentation du projet :
+
+##Présentation du projet :
 
 Freenote est un réseau social basé sur la communication par le biais de discussions amusantes. En effet, chaque utilisateur peut ajouter au maximum
 
 deux mots par message ce qui donne des discussions assez originales.
 
 
-Les choix techniques :
+###Les choix techniques :
 
 Dans un premier temps, nous avons utilisé un motif d'architecture logicielle étant le MVC (Modèle-vue-contrôleur). Ce dernier est composé de modèles
 
@@ -44,36 +45,37 @@ d'outils utiles pour le design d'applications web, il nous a notamment été uti
 La configuration logicielle :
 
 
-Les identifiants de connexion :
+###Les identifiants de connexion :
 
 Site Web :
 
 
-administrateur :
+####administrateur :  
 
-login   -  mdp
-user123 : XxunderxX12
-josee : josee
-
-
-simple utilisateur :
-
-login   -  mdp
-louis : voiture123;
-thomas : ananas89
-jeannot : lepastaga
-harry : teatime
-david : esplanada14
-francis : francis
+login   :   mdp  
+- user123 : XxunderxX12  
+- josee : josee
 
 
+####simple utilisateur :
 
-Base de données :
+login : mdp  
+- louis : voiture123  
+- thomas : ananas89  
+- jeannot : lepastaga  
+- harry : teatime  
+- david : esplanada14  
+- francis : francis  
+
+
+
+###Base de données :
 
 - login phpmyadmin : tpphp
 - mot de passe phpmyadmin : ericzemour
 
-L'Hébergement sur alwaysdata :
+###L'Hébergement sur alwaysdata :
 
 - e-mail : alexpilous@gmail.com
 - mot de passe : EricZemour
+
