@@ -234,17 +234,10 @@ a:hover
 
 a.stylebouton {
 
-    -webkit-border-radius: 1px;
-    -moz-border-radius: 1px;
-    border-radius: 1px;
     border: solid thin #929292;
-    text-shadow: none;
     background-image: linear-gradient(to bottom, #F6F6F6, #DDDDDD);
-    color: buttontext;
     padding: 3px 8px;
-    margin: 7px;
-    text-decoration: none;
-    font-size: 15px;
+    font-size: 20px;
 
 }
 
