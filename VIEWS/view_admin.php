@@ -7,8 +7,8 @@ if( $user != null && $user->getState() == 'admin')
 ?>
 <div class="container">
 
-    <div class="col-lg-5">
-        <div class="row text-center">
+    <div class="offset-4 col-lg-5 text-center">
+        <div class="row">
         <form  action="/ProjetPhp/admin"  method="post">
             <label> Choisir le nombre maximum de discussions ouvertes</label>
             <input type="text" placeholder="Nombre de discussions" name="d1"/>
@@ -24,6 +24,7 @@ if( $user != null && $user->getState() == 'admin')
             <button type="submit" name="action" value="Supprimer"> Supprimer </button> <br> <br>
 
         </form>
+
         </div>
         <div class="back">
             <a href="http://tpphp.alwaysdata.net/ProjetPhp" >retourner à la page d'accueil</a>
