@@ -2,7 +2,7 @@
 
 Nom de l'équipe : ProjetPhp
 
-URL de l'index du site Web : php.alwaysdata.net/ProjetPhp/index.php
+URL de l'index du site Web : tpphp.alwaysdata.net/ProjetPhp
 
 
 
