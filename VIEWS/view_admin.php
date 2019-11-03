@@ -7,7 +7,7 @@ if( $user != null && $user->getState() == 'admin')
 ?>
 <div class="container">
 
-    <div class="col-lg-5 text-center">
+    <div class="col-lg-5">
         <div class="row">
         <form  action="/ProjetPhp/admin"  method="post">
             <label> Choisir le nombre maximum de discussions ouvertes</label>
