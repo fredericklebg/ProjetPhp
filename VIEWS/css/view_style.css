@@ -171,11 +171,13 @@ a:hover
 .newbouton
 {
     color: black;
+    top : 0.2em;
 }
 
 .refreshbouton
 {
     color: black;
+    top : 0.2em;
 }
 
 .bbloc
@@ -330,6 +332,10 @@ a.stylebouton:hover {
     .refreshbouton
     {
         text-align: right;
+        top : 0.2em;
     }
 
+    .newbouton{
+        top : 0;
+    }
 }
