@@ -39,33 +39,5 @@ d'outils utiles pour le design d'applications web, il nous a notamment été uti
 
 
 
-#### administrateur :  
-
-login   :   mdp  
-- user123 : XxunderxX12  
-- josee : josee
-
-
-#### simple utilisateur :
-
-login : mdp  
-- louis : voiture123  
-- thomas : ananas89  
-- jeannot : lepastaga  
-- harry : teatime  
-- david : esplanada14  
-- francis : francis  
-
-
-
-#### Base de données :
-
-- login phpmyadmin : tpphp
-- mot de passe phpmyadmin : ericzemour
-
-#### L'Hébergement sur alwaysdata :
-
-- e-mail : alexpilous@gmail.com
-- mot de passe : EricZemour
 
 en cas de problemes, contactez nous a l'adresse mail vincent.simonetti-diez@etu.univ-amu.fr
