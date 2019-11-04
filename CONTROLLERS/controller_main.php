@@ -93,9 +93,8 @@ abstract class controller_main {
     }
     public function Remplacer () {
 
-        $user=unserialize($_SESSION['user']);
+        $user=new user();
         $user->replacePassword();
-        $_SESSION['user']=serialize($user);
         header("Location: http://tpphp.alwaysdata.net/ProjetPhp");
     }
 
