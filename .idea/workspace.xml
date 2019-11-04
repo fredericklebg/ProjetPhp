@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="92c63984-ea07-4c62-8994-258128636016" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CONTROLLERS/controller_admin.php" beforeDir="false" afterPath="$PROJECT_DIR$/CONTROLLERS/controller_admin.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MODELS/models_discussion.php" beforeDir="false" afterPath="$PROJECT_DIR$/MODELS/models_discussion.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MODELS/models_message.php" beforeDir="false" afterPath="$PROJECT_DIR$/MODELS/models_message.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MODELS/models_user.php" beforeDir="false" afterPath="$PROJECT_DIR$/MODELS/models_user.php" afterDir="false" />
-    </list>
+    <list default="true" id="92c63984-ea07-4c62-8994-258128636016" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -173,14 +167,7 @@
       <workItem from="1572788769760" duration="124000" />
       <workItem from="1572789490300" duration="150000" />
       <workItem from="1572800848989" duration="1688000" />
-      <workItem from="1572900442479" duration="1457000" />
-    </task>
-    <task id="LOCAL-00371" summary="discussions">
-      <created>1572622700830</created>
-      <option name="number" value="00371" />
-      <option name="presentableId" value="LOCAL-00371" />
-      <option name="project" value="LOCAL" />
-      <updated>1572622700830</updated>
+      <workItem from="1572900442479" duration="1698000" />
     </task>
     <task id="LOCAL-00372" summary="discussions">
       <created>1572622738407</created>
@@ -518,7 +505,14 @@
       <option name="project" value="LOCAL" />
       <updated>1572809827993</updated>
     </task>
-    <option name="localTasksCounter" value="420" />
+    <task id="LOCAL-00420" summary="prévention faille xss même si cdejafinicpagrav">
+      <created>1572901933533</created>
+      <option name="number" value="00420" />
+      <option name="presentableId" value="LOCAL-00420" />
+      <option name="project" value="LOCAL" />
+      <updated>1572901933534</updated>
+    </task>
+    <option name="localTasksCounter" value="421" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -553,7 +547,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="prenez un scooter" />
     <MESSAGE value="discussion &amp; pagination" />
     <MESSAGE value="test pagination" />
     <MESSAGE value="discussion" />
@@ -578,6 +571,7 @@
     <MESSAGE value="ménage" />
     <MESSAGE value="supp commentaires" />
     <MESSAGE value="readme et jeu de test" />
-    <option name="LAST_COMMIT_MESSAGE" value="readme et jeu de test" />
+    <MESSAGE value="prévention faille xss même si cdejafinicpagrav" />
+    <option name="LAST_COMMIT_MESSAGE" value="prévention faille xss même si cdejafinicpagrav" />
   </component>
 </project>

@@ -81,9 +81,8 @@ abstract class controller_main {
     public function Envoyer()
     {
 
-        $user=unserialize($_SESSION['user']);
+        $user=new user();
         $user->sendToken();
-        $_SESSION['user']=serialize($user);
         $vue = new Vue('sendToken');
         $vue->generer(array());
     }
