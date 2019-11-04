@@ -191,14 +191,14 @@ class user extends base
     {
 
 
-        $this->mail = $_POST['mail'];
-        $this->password = $_POST['mdp'];
-        $this->pseudo = $_POST['identifiant'];
-        $this -> gender = $_POST['genre'];
-        $this -> phone = $_POST['phone'];
-        $this -> country = $_POST['pays'];
+        $this->mail = htmlspecialchars($_POST['mail']);
+        $this->password = htmlspecialchars($_POST['mdp']);
+        $this->pseudo = htmlspecialchars($_POST['identifiant']);
+        $this -> gender = htmlspecialchars($_POST['genre']);
+        $this -> phone = htmlspecialchars($_POST['phone']);
+        $this -> country = htmlspecialchars($_POST['pays']);
         $this -> state = 'member';
-        $this-> password2 = $_POST['cmdp'];
+        $this-> password2 = htmlspecialchars($_POST['cmdp']);
 
 
 
@@ -241,8 +241,8 @@ class user extends base
     public function login()
     {
 
-        $login = $_POST['login'];
-        $password = $_POST['mdp'];
+        $login = htmlspecialchars($_POST['login']);
+        $password = htmlspecialchars($_POST['mdp']);
         $hashedPass = hash('sha256',$password);
 
 
@@ -300,9 +300,9 @@ class user extends base
 
         $login = $this->pseudo;
         $pass = $this->password;
-        $oldMdp=$_POST['oldMdp'];
-        $newMdp=$_POST['newMdp'];
-        $confirmMdp=$_POST['confirmMdp'];
+        $oldMdp=htmlspecialchars($_POST['oldMdp']);
+        $newMdp=htmlspecialchars($_POST['newMdp']);
+        $confirmMdp=htmlspecialchars($_POST['confirmMdp']);
 
         if(strlen($newMdp) <5 || strlen($newMdp) >20 )
         {
@@ -361,7 +361,7 @@ class user extends base
     }
 
       public function  sendToken() {
-          $mailTok = $_POST['mailTok'];
+          $mailTok = htmlspecialchars($_POST['mailTok']);
           $_SESSION['mailTok']=$mailTok;
           $query = $this->loadDb()->prepare('SELECT mail FROM USER WHERE mail = :mail');
           $query->bindValue(':mail',$mailTok,PDO::PARAM_STR);
@@ -382,9 +382,9 @@ class user extends base
             throw new Exception('vous êtes déjà connecté');
         }
         $mail = $_SESSION['mailTok'];
-        $token = $_POST['token'];
-        $newMdp=$_POST['newMdp'];
-        $confirmMdp=$_POST['confirmMdp'];
+        $token = htmlspecialchars($_POST['token']);
+        $newMdp=htmlspecialchars($_POST['newMdp']);
+        $confirmMdp=htmlspecialchars($_POST['confirmMdp']);
         if($_SESSION['token']!=$token) {
             throw new Exception('mauvais code');
         }
@@ -412,7 +412,7 @@ class user extends base
         }
     }
       public function sendMdp() {
-          $mail = $_POST['mail'];
+          $mail = htmlspecialchars($_POST['mail']);
           $query = $this->loadDb()->prepare('SELECT mail FROM USER WHERE mail = :mail');
           $query->bindValue(':mail',$mail,PDO::PARAM_STR);
           $query->execute();

@@ -19,21 +19,21 @@ class controller_admin extends controller_main
 
     public function changeNbDisc()
     {
-        $this->user->setMaxDisc($_POST['d1']);
+        $this->user->setMaxDisc(htmlspecialchars($_POST['d1']));
         $vue = new Vue('paramUpdated');
         $vue->generer(array('param' => 'le nombre de discussions ouvertes'));
     }
 
     public function changeNbMsg()
     {
-        $this->user->setMaxMsg($_POST['d2']);
+        $this->user->setMaxMsg(htmlspecialchars($_POST['d2']));
         $vue = new Vue('paramUpdated');
         $vue->generer(array('param' => 'le nombre de messages maximum par discussion'));
     }
 
     public function changePagination()
     {
-        $this->user->setPagination($_POST['d5']);
+        $this->user->setPagination(htmlspecialchars($_POST['d5']));
         $vue = new Vue('paramUpdated');
         $vue->generer(array('param' => 'la pagination'));
     }

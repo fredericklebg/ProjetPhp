@@ -53,7 +53,7 @@ class discussion extends base
     public function createDiscussion()
     {
         $this->state = 'ouverte';
-        $discName = $_POST['nomDisc'];
+        $discName = htmlspecialchars($_POST['nomDisc']);
 
         $query = ('INSERT INTO DISCUSSION (state, title)
         VALUES (

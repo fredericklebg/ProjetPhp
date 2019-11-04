@@ -112,7 +112,7 @@ class message extends base
 
         $user=unserialize($_SESSION['user']);
         if( $this->verifMsg()) {
-            $msg=$_POST['msg'];
+            $msg=htmlspecialchars($_POST['msg']);
             $userId=$user->getUserId();
             $query = 'INSERT INTO MESSAGE(disc_id,content,user_id,state,message_date,authors_id)
         VALUES (
@@ -155,7 +155,7 @@ class message extends base
         $user=unserialize($_SESSION['user']);
         $userId=$user->getUserId();
         $userId=strval($userId);
-        $content=$_POST['msg'];
+        $content=htmlspecialchars($_POST['msg']);
         $content = ' ' . $content;
 
         $query2='SELECT state FROM MESSAGE WHERE message_id IN(SELECT MAX(message_id) FROM MESSAGE WHERE disc_id= :disc_id)';
